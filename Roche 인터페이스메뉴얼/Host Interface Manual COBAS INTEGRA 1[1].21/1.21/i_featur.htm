@@ -1,0 +1,501 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+  <title>COBAS Integra Host Interface Features</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<p><font face="Arial" size="4"><b>&nbsp;cobas <img src="i_integr.gif"
+ alt="Integra" border="0" height="18" width="105"> <a name="overview">Features</a>
+of
+Host Interface</b></font></p>
+<b><font face="Arial" size="4"> </font></b><b><font face="Arial"
+ size="4"> </font></b><b><font face="Arial" size="4"> </font></b><b><font
+ face="Arial" size="4"> </font></b>
+<table border="0" cellpadding="4" cellspacing="0" width="530">
+  <tbody>
+    <tr>
+      <td bgcolor="#dad9a5" width="90"><strong><font face="Arial"
+ size="3">Patient :</font></strong><b><font face="Arial" size="5">*</font></b></td>
+      <td bgcolor="#dad9a5" width="100"><font face="Arial" size="2"><strong><a
+ href="i_featur.htm#p_entry">Entry</a>
+&nbsp; </strong></font></td>
+      <td bgcolor="#dad9a5" width="109"><font face="Arial" size="2"><strong><a
+ href="i_featur.htm#p_mod">Modification</a></strong></font></td>
+      <td bgcolor="#dad9a5" width="91"><font face="Arial" size="2"><strong><a
+ href="i_featur.htm#p_del">Deletion</a></strong></font></td>
+      <td bgcolor="#dad9a5" width="100"><font face="Arial" size="2">.</font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f1f8c0" width="90"><font face="Arial" size="3"><strong>Order
+:</strong></font></td>
+      <td bgcolor="#f1f8c0" width="100"><font face="Arial" size="2"><strong><a
+ href="i_featur.htm#o_entry">Entry</a>
+&nbsp;&nbsp; </strong></font></td>
+      <td bgcolor="#f1f8c0" width="109"><font face="Arial" size="2"><strong><a
+ href="i_featur.htm#o_mod">Modification</a></strong></font></td>
+      <td bgcolor="#f1f8c0" width="91"><font face="Arial" size="2"><strong><a
+ href="i_featur.htm#o_del">Deletion</a></strong></font></td>
+      <td bgcolor="#f1f8c0" width="100"><font face="Arial" size="2"><a
+ href="i_featur.htm#hostquery"><strong>"Host
+Query"</strong></a></font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#dad9a5" width="90"><font face="Arial" size="3"><strong>Results
+:</strong></font></td>
+      <td bgcolor="#dad9a5" width="100"><a href="i_featur.htm#r_requ"><font
+ face="Arial" size="2"><strong>Single
+Results</strong></font></a></td>
+      <td bgcolor="#dad9a5" width="109"><strong><a
+ href="i_featur.htm#r_requ"><font face="Arial" size="2">Collated Results</font></a></strong></td>
+      <td bgcolor="#dad9a5" width="91"><font face="Arial" size="2">.</font></td>
+      <td bgcolor="#dad9a5" width="100"><font face="Arial" size="2">.</font></td>
+    </tr>
+    <tr>
+      <td width="90"></td>
+      <td width="100"></td>
+      <td width="109"></td>
+      <td width="91"></td>
+      <td width="100"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f1f8c0" width="90"><font face="Arial" size="3"><strong>Status
+:</strong></font></td>
+      <td colspan="2" bgcolor="#f1f8c0" width="217"><a
+ href="i_featur.htm#protvers"><strong><font face="Arial" size="2">Protocol
+Version</font></strong></a></td>
+      <td bgcolor="#f1f8c0" width="91">.</td>
+      <td bgcolor="#f1f8c0" width="100">.</td>
+    </tr>
+    <tr>
+      <td width="90"><font face="Arial" size="2">.</font></td>
+      <td colspan="2" width="217"></td>
+      <td width="91"></td>
+      <td width="100"></td>
+    </tr>
+  </tbody>
+</table>
+<font face="Arial" size="4">
+</font>
+<p><b><font face="Arial" size="4"><strong><a name="integra_examples">Examples</a>:</strong></font><strong><font
+ face="Arial" size="2"><br>
+<a href="synch.gif">Synchronization</a><br>
+<a href="i_e_pe.gif">Patient
+Entry</a><br>
+<a href="i_e_oe.gif">Order
+Entry</a><br>
+<a href="i_e_hq.htm">Host
+Query</a><br>
+<a href="i_e_rr.htm">Result
+Request</a><br>
+<a href="i_e_rre1.htm#ORD_RAT_IND">Order
+ratio with individual test numbers</a><br>
+<a href="i_e_rre1.htm#RATIO_ORDER_RN">Order
+ratio with ratio number</a><br>
+<a href="i_e_rre1.htm#RATIO_ORDER_PN">Order
+ratio with profile number</a><br>
+<br>
+I400 v3.4.4<br>
+<a href="i_e_rre1.htm#RATIO_UNSPEC">Ratio
+result unspecific request</a><br>
+</font></strong></b><b><strong><font face="Arial" size="2"><a
+ href="i_e_rre1.htm#RATIO_COLLATED">Ratio results
+collated results
+request
+</a></font></strong></b><b><strong></strong></b></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%">
+      <p> <b><font face="Arial" size="3">*<a name="p_mode"><font
+ color="#ff0000">Patient Mode</font></a></font></b></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Arial" size="3">
+- Patient information is only required when in patient mode: ( To set
+up patient mode, see <a href="i7_setup.htm#db_par">700 / 800</a>
+/ <a href="i4_setup.htm#db_par">400</a>
+)<br>
+- When in patient mode: prior to an order entry, set up the patient on
+the instrument.<br>
+</font><b><font color="#ff0000" face="Arial" size="2">-
+When connected to a host, we recommend working in sample mode.<br>
+</font></b></p>
+<table bgcolor="#ffff00" border="1" bordercolor="#000000"
+ cellpadding="6" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td width="100%"><b><font face="Arial" size="3">Warning</font><font
+ face="Arial" size="2">:&nbsp;</font></b><font face="Arial" size="2"><br>
+      </font><font face="Arial" size="1">( applies only if in <a
+ href="i_featur.htm#p_mode">Patient mode</a>
+)</font><font face="Arial" size="2"><b><br>
+      </b></font>&nbsp;&nbsp;&nbsp;&nbsp; <b><font face="Arial"
+ size="2">Patient ID has to be
+unique.&nbsp;<br>
+&gt;&gt; Do not use the same Patient ID for more than one
+patient, otherwise results could be assigned to the wrong patient !!</font></b></td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<font face="Arial" size="2">.</font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%">
+      <p align="left"><strong><font face="Arial" size="3"><a
+ name="p_entry">Patient Entry </a></font></strong></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">Patient information is
+required by
+the cobas Integra <b>only</b>
+when the instrument runs in Patient Mode.( <a
+ href="i4_setup.htm#db_par">400</a>
+/ <a href="i7_setup.htm#db_par">700</a>
+)<br>
+Patient information is downloaded by means of <a href="i_bc40.htm">BC40</a>,
+Patient
+Entry.</font></p>
+<p align="left"><font face="Arial" size="2"><font face="Arial" size="4">&nbsp;</font></font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><a name="p_mod"><font
+ face="Arial" size="3"><strong>Patient
+Modification</strong></font></a></td>
+    </tr>
+  </tbody>
+</table>
+<p align="justify"><font face="Arial" size="3">Patient information is
+modified by means of
+<a href="i_bc42.htm">BC42</a>,
+Patient Modification.</font></p>
+<p align="justify"><font face="Arial" size="2"><font face="Arial"
+ size="4">&nbsp;</font></font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><a name="p_del"><font
+ face="Arial" size="3"><strong>Patient
+Deletion</strong></font></a></td>
+    </tr>
+  </tbody>
+</table>
+<p align="justify"><font face="Arial" size="3">Patient information is
+deleted by means of <a href="i_bc41.htm">BC41</a>,
+Patient Deletion.<br>
+Patient deletion is possible only if there are no orders attached to
+it.
+</font></p>
+<p align="justify">&nbsp;</p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><a name="o_entry"><strong><font
+ face="Arial" size="3">Order Entry</font></strong></a></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Arial" size="3">Single tests, ratios or
+profiles can be ordered using an Order Entry (<a href="i_bc10.htm">BC10</a>).
+<br>
+An Order Entry may contain up to 50 attached tests. <br>
+When using &lsquo;Patient Mode&rsquo; (<a href="i4_setup.htm#db_par">400</a>
+/ <a href="i7_setup.htm#db_par">700</a>),
+an order can only be entered if the patient
+information is already available in the COABS INTEGRA&rsquo;s database.</font></p>
+<table border="0" cellpadding="4" cellspacing="0" width="75%">
+  <tbody>
+    <tr>
+      <td bgcolor="#e5e5e5" width="100%"><strong><font face="Arial"
+ size="2">Note: </font><font color="#ff00ff" face="Arial" size="2">Integra
+700 only</font><font face="Arial" size="2">, Profiles and Ratios
+are supported only by SW version 9662 and higher.</font></strong></td>
+    </tr>
+  </tbody>
+</table>
+<p><font face="Arial" size="3"><span style="font-weight: bold;">Ratios</span>,
+also sometimes called calculated results, are results derived form one
+or more tests combined with a formula.<br>
+For example: Test A + (Test B /10). <br>
+Ratios can be ordered ordered in several ways:&nbsp;</font></p>
+<ul>
+  <li><font face="Arial" size="3">By specific Ratio number</font></li>
+  <li><font face="Arial" size="3">By ordering the
+individual tests
+simultaneously in a <span style="font-weight: bold;">single</span>
+order, or&nbsp;</font></li>
+  <li><font face="Arial" size="3">By ordering the tests
+using a Profile.</font></li>
+</ul>
+<p><font face="Arial" size="3"><span style="font-weight: bold;">Profiles</span>
+are&nbsp;sets of tests that can be ordered using a single number.
+Those
+sets are programmed on the instrument and assigned to a number. A
+profile can contain individual tests or ratios.</font></p>
+<font face="Arial" size="4"><b>
+</b></font>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="3"><a
+ name="o_mod"><strong>Order
+Modification</strong></a>
+(Add Tests)</font></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">Adding tests to orders
+which
+already exist on the COBAS INTEGRA is done by means of an Order Entry (<a
+ href="i_bc10.htm">BC10</a>)
+<font color="#ff0000"><strong>without</strong></font>
+the
+Order Information line (<a href="i_lc54.htm">LC54</a>).
+</font></p>
+<p align="left"><font face="Arial" size="4">&nbsp;</font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><a name="o_del"><font
+ face="Arial" size="3"><strong>Order
+Deletion</strong></font></a></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">Orders are deleted by
+means of <a href="i_bc11.htm">BC11</a>,
+Order Deletion.</font></p>
+<p align="left"><font face="Arial" size="3">Order deletion is
+possible if<br>
+- the order either has not yet been started, or<br>
+- the order is finished and all results are accepted.</font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="3"><strong>"<a
+ name="hostquery">Host Query</a>"
+Mode</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">Host Query Mode is the
+most convenient
+way to work with laboratory systems. It allows the user to put samples
+on any instrument
+at any position on any sample rack. It optimizes Laboratory workflow,
+particularly when
+the laboratory has more than one Integra.</font></p>
+<p align="left"><font face="Arial" size="3">A barcoded sample is
+placed in an instrument.
+The Instrument reads the barcode and waits for a Host request. The
+Instrument then sends a
+list of any on-board samples lacking order information.</font></p>
+<p align="left"><font face="Arial" size="3">Due to the Master Slave
+principle, the Host
+MUST transmit an MCS request (<a href="i_bc60.htm">BC60</a>)
+in order to receive the COBAS INTEGRA response containing sample
+information. To ensure an optimal
+Host Query function,
+the Host system has to transmit this request periodically, e.g. one
+request every 30
+seconds.</font></p>
+<p align="left"><font face="Arial" size="3">Following an MCS
+request, a complete list of
+all pending sample tubes lacking test orders is transmitted to the Host
+system (all tubes
+are listed within the Block 62).</font></p>
+<p align="left"><font face="Arial" size="3">Every entry in this
+list, i.e. every reported
+pending sample tube, requires its own order entry block (Block 10).</font></p>
+<p align="left"><font face="Arial" size="3">The Host system should
+ignore pending sample
+tube information if it does not have associated order information
+available. The tubes
+will be listed with every COBAS Integra response to a Host MCS request
+until they are
+removed from the Instrument.</font></p>
+<p align="left"><font face="Arial" size="3">To reactivate the Host
+Query for a sample (in
+order to allow reruns), the Host should always transmit an Order
+Deletion block (Block 11)
+as soon as it has received all results belonging to a specific order.</font></p>
+<p align="left"><font face="Arial" size="3">We recommend using the
+following procedure and
+timing when using Host Query:</font></p>
+<p align="left"><font face="Arial" size="4"><img src="i_ho_que.gif"
+ height="528" width="717"></font></p>
+<table border="0" cellpadding="4" cellspacing="0" width="78%">
+  <tbody>
+    <tr>
+      <td bgcolor="#e5e5e5" width="90%"><strong><font face="Arial"
+ size="2">Note:</font><font color="#ff0000" face="Arial" size="2"><br>
+Requests for samples without order lead to extensive database access. <br>
+      </font><font face="Arial" size="2"> Dependent on the size
+of the database and the type of request this may result in poor
+instrument performance, i.e.</font><font color="#ff0000" face="Arial"
+ size="2">
+keep the Host&rsquo;s request intervals as long as possible. (e.g.
+60 seconds)</font></strong></td>
+      <td bgcolor="#e5e5e5" width="10%"><strong><font color="#ff0000"
+ face="Arial" size="7">!</font></strong></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left">&nbsp;</p>
+<p><b><font face="Arial" size="4">&nbsp;</font></b></p>
+<font face="Arial" size="4"><b>
+</b></font>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><a name="t_rrun"><strong><font
+ face="Arial" size="3">Rerun Tests</font></strong></a></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">Unlike the user
+interface, the Host
+interface does not support order reruns. Reruns are performed by again <a
+ href="i_featur.htm#o_mod">adding the required test</a>
+to the existing order.<br>
+</font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><a name="r_requ"><strong><font
+ face="Arial" size="3">Result Request</font></strong></a></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">Due to the Master-Slave
+principle, results are
+transmitted to the Host only upon the receipt of a Result Request (<a
+ href="i_bc09.htm">BC09</a>).</font></p>
+<p align="left"><font face="Arial" size="3">COBAS INTEGRA allows
+requesting <strong>single
+results</strong> or <strong>collated
+results</strong>. The BC09/LC10 thus
+contains a <a href="i_lc10.htm">result
+type selector</a>. </font></p>
+<p align="left"><font color="#ff0000" face="Arial" size="3">We
+strongly advise <b>against</b>
+the use of collated results, depending on the database size or
+fragmentation, we
+cannot guaranty the instrument performance.</font></p>
+<p align="left"><font face="Arial" size="3">No specific result can
+be requested.</font></p>
+<p align="left"><font face="Arial" size="3">Only accepted results
+will be transmitted.<br>
+(Auto accept can be configured in the &lsquo;Configuration /
+Processing / Result Handling
+Table&rsquo; menu.)</font></p>
+<p align="left"><font face="Arial" size="3">Usually each result will
+be transmitted only
+once. To re-transmitted a result:<br>
+- On the COBAS INTEGRA user interface, change to the result workbench.<br>
+- Select the required results with the mouse.<br>
+- Select &lsquo;Retransmit&rsquo; in the&nbsp;
+&lsquo;Process&rsquo; menu.</font></p>
+<p align="left"><font face="Arial" size="3">We recommend using the
+following procedure and
+timing for the result request loop:</font></p>
+<p align="left"><img src="i_re_req.gif" height="409" width="633"></p>
+<table border="0" cellpadding="4" cellspacing="0" width="76%">
+  <tbody>
+    <tr>
+      <td bgcolor="#e5e5e5" width="91%"><strong><font face="Arial"
+ size="2">Note:</font><font color="#ff0000" face="Arial" size="2"><br>
+Result requests lead to extensive database access. <br>
+      </font><font face="Arial" size="2"> Dependent on the size
+of the database and the type of request this may result in poor
+instrument performance, i.e.</font><font color="#ff0000" face="Arial"
+ size="2">
+keep the Host&rsquo;s request intervals as long as possible. (e.g.
+60 seconds)</font></strong></td>
+      <td bgcolor="#e5e5e5" width="9%"><strong><font color="#ff0000"
+ face="Arial" size="7">!</font></strong></td>
+    </tr>
+  </tbody>
+</table>
+<p><font size="3">&nbsp;</font></p>
+<p align="justify"><font face="Arial" size="3">We strongly recommend
+sending an
+Order Deletion Block (<a href="i_bc11.htm">BC11</a>)
+to the Integra as soon as all results
+associated with an order have been transmitted to the Host. This
+provides several
+advantages:</font></p>
+<p align="justify"><font face="Arial" size="3">- Re-entered samples
+will trigger the Host
+Query again<br>
+- The Order- and the Result-screen will show only data of current
+interest.<br>
+- The Integra&rsquo;s Data Station performance will be improved.<br>
+- No manual data maintenance is required on the Integra .</font></p>
+<p align="left"><font face="Arial" size="3">By using this procedure,
+Order and
+Results-Screens are cleared. On the COBAS INTEGRA 700 the results are
+still
+available from the
+Patient Archive (raw data will be deleted). On the COBAS INTEGRA 400
+all data
+are deleted.</font></p>
+<p align="justify">&nbsp;</p>
+<p><font face="Arial" size="4"><b>&nbsp;</b></font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><strong><font face="Arial"
+ size="3">Using Samples with <a name="barcode">Barcode</a>
+Identification</font></strong></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">If barcodes are used to
+identify samples, the
+barcode includes the order number and can also include the sample type.
+(&lsquo;Barcode
+Set-up&rsquo; COBAS INTEGRA <a href="i4_setup.htm#barcode">400</a>
+/ <a href="i7_setup.htm#barcode">700</a>).</font></p>
+<p align="left"><font face="Arial" size="3">When using barcodes,
+both the parameters
+&lsquo;Sample Position Rack Number&rsquo; and &lsquo;Sample
+Position Tube Number&rsquo; have
+to be set to 0 (zero) in order entries (see <a href="i_lc54.htm">LC54</a>).</font></p>
+<p align="left">&nbsp;</p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#b6d3b7" width="100%"><a name="protvers"><font
+ face="Arial" size="3"><strong>Protocol
+Version</strong></font></a></td>
+    </tr>
+  </tbody>
+</table>
+<p align="left"><font face="Arial" size="3">The Protocol Version
+request (<a href="i_bc92.htm">BC92</a>)
+is used to get the Version # of the HIF Protocol.</font></p>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+</table>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

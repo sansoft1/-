@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<TITLE>Amplicor HIF start frame</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function resetLink()
+{
+}
+// -->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript1.1">
+<!-- 
+function resetLink()
+{
+   document.cookie = "TransitLink=" + ";PATH=/"
+   document.cookie = "TransitFrame=" + ";PATH=/"
+}
+// -->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function getLink(val)
+{
+   return ""
+}
+// -->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript1.1">
+<!-- 
+function getLink(val)
+{
+   Name="TransitLink"
+   if (val==2)
+   {
+      Name="TransitFrame"
+   }
+   var search = Name + "="
+   if (document.cookie.length > 0)
+   {
+      offset = document.cookie.indexOf(search)
+      if (offset != -1)
+      {
+         offset += search.length
+         end = document.cookie.indexOf(";", offset)
+         if (end == -1)
+            end = document.cookie.length
+         return document.cookie.substring(offset, end)
+      }
+   }
+}
+// -->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+Anchor=getLink(1)
+Frame=getLink(2)
+resetLink()
+document.write("<FRAMESET COLS=\"160,1*\">") ;
+ThisFrame="a_toc_frame"
+if(ThisFrame==Frame)
+    document.write("<FRAME SRC=\"" + Anchor + "\" NAME=\"a_toc_frame\" NORESIZE FRAMEBORDER=0>");
+else
+    document.write("<FRAME SRC=\"amplicor_toc.htm\" NAME=\"a_toc_frame\" NORESIZE FRAMEBORDER=0>");
+ThisFrame="a_main_frame"
+if(ThisFrame==Frame)
+    document.write("<FRAME SRC=\"" + Anchor + "\" NAME=\"a_main_frame\" MARGINWIDTH=2 MARGINHEIGHT=2 FRAMEBORDER=1>");
+else
+    document.write("<FRAME SRC=\"amplicor_Splash.htm\" NAME=\"a_main_frame\" MARGINWIDTH=2 MARGINHEIGHT=2 FRAMEBORDER=1>");
+document.write("<NOFRAMES><BODY>") ;
+document.write("<H2>This Web publication contains frames, but this browser doesn't support frames.</H2>") ;
+document.write("</BODY></NOFRAMES>") ;
+document.write("</FRAMESET>") ;
+// -->
+</SCRIPT>
+
+</HEAD>
+<NOSCRIPT>
+<FRAMESET COLS="160,1*">
+    <FRAME SRC="amplicor_toc.htm" NAME="a_toc_frame" NORESIZE FRAMEBORDER=0>
+    <FRAME SRC="amplicor_Splash.htm" NAME="a_main_frame" MARGINWIDTH=2 MARGINHEIGHT=2 FRAMEBORDER=1>
+<NOFRAMES>
+<BODY>
+<H2>This Web publication contains frames, but this browser doesn't support frames.</H2>
+</BODY>
+</NOFRAMES>
+</FRAMESET>
+</NOSCRIPT>
+</HTML>

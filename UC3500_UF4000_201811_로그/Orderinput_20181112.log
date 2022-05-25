@@ -1,0 +1,3588 @@
+[2018-11-12 오전 2:28:08] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149066'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:28:11] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149093'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:28:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149051'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:28:58] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149011'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:29:56] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149066'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:29:56] sOrdList : 20181112|URI/1/U01|277123|백영기|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 2:30:09] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149093'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:30:09] sOrdList : 20181112|URI/4/U01|284610|김재순|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 2:30:36] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149051'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:30:36] sOrdList : 20181112|URI/5/U01|43090|이동주|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 2:30:50] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149011'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:30:50] sOrdList : 20181112|URI/2/U01|284413|정낙정|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 2:33:59] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149062'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:36:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149062'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 2:36:52] sOrdList : 20181112|URI/3/U01|60350|유은남|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 3:33:54] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149249'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 3:35:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149249'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 3:35:43] sOrdList : 20181112|URI/6/U01|284641|이환용|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 6:57:59] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148745'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:58:02] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148751'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:58:05] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149000'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:58:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148956'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:58:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148791'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:59:02] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148977'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:59:15] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148994'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:59:42] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148%81'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:59:47] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148745'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 6:59:47] sOrdList : 20181112|URI/15/U01|128704|이상제|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:00:00] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148751'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:00:00] sOrdList : 20181112|URI/14/U01|228061|이기선|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:00:14] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149000'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:00:14] sOrdList : 20181112|URI/13/U01|214025|나순임|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:00:27] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148956'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:00:27] sOrdList : 20181112|URI/12/U01|261235|오성걸|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:00:40] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148791'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:00:40] sOrdList : 20181112|URI/11/U01|67925|최영환|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:00:53] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148977'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:00:53] sOrdList : 20181112|URI/7/U01|284365|김창환|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:01:06] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148994'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:01:06] sOrdList : 20181112|URI/8/U01|27830|박원녀|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:01:32] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148%81'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:01:32] sOrdList : 
+
+[2018-11-12 오전 7:05:06] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148936'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:05:11] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148781'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:11:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148936'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:11:20] sOrdList : 20181112|URI/9/U01|16269|서신자|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:12:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148781'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:12:04] sOrdList : 20181112|URI/10/U01|14061|조희범|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:12:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148825'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:12:47] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149118'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:12:50] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148966'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:13:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149129'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:13:32] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149196'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:13:45] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148980'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:14:31] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148825'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:14:31] sOrdList : 20181112|URI/21/U01|4468|이복환|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:14:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149118'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:14:44] sOrdList : 20181112|URI/20/U01|259977|양명렬|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:15:00] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148966'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:15:00] sOrdList : 20181112|URI/18/U01|284172|허경임|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:15:10] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149129'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:15:10] sOrdList : 20181112|URI/16/U01|114458|박춘자|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:15:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149196'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:15:25] sOrdList : 20181112|URI/19/U01|279642|류지성|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:15:36] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148980'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:15:36] sOrdList : 20181112|URI/17/U01|102538|이종훈|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:15:41] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148781'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:30:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149199'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:30:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149079'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:30:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149041'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:32:33] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149199'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:32:33] sOrdList : 20181112|URI/22/U01|73394|최미경|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:32:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149079'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:32:46] sOrdList : 20181112|URI/23/U01|270531|이홍권|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 7:32:58] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149041'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 7:32:58] sOrdList : 20181112|URI/24/U01|233702|송수분|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 8:55:56] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149292'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 8:57:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149292'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 8:57:48] sOrdList : 20181112|URI/27/U01|135500|구본석|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 9:07:01] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149309'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:07:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149308'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:07:07] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045519'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:07:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149304'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:08:55] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149309'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:08:55] sOrdList : 20181112|URI/29/U01|284289|김용관|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 9:09:07] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149308'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:09:07] sOrdList : 20181112|URI/26/U01|41244|윤평철|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 9:09:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045519'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:09:20] sOrdList : 20181112|URI/28/U01|284148|윤현섭|12|001|002|003|004|005|006|007|008|009|010|011|012|
+
+[2018-11-12 오전 9:09:33] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149304'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:09:33] sOrdList : 20181112|URI/25/U01|133221|이상기|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 9:10:15] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045519'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:25:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045548'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:25:55] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149327'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:27:24] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148697'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:27:27] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149276'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:27:40] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045548'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:27:40] sOrdList : 20181112|URI/31/U01|284395|정임수|12|001|002|003|004|005|006|007|008|009|010|011|012|
+
+[2018-11-12 오전 9:27:53] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149327'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:27:53] sOrdList : 20181112|URI/30/U01|261981|한임순|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 9:28:32] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045548'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:29:11] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148697'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:29:11] sOrdList : 20181112|URI/32/U01|137635|신옥진|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 9:29:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149276'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 9:29:25] sOrdList : 20181112|URI/33/U01|284643|이익수|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:25:54] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149361'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:25:57] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149389'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:26:00] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149382'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:26:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149396'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:26:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149371'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:27:02] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149386'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:27:47] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149361'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:27:47] sOrdList : 20181112|URI/34/U01|7595|성백일|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:28:00] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149389'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:28:00] sOrdList : 20181112|URI/38/U01|284663|주재준|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:28:13] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149382'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:28:13] sOrdList : 20181112|URI/37/U01|201696|홍경자|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:28:26] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149396'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:28:26] sOrdList : 20181112|URI/39/U01|50778|이혜수|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:28:39] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149371'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:28:39] sOrdList : 20181112|URI/35/U01|260720|방효석|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:28:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149386'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:28:52] sOrdList : 20181112|URI/40/U01|284648|최옥자|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:31:34] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149235'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:31:37] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149324'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:33:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149235'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:33:35] sOrdList : 20181112|URI/42/U01|278693|곽희서|7|004|005|006|007|008|009|010|
+
+[2018-11-12 오전 10:33:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149324'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:33:43] sOrdList : 20181112|URI/41/U01|22135|이세라|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:37:26] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149235'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:39:21] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149401'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:39:24] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149395'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:39:27] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149409'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:41:21] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149401'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:41:21] sOrdList : 20181112|URI/45/U01|284668|방미경|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:41:34] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149395'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:41:34] sOrdList : 20181112|URI/44/U01|170393|고정숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 10:41:47] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149409'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 10:41:47] sOrdList : 20181112|URI/43/U01|63510|박임순|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:06:03] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045539'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:06:06] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045584'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:06:09] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045616'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:06:39] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045493'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:06:53] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045644'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:07:05] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045623'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:07:19] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045648'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:07:31] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045557'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:07:45] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045536'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:07:51] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045539'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:07:51] sOrdList : 20181112|URI/50/U01|141947|백인숙|1|005|
+
+[2018-11-12 오전 11:07:58] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045588'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045584'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:04] sOrdList : 20181112|URI/53/U01|100485|허순|1|005|
+
+[2018-11-12 오전 11:08:13] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045655'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:18] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045616'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:18] sOrdList : 20181112|URI/56/U01|3764|방명화|1|005|
+
+[2018-11-12 오전 11:08:24] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045553'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:30] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045493'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:30] sOrdList : 20181112|URI/59/U01|26515|엄영묵|1|005|
+
+[2018-11-12 오전 11:08:37] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045628'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045644'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:43] sOrdList : 20181112|URI/64/U01|70955|박애경|1|005|
+
+[2018-11-12 오전 11:08:50] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045504'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:57] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045623'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:08:57] sOrdList : 20181112|URI/61/U01|198793|김두환|1|005|
+
+[2018-11-12 오전 11:09:03] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045498'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:10] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045648'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:10] sOrdList : 20181112|URI/66/U01|1689|김성호|1|005|
+
+[2018-11-12 오전 11:09:16] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045640'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:22] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045557'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:22] sOrdList : 20181112|URI/71/U01|102823|신일만|1|005|
+
+[2018-11-12 오전 11:09:29] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045661'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:36] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045536'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:36] sOrdList : 20181112|URI/77/U01|78844|신희상|4|005|008|013|015|
+
+[2018-11-12 오전 11:09:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045501'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045588'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:09:49] sOrdList : 20181112|URI/79/U01|152282|이상현|1|005|
+
+[2018-11-12 오전 11:09:56] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045652'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:01] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045655'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:01] sOrdList : 20181112|URI/48/U01|146007|안경자|1|005|
+
+[2018-11-12 오전 11:10:09] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045575'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:15] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045553'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:15] sOrdList : 20181112|URI/51/U01|56471|홍은미|1|005|
+
+[2018-11-12 오전 11:10:24] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045489'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:28] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045628'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:28] sOrdList : 20181112|URI/54/U01|147460|최수진|1|005|
+
+[2018-11-12 오전 11:10:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045658'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:41] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045504'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:41] sOrdList : 20181112|URI/49/U01|97112|김순균|1|005|
+
+[2018-11-12 오전 11:10:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045571'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:53] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045498'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:10:53] sOrdList : 20181112|URI/52/U01|24104|김명희|1|005|
+
+[2018-11-12 오전 11:11:01] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045606'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:07] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045640'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:07] sOrdList : 20181112|URI/55/U01|284525|김진숙|1|005|
+
+[2018-11-12 오전 11:11:14] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045664'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045661'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:20] sOrdList : 20181112|URI/57/U01|104660|이혜정|1|005|
+
+[2018-11-12 오전 11:11:27] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045619'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:33] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045501'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:33] sOrdList : 20181112|URI/60/U01|167470|안하원|1|005|
+
+[2018-11-12 오전 11:11:40] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045596'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045652'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:46] sOrdList : 20181112|URI/65/U01|162440|김미옥|1|005|
+
+[2018-11-12 오전 11:11:53] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045544'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:59] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045575'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:11:59] sOrdList : 20181112|URI/58/U01|38915|이한충|1|005|
+
+[2018-11-12 오전 11:12:06] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045592'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:12] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045489'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:12] sOrdList : 20181112|URI/72/U01|118009|문용찬|1|005|
+
+[2018-11-12 오전 11:12:26] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045658'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:26] sOrdList : 20181112|URI/78/U01|259635|문송희|1|005|
+
+[2018-11-12 오전 11:12:34] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045477'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:38] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045571'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:38] sOrdList : 20181112|URI/80/U01|218388|류경국|1|005|
+
+[2018-11-12 오전 11:12:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045510'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045527'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045606'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:12:52] sOrdList : 20181112|URI/83/U01|284644|신성태|1|005|
+
+[2018-11-12 오전 11:13:05] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045664'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:05] sOrdList : 20181112|URI/84/U01|233050|정재구|1|005|
+
+[2018-11-12 오전 11:13:12] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045484'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045619'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:17] sOrdList : 20181112|URI/69/U01|214815|정동주|1|005|
+
+[2018-11-12 오전 11:13:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045602'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:31] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045596'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:31] sOrdList : 20181112|URI/81/U01|174087|김응권|1|005|
+
+[2018-11-12 오전 11:13:38] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045561'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045544'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:44] sOrdList : 20181112|URI/82/U01|73280|이태형|1|005|
+
+[2018-11-12 오전 11:13:51] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045533'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:57] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045592'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:13:57] sOrdList : 20181112|URI/75/U01|244103|윤태원|1|005|
+
+[2018-11-12 오전 11:14:01] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045567'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:15] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045539'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045636'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:18] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045584'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:22] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045616'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:24] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045477'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:24] sOrdList : 20181112|URI/62/U01|84485|서선모|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:14:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045493'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:30] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045515'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:36] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045510'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:36] sOrdList : 20181112|URI/46/U01|121170|김영준|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:14:38] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045644'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:41] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045623'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:45] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045648'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045557'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045527'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:14:49] sOrdList : 20181112|URI/63/U01|284646|이현주|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:15:02] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045536'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:02] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045484'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:02] sOrdList : 20181112|URI/47/U01|32891|박정선|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:15:06] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045588'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045602'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:17] sOrdList : 20181112|URI/67/U01|144586|이용|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:15:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045655'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:29] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045561'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:29] sOrdList : 20181112|URI/76/U01|196442|박준원|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:15:30] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045553'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:34] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045628'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:42] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045533'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:42] sOrdList : 20181112|URI/68/U01|284647|임종영|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:15:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045504'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045498'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045640'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:56] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045567'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:15:56] sOrdList : 20181112|URI/74/U01|91334|최상민|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:15:57] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045661'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:08] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045636'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:08] sOrdList : 20181112|URI/70/U01|66676|김관호|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:16:09] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045501'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:13] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045652'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045575'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:21] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045515'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:21] sOrdList : 20181112|URI/73/U01|215860|방상곤|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:16:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045489'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045658'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045571'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:53] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045606'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:16:56] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045664'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:17:10] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045619'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:17:13] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045596'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:17:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045544'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:17:21] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045592'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:22:32] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149405'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:22:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148794'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:24:19] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149405'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:24:19] sOrdList : 20181112|URI/90/U01|21324|정롱옥|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:24:41] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148794'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:24:41] sOrdList : 20181112|URI/89/U01|11431|석지영|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:34:00] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149427'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:34:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149444'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:34:07] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149449'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:34:29] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149453'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:34:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149446'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:34:55] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149457'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:35:41] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149427'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:35:41] sOrdList : 20181112|URI/85/U01|272662|이재숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:35:54] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149444'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:35:54] sOrdList : 20181112|URI/88/U01|284671|박순아|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:36:07] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149449'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:36:07] sOrdList : 20181112|URI/87/U01|36476|최지안|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:36:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149453'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:36:20] sOrdList : 20181112|URI/86/U01|31643|안대규|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:36:33] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149446'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:36:33] sOrdList : 20181112|URI/91/U01|211216|문향영|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:36:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149457'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:36:46] sOrdList : 20181112|URI/92/U01|284665|이대연|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:48:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045668'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:48:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045671'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:48:23] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045674'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:48:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045613'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:49:05] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045677'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:49:18] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045689'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:49:31] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045680'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:49:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045686'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:49:58] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045693'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:50:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045668'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:50:04] sOrdList : 20181112|URI/94/U01|284676|송용회|1|005|
+
+[2018-11-12 오전 11:50:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045671'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:50:17] sOrdList : 20181112|URI/95/U01|123733|심윤수|1|005|
+
+[2018-11-12 오전 11:50:31] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045674'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:50:31] sOrdList : 20181112|URI/96/U01|235620|남민현|1|005|
+
+[2018-11-12 오전 11:50:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045613'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:50:43] sOrdList : 20181112|URI/97/U01|73588|조한준|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오전 11:50:56] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045677'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:50:56] sOrdList : 20181112|URI/98/U01|33174|신민호|1|005|
+
+[2018-11-12 오전 11:51:09] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045689'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:51:09] sOrdList : 20181112|URI/99/U01|185306|임재필|1|005|
+
+[2018-11-12 오전 11:51:22] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045680'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:51:22] sOrdList : 20181112|URI/100/U01|284677|장윤덕|1|005|
+
+[2018-11-12 오전 11:51:36] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045686'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:51:36] sOrdList : 20181112|URI/101/U01|124267|최보원|1|005|
+
+[2018-11-12 오전 11:51:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045693'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:51:48] sOrdList : 20181112|URI/102/U01|211084|김은주|1|005|
+
+[2018-11-12 오전 11:52:21] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045668'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:52:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045671'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:52:28] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045674'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:52:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045677'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:52:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045689'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:52:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045680'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:53:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045686'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:53:07] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045693'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:54:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149464'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:56:13] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149464'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오전 11:56:13] sOrdList : 20181112|URI/93/U01|65294|오은택|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 12:06:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148909'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:08:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148909'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:08:04] sOrdList : 20181112|URI/104/U01|284465|최혜숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 12:23:28] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149484'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:23:31] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149470'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:23:34] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149494'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:25:16] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149484'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:25:16] sOrdList : 20181112|URI/103/U01|284686|이미순|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 12:25:28] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149470'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:25:28] sOrdList : 20181112|URI/105/U01|284688|이완세|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 12:25:41] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149494'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 12:25:41] sOrdList : 20181112|URI/106/U01|74426|김옥경|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 1:55:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = 'QC-UK0050LL'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 1:55:35] sOrdList : 
+
+[2018-11-12 오후 1:57:01] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = 'QC-UC01808H'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 1:57:01] sOrdList : 
+
+[2018-11-12 오후 2:03:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = 'QC-UK0050HL'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:03:52] sOrdList : 
+
+[2018-11-12 오후 2:05:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = 'QC-UC01808L'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:05:46] sOrdList : 
+
+[2018-11-12 오후 2:08:55] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149525'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:08:59] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149514'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:09:02] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149511'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:09:31] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149532'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:09:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149354'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:09:58] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149506'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:10:10] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149509'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:10:43] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149525'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:10:43] sOrdList : 20181112|URI/113/U01|284696|최정아|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:10:55] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149514'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:10:55] sOrdList : 20181112|URI/110/U01|247549|김태수|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:11:09] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149511'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:11:09] sOrdList : 20181112|URI/111/U01|272640|유소희|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:11:23] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149532'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:11:23] sOrdList : 20181112|URI/112/U01|284694|기애숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:11:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149354'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:11:35] sOrdList : 20181112|URI/115/U01|59635|조성자|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:11:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149506'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:11:48] sOrdList : 20181112|URI/108/U01|153537|홍기옥|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:12:01] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149509'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:12:01] sOrdList : 20181112|URI/107/U01|83528|이미숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:31:58] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045700'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:33:44] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045700'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:33:44] sOrdList : 20181112|URI/114/U01|283886|이연섭|1|005|
+
+[2018-11-12 오후 2:36:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149570'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:36:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149567'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:36:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149568'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:36:58] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045700'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:37:22] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149573'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:38:34] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149570'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:38:34] sOrdList : 20181112|URI/118/U01|181667|박태신|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:38:47] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149567'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:38:47] sOrdList : 20181112|URI/117/U01|231801|이씨|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:39:00] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149568'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:39:00] sOrdList : 20181112|URI/116/U01|258249|박순덕|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 2:39:13] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149573'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 2:39:13] sOrdList : 20181112|URI/119/U01|284692|우인숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 3:11:16] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149578'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:11:19] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149593'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:11:22] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149583'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:13:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149578'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:13:04] sOrdList : 20181112|URI/120/U01|169732|김광옥|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 3:13:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149593'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:13:17] sOrdList : 20181112|URI/121/U01|73772|이순희|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 3:13:30] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149583'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:13:30] sOrdList : 20181112|URI/122/U01|226381|장수환|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 3:34:47] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045711'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:34:50] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045706'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:36:37] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045711'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:36:37] sOrdList : 20181112|URI/126/U01|237392|황복임|1|005|
+
+[2018-11-12 오후 3:36:49] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045706'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:36:49] sOrdList : 20181112|URI/124/U01|137150|이영주|1|005|
+
+[2018-11-12 오후 3:40:04] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045711'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:40:06] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045706'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:50:17] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149613'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:50:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149603'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:50:23] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149613'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:52:08] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149613'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:52:08] sOrdList : 20181112|URI/125/U01|22120|홍현기|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 3:52:21] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149603'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:52:21] sOrdList : 20181112|URI/127/U01|19939|김동렬|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 3:52:34] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149613'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 3:52:34] sOrdList : 20181112|URI/123/U01|5308|최석주|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 4:00:20] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149389'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:02:14] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149389'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:02:14] sOrdList : 20181112|URI/129/U01|202696|장춘수|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 4:03:40] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148785'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:05:29] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810148785'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:05:29] sOrdList : 20181112|URI/131/U01|91046|김가인|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 4:40:59] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149616'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:41:02] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045720'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:41:05] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149635'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:41:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045724'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:41:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149630'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:42:46] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149616'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:42:46] sOrdList : 20181112|URI/130/U01|104942|김용래|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 4:42:59] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045720'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:42:59] sOrdList : 20181112|URI/134/U01|284444|이슬기|12|001|002|003|004|005|006|007|008|009|010|011|012|
+
+[2018-11-12 오후 4:43:12] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149635'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:43:12] sOrdList : 20181112|URI/133/U01|186965|이유진|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 4:43:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045724'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:43:25] sOrdList : 20181112|URI/135/U01|284541|이재희|12|001|002|003|004|005|006|007|008|009|010|011|012|
+
+[2018-11-12 오후 4:43:39] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149630'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:43:39] sOrdList : 20181112|URI/132/U01|40787|전병례|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 4:46:48] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045720'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:47:07] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1820045724'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:54:21] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149667'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:56:09] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149667'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 4:56:09] sOrdList : 20181112|URI/137/U01|145261|편창숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 5:33:15] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149710'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 5:33:18] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149695'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 5:35:03] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149710'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 5:35:03] sOrdList : 20181112|URI/139/U01|137819|구효준|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 5:35:16] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149695'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 5:35:16] sOrdList : 20181112|URI/138/U01|132906|문가영|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 6:36:52] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149718'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 6:38:40] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149718'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 6:38:40] sOrdList : 20181112|URI/140/U01|184630|김성수|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 8:17:32] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149830'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 8:17:35] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149825'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 8:19:25] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1810149830'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 8:19:25] sOrdList : 20181112|URI/142/U01|240441|장정이|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 8:19:38] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149825'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 8:19:38] sOrdList : 20181112|URI/141/U01|284723|서용선|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+
+[2018-11-12 오후 8:27:13] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149841'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 8:29:01] SqlStr :  select a.ResAcpDte, a.ResAcpCod, a.ResAcpNum, a.ResSpmCod, a.ResChtNum, b.PbsPatNam, a.ResLabCod 
+  from ResInf a, PbsInf b 
+ where a.ResSpmNum = '1800149841'
+   and a.ResAcpCod = 'URI' 
+   and a.ResMzhTyp <> 'L' 
+   and a.ResRepTyp <> 'F' 
+   and a.ResChtNum = b.PbsChtNum 
+ order by a.ResLabCod 
+
+
+[2018-11-12 오후 8:29:01] sOrdList : 20181112|URI/143/U01|158398|홍현숙|18|001|002|003|004|005|006|007|008|009|010|011|012|026|027|028|029|030|031|
+

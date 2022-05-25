@@ -1,0 +1,835 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>Introduction</title></head>
+
+
+<body bgcolor="#ffffff" text="#000000">
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td width="576"><a name="intro"><small><small><small><small><small>.</small></small></small></small></small></a></td>
+    <td width="73"></td>
+    <td width="66"></td>
+  </tr>
+  <tr>
+    <td height="40" width="100%"><img src="lgo_cobs.gif" height="18" width="72"> <font face="Arial" size="4"><strong>Host
+    Interface Introduction:</strong></font></td>
+    <td height="40" width="73"><a href="http://www.roche.com" target="_top"><img src="lgo_rche.gif" alt="http://www.roche.com" border="0" height="38" width="71"></a></td>
+    <td rowspan="4" height="179" width="66"><a href="http://www.roche.com/diagnostics" target="_top"><br></a></td>
+  </tr>
+  <tr>
+    <td height="37" width="576"></td>
+    <td height="37" width="73"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#ffff00" height="38" width="576"><font color="#000000" face="Arial" size="3"><strong>Read
+    this chapter first if you are not familiar with COBAS Host interfaces.</strong></font></td>
+    <td height="38" width="73"></td>
+  </tr>
+  <tr>
+    <td height="40" width="576"></td>
+    <td height="40" width="73"></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">All COBAS Instruments covered in this documentation are
+equipped with an <a href="rs232.htm">RS232</a> serial interface for connection to a Host
+computer. This document explains the details of communication between a Host computer and
+a COBAS Instrument.</font></p>
+
+<p><font face="Arial" size="3">The communication protocol is similar for all COBAS
+Instruments.</font></p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="2"><strong>Terms used in this
+    manual:</strong></font></td>
+  </tr>
+</tbody></table>
+
+<table bgcolor="#e5e5e5" border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#e5e5e5" width="100%"><font face="Arial" size="2"><strong>"COBAS
+    Instrument" or "Instrument" refers to COBAS&nbsp;</strong></font><font face="Arial" size="2"><strong>INTEGRA</strong></font><font face="Arial" size="2"><strong> / COBAS INTEGRA 400 and COBAS
+    Core.</strong></font><p><font face="Arial" size="2"><strong>"Host computer",
+    "Host system", "LIS" or "Host" refers to a Laboratory
+    Information System or other computer system being connected to the COBAS Instrument.</strong></font></p>
+    <p><font face="Arial" size="2"><strong>"BC" stands for Block Code and
+    "LC" stands for Line Code.</strong></font></p></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td width="100%"><font face="Arial" size="3">.</font></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="2"><strong>Symbols used in
+    this manual:</strong></font></td>
+  </tr>
+</tbody></table>
+
+<table bgcolor="#e5e5e5" border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td align="center" bgcolor="#e5e5e5" valign="top" width="49"><font face="Arial" size="2"><strong>"&lt;LF&gt;"
+    </strong></font></td>
+    <td bgcolor="#e5e5e5"><strong><font face="Arial" size="2">All characters between the two
+    angle brackets indicate an ASCII control character.</font></strong></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#e5e5e5" valign="top" width="49"><font face="Arial" size="2"><strong>"
+    _ "</strong></font></td>
+    <td bgcolor="#e5e5e5"><font face="Arial" size="2"><strong>This symbol indicates a space
+    character (ASCII 20H) and is used as a separator between single data fields within a data
+    line.</strong></font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#e5e5e5" valign="top" width="49"><font face="Arial" size="2"><strong>"
+    &#8226; "</strong></font></td>
+    <td bgcolor="#e5e5e5"><font face="Arial" size="2"><strong>This symbol also indicates a
+    space character (ASCII 20H) and is used as a place holder inside a single data fields and
+    is part of this data field.</strong></font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="3"><strong>Block composition
+    notation:</strong></font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="bl_mnem.gif" height="257" width="328"></p>
+
+<p>&nbsp;</p>
+
+<p align="justify">&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="3"><a name="Com_conc"><strong>Communication
+    Concept:</strong></a></font></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">The communication is based on a master / slave
+configuration, where the Host acts as master. A master / slave communication is a data
+communication based on request / response dialogue. Following a request from the master
+(Host) the slave (COBAS) will transmit a specific response message:</font></p>
+
+<p><font face="Arial" size="3">Assuming there are no transmission errors and the message
+can be handled correctly, the COBAS Instrument will respond with a positive acknowledgment
+message.</font></p>
+
+<p><font face="Arial" size="3">If an error occurs for any reason, the COBAS Instrument
+will respond with a negative<i> </i>acknowledgment message.</font></p>
+
+<p><font face="Arial" size="3">If the Host does not receive a response upon a request
+within a certain time, a <a href="#time_out">Time Out</a> should be activated.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="555">
+  <tbody><tr>
+    <td width="150"><img src="pc.gif" alt="PC" height="63" width="100"></td>
+    <td width="211"><img src="arr_rqrs.gif" height="74" width="147"></td>
+    <td width="170"><img src="i7_pict.gif" alt="Cobas" height="100" width="90"></td>
+  </tr>
+  <tr>
+    <td width="150"><strong><font face="Arial" size="3">Host = Master</font></strong></td>
+    <td width="211"></td>
+    <td width="170"><font face="Arial" size="3"><strong>Cobas = Slave </strong></font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><strong><a name="MSG_Struc"><font face="Arial" size="3">Message
+    Structure:</font></a></strong></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">All messages are based on the same block structure. The
+number of lines within a block can vary.</font></p>
+
+<p><map name="FPMap0"><area href="#bl_check" shape="rect" coords="184, 117, 430, 147"><area href="#bl_data" shape="rect" coords="185, 71, 425, 98"><area href="#bl_head" shape="rect" coords="184, 25, 426, 54"></map><img rectangle="(184,25) (426,54) #bl_head" src="msg_stru.gif" usemap="#FPMap0" border="0" height="284" width="706"></p>
+
+<p><font face="Arial" size="3">Information inside the message is in <a href="appendix.htm#ASCII">ASCII</a> code.<br>
+</font><font face="Arial"><font size="3">ASCII codes from 0 to 31 and 127 to 255 are <strong>not</strong>
+allowed within data fields.</font><br>
+</font></p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><font face="Arial" size="2"><strong>Example:</strong>
+    Result response from a COBAS INTEGRA</font></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="7" cellspacing="0" width="577">
+  <tbody><tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"><font face="Arial" size="3">.</font></td>
+    <td bgcolor="#ffffff" width="349"></td>
+    <td bgcolor="#ffffff" width="92"></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"></td>
+    <td bgcolor="#dad9a5" width="349"><font face="Arial" size="1">&lt;SOH&gt;&lt;LF&gt;</font></td>
+    <td bgcolor="#dad9a5" width="92"><font face="Arial" size="1">.</font></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"><a href="introduc.htm#bl_head"><strong><font face="Arial" size="2">Block Header</font></strong></a></td>
+    <td bgcolor="#f1f8c0" width="349"><font face="Arial" size="2"><strong><b>09_COBAS</b>&#8226;<b>INTEGRA</b>&#8226;&#8226;&#8226;<b>_04</b></strong></font><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td bgcolor="#f1f8c0" width="92"><font face="Arial" size="2"><strong>( 1 line )</strong></font></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"></td>
+    <td bgcolor="#dad9a5" width="349"><font face="Arial" size="1">&lt;STX&gt;&lt;LF&gt;</font></td>
+    <td bgcolor="#dad9a5" width="92"><font face="Arial" size="1">.</font></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"><a href="introduc.htm#bl_data"><strong><font face="Arial" size="2">Block Data</font></strong></a></td>
+    <td bgcolor="#f1f8c0" width="349"><font face="Arial" size="2"><strong><b>53_Order#</b>&#8226;<b>211044711_20/10/93_SER</b></strong></font><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td bgcolor="#f1f8c0" width="92"><font face="Arial" size="2"><strong>( 0 </strong></font><font face="Arial" size="1">to</font><font face="Arial" size="2"><strong> n lines )</strong></font></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"></td>
+    <td bgcolor="#f1f8c0" width="349"><font face="Arial" size="2"><strong><b>55_178</b></strong></font><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td bgcolor="#f1f8c0" width="92">.</td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"></td>
+    <td bgcolor="#f1f8c0" width="349"><font face="Arial" size="2"><strong><b>00_+3.234000E+01_mg/dl_004_023_014_000</b></strong></font><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td bgcolor="#f1f8c0" width="92">.</td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"></td>
+    <td bgcolor="#dad9a5" width="349"><font face="Arial" size="1">&lt;ETX&gt;&lt;LF&gt;</font></td>
+    <td bgcolor="#dad9a5" width="92"><font face="Arial" size="1">.</font></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"><font face="Arial" size="2"><strong><a href="introduc.htm#bl_check">Block Check</a><br>
+    </strong>( if enabled )</font></td>
+    <td bgcolor="#f1f8c0" width="349"><strong><font face="Arial" size="2"><b>1</b></font></strong><font face="Arial" size="1">&lt;LF&gt;<b> </b></font><p><strong><font face="Arial" size="2"><b>811</b></font></strong><font face="Arial" size="1">&lt;LF&gt;</font></p></td>
+    <td align="left" bgcolor="#f1f8c0" valign="top" width="92"><font face="Arial" size="2"><strong>(
+    0 </strong></font><font face="Arial" size="1">or</font><font face="Arial" size="2"><strong>
+    2 lines )</strong></font><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="94"></td>
+    <td bgcolor="#dad9a5" width="349"><font face="Arial" size="1">&lt;EOT&gt;&lt;LF&gt;</font></td>
+    <td bgcolor="#dad9a5" width="92"><font face="Arial" size="1">.</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><font face="Arial" size="2"><a name="bl_head"><strong>Block
+    Header</strong></a> contains the following information:</font></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="64%">
+  <tbody><tr>
+    <td bgcolor="#ffffff" width="100%"><font face="Arial" size="3">.</font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#e5e5e5" width="100%"><font face="Arial"><b><a href="appendix.htm#instrc"><small>Instrument
+    Code:</small></a><br>
+    </b><small>09 is a two digit code.It identifies the type of COBAS Instrument</small></font></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" height="124" width="77%">
+  <tbody><tr>
+    <td rowspan="3" align="center" height="44" valign="bottom" width="2%"><font face="Arial" size="2"><img src="arr_down.gif" height="26" width="9"></font></td>
+    <td height="4" width="22%"></td>
+    <td height="4" width="22%"></td>
+    <td height="4" width="54%"></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#e5e5e5" height="20" width="98%"><font face="Arial" size="2"><strong>Instrument
+    Identifier:</strong><br>
+    COBAS&#8226;INTEGRA&#8226;&#8226; is a sixteen digit alphanumeric. It is helpful in case more
+    then one COBAS Instrument of the same type is connected to the Host. The Instrument's
+    identifier can be defined in the Instrument set-up menu. The Host may use any 16 digit
+    string. The Instrument does not refer to it.</font></td>
+  </tr>
+  <tr>
+    <td align="center" height="20" width="22%"><font face="Arial" size="2"><img src="arr_down.gif" height="26" width="9"></font></td>
+    <td height="20" width="22%"></td>
+    <td height="20" width="54%"></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#f1f8c0" height="20" width="46%"><strong><font face="Arial" size="2">09_COBAS&#8226;INTEGRA&#8226;&#8226;&#8226;_04</font></strong><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td height="20" width="54%"></td>
+  </tr>
+  <tr>
+    <td height="20" width="2%"></td>
+    <td height="20" width="22%"></td>
+    <td height="20" width="22%"><img src="arr_up.gif" height="26" width="9"></td>
+    <td height="20" width="54%"></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="72%">
+  <tbody><tr>
+    <td width="15%"></td>
+    <td bgcolor="#e5e5e5" width="85%"><small><font face="Arial"><strong>Block Code:</strong><br>
+    04 is a two digit code used to identify the type of information which follows. Details on
+    the block codes can be found in the reference of each Instrument.</font></small></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">The number of characters of the block header is fixed. If
+the Instrument identifier is not used in its full length, digits left over have to be
+filled with spaces.</font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><p align="left"><font face="Arial" size="2"><a name="bl_data"><strong>Block Data</strong></a> contains the main information. The size of
+    this part can vary.</font></p></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" height="86" width="399">
+  <tbody><tr>
+    <td bgcolor="#ffffff" height="20" width="2"><font face="Arial" size="3">.</font></td>
+    <td bgcolor="#ffffff" height="20" width="381"></td>
+  </tr>
+  <tr>
+    <td height="50" width="2"></td>
+    <td bgcolor="#e5e5e5" height="50" width="381"><font face="Arial" size="2"><strong>Line
+    Code:</strong><br>
+    A two digit code, used to identify the contents of the line,<br>
+    separated by a delimiter (space) from the rest of the line.</font></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" height="25" width="461">
+  <tbody><tr>
+    <td height="14" width="37"></td>
+    <td height="17" width="224"><img src="arr_down.gif" height="26" width="9"></td>
+    <td height="17" width="176"></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="7" cellspacing="0" width="635">
+  <tbody><tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="22"></td>
+    <td bgcolor="#f1f8c0" width="397"><strong><font face="Arial" size="2"><b>53_Order#
+    211044711_20/10/93_SER</b></font></strong><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td width="29"><img src="arr_left.gif" height="9" width="26"></td>
+    <td rowspan="2" align="left" bgcolor="#e5e5e5" valign="top" width="131"><font face="Arial" size="2">Depending on the <br>
+    block, the block data<br>
+    has <strong>0 </strong></font><font face="Arial" size="1">to</font><font face="Arial" size="2"><strong> n</strong> data lines.</font></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="22">&nbsp;&nbsp;&nbsp; </td>
+    <td bgcolor="#f1f8c0" width="397"><strong><font face="Arial" size="2"><b>55_178</b></font></strong><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td width="29"></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#ffffff" valign="top" width="22"><font face="Arial" size="2"><strong>&nbsp;&nbsp;
+    &nbsp; </strong></font></td>
+    <td bgcolor="#f1f8c0" width="397"><strong><font face="Arial" size="2">00_+3.234000E+01_mg/dl_004_023_014_000</font></strong><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td width="29"></td>
+    <td align="left" valign="top" width="131"></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="490">
+  <tbody><tr>
+    <td width="178"></td>
+    <td width="222"><img src="arr_up.gif" height="26" width="9"></td>
+    <td width="66"></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="506">
+  <tbody><tr>
+    <td width="60"></td>
+    <td bgcolor="#e5e5e5" width="430"><font face="Arial" size="2">Each line contains 1 to n
+    data fields, separated by a delimiter (space).<br>
+    The amount and the size of the data fields depend on the type of line.</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial" size="3">A complete list and description of line codes is given in
+the&nbsp; "Line Code" chapter of each Instrument.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="82%">
+  <tbody><tr>
+    <td align="left" bgcolor="#e5e5e5" valign="top" width="7%"><strong><font face="Arial" size="3">Note:</font></strong></td>
+    <td bgcolor="#e5e5e5" width="93%"><font face="Arial" size="3">The length of the data
+    fields is fixed. Therefore unused or partially used data fields have to be filled out with
+    spaces.</font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#e5e5e5" width="7%">.</td>
+    <td bgcolor="#e5e5e5" width="93%"><font face="Arial" size="3">Some of the lines contain
+    optional data fields. If any of the optional data fields are not used they can be left
+    out.</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><strong><font face="Arial" size="2"><a name="bl_check">Block
+    Check:</a> </font></strong></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" height="76" width="615">
+  <tbody><tr>
+    <td bgcolor="#ffffff" height="21" width="48"><font face="Arial" size="3">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+    <td bgcolor="#ffffff" height="21" width="78"></td>
+    <td bgcolor="#ffffff" height="21" width="35"></td>
+    <td bgcolor="#ffffff" height="21" width="422"></td>
+  </tr>
+  <tr>
+    <td height="21" width="48"></td>
+    <td bgcolor="#f1f8c0" height="21" width="78"><font face="Arial" size="2"><strong>1</strong></font><font face="Arial" size="3"> </font><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td height="21" width="35"></td>
+    <td height="21" width="422"></td>
+  </tr>
+  <tr>
+    <td height="21" width="48"></td>
+    <td bgcolor="#f1f8c0" height="21" width="78"><font face="Arial" size="2"><strong>811</strong></font><font face="Arial" size="3"> </font><font face="Arial" size="1">&lt;LF&gt;</font></td>
+    <td height="21" width="35"><img src="arr_left.gif" height="9" width="26"></td>
+    <td rowspan="2" align="left" bgcolor="#e5e5e5" height="39" valign="top" width="422"><font face="Arial" size="2">The block check contains a <a href="#bc">Sequence Counter (SC) and
+    the Block Check Sum (BCS)</a>.</font></td>
+  </tr>
+  <tr>
+    <td height="10" width="48"></td>
+    <td height="10" width="78"></td>
+    <td height="10" width="35"></td>
+  </tr>
+</tbody></table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="615">
+  <tbody><tr>
+    <td bgcolor="#ffffff" height="11" width="48"><font face="Arial" size="3">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+    <td bgcolor="#ffffff" height="11" width="78"></td>
+    <td bgcolor="#ffffff" height="11" width="35"></td>
+    <td bgcolor="#ffffff" height="11" width="422"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#e5e5e5" height="10" valign="top" width="48"><font face="Arial" size="3"><strong>Note:</strong></font></td>
+    <td colspan="3" bgcolor="#e5e5e5" height="10" valign="top" width="535"><font face="Arial" size="3">The length of the Block Check Sum field is fixed. In case of one or two digit
+    numbers the field has to be filled out with leading spaces.</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><strong><font face="Arial" size="3"><a name="com_contr">Communication
+    Control</a>:</font></strong></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">To maintain safe data communication, the following
+communication control mechanisms are used:</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" height="141" width="71%">
+  <tbody><tr>
+    <td bgcolor="#f1f8c0" height="18" width="32%"><strong><small><font face="Arial">RS-232
+    specific :</font></small></strong></td>
+    <td bgcolor="#f1f8c0" height="18" width="68%"><font face="Arial" size="2"><strong>- <a href="introduc.htm#par_ch">Parity check</a></strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#f1f8c0" height="18" width="32%"><small>.</small></td>
+    <td bgcolor="#f1f8c0" height="18" width="68%"><font face="Arial" size="2"><strong>- <a href="introduc.htm#fl_contr">Flow Control</a> ( Hardware/software handshake )</strong></font></td>
+  </tr>
+  <tr>
+    <td height="3"></td>
+    <td height="3"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#f1f8c0" height="18" width="32%"><strong><small><font face="Arial">Cobas and
+    Host :</font></small></strong></td>
+    <td bgcolor="#f1f8c0" height="18" width="68%"><font face="Arial" size="2"><strong>- <a href="introduc.htm#seq_cou">Sequence counter</a> ( SC )</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#f1f8c0" height="18" width="32%"><small>.</small></td>
+    <td bgcolor="#f1f8c0" height="18" width="68%"><font face="Arial" size="2"><strong>- <a href="introduc.htm#bl_ch_su">Block check sum</a> ( BCS )</strong></font></td>
+  </tr>
+  <tr>
+    <td height="3" width="32%"></td>
+    <td height="3" width="68%"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#f1f8c0" height="18" width="32%"><strong><small><font face="Arial">Cobas
+    specific :</font></small></strong></td>
+    <td bgcolor="#f1f8c0" height="18" width="68%"><font face="Arial" size="2"><strong>- <a href="introduc.htm#ch_bl_li">Check of block and line composition</a></strong></font></td>
+  </tr>
+  <tr>
+    <td height="3" width="32%"></td>
+    <td height="3" width="68%"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#f1f8c0" height="18" width="32%"><small><font face="Arial"><strong>Host
+    specific:</strong></font></small></td>
+    <td bgcolor="#f1f8c0" height="18" width="68%"><font face="Arial" size="2"><strong>- <a href="introduc.htm#time_out">Time-out control</a></strong></font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><strong><font face="Arial" size="2"><a name="par_ch"><b>Parity
+    Check</b></a></font></strong></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">This is the most common method used for detecting errors on
+asynchronous interfaces. The number of active data bits in each character is counted prior
+to transmission. A parity bit is then added on so that the total number of binary 1&#8217;s
+in the complete character frame is either odd or even according to the pre-selection in
+the interface configuration. The receiving device will then perform the same inspection.</font></p>
+
+<p><font face="Arial" size="3">Any mismatch will generate a parity error:<br>
+- COBAS Instruments will transmit an error message (block 99).<br>
+- Host systems will use the <a href="#com_chek">error handling</a> as described.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#e5e5e5" width="100%"><font face="Arial" size="3"><b>Note: </b>For COBAS
+    INTEGRA 700: Because of an error on the Hewlett-Packard Data Station, the parity check
+    does not work. Therefore: On COBAS INTEGRA 700,&nbsp; select a parity of "NONE".</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><font face="Arial" size="2"><strong><a name="fl_contr">Flow
+    Control:</a></strong> ( hardware/software handshake)</font></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">If the Instrument or the Host is currently not able to
+receive data, it must be able to stop the communication. This is done by the flow control.</font></p>
+
+<p><font face="Arial" size="3">There are two possibilities, either <a href="rs232.htm#handsh_h">Hardware Handshake</a> or <a href="rs232.htm#handsh_s">Software
+Handshake</a>.</font></p>
+
+<p><font face="Arial" size="3"><strong>Suggestion:</strong> Software handshake simplifies <a href="rs232.htm#rs232cab">RS-232 cable</a> wiring and Host SW handling.</font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><strong><font face="Arial" size="2"><b><a name="bc">Sequence
+    Counter</a> and Block Check Sum</b></font></strong></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">The<b> <a name="seq_cou">Sequence Counter</a></b> (SC) is a
+one digit number, which alternates between <b>&#8217;0&#8217;</b> and <b>&#8217;1&#8217;</b>.
+The SC is used by the Host to <a href="#com_chek">initiate retransmit of data</a>. The
+Host's SC must be <a href="#synch">synchronized</a> to the Instrument's SC. Both SCs (Host
+and Instrument) must be updated simultaneously, otherwise a sequence error will occur </font><font face="Wingdings" size="2">à</font><font face="Arial" size="3"> Instrument will retransmit
+its previous message.</font></p>
+
+<p><font face="Arial" size="3">The mathematical presentation appears as follows:</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="267">
+  <tbody><tr>
+    <td width="50"></td>
+    <td bgcolor="#f1f8c0" width="201"><strong><font face="Arial" size="3">SC = ( inc SC ) mod
+    2</font></strong></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial" size="3">The <b><a name="bl_ch_su">Block Check Sum</a></b> (BCS) is
+a 3-digit, ASCII-coded number.</font></p>
+
+<p><font face="Arial" size="3">The BCS contains the sum of all values of the message
+starting with &lt;SOH&gt; ... to &lt;SC&gt; (&lt;CR&gt;) &lt;LF&gt; modulo 1000.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="465">
+  <tbody><tr>
+    <td width="51"></td>
+    <td bgcolor="#f1f8c0" width="398"><strong><font face="Arial" size="3">BCS = sum (
+    ord(&lt;SOH&gt;) .. ord(&lt;LF&gt;)) mod 1000</font></strong></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">If any mismatch occurs, the receiving station has to <a href="introduc.htm#com_chek">react</a> accordingly.</font></p>
+
+<p><font face="Arial" size="3"><b><br>
+Enable / Disable of the SC and BCS </b>can be done in the Host Interface Configuration
+menu (either both BCS and SC exist or neither).</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="515">
+  <tbody><tr>
+    <td bgcolor="#e5e5e5" width="507"><font face="Arial" size="3"><strong>Note:</strong> We
+    strongly recommend that you enable the <strong>block check</strong>. <br>
+    Otherwise you cannot be sure that all data are correctly transmitted.</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><strong><font face="Arial" size="2"><a name="ch_bl_li"><b>Check
+    of Block and Line Composition</b></a></font></strong></td>
+  </tr>
+</tbody></table>
+
+<p align="left"><font face="Arial" size="3">Upon any mismatch in block and line
+composition, COBAS systems will transmit an error message (block 99) containing the
+appropriate error code.</font></p>
+
+<p align="left"><font face="Arial" size="3">Whenever a block or line composition error
+occurs, this indicates that the Host software is not completely configured as described in
+this manual and has to be modified accordingly. </font></p>
+<font size="3">
+
+</font><p align="left"><font size="3"><font face="Arial">COBAS Instruments never change the block and line
+composition unless the relevant configuration settings have been changed. (You will find
+the configuration description in the 'Instrument Set-up&#8217; section.)</font></font></p>
+
+<p align="left">&nbsp;</p>
+
+<p align="left">&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#d8e9d9" width="100%"><strong><font face="Arial" size="2"><a name="time_out"><b>Receive
+    Time Out</b></a></font></strong></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">An exactly defined response time cannot be guaranteed.
+However, a returned response can be expected within 60 seconds. As a result, we recommend
+setting the Host&#8217;s time-out to 180 seconds.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="408">
+  <tbody><tr>
+    <td bgcolor="#e5e5e5" width="400"><font face="Arial" size="3"><strong>Note:</strong>
+    Time-out control is only foreseen on the Host side </font><font face="Wingdings" size="2">à</font><font face="Arial" size="3"> use the <a href="#com_chek">error handling</a> as described.</font></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">Incompletely received messages (messages without an
+&lt;EOT&gt; termination) will not be acknowledged by the COBAS Instruments </font><font face="Wingdings" size="2">à</font><font face="Arial" size="3"> Host Time-Out.</font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><a name="com_chek"><font face="Arial" size="3"><strong>Error
+    Handling</strong></font></a></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0">
+  <tbody><tr>
+    <td bgcolor="#f1f8c0" width="100%"><font face="Arial" size="3">Whenever the Host detects
+    any transmission error, it has to re-transmit<br>
+    the previous message keeping the <strong>same <a href="#bc">Sequence Counter</a></strong>
+    as before.</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="513">
+  <tbody><tr>
+    <td bgcolor="#f1f8c0" width="503"><font face="Arial" size="3">Whenever the
+      INTEGRA detects
+    any transmission error, it expects the&nbsp;<br>
+      HOST&nbsp; to re-transmit
+    the previous message,&nbsp; keeping the <strong>same&nbsp; <a href="#bc"><br>
+      Sequence Counter</a></strong>
+    as before. If you want to skip this retransmission,&nbsp;<br>
+      send a <a href="#synch"><b>synchronization</b></a> request to the INTEGRA,
+      then resume the normal communication.&nbsp;</font></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">Possible Transmission Errors:</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td width="35">-</td>
+    <td width="100%"><font face="Arial" size="3">an incorrect block check sum, i.e. a
+    corrupted message was received,</font></td>
+  </tr>
+  <tr>
+    <td width="35">-</td>
+    <td width="100%"><font face="Arial" size="3">a parity error was detected,</font></td>
+  </tr>
+  <tr>
+    <td width="35">-</td>
+    <td width="100%"><font face="Arial" size="3">a general error message (block 99) was
+    received,</font></td>
+  </tr>
+  <tr>
+    <td width="35">-</td>
+    <td width="100%"><font face="Arial" size="3">a time-out occurred.</font></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="3"><strong><b>Suggestion:
+    Host&#8217;s Communication Handling</b></strong></font></td>
+  </tr>
+</tbody></table>
+
+<p><img src="com_hand.gif" height="559" width="563"></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="3"><strong><b><a name="synch">Synchronization</a>
+    and Sequence Counter Use</b></strong></font></td>
+  </tr>
+</tbody></table>
+
+<p><font face="Arial" size="3">Note that the protocol only works properly when the
+Sequence Counters (SC) of both Host and COBAS Instrument have the same value. Therefore,
+whenever the Host&#8217;s communication software is started up, the first step will be to
+synchronize the SCs. The following procedure is recommended:</font></p>
+
+<p><img src="synch.gif" alt="Synchronization and use of Sequence Counter" height="568" width="618"></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td bgcolor="#b6d3b7" width="100%"><a name="cosim"></a><font face="Arial" size="3"><strong>COSIM
+    &nbsp; COBAS Host Interface Simulator Program:</strong></font></td>
+  </tr>
+</tbody></table>
+
+<p align="justify"><font face="Arial" size="3">COSIM is a Windows program which runs on
+any PC or Notebook (Windows 3.1, Windows 95, Windows NT).</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td align="left" valign="top" width="16">-</td>
+    <td><font face="Arial" size="3">In <strong>Host</strong> Mode, COSIM can send a request to
+    the COBAS Instrument and receive the Instrument&#8217;s response.</font></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" width="16">-</td>
+    <td><font face="Arial" size="3">In <strong>Instrument </strong>Mode, COSIM can be used by
+    the Host programmer to test his program without needing a COBAS Instrument.</font></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" width="16">-</td>
+    <td><font face="Arial" size="3">In <strong>Monitor </strong>Mode you can monitor and check
+    the communication between the Host and the Instrument </font><font face="Arial" size="2">(two
+    COM-ports are required).</font></td>
+  </tr>
+</tbody></table>
+
+<p align="justify"><font face="Arial" size="3">The current version of COSIM allows
+simulating either a COBAS Integra, Integra 400, Core, Core II or a Mira Plus.</font></p>
+
+<p align="justify"><font face="Arial" size="3">User instructions are available from the
+integrated COSIM Online Help. Press F1, or choose Help from the main menu.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td align="left" valign="top"><strong><font face="Arial" size="3">Installation:</font></strong></td>
+    <td><p align="left"><font face="Arial" size="3">Start &#8216;install.exe&#8217;. <br>
+    You will be asked where to install the program. <br>
+    Type in any directory (DOS 8.3 filename format) or accept the default path
+    &#8216;c:\cosim&#8217;.</font></p></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top"><font face="Arial" size="3"><strong>Un-install:</strong></font></td>
+    <td><p align="left"><font face="Arial" size="3">All required files are kept within the
+    directory specified during the installation procedure, e.g. &#8216;c:\cosim&#8217;. <br>
+    To un-install the COSIM program, simply delete its directory and all files in it.</font></p></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</body></html>

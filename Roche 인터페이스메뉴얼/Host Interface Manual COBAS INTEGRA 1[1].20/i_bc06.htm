@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+
+  
+  <title>COBAS Integra Block 06</title>
+</head>
+
+
+<body style="background-color: rgb(255, 255, 255);">
+
+
+<table bgcolor="#dad9a5" border="0" cellpadding="3" cellspacing="0" width="100%">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td bgcolor="#b6d3b7" width="100%"><font face="Arial" size="3"><strong><a name="bc03">Block
+06</a>: Control Result with lot information</strong></font></td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+<p><font face="Arial" size="3">Block 06 is
+transmitted to the Host after receiving a
+result request&nbsp;&nbsp;</font><font face="Arial" size="3">with <a href="i_lc10.htm"> result type
+selector</a> &lsquo;11&rsquo; or &lsquo;19&rsquo;</font><br>
+
+<font face="Arial" size="3"><strong>
+</strong> - <strong> and</strong> if an accepted and
+not yet transmitted control result is available<br>
+
+
+- <strong>and</strong> if the instrument is configured
+accordingly. <img src="arr_righ.gif" alt="goto" border="0" height="12" width="12"> Integra <a href="i7_setup.htm#e_hif_tr">700
+/ 800</a>
+/ <a href="i4_setup.htm#Enable%20Result%20Transmission">400</a></font></p>
+
+
+<table border="1" cellpadding="3" cellspacing="0" width="40%">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td align="center" bgcolor="#f1f8c0" width="10%"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+
+
+      <td colspan="2" bgcolor="#f1f8c0" width="75%"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+
+
+      <td rowspan="7" bgcolor="#c2ebc9" width="16%"><font face="Arial" size="2"><strong>1 </strong>to<strong>
+m</strong></font></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td align="center" bgcolor="#f1f8c0" width="10%"><a href="i_lc15.htm"><font face="Arial" size="2"><strong>15</strong></font></a></td>
+
+
+      <td colspan="2" bgcolor="#f1f8c0" width="75%"><font face="Arial" size="2"><strong>Access Date Time</strong></font></td>
+
+
+    </tr>
+
+
+    <tr>
+      <td align="center" bgcolor="#f1f8c0" width="10%"><a href="i_lc16.htm"><font face="Arial" size="2"><strong>16</strong></font></a></td>
+      <td colspan="2" bgcolor="#f1f8c0" width="75%"><font face="Arial" size="2"><strong>CALidx</strong></font></td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#f1f8c0" width="10%"><a href="i_lc11.htm"><font face="Arial" size="2"><strong>11</strong></font></a></td>
+      <td colspan="2" bgcolor="#f1f8c0" width="75%"><font face="Arial" size="2"><strong>Reagent Lot Information</strong></font></td>
+    </tr>
+    <tr>
+
+
+      <td align="center" bgcolor="#f1f8c0" width="10%"><a href="i_lc02.htm"><font face="Arial" size="2"><strong>02</strong></font></a></td>
+
+
+      <td bgcolor="#f1f8c0" width="58%"><font face="Arial" size="2"><strong>Control ID</strong></font></td>
+
+
+      <td rowspan="3" bgcolor="#dbf9c8" width="17%"><font face="Arial" size="2"><strong>1 </strong>to<strong>
+n</strong></font></td>
+
+
+    </tr>
+
+
+    <tr>
+
+      <td align="center" bgcolor="#f1f8c0" width="10%"><a href="i_lc12.htm"><font face="Arial" size="2"><strong>12</strong></font></a></td>
+      <td bgcolor="#f1f8c0" width="58%"><font face="Arial" size="2"><strong>Control Lot Information</strong></font></td>
+
+      
+    </tr>
+
+    <tr>
+
+
+      <td align="center" bgcolor="#f1f8c0" width="10%"><a href="i_lc00.htm"><font face="Arial" size="2"><strong>00</strong></font></a></td>
+
+
+      <td bgcolor="#f1f8c0" width="58%"><font face="Arial" size="2"><strong>Result Data</strong></font></td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+
+<table border="0" width="100%">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td colspan="2" width="100%"><font face="Arial" size="3"><strong>Results always collated
+by Test ID</strong></font><font face="Arial" size="2"> ( Result type selector&nbsp;11&rsquo; or
+&lsquo;19&rsquo; is used )</font><font face="Arial" size="3">:</font></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td width="1%"></td>
+
+
+      <td width="100%"><font face="Arial" size="3">m = 1 </font><font face="Arial" size="2">( one Test ID per result block )</font><font face="Arial" size="3"><br>
+
+
+n = 1 </font><font face="Arial" size="2">to</font><font face="Arial" size="3"> 3 : for Integra 700 / 800 </font><font face="Arial" size="2">( n is the number of control
+sera which is defined in test parameters )</font><font face="Arial" size="3"><br>
+
+
+n = 1 </font><font face="Arial" size="2">to</font><font face="Arial" size="3"> 6 : for Integra 400</font></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td colspan="2" width="100%"> </td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td width="12%"> </td>
+
+
+      <td width="88%"><font face="Arial" size="2"><b><span style="background-color: rgb(192, 192, 192);">
+Note:&nbsp; Results of different Control Orders are not
+collated&nbsp; <font color="#ff00ff">( Integra 400
+only )</font>.</span></b></font> </td>
+
+
+    </tr>
+
+
+
+
+
+  
+  </tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+
+</body>
+</html>

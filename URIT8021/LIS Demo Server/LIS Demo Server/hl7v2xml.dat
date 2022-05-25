@@ -1,0 +1,2433 @@
+%AD (AD.1?,AD.2?,AD.3?,AD.4?,AD.5?,AD.6?,AD.7?,AD.8?)
+%WILDCARD (ANY)
+%CD (CD.1?,CD.2?,CD.3?,CD.4?,CD.5?,CD.6?,CD.7?,CD.8?)
+%CE (CE.1?,CE.2?,CE.3?,CE.4?,CE.5?,CE.6?)
+%CE_TAB_0072 (CE_TAB_0072.1?,CE_TAB_0072.2?,CE_TAB_0072.3?,CE_TAB_0072.4?,CE_TAB_0072.5?,CE_TAB_0072.6?)
+%CE_TAB_0131 (CE_TAB_0131.1?,CE_TAB_0131.2?,CE_TAB_0131.3?,CE_TAB_0131.4?,CE_TAB_0131.5?,CE_TAB_0131.6?)
+%CE_TAB_0185 (CE_TAB_0185.1?,CE_TAB_0185.2?,CE_TAB_0185.3?,CE_TAB_0185.4?,CE_TAB_0185.5?,CE_TAB_0185.6?)
+%CE_TAB_0254 (CE_TAB_0254.1?,CE_TAB_0254.2?,CE_TAB_0254.3?,CE_TAB_0254.4?,CE_TAB_0254.5?,CE_TAB_0254.6?)
+%CE_TAB_0255 (CE_TAB_0255.1?,CE_TAB_0255.2?,CE_TAB_0255.3?,CE_TAB_0255.4?,CE_TAB_0255.5?,CE_TAB_0255.6?)
+%CE_TAB_0280 (CE_TAB_0280.1?,CE_TAB_0280.2?,CE_TAB_0280.3?,CE_TAB_0280.4?,CE_TAB_0280.5?,CE_TAB_0280.6?)
+%CE_TAB_0281 (CE_TAB_0281.1?,CE_TAB_0281.2?,CE_TAB_0281.3?,CE_TAB_0281.4?,CE_TAB_0281.5?,CE_TAB_0281.6?)
+%CE_TAB_0282 (CE_TAB_0282.1?,CE_TAB_0282.2?,CE_TAB_0282.3?,CE_TAB_0282.4?,CE_TAB_0282.5?,CE_TAB_0282.6?)
+%CE_TAB_0283 (CE_TAB_0283.1?,CE_TAB_0283.2?,CE_TAB_0283.3?,CE_TAB_0283.4?,CE_TAB_0283.5?,CE_TAB_0283.6?)
+%CE_TAB_0284 (CE_TAB_0284.1?,CE_TAB_0284.2?,CE_TAB_0284.3?,CE_TAB_0284.4?,CE_TAB_0284.5?,CE_TAB_0284.6?)
+%CE_TAB_0285 (CE_TAB_0285.1?,CE_TAB_0285.2?,CE_TAB_0285.3?,CE_TAB_0285.4?,CE_TAB_0285.5?,CE_TAB_0285.6?)
+%CE_TABS_136_262_263 (CE_TABS_136_262_263.1?,CE_TABS_136_262_263.2?,CE_TABS_136_262_263.3?)
+%CF (CF.1?,CF.2?,CF.3?,CF.4?,CF.5?,CF.6?)
+%CK (CK.1?,CK.2?,CK.3?,CK.4?)
+%CM (#PCDATA)
+%CM_FAM_NAME (CM_FAM_NAME.1?,CM_FAM_NAME.2?)
+%CM_MSG_TYPE (CM_MSG_TYPE.1?,CM_MSG_TYPE.2?,CM_MSG_TYPE.3?)
+%CM_POL_TYPE (CM_POL_TYPE.1?,CM_POL_TYPE.2?,CM_POL_TYPE.3?)
+%CM_PRE_CERTIFICATION (CM_PRE_CERTIFICATION.1?,CM_PRE_CERTIFICATION.2?,CM_PRE_CERTIFICATION.3?)
+%CM_ROOM_TYPE (CM_ROOM_TYPE.1?,CM_ROOM_TYPE.2?,CM_ROOM_TYPE.3?)
+%CN (CN.1?,CN.2?,CN.3?,CN.4?,CN.5?,CN.6?,CN.7?,CN.8?,CN.9?)
+%CNE (CNE.1?,CNE.2?,CNE.3?,CNE.4?,CNE.5?,CNE.6?,CNE.7?,CNE.8?,CNE.9?)
+%CP (CP.1?,CP.2?,CP.3?,CP.4?,CP.5?,CP.6?)
+%CQ (CQ.1?,CQ.2?)
+%CWE (CWE.1?,CWE.2?,CWE.3?,CWE.4?,CWE.5?,CWE.6?,CWE.7?,CWE.8?,CWE.9?)
+%CX (CX.1?,CX.2?,CX.3?,CX.4?,CX.5?,CX.6?)
+%DLN (DLN.1?,DLN.2?,DLN.3?)
+%DR (DR.1?,DR.2?)
+%DT (#PCDATA)
+%ED (ED.1?,ED.2?,ED.3?,ED.4?,ED.5?)
+%EI (EI.1?,EI.2?,EI.3?,EI.4?)
+%FC (FC.1?,FC.2?)
+%FT (#PCDATA)
+%HD (HD.1?,HD.2?,HD.3?)
+%ID (#PCDATA)
+%IS (#PCDATA)
+%JCC (JCC.1?,JCC.2?)
+%MA (MA.1?,MA.2?,MA.3?,MA.4?,MA.5?,MA.6?)
+%MO (MO.1?,MO.2?)
+%NA (NA.1?,NA.2?,NA.3?,NA.4?)
+%NM (#PCDATA)
+%PL (PL.1?,PL.2?,PL.3?,PL.4?,PL.5?,PL.6?,PL.7?,PL.8?,PL.9?)
+%PN (PN.1?,PN.2?,PN.3?,PN.4?,PN.5?,PN.6?)
+%PPN (PPN.1?,PPN.2?,PPN.3?,PPN.4?,PPN.5?,PPN.6?,PPN.7?,PPN.8?,PPN.9?,PPN.10?,PPN.11?,PPN.12?,PPN.13?,PPN.14?,PPN.15?,PPN.16?)
+%PT (PT.1?,PT.2?)
+%QIP (QIP.1?,QIP.2?)
+%QSC (QSC.1?,QSC.2?,QSC.3?,QSC.4?)
+%RCD (RCD.1?,RCD.2?,RCD.3?)
+%RI (RI.1?,RI.2?)
+%RP (RP.1?,RP.2?,RP.3?,RP.4?)
+%SCV (SCV.1?,SCV.2?)
+%SI (#PCDATA)
+%SN (SN.1?,SN.2?,SN.3?,SN.4?)
+%ST (#PCDATA)
+%TM (#PCDATA)
+%TN (#PCDATA)
+%TQ (#PCDATA)
+%TS (#PCDATA)
+%TX (#PCDATA)
+%TX_CHALLENGE (TX_CHALLENGE.1?,TX_CHALLENGE.2?)
+%VH (VH.1?,VH.2?,VH.3?,VH.4?)
+%VID (VID.1?,VID.2?,VID.3?)
+%XAD (XAD.1?,XAD.2?,XAD.3?,XAD.4?,XAD.5?,XAD.6?,XAD.7?,XAD.8?,XAD.9?,XAD.10?,XAD.11?)
+%XCN (XCN.1?,XCN.2?,XCN.3?,XCN.4?,XCN.5?,XCN.6?,XCN.7?,XCN.8?,XCN.9?,XCN.10?,XCN.11?,XCN.12?,XCN.13?,XCN.14?,XCN.15?)
+%XON (XON.1?,XON.2?,XON.3?,XON.4?,XON.5?,XON.6?,XON.7?,XON.8?,XON.9?)
+%XPN (XPN.1?,XPN.2?,XPN.3?,XPN.4?,XPN.5?,XPN.6?,XPN.7?,XPN.8?)
+%XTN (XTN.1?,XTN.2?,XTN.3?,XTN.4?,XTN.5?,XTN.6?,XTN.7?,XTN.8?,XTN.9?)
+AD.1 %ST LongName='street address' Type='ST' Table='0'
+AD.2 %ST LongName='other designation' Type='ST' Table='0'
+AD.3 %ST LongName='city' Type='ST' Table='0'
+AD.4 %ST LongName='state or province' Type='ST' Table='0'
+AD.5 %ST LongName='zip or postal code' Type='ST' Table='0'
+AD.6 %ID LongName='country' Type='ID' Table='0'
+AD.7 %ID LongName='address type' Type='ID' Table='190'
+AD.8 %ST LongName='other geographic designation' Type='ST' Table='0'
+CD.1 %NM LongName='channel identifier' Type='NM' Table='0'
+CD.2 %NM LongName='Channel Number' Type='NM' Table='0'
+CD.3 %ST LongName='Channel Name' Type='ST' Table='0'
+CD.4 %CM LongName='electrode names' Type='CM' Table='0'
+CD.5 %CM LongName='channel sensitivity/units' Type='CM' Table='0'
+CD.6 %CM LongName='calibration parameters' Type='CM' Table='0'
+CD.7 %NM LongName='sampling frequency' Type='NM' Table='0'
+CD.8 %CM LongName='minimum/maximum data values' Type='CM' Table='0'
+CE.1 %ST LongName='identifier' Type='ST' Table='0'
+CE.2 %ST LongName='text' Type='ST' Table='0'
+CE.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0072.1 %ST LongName='identifier' Type='ST' Table='72'
+CE_TAB_0072.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0072.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0072.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0072.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0072.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0131.1 %ST LongName='identifier' Type='ST' Table='131'
+CE_TAB_0131.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0131.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0131.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0131.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0131.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0185.1 %ST LongName='identifier' Type='ST' Table='185'
+CE_TAB_0185.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0185.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0185.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0185.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0185.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0254.1 %ST LongName='identifier' Type='ST' Table='254'
+CE_TAB_0254.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0254.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0254.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0254.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0254.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0255.1 %ST LongName='identifier' Type='ST' Table='255'
+CE_TAB_0255.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0255.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0255.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0255.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0255.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0280.1 %ST LongName='identifier' Type='ST' Table='280'
+CE_TAB_0280.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0280.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0280.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0280.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0280.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0281.1 %ST LongName='identifier' Type='ST' Table='281'
+CE_TAB_0281.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0281.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0281.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0281.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0281.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0282.1 %ST LongName='identifier' Type='ST' Table='282'
+CE_TAB_0282.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0282.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0282.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0282.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0282.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0283.1 %ST LongName='identifier' Type='ST' Table='283'
+CE_TAB_0283.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0283.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0283.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0283.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0283.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0284.1 %ST LongName='identifier' Type='ST' Table='284'
+CE_TAB_0284.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0284.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0284.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0284.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0284.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TAB_0285.1 %ST LongName='identifier' Type='ST' Table='285'
+CE_TAB_0285.2 %ST LongName='text' Type='ST' Table='0'
+CE_TAB_0285.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CE_TAB_0285.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CE_TAB_0285.5 %ST LongName='alternate text' Type='ST' Table='0'
+CE_TAB_0285.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CE_TABS_136_262_263.1 %TX LongName='???????????' Type='TX' Table='136'
+CE_TABS_136_262_263.2 %TX LongName='???????????' Type='TX' Table='262'
+CE_TABS_136_262_263.3 %TX LongName='???????????' Type='TX' Table='263'
+CF.1 %ST LongName='identifier' Type='ST' Table='0'
+CF.2 %FT LongName='formatted text' Type='FT' Table='0'
+CF.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CF.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CF.5 %FT LongName='alternate formatted text' Type='FT' Table='0'
+CF.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CK.1 %NM LongName='ID number (NM)' Type='NM' Table='0'
+CK.2 %NM LongName='check digit' Type='NM' Table='0'
+CK.3 %ID LongName='code identifying the check digit scheme employed' Type='ID' Table='61'
+CK.4 %HD LongName='assigning authority' Type='HD' Table='363'
+CM_FAM_NAME.1 %ST LongName='family name' Type='ST' Table='0'
+CM_FAM_NAME.2 %ST LongName='last name prefix' Type='ST' Table='0'
+CM_MSG_TYPE.1 %ID LongName='message type' Type='ID' Table='76'
+CM_MSG_TYPE.2 %ID LongName='trigger event' Type='ID' Table='3'
+CM_MSG_TYPE.3 %ID LongName='message structure' Type='ID' Table='354'
+CM_POL_TYPE.1 %ID LongName='policy type' Type='ID' Table='147'
+CM_POL_TYPE.2 %ID LongName='amount class' Type='ID' Table='193'
+CM_POL_TYPE.3 %NM LongName='amount' Type='NM' Table='0'
+CM_PRE_CERTIFICATION.1 %IS LongName='pre-certification patient type' Type='IS' Table='150'
+CM_PRE_CERTIFICATION.2 %ID LongName='pre-certification required' Type='ID' Table='136'
+CM_PRE_CERTIFICATION.3 %TS LongName='pre-certification windwow' Type='TS' Table='0'
+CM_ROOM_TYPE.1 %ID LongName='room type' Type='ID' Table='145'
+CM_ROOM_TYPE.2 %ID LongName='amount type' Type='ID' Table='146'
+CM_ROOM_TYPE.3 %NM LongName='coverage amount' Type='NM' Table='0'
+CN.1 %ST LongName='ID number (ST)' Type='ST' Table='0'
+CN.2 %ST LongName='family name' Type='ST' Table='0'
+CN.3 %ST LongName='given name' Type='ST' Table='0'
+CN.4 %ST LongName='middle initial or name' Type='ST' Table='0'
+CN.5 %ST LongName='suffix (e.g., JR or III)' Type='ST' Table='0'
+CN.6 %ST LongName='prefix (e.g., DR)' Type='ST' Table='0'
+CN.7 %IS LongName='degree (e.g., MD)' Type='IS' Table='360'
+CN.8 %IS LongName='source table' Type='IS' Table='297'
+CN.9 %HD LongName='assigning authority' Type='HD' Table='363'
+CNE.1 %ST LongName='identifier' Type='ST' Table='0'
+CNE.2 %ST LongName='text' Type='ST' Table='0'
+CNE.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CNE.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CNE.5 %ST LongName='alternate text' Type='ST' Table='0'
+CNE.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CNE.7 %ST LongName='coding system version ID' Type='ST' Table='0'
+CNE.8 %ST LongName='alternate coding system version ID' Type='ST' Table='0'
+CNE.9 %ST LongName='original text' Type='ST' Table='0'
+CP.1 %MO LongName='price' Type='MO' Table='0'
+CP.2 %ID LongName='price type' Type='ID' Table='205'
+CP.3 %NM LongName='from value' Type='NM' Table='0'
+CP.4 %NM LongName='to value' Type='NM' Table='0'
+CP.5 %CE LongName='range units' Type='CE' Table='0'
+CP.6 %ID LongName='range type' Type='ID' Table='298'
+CQ.1 %NM LongName='quantity' Type='NM' Table='0'
+CQ.2 %CE LongName='units' Type='CE' Table='0'
+CWE.1 %ST LongName='identifier' Type='ST' Table='0'
+CWE.2 %ST LongName='text' Type='ST' Table='0'
+CWE.3 %ST LongName='name of coding system' Type='ST' Table='0'
+CWE.4 %ST LongName='alternate identifier' Type='ST' Table='0'
+CWE.5 %ST LongName='alternate text' Type='ST' Table='0'
+CWE.6 %ST LongName='name of alternate coding system' Type='ST' Table='0'
+CWE.7 %ST LongName='coding system version ID' Type='ST' Table='0'
+CWE.8 %ST LongName='alternate coding system version ID' Type='ST' Table='0'
+CWE.9 %ST LongName='original text' Type='ST' Table='0'
+CX.1 %ST LongName='ID' Type='ST' Table='0'
+CX.2 %NM LongName='check digit' Type='NM' Table='0'
+CX.3 %ID LongName='code identifying the check digit scheme employed' Type='ID' Table='61'
+CX.4 %HD LongName='assigning authority' Type='HD' Table='363'
+CX.5 %IS LongName='identifier type code' Type='IS' Table='203'
+CX.6 %HD LongName='assigning facility' Type='HD' Table='0'
+DLN.1 %ST LongName='Driver´s License Number' Type='ST' Table='0'
+DLN.2 %IS LongName='Issuing State, province, country' Type='IS' Table='333'
+DLN.3 %DT LongName='expiration date' Type='DT' Table='0'
+DR.1 %TS LongName='range start date/time' Type='TS' Table='0'
+DR.2 %TS LongName='range end date/time' Type='TS' Table='0'
+ED.1 %HD LongName='source application' Type='HD' Table='0'
+ED.2 %ID LongName='type of data' Type='ID' Table='191'
+ED.3 %ID LongName='data' Type='ID' Table='291'
+ED.4 %ID LongName='encoding' Type='ID' Table='299'
+ED.5 %ST LongName='data subtype' Type='ST' Table='0'
+EI.1 %ST LongName='entity identifier' Type='ST' Table='0'
+EI.2 %IS LongName='namespace ID' Type='IS' Table='300'
+EI.3 %ST LongName='universal ID' Type='ST' Table='0'
+EI.4 %ID LongName='universal ID type' Type='ID' Table='301'
+FC.1 %IS LongName='Financial Class' Type='IS' Table='64'
+FC.2 %TS LongName='Effective Date' Type='TS' Table='0'
+HD.1 %IS LongName='namespace ID' Type='IS' Table='300'
+HD.2 %ST LongName='universal ID' Type='ST' Table='0'
+HD.3 %ID LongName='universal ID type' Type='ID' Table='301'
+JCC.1 %IS LongName='job code' Type='IS' Table='327'
+JCC.2 %IS LongName='job class' Type='IS' Table='328'
+MA.1 %NM LongName='sample 1 from channel 1' Type='NM' Table='0'
+MA.2 %NM LongName='sample 1 from channel 2' Type='NM' Table='0'
+MA.3 %NM LongName='sample 1 from channel 3' Type='NM' Table='0'
+MA.4 %NM LongName='sample 2 from channel 1' Type='NM' Table='0'
+MA.5 %NM LongName='sample 2 from channel 2' Type='NM' Table='0'
+MA.6 %NM LongName='sample 2 from channel 1' Type='NM' Table='0'
+MO.1 %NM LongName='quantity' Type='NM' Table='0'
+MO.2 %ID LongName='denomination' Type='ID' Table='0'
+NA.1 %NM LongName='value1' Type='NM' Table='0'
+NA.2 %NM LongName='value2' Type='NM' Table='0'
+NA.3 %NM LongName='value3' Type='NM' Table='0'
+NA.4 %NM LongName='value4' Type='NM' Table='0'
+PL.1 %IS LongName='point of care' Type='IS' Table='302'
+PL.2 %IS LongName='room' Type='IS' Table='303'
+PL.3 %IS LongName='bed' Type='IS' Table='304'
+PL.4 %HD LongName='facility' Type='HD' Table='0'
+PL.5 %IS LongName='location status' Type='IS' Table='306'
+PL.6 %IS LongName='person location type' Type='IS' Table='305'
+PL.7 %IS LongName='building' Type='IS' Table='307'
+PL.8 %IS LongName='floor' Type='IS' Table='308'
+PL.9 %ST LongName='Location description' Type='ST' Table='0'
+PN.1 %CM LongName='family+last name' Type='CM' Table='0'
+PN.2 %ST LongName='given name' Type='ST' Table='0'
+PN.3 %ST LongName='middle initial or name' Type='ST' Table='0'
+PN.4 %ST LongName='suffix (e.g., JR or III)' Type='ST' Table='0'
+PN.5 %ST LongName='prefix (e.g., DR)' Type='ST' Table='0'
+PN.6 %IS LongName='degree (e.g., MD)' Type='IS' Table='360'
+PPN.1 %NM LongName='ID number (NM)' Type='NM' Table='0'
+PPN.2 %CM LongName='family+last name' Type='CM' Table='0'
+PPN.3 %ST LongName='given name' Type='ST' Table='0'
+PPN.4 %ST LongName='middle initial or name' Type='ST' Table='0'
+PPN.5 %ST LongName='suffix (e.g., JR or III)' Type='ST' Table='0'
+PPN.6 %ST LongName='prefix (e.g., DR)' Type='ST' Table='0'
+PPN.7 %IS LongName='degree (e.g., MD)' Type='IS' Table='360'
+PPN.8 %IS LongName='source table' Type='IS' Table='297'
+PPN.9 %HD LongName='assigning authority' Type='HD' Table='363'
+PPN.10 %ID LongName='name type code' Type='ID' Table='200'
+PPN.11 %ST LongName='identifier check digit' Type='ST' Table='0'
+PPN.12 %ID LongName='code identifying the check digit scheme employed' Type='ID' Table='61'
+PPN.13 %IS LongName='identifier type code' Type='IS' Table='203'
+PPN.14 %HD LongName='assigning facility' Type='HD' Table='0'
+PPN.15 %TS LongName='Date/Time Action Performed' Type='TS' Table='0'
+PPN.16 %ID LongName='Name Representation code' Type='ID' Table='4000'
+PT.1 %ID LongName='processing ID' Type='ID' Table='103'
+PT.2 %ID LongName='processing mode' Type='ID' Table='207'
+QIP.1 %ST LongName='field name' Type='ST' Table='0'
+QIP.2 %ST LongName='value1&amp;value2&amp;value3' Type='ST' Table='0'
+QSC.1 %ST LongName='segment field name' Type='ST' Table='0'
+QSC.2 %ID LongName='relational operator' Type='ID' Table='209'
+QSC.3 %ST LongName='Value' Type='ST' Table='0'
+QSC.4 %ID LongName='relational conjunction' Type='ID' Table='210'
+RCD.1 %ST LongName='segment field name' Type='ST' Table='0'
+RCD.2 %ST LongName='HL7 date type' Type='ST' Table='0'
+RCD.3 %NM LongName='maximum column width' Type='NM' Table='0'
+RI.1 %IS LongName='repeat pattern' Type='IS' Table='335'
+RI.2 %ST LongName='explicit time interval' Type='ST' Table='0'
+RP.1 %ST LongName='pointer' Type='ST' Table='0'
+RP.2 %HD LongName='application ID' Type='HD' Table='0'
+RP.3 %ID LongName='type of data' Type='ID' Table='191'
+RP.4 %ID LongName='subtype' Type='ID' Table='291'
+SCV.1 %IS LongName='parameter class' Type='IS' Table='0'
+SCV.2 %IS LongName='parameter value' Type='IS' Table='294'
+SN.1 %ST LongName='comparator' Type='ST' Table='0'
+SN.2 %NM LongName='num1' Type='NM' Table='0'
+SN.3 %ST LongName='separator or suffix' Type='ST' Table='0'
+SN.4 %NM LongName='num2' Type='NM' Table='0'
+TX_CHALLENGE.1 %TX LongName='???????????' Type='TX' Table='256'
+TX_CHALLENGE.2 %TX LongName='???????????' Type='TX' Table='257'
+VH.1 %ID LongName='start day range' Type='ID' Table='267'
+VH.2 %ID LongName='end day range' Type='ID' Table='267'
+VH.3 %TM LongName='start hour range' Type='TM' Table='0'
+VH.4 %TM LongName='end hour range' Type='TM' Table='0'
+VID.1 %ID LongName='version ID' Type='ID' Table='104'
+VID.2 %CE LongName='internationalization code' Type='CE' Table='0'
+VID.3 %CE LongName='international version ID' Type='CE' Table='0'
+XAD.1 %ST LongName='street address' Type='ST' Table='0'
+XAD.2 %ST LongName='other designation' Type='ST' Table='0'
+XAD.3 %ST LongName='city' Type='ST' Table='0'
+XAD.4 %ST LongName='state or province' Type='ST' Table='0'
+XAD.5 %ST LongName='zip or postal code' Type='ST' Table='0'
+XAD.6 %ID LongName='country' Type='ID' Table='0'
+XAD.7 %ID LongName='address type' Type='ID' Table='190'
+XAD.8 %ST LongName='other geographic designation' Type='ST' Table='0'
+XAD.9 %IS LongName='county/parish code' Type='IS' Table='289'
+XAD.10 %IS LongName='census tract' Type='IS' Table='288'
+XAD.11 %ID LongName='address representation code' Type='ID' Table='4000'
+XCN.1 %ST LongName='ID number (ST)' Type='ST' Table='0'
+XCN.2 %CM LongName='family+last name' Type='CM' Table='0'
+XCN.3 %ST LongName='given name' Type='ST' Table='0'
+XCN.4 %ST LongName='middle initial or name' Type='ST' Table='0'
+XCN.5 %ST LongName='suffix (e.g., JR or III)' Type='ST' Table='0'
+XCN.6 %ST LongName='prefix (e.g., DR)' Type='ST' Table='0'
+XCN.7 %IS LongName='degree (e.g., MD)' Type='IS' Table='360'
+XCN.8 %IS LongName='source table' Type='IS' Table='297'
+XCN.9 %HD LongName='assigning authority' Type='HD' Table='363'
+XCN.10 %ID LongName='name type code' Type='ID' Table='200'
+XCN.11 %ST LongName='identifier check digit' Type='ST' Table='0'
+XCN.12 %ID LongName='code identifying the check digit scheme employed' Type='ID' Table='61'
+XCN.13 %IS LongName='identifier type code' Type='IS' Table='203'
+XCN.14 %HD LongName='assigning facility' Type='HD' Table='0'
+XCN.15 %ID LongName='Name Representation code' Type='ID' Table='4000'
+XON.1 %ST LongName='organization name' Type='ST' Table='0'
+XON.2 %IS LongName='organization name type code' Type='IS' Table='204'
+XON.3 %NM LongName='ID number (NM)' Type='NM' Table='0'
+XON.4 %NM LongName='check digit' Type='NM' Table='0'
+XON.5 %ID LongName='code identifying the check digit scheme employed' Type='ID' Table='61'
+XON.6 %HD LongName='assigning authority' Type='HD' Table='363'
+XON.7 %IS LongName='identifier type code' Type='IS' Table='203'
+XON.8 %HD LongName='assigning facility ID' Type='HD' Table='300'
+XON.9 %ID LongName='Name Representation code' Type='ID' Table='4000'
+XPN.1 %CM LongName='family+last name' Type='CM' Table='0'
+XPN.2 %ST LongName='given name' Type='ST' Table='0'
+XPN.3 %ST LongName='middle initial or name' Type='ST' Table='0'
+XPN.4 %ST LongName='suffix (e.g., JR or III)' Type='ST' Table='0'
+XPN.5 %ST LongName='prefix (e.g., DR)' Type='ST' Table='0'
+XPN.6 %IS LongName='degree (e.g., MD)' Type='IS' Table='360'
+XPN.7 %ID LongName='name type code' Type='ID' Table='200'
+XPN.8 %ID LongName='Name Representation code' Type='ID' Table='4000'
+XTN.1 %TN LongName='[(999)] 999-9999 [X99999][C any text]' Type='TN' Table='0'
+XTN.2 %ID LongName='telecommunication use code' Type='ID' Table='201'
+XTN.3 %ID LongName='telecommunication equipment type (ID)' Type='ID' Table='202'
+XTN.4 %ST LongName='Email address' Type='ST' Table='0'
+XTN.5 %NM LongName='Country Code' Type='NM' Table='0'
+XTN.6 %NM LongName='Area/city code' Type='NM' Table='0'
+XTN.7 %NM LongName='Phone number' Type='NM' Table='0'
+XTN.8 %NM LongName='Extension' Type='NM' Table='0'
+XTN.9 %ST LongName='any text' Type='ST' Table='0'
+ACC.1 %TS Item='527' Table='0' LongName='Accident Date/Time' Type='TS'
+ACC.2 %CE Item='528' Table='50' LongName='Accident Code' Type='CE'
+ACC.3 %ST Item='529' Table='0' LongName='Accident Location' Type='ST'
+ACC.4 %CE Item='812' Table='347' LongName='Auto Accident State' Type='CE'
+ACC.5 %ID Item='813' Table='136' LongName='Accident Job Related Indicator' Type='ID'
+ACC.6 %ID Item='814' Table='136' LongName='Accident Death Indicator' Type='ID'
+ADD.1 %ST Item='66' Table='0' LongName='Addendum Continuation Pointer' Type='ST'
+AIG.1 %SI Item='896' Table='0' LongName='Set ID - AIG' Type='SI'
+AIG.2 %ID Item='763' Table='206' LongName='Segment Action Code' Type='ID'
+AIG.3 %CE Item='897' Table='0' LongName='Resource ID' Type='CE'
+AIG.4 %CE Item='898' Table='0' LongName='Resource Type' Type='CE'
+AIG.5 %CE Item='899' Table='0' LongName='Resource Group' Type='CE'
+AIG.6 %NM Item='900' Table='0' LongName='Resource Quantity' Type='NM'
+AIG.7 %CE Item='901' Table='0' LongName='Resource Quantity Units' Type='CE'
+AIG.8 %TS Item='1202' Table='0' LongName='Start Date/Time' Type='TS'
+AIG.9 %NM Item='891' Table='0' LongName='Start Date/Time Offset' Type='NM'
+AIG.10 %CE Item='892' Table='0' LongName='Start Date/Time Offset Units' Type='CE'
+AIG.11 %NM Item='893' Table='0' LongName='Duration' Type='NM'
+AIG.12 %CE Item='894' Table='0' LongName='Duration Units' Type='CE'
+AIG.13 %IS Item='895' Table='279' LongName='Allow Substitution Code' Type='IS'
+AIG.14 %CE Item='889' Table='278' LongName='Filler Status Code' Type='CE'
+AIL.1 %SI Item='902' Table='0' LongName='Set ID - AIL' Type='SI'
+AIL.2 %ID Item='763' Table='206' LongName='Segment Action Code' Type='ID'
+AIL.3 %PL Item='903' Table='0' LongName='Location Resource ID' Type='PL'
+AIL.4 %CE Item='904' Table='0' LongName='Location Type-AIL' Type='CE'
+AIL.5 %CE Item='905' Table='0' LongName='Location Group' Type='CE'
+AIL.6 %TS Item='1202' Table='0' LongName='Start Date/Time' Type='TS'
+AIL.7 %NM Item='891' Table='0' LongName='Start Date/Time Offset' Type='NM'
+AIL.8 %CE Item='892' Table='0' LongName='Start Date/Time Offset Units' Type='CE'
+AIL.9 %NM Item='893' Table='0' LongName='Duration' Type='NM'
+AIL.10 %CE Item='894' Table='0' LongName='Duration Units' Type='CE'
+AIL.11 %IS Item='895' Table='279' LongName='Allow Substitution Code' Type='IS'
+AIL.12 %CE Item='889' Table='278' LongName='Filler Status Code' Type='CE'
+AIP.1 %SI Item='906' Table='0' LongName='Set ID - AIP' Type='SI'
+AIP.2 %ID Item='763' Table='206' LongName='Segment Action Code' Type='ID'
+AIP.3 %XCN Item='913' Table='0' LongName='Personnel Resource ID' Type='XCN'
+AIP.4 %CE Item='907' Table='0' LongName='Resource Role' Type='CE'
+AIP.5 %CE Item='899' Table='0' LongName='Resource Group' Type='CE'
+AIP.6 %TS Item='1202' Table='0' LongName='Start Date/Time' Type='TS'
+AIP.7 %NM Item='891' Table='0' LongName='Start Date/Time Offset' Type='NM'
+AIP.8 %CE Item='892' Table='0' LongName='Start Date/Time Offset Units' Type='CE'
+AIP.9 %NM Item='893' Table='0' LongName='Duration' Type='NM'
+AIP.10 %CE Item='894' Table='0' LongName='Duration Units' Type='CE'
+AIP.11 %IS Item='895' Table='279' LongName='Allow Substitution Code' Type='IS'
+AIP.12 %CE Item='889' Table='278' LongName='Filler Status Code' Type='CE'
+AIS.1 %SI Item='890' Table='0' LongName='Set ID - AIS' Type='SI'
+AIS.2 %ID Item='763' Table='206' LongName='Segment Action Code' Type='ID'
+AIS.3 %CE Item='238' Table='0' LongName='Universal Service ID' Type='CE'
+AIS.4 %TS Item='1202' Table='0' LongName='Start Date/Time' Type='TS'
+AIS.5 %NM Item='891' Table='0' LongName='Start Date/Time Offset' Type='NM'
+AIS.6 %CE Item='892' Table='0' LongName='Start Date/Time Offset Units' Type='CE'
+AIS.7 %NM Item='893' Table='0' LongName='Duration' Type='NM'
+AIS.8 %CE Item='894' Table='0' LongName='Duration Units' Type='CE'
+AIS.9 %IS Item='895' Table='279' LongName='Allow Substitution Code' Type='IS'
+AIS.10 %CE Item='889' Table='278' LongName='Filler Status Code' Type='CE'
+AL1.1 %SI Item='203' Table='0' LongName='Set ID - AL1' Type='SI'
+AL1.2 %IS Item='204' Table='127' LongName='Allergy Type' Type='IS'
+AL1.3 %CE Item='205' Table='0' LongName='Allergy Code/Mnemonic/Description' Type='CE'
+AL1.4 %IS Item='206' Table='128' LongName='Allergy Severity' Type='IS'
+AL1.5 %ST Item='207' Table='0' LongName='Allergy Reaction' Type='ST'
+AL1.6 %DT Item='208' Table='0' LongName='Identification Date' Type='DT'
+APR.1 %SCV Item='908' Table='294' LongName='Time Selection Criteria' Type='SCV'
+APR.2 %SCV Item='909' Table='294' LongName='Resource Selection Criteria' Type='SCV'
+APR.3 %SCV Item='910' Table='294' LongName='Location Selection Criteria' Type='SCV'
+APR.4 %NM Item='911' Table='0' LongName='Slot Spacing Criteria' Type='NM'
+APR.5 %SCV Item='912' Table='0' LongName='Filler Override Criteria' Type='SCV'
+ARQ.1 %EI Item='860' Table='0' LongName='Placer Appointment ID' Type='EI'
+ARQ.2 %EI Item='861' Table='0' LongName='Filler Appointment ID' Type='EI'
+ARQ.3 %NM Item='862' Table='0' LongName='Occurrence Number' Type='NM'
+ARQ.4 %EI Item='218' Table='0' LongName='Placer Group Number' Type='EI'
+ARQ.5 %CE Item='864' Table='0' LongName='Schedule ID' Type='CE'
+ARQ.6 %CE Item='865' Table='0' LongName='Request Event Reason' Type='CE'
+ARQ.7 %CE Item='866' Table='276' LongName='Appointment Reason' Type='CE'
+ARQ.8 %CE Item='867' Table='277' LongName='Appointment Type' Type='CE'
+ARQ.9 %NM Item='868' Table='0' LongName='Appointment Duration' Type='NM'
+ARQ.10 %CE Item='869' Table='0' LongName='Appointment Duration Units' Type='CE'
+ARQ.11 %DR Item='870' Table='0' LongName='Requested Start Date/Time Range' Type='DR'
+ARQ.12 %ST Item='871' Table='0' LongName='Priority-ARQ' Type='ST'
+ARQ.13 %RI Item='872' Table='0' LongName='Repeating Interval' Type='RI'
+ARQ.14 %ST Item='873' Table='0' LongName='Repeating Interval Duration' Type='ST'
+ARQ.15 %XCN Item='874' Table='0' LongName='Placer Contact Person' Type='XCN'
+ARQ.16 %XTN Item='875' Table='0' LongName='Placer Contact Phone Number' Type='XTN'
+ARQ.17 %XAD Item='876' Table='0' LongName='Placer Contact Address' Type='XAD'
+ARQ.18 %PL Item='877' Table='0' LongName='Placer Contact Location' Type='PL'
+ARQ.19 %XCN Item='878' Table='0' LongName='Entered by Person' Type='XCN'
+ARQ.20 %XTN Item='879' Table='0' LongName='Entered by Phone Number' Type='XTN'
+ARQ.21 %PL Item='880' Table='0' LongName='Entered by Location' Type='PL'
+ARQ.22 %EI Item='881' Table='0' LongName='Parent Placer Appointment ID' Type='EI'
+ARQ.23 %EI Item='882' Table='0' LongName='Parent Filler Appointment ID' Type='EI'
+AUT.1 %CE_TAB_0072 Item='1146' Table='72' LongName='Authorizing Payor, Plan ID' Type='CE_TAB_0072'
+AUT.2 %CE_TAB_0285 Item='1147' Table='285' LongName='Authorizing Payor, Company ID' Type='CE_TAB_0285'
+AUT.3 %ST Item='1148' Table='0' LongName='Authorizing Payor, Company Name' Type='ST'
+AUT.4 %TS Item='1149' Table='0' LongName='Authorization Effective Date' Type='TS'
+AUT.5 %TS Item='1150' Table='0' LongName='Authorization Expiration Date' Type='TS'
+AUT.6 %EI Item='1151' Table='0' LongName='Authorization Identifier' Type='EI'
+AUT.7 %CP Item='1152' Table='0' LongName='Reimbursement Limit' Type='CP'
+AUT.8 %NM Item='1153' Table='0' LongName='Requested Number of Treatments' Type='NM'
+AUT.9 %NM Item='1154' Table='0' LongName='Authorized Number of Treatments' Type='NM'
+AUT.10 %TS Item='1145' Table='0' LongName='Process Date' Type='TS'
+BHS.1 %ST Item='81' Table='0' LongName='Batch Field Separator' Type='ST'
+BHS.2 %ST Item='82' Table='0' LongName='Batch Encoding Characters' Type='ST'
+BHS.3 %ST Item='83' Table='0' LongName='Batch Sending Application' Type='ST'
+BHS.4 %ST Item='84' Table='0' LongName='Batch Sending Facility' Type='ST'
+BHS.5 %ST Item='85' Table='0' LongName='Batch Receiving Application' Type='ST'
+BHS.6 %ST Item='86' Table='0' LongName='Batch Receiving Facility' Type='ST'
+BHS.7 %TS Item='87' Table='0' LongName='Batch Creation Date/Time' Type='TS'
+BHS.8 %ST Item='88' Table='0' LongName='Batch Security' Type='ST'
+BHS.9 %ST Item='89' Table='0' LongName='Batch Name/ID/Type' Type='ST'
+BHS.10 %ST Item='90' Table='0' LongName='Batch Comment' Type='ST'
+BHS.11 %ST Item='91' Table='0' LongName='Batch Control ID' Type='ST'
+BHS.12 %ST Item='92' Table='0' LongName='Reference Batch Control ID' Type='ST'
+BLG.1 %CM Item='234' Table='100' LongName='When to Charge' Type='CM'
+BLG.2 %ID Item='235' Table='122' LongName='Charge Type' Type='ID'
+BLG.3 %CX Item='236' Table='0' LongName='Account ID' Type='CX'
+BTS.1 %ST Item='93' Table='0' LongName='Batch Message Count' Type='ST'
+BTS.2 %ST Item='90' Table='0' LongName='Batch Comment' Type='ST'
+BTS.3 %NM Item='95' Table='0' LongName='Batch Totals' Type='NM'
+CDM.1 %CE Item='1306' Table='132' LongName='Primary Key Value - CDM' Type='CE'
+CDM.2 %CE Item='983' Table='0' LongName='Charge Code Alias' Type='CE'
+CDM.3 %ST Item='984' Table='0' LongName='Charge Description Short' Type='ST'
+CDM.4 %ST Item='985' Table='0' LongName='Charge Description Long' Type='ST'
+CDM.5 %IS Item='986' Table='268' LongName='Description Override Indicator' Type='IS'
+CDM.6 %CE Item='987' Table='0' LongName='Exploding Charges' Type='CE'
+CDM.7 %CE Item='393' Table='88' LongName='Procedure Code' Type='CE'
+CDM.8 %ID Item='675' Table='183' LongName='Active/Inactive Flag' Type='ID'
+CDM.9 %CE Item='990' Table='0' LongName='Inventory Number' Type='CE'
+CDM.10 %NM Item='991' Table='0' LongName='Resource Load' Type='NM'
+CDM.11 %CK Item='992' Table='0' LongName='Contract Number' Type='CK'
+CDM.12 %XON Item='993' Table='0' LongName='Contract Organization' Type='XON'
+CDM.13 %ID Item='994' Table='136' LongName='Room Fee Indicator' Type='ID'
+CM0.1 %SI Item='1010' Table='0' LongName='Set ID - CM0' Type='SI'
+CM0.2 %EI Item='1011' Table='0' LongName='Sponsor Study ID' Type='EI'
+CM0.3 %EI Item='1036' Table='0' LongName='Alternate Study ID' Type='EI'
+CM0.4 %ST Item='1013' Table='0' LongName='Title of Study' Type='ST'
+CM0.5 %XCN Item='1014' Table='0' LongName='Chairman of Study' Type='XCN'
+CM0.6 %DT Item='1015' Table='0' LongName='Last IRB Approval Date' Type='DT'
+CM0.7 %NM Item='1016' Table='0' LongName='Total Accrual to Date' Type='NM'
+CM0.8 %DT Item='1017' Table='0' LongName='Last Accrual Date' Type='DT'
+CM0.9 %XCN Item='1018' Table='0' LongName='Contact for Study' Type='XCN'
+CM0.10 %XTN Item='1019' Table='0' LongName='Contact&apos;s Tel. Number' Type='XTN'
+CM0.11 %XAD Item='1020' Table='0' LongName='Contact&apos;s Address' Type='XAD'
+CM1.1 %SI Item='1021' Table='0' LongName='Set ID - CM1' Type='SI'
+CM1.2 %CE Item='1022' Table='0' LongName='Study Phase Identifier' Type='CE'
+CM1.3 %ST Item='1023' Table='0' LongName='Description of Study Phase' Type='ST'
+CM2.1 %SI Item='1024' Table='0' LongName='Set ID - CM2' Type='SI'
+CM2.2 %CE Item='1025' Table='0' LongName='Scheduled Time Point' Type='CE'
+CM2.3 %ST Item='1026' Table='0' LongName='Description of Time Point' Type='ST'
+CM2.4 %CE Item='1027' Table='0' LongName='Events Scheduled This Time Point' Type='CE'
+CSP.1 %CE Item='1022' Table='0' LongName='Study Phase Identifier' Type='CE'
+CSP.2 %TS Item='1052' Table='0' LongName='Date/time Study Phase Began' Type='TS'
+CSP.3 %TS Item='1053' Table='0' LongName='Date/time Study Phase Ended' Type='TS'
+CSP.4 %CE Item='1054' Table='0' LongName='Study Phase Evaluability' Type='CE'
+CSR.1 %EI Item='1011' Table='0' LongName='Sponsor Study ID' Type='EI'
+CSR.2 %EI Item='1036' Table='0' LongName='Alternate Study ID' Type='EI'
+CSR.3 %CE Item='1037' Table='0' LongName='Institution Registering the Patient' Type='CE'
+CSR.4 %CX Item='1038' Table='0' LongName='Sponsor Patient ID' Type='CX'
+CSR.5 %CX Item='1039' Table='0' LongName='Alternate Patient ID - CSR' Type='CX'
+CSR.6 %TS Item='1040' Table='0' LongName='Date/Time Of Patient Study Registration' Type='TS'
+CSR.7 %XCN Item='1041' Table='0' LongName='Person Performing Study Registration' Type='XCN'
+CSR.8 %XCN Item='1042' Table='0' LongName='Study Authorizing Provider' Type='XCN'
+CSR.9 %TS Item='1043' Table='0' LongName='Date/time Patient Study Consent Signed' Type='TS'
+CSR.10 %CE Item='1044' Table='0' LongName='Patient Study Eligibility Status' Type='CE'
+CSR.11 %TS Item='1045' Table='0' LongName='Study Randomization Date/time' Type='TS'
+CSR.12 %CE Item='1046' Table='0' LongName='Randomized Study Arm' Type='CE'
+CSR.13 %CE Item='1047' Table='0' LongName='Stratum for Study Randomization' Type='CE'
+CSR.14 %CE Item='1048' Table='0' LongName='Patient Evaluability Status' Type='CE'
+CSR.15 %TS Item='1049' Table='0' LongName='Date/time Ended Study' Type='TS'
+CSR.16 %CE Item='1050' Table='0' LongName='Reason Ended Study' Type='CE'
+CSS.1 %CE Item='1055' Table='0' LongName='Study Scheduled Time Point' Type='CE'
+CSS.2 %TS Item='1056' Table='0' LongName='Study Scheduled Patient Time Point' Type='TS'
+CSS.3 %CE Item='1057' Table='0' LongName='Study Quality Control Codes' Type='CE'
+CTD.1 %CE Item='196' Table='131' LongName='Contact Role' Type='CE'
+CTD.2 %XPN Item='1165' Table='0' LongName='Contact Name' Type='XPN'
+CTD.3 %XAD Item='1166' Table='0' LongName='Contact Address' Type='XAD'
+CTD.4 %PL Item='1167' Table='0' LongName='Contact Location' Type='PL'
+CTD.5 %XTN Item='1168' Table='0' LongName='Contact Communication Information' Type='XTN'
+CTD.6 %CE_TAB_0185 Item='684' Table='185' LongName='Preferred Method Of Contact' Type='CE_TAB_0185'
+CTD.7 %CM Item='1171' Table='0' LongName='Contact Identifiers' Type='CM'
+CTI.1 %EI Item='1011' Table='0' LongName='Sponsor Study ID' Type='EI'
+CTI.2 %CE Item='1022' Table='0' LongName='Study Phase Identifier' Type='CE'
+CTI.3 %CE Item='1055' Table='0' LongName='Study Scheduled Time Point' Type='CE'
+DB1.1 %SI Item='1283' Table='0' LongName='Set ID - DB1' Type='SI'
+DB1.2 %IS Item='1284' Table='334' LongName='Disabled Person Code' Type='IS'
+DB1.3 %CX Item='1285' Table='0' LongName='Disabled Person Identifier' Type='CX'
+DB1.4 %ID Item='1286' Table='136' LongName='Disabled Indicator' Type='ID'
+DB1.5 %DT Item='1287' Table='0' LongName='Disability Start Date' Type='DT'
+DB1.6 %DT Item='1288' Table='0' LongName='Disability End Date' Type='DT'
+DB1.7 %DT Item='1289' Table='0' LongName='Disability Return to Work Date' Type='DT'
+DB1.8 %DT Item='1290' Table='0' LongName='Disability Unable to Work Date' Type='DT'
+DG1.1 %SI Item='375' Table='0' LongName='Set ID - DG1' Type='SI'
+DG1.2 %ID Item='376' Table='53' LongName='Diagnosis Coding Method' Type='ID'
+DG1.3 %CE Item='377' Table='51' LongName='Diagnosis Code - DG1' Type='CE'
+DG1.4 %ST Item='378' Table='0' LongName='Diagnosis Description' Type='ST'
+DG1.5 %TS Item='379' Table='0' LongName='Diagnosis Date/Time' Type='TS'
+DG1.6 %IS Item='380' Table='52' LongName='Diagnosis Type' Type='IS'
+DG1.7 %CE Item='381' Table='118' LongName='Major Diagnostic Category' Type='CE'
+DG1.8 %CE Item='382' Table='55' LongName='Diagnostic Related Group' Type='CE'
+DG1.9 %ID Item='383' Table='136' LongName='DRG Approval Indicator' Type='ID'
+DG1.10 %IS Item='384' Table='56' LongName='DRG Grouper Review Code' Type='IS'
+DG1.11 %CE Item='385' Table='83' LongName='Outlier Type' Type='CE'
+DG1.12 %NM Item='386' Table='0' LongName='Outlier Days' Type='NM'
+DG1.13 %CP Item='387' Table='0' LongName='Outlier Cost' Type='CP'
+DG1.14 %ST Item='388' Table='0' LongName='Grouper Version And Type' Type='ST'
+DG1.15 %ID Item='389' Table='359' LongName='Diagnosis Priority' Type='ID'
+DG1.16 %XCN Item='390' Table='0' LongName='Diagnosing Clinician' Type='XCN'
+DG1.17 %IS Item='766' Table='228' LongName='Diagnosis Classification' Type='IS'
+DG1.18 %ID Item='767' Table='136' LongName='Confidential Indicator' Type='ID'
+DG1.19 %TS Item='768' Table='0' LongName='Attestation Date/Time' Type='TS'
+DRG.1 %CE Item='382' Table='55' LongName='Diagnostic Related Group' Type='CE'
+DRG.2 %TS Item='769' Table='0' LongName='DRG Assigned Date/Time' Type='TS'
+DRG.3 %ID Item='383' Table='136' LongName='DRG Approval Indicator' Type='ID'
+DRG.4 %IS Item='384' Table='56' LongName='DRG Grouper Review Code' Type='IS'
+DRG.5 %CE Item='385' Table='83' LongName='Outlier Type' Type='CE'
+DRG.6 %NM Item='386' Table='0' LongName='Outlier Days' Type='NM'
+DRG.7 %CP Item='387' Table='0' LongName='Outlier Cost' Type='CP'
+DRG.8 %IS Item='770' Table='229' LongName='DRG Payor' Type='IS'
+DRG.9 %CP Item='771' Table='0' LongName='Outlier Reimbursement' Type='CP'
+DRG.10 %ID Item='767' Table='136' LongName='Confidential Indicator' Type='ID'
+DSC.1 %ST Item='14' Table='0' LongName='Continuation Pointer' Type='ST'
+DSP.1 %SI Item='61' Table='0' LongName='Set ID - DSP' Type='SI'
+DSP.2 %SI Item='62' Table='0' LongName='Display Level' Type='SI'
+DSP.3_ORIGIN %TX Item='63' Table='0' LongName='Data Line' Type='TX'
+DSP.3 %CE Item='63' Table='0' LongName='Data Line' Type='CE'
+DSP.4 %ST Item='64' Table='0' LongName='Logical Break Point' Type='ST'
+DSP.5 %TX Item='65' Table='0' LongName='Result ID' Type='TX'
+EQL.1 %ST Item='696' Table='0' LongName='Query Tag' Type='ST'
+EQL.2 %ID Item='697' Table='106' LongName='Query/ Response Format Code' Type='ID'
+EQL.3 %CE Item='709' Table='0' LongName='EQL  Query Name' Type='CE'
+EQL.4 %ST Item='710' Table='0' LongName='EQL  Query Statement' Type='ST'
+ERQ.1 %ST Item='696' Table='0' LongName='Query Tag' Type='ST'
+ERQ.2 %CE Item='706' Table='0' LongName='Event Identifier' Type='CE'
+ERQ.3 %QIP Item='705' Table='0' LongName='Input Parameter List' Type='QIP'
+ERR.1 %CM Item='24' Table='0' LongName='Error Code and Location' Type='CM'
+EVN.1 %ID Item='99' Table='3' LongName='Event Type Code' Type='ID'
+EVN.2 %TS Item='100' Table='0' LongName='Recorded Date/Time' Type='TS'
+EVN.3 %TS Item='101' Table='0' LongName='Date/Time Planned Event' Type='TS'
+EVN.4 %IS Item='102' Table='62' LongName='Event Reason Code' Type='IS'
+EVN.5 %XCN Item='103' Table='188' LongName='Operator ID' Type='XCN'
+EVN.6 %TS Item='1278' Table='0' LongName='Event Occurred' Type='TS'
+FAC.1 %EI Item='1262' Table='0' LongName='Facility ID-FAC' Type='EI'
+FAC.2 %ID Item='1263' Table='331' LongName='Facility Type' Type='ID'
+FAC.3 %XAD Item='1264' Table='0' LongName='Facility Address' Type='XAD'
+FAC.4 %XTN Item='1265' Table='0' LongName='Facility Telecommunication' Type='XTN'
+FAC.5 %XCN Item='1266' Table='0' LongName='Contact Person' Type='XCN'
+FAC.6 %ST Item='1267' Table='0' LongName='Contact Title' Type='ST'
+FAC.7 %XAD Item='1166' Table='0' LongName='Contact Address' Type='XAD'
+FAC.8 %XTN Item='1269' Table='0' LongName='Contact Telecommunication' Type='XTN'
+FAC.9 %XCN Item='1270' Table='0' LongName='Signature Authority' Type='XCN'
+FAC.10 %ST Item='1271' Table='0' LongName='Signature Authority Title' Type='ST'
+FAC.11 %XAD Item='1272' Table='0' LongName='Signature Authority Address' Type='XAD'
+FAC.12 %XTN Item='1273' Table='0' LongName='Signature Authority Telecommunication' Type='XTN'
+FHS.1 %ST Item='67' Table='0' LongName='File Field Separator' Type='ST'
+FHS.2 %ST Item='68' Table='0' LongName='File Encoding Characters' Type='ST'
+FHS.3 %ST Item='69' Table='0' LongName='File Sending Application' Type='ST'
+FHS.4 %ST Item='70' Table='0' LongName='File Sending Facility' Type='ST'
+FHS.5 %ST Item='71' Table='0' LongName='File Receiving Application' Type='ST'
+FHS.6 %ST Item='72' Table='0' LongName='File Receiving Facility' Type='ST'
+FHS.7 %TS Item='73' Table='0' LongName='File Creation Date/Time' Type='TS'
+FHS.8 %ST Item='74' Table='0' LongName='File Security' Type='ST'
+FHS.9 %ST Item='75' Table='0' LongName='File Name/ID' Type='ST'
+FHS.10 %ST Item='76' Table='0' LongName='File Header Comment' Type='ST'
+FHS.11 %ST Item='77' Table='0' LongName='File Control ID' Type='ST'
+FHS.12 %ST Item='78' Table='0' LongName='Reference File Control ID' Type='ST'
+FT1.1 %SI Item='355' Table='0' LongName='Set ID - FT1' Type='SI'
+FT1.2 %ST Item='356' Table='0' LongName='Transaction ID' Type='ST'
+FT1.3 %ST Item='357' Table='0' LongName='Transaction Batch ID' Type='ST'
+FT1.4 %TS Item='358' Table='0' LongName='Transaction Date' Type='TS'
+FT1.5 %TS Item='359' Table='0' LongName='Transaction Posting Date' Type='TS'
+FT1.6 %IS Item='360' Table='17' LongName='Transaction Type' Type='IS'
+FT1.7 %CE Item='361' Table='132' LongName='Transaction Code' Type='CE'
+FT1.8 %ST Item='362' Table='0' LongName='Transaction Description' Type='ST'
+FT1.9 %ST Item='363' Table='0' LongName='Transaction Description - Alt' Type='ST'
+FT1.10 %NM Item='364' Table='0' LongName='Transaction Quantity' Type='NM'
+FT1.11 %CP Item='365' Table='0' LongName='Transaction Amount - Extended' Type='CP'
+FT1.12 %CP Item='366' Table='0' LongName='Transaction Amount - Unit' Type='CP'
+FT1.13 %CE Item='367' Table='49' LongName='Department Code' Type='CE'
+FT1.14 %CE Item='368' Table='72' LongName='Insurance Plan ID' Type='CE'
+FT1.15 %CP Item='369' Table='0' LongName='Insurance Amount' Type='CP'
+FT1.16 %PL Item='133' Table='0' LongName='Assigned Patient Location' Type='PL'
+FT1.17 %IS Item='370' Table='24' LongName='Fee Schedule' Type='IS'
+FT1.18 %IS Item='148' Table='18' LongName='Patient Type' Type='IS'
+FT1.19 %CE Item='371' Table='51' LongName='Diagnosis Code - FT1' Type='CE'
+FT1.20 %XCN Item='372' Table='84' LongName='Performed By Code' Type='XCN'
+FT1.21 %XCN Item='373' Table='0' LongName='Ordered By Code' Type='XCN'
+FT1.22 %CP Item='374' Table='0' LongName='Unit Cost' Type='CP'
+FT1.23 %EI Item='217' Table='0' LongName='Filler Order Number' Type='EI'
+FT1.24 %XCN Item='765' Table='0' LongName='Entered By Code' Type='XCN'
+FT1.25 %CE Item='393' Table='88' LongName='Procedure Code' Type='CE'
+FT1.26 %CE Item='1316' Table='340' LongName='Procedure Code Modifier' Type='CE'
+FTS.1 %NM Item='79' Table='0' LongName='File Batch Count' Type='NM'
+FTS.2 %ST Item='80' Table='0' LongName='File Trailer Comment' Type='ST'
+GOL.1 %ID Item='816' Table='287' LongName='Action Code' Type='ID'
+GOL.2 %TS Item='817' Table='0' LongName='Action Date/Time' Type='TS'
+GOL.3 %CE Item='818' Table='0' LongName='Goal ID' Type='CE'
+GOL.4 %EI Item='819' Table='0' LongName='Goal Instance ID' Type='EI'
+GOL.5 %EI Item='820' Table='0' LongName='Episode of Care ID' Type='EI'
+GOL.6 %NM Item='821' Table='0' LongName='Goal List Priority' Type='NM'
+GOL.7 %TS Item='822' Table='0' LongName='Goal Established Date/Time' Type='TS'
+GOL.8 %TS Item='824' Table='0' LongName='Expected Goal Achieve Date/Time' Type='TS'
+GOL.9 %CE Item='825' Table='0' LongName='Goal Classification' Type='CE'
+GOL.10 %CE Item='826' Table='0' LongName='Goal Management Discipline' Type='CE'
+GOL.11 %CE Item='827' Table='0' LongName='Current Goal Review Status' Type='CE'
+GOL.12 %TS Item='828' Table='0' LongName='Current Goal Review Date/Time' Type='TS'
+GOL.13 %TS Item='829' Table='0' LongName='Next Goal Review Date/Time' Type='TS'
+GOL.14 %TS Item='830' Table='0' LongName='Previous Goal Review Date/Time' Type='TS'
+GOL.15 %TQ Item='831' Table='0' LongName='Goal Review Interval' Type='TQ'
+GOL.16 %CE Item='832' Table='0' LongName='Goal Evaluation' Type='CE'
+GOL.17 %ST Item='833' Table='0' LongName='Goal Evaluation Comment' Type='ST'
+GOL.18 %CE Item='834' Table='0' LongName='Goal Life Cycle Status' Type='CE'
+GOL.19 %TS Item='835' Table='0' LongName='Goal Life Cycle Status Date/Time' Type='TS'
+GOL.20 %CE Item='836' Table='0' LongName='Goal Target Type' Type='CE'
+GOL.21 %XPN Item='837' Table='0' LongName='Goal Target Name' Type='XPN'
+GT1.1 %SI Item='405' Table='0' LongName='Set ID - GT1' Type='SI'
+GT1.2 %CX Item='406' Table='0' LongName='Guarantor Number' Type='CX'
+GT1.3 %XPN Item='407' Table='0' LongName='Guarantor Name' Type='XPN'
+GT1.4 %XPN Item='408' Table='0' LongName='Guarantor Spouse Name' Type='XPN'
+GT1.5 %XAD Item='409' Table='0' LongName='Guarantor Address' Type='XAD'
+GT1.6 %XTN Item='410' Table='0' LongName='Guarantor Ph Num-Home' Type='XTN'
+GT1.7 %XTN Item='411' Table='0' LongName='Guarantor Ph Num-Business' Type='XTN'
+GT1.8 %TS Item='412' Table='0' LongName='Guarantor Date/Time Of Birth' Type='TS'
+GT1.9 %IS Item='413' Table='1' LongName='Guarantor Sex' Type='IS'
+GT1.10 %IS Item='414' Table='68' LongName='Guarantor Type' Type='IS'
+GT1.11 %CE Item='415' Table='63' LongName='Guarantor Relationship' Type='CE'
+GT1.12 %ST Item='416' Table='0' LongName='Guarantor SSN' Type='ST'
+GT1.13 %DT Item='417' Table='0' LongName='Guarantor Date - Begin' Type='DT'
+GT1.14 %DT Item='418' Table='0' LongName='Guarantor Date - End' Type='DT'
+GT1.15 %NM Item='419' Table='0' LongName='Guarantor Priority' Type='NM'
+GT1.16 %XPN Item='420' Table='0' LongName='Guarantor Employer Name' Type='XPN'
+GT1.17 %XAD Item='421' Table='0' LongName='Guarantor Employer Address' Type='XAD'
+GT1.18 %XTN Item='422' Table='0' LongName='Guarantor Employer Phone Number' Type='XTN'
+GT1.19 %CX Item='423' Table='0' LongName='Guarantor Employee ID Number' Type='CX'
+GT1.20 %IS Item='424' Table='66' LongName='Guarantor Employment Status' Type='IS'
+GT1.21 %XON Item='425' Table='0' LongName='Guarantor Organization Name' Type='XON'
+GT1.22 %ID Item='773' Table='136' LongName='Guarantor Billing Hold Flag' Type='ID'
+GT1.23 %CE Item='774' Table='341' LongName='Guarantor Credit Rating Code' Type='CE'
+GT1.24 %TS Item='775' Table='0' LongName='Guarantor Death Date And Time' Type='TS'
+GT1.25 %ID Item='776' Table='136' LongName='Guarantor Death Flag' Type='ID'
+GT1.26 %CE Item='777' Table='218' LongName='Guarantor Charge Adjustment Code' Type='CE'
+GT1.27 %CP Item='778' Table='0' LongName='Guarantor Household Annual Income' Type='CP'
+GT1.28 %NM Item='779' Table='0' LongName='Guarantor Household Size' Type='NM'
+GT1.29 %CX Item='780' Table='0' LongName='Guarantor Employer ID Number' Type='CX'
+GT1.30 %CE Item='781' Table='2' LongName='Guarantor Marital Status Code' Type='CE'
+GT1.31 %DT Item='782' Table='0' LongName='Guarantor Hire Effective Date' Type='DT'
+GT1.32 %DT Item='783' Table='0' LongName='Employment Stop Date' Type='DT'
+GT1.33 %IS Item='755' Table='223' LongName='Living Dependency' Type='IS'
+GT1.34 %IS Item='145' Table='9' LongName='Ambulatory Status' Type='IS'
+GT1.35 %CE Item='129' Table='171' LongName='Citizenship' Type='CE'
+GT1.36 %CE Item='118' Table='296' LongName='Primary Language' Type='CE'
+GT1.37 %IS Item='742' Table='220' LongName='Living Arrangement' Type='IS'
+GT1.38 %CE Item='743' Table='215' LongName='Publicity Code' Type='CE'
+GT1.39 %ID Item='744' Table='136' LongName='Protection Indicator' Type='ID'
+GT1.40 %IS Item='745' Table='231' LongName='Student Indicator' Type='IS'
+GT1.41 %CE Item='120' Table='6' LongName='Religion' Type='CE'
+GT1.42 %XPN Item='109' Table='0' LongName='Mother’s Maiden Name' Type='XPN'
+GT1.43 %CE Item='739' Table='212' LongName='Nationality' Type='CE'
+GT1.44 %CE Item='125' Table='189' LongName='Ethnic Group' Type='CE'
+GT1.45 %XPN Item='748' Table='0' LongName='Contact Person’s Name' Type='XPN'
+GT1.46 %XTN Item='749' Table='0' LongName='Contact Person’s Telephone Number' Type='XTN'
+GT1.47 %CE Item='747' Table='222' LongName='Contact Reason' Type='CE'
+GT1.48 %IS Item='784' Table='63' LongName='Contact Relationship' Type='IS'
+GT1.49 %ST Item='785' Table='0' LongName='Job Title' Type='ST'
+GT1.50 %JCC Item='786' Table='327' LongName='Job Code/Class' Type='JCC'
+GT1.51 %XON Item='1299' Table='0' LongName='Guarantor Employer’s Organization Name' Type='XON'
+GT1.52 %IS Item='753' Table='295' LongName='Handicap' Type='IS'
+GT1.53 %IS Item='752' Table='311' LongName='Job Status' Type='IS'
+GT1.54 %FC Item='1231' Table='64' LongName='Guarantor Financial Class' Type='FC'
+GT1.55 %CE Item='1291' Table='5' LongName='Guarantor Race' Type='CE'
+IN1.1 %SI Item='426' Table='0' LongName='Set ID - IN1' Type='SI'
+IN1.2 %CE Item='368' Table='72' LongName='Insurance Plan ID' Type='CE'
+IN1.3 %CX Item='428' Table='0' LongName='Insurance Company ID' Type='CX'
+IN1.4 %XON Item='429' Table='0' LongName='Insurance Company Name' Type='XON'
+IN1.5 %XAD Item='430' Table='0' LongName='Insurance Company Address' Type='XAD'
+IN1.6 %XPN Item='431' Table='0' LongName='Insurance Co Contact Person' Type='XPN'
+IN1.7 %XTN Item='432' Table='0' LongName='Insurance Co Phone Number' Type='XTN'
+IN1.8 %ST Item='433' Table='0' LongName='Group Number' Type='ST'
+IN1.9 %XON Item='434' Table='0' LongName='Group Name' Type='XON'
+IN1.10 %CX Item='435' Table='0' LongName='Insured’s Group Emp ID' Type='CX'
+IN1.11 %XON Item='436' Table='0' LongName='Insured’s Group Emp Name' Type='XON'
+IN1.12 %DT Item='437' Table='0' LongName='Plan Effective Date' Type='DT'
+IN1.13 %DT Item='438' Table='0' LongName='Plan Expiration Date' Type='DT'
+IN1.14 %CM Item='439' Table='0' LongName='Authorization Information' Type='CM'
+IN1.15 %IS Item='440' Table='86' LongName='Plan Type' Type='IS'
+IN1.16 %XPN Item='441' Table='0' LongName='Name Of Insured' Type='XPN'
+IN1.17 %CE Item='442' Table='63' LongName='Insured’s Relationship To Patient' Type='CE'
+IN1.18 %TS Item='443' Table='0' LongName='Insured’s Date Of Birth' Type='TS'
+IN1.19 %XAD Item='444' Table='0' LongName='Insured’s Address' Type='XAD'
+IN1.20 %IS Item='445' Table='135' LongName='Assignment Of Benefits' Type='IS'
+IN1.21 %IS Item='446' Table='173' LongName='Coordination Of Benefits' Type='IS'
+IN1.22 %ST Item='447' Table='0' LongName='Coord Of Ben. Priority' Type='ST'
+IN1.23 %ID Item='448' Table='136' LongName='Notice Of Admission Flag' Type='ID'
+IN1.24 %DT Item='449' Table='0' LongName='Notice Of Admission Date' Type='DT'
+IN1.25 %ID Item='450' Table='136' LongName='Report Of Eligibility Flag' Type='ID'
+IN1.26 %DT Item='451' Table='0' LongName='Report Of Eligibility Date' Type='DT'
+IN1.27 %IS Item='452' Table='93' LongName='Release Information Code' Type='IS'
+IN1.28 %ST Item='453' Table='0' LongName='Pre-Admit Cert (PAC)' Type='ST'
+IN1.29 %TS Item='454' Table='0' LongName='Verification Date/Time' Type='TS'
+IN1.30 %XCN Item='455' Table='0' LongName='Verification By' Type='XCN'
+IN1.31 %IS Item='456' Table='98' LongName='Type Of Agreement Code' Type='IS'
+IN1.32 %IS Item='457' Table='22' LongName='Billing Status' Type='IS'
+IN1.33 %NM Item='458' Table='0' LongName='Lifetime Reserve Days' Type='NM'
+IN1.34 %NM Item='459' Table='0' LongName='Delay Before L.R. Day' Type='NM'
+IN1.35 %IS Item='460' Table='42' LongName='Company Plan Code' Type='IS'
+IN1.36 %ST Item='461' Table='0' LongName='Policy Number' Type='ST'
+IN1.37 %CP Item='462' Table='0' LongName='Policy Deductible' Type='CP'
+IN1.38 %CP Item='463' Table='0' LongName='Policy Limit - Amount' Type='CP'
+IN1.39 %NM Item='464' Table='0' LongName='Policy Limit - Days' Type='NM'
+IN1.40 %CP Item='465' Table='0' LongName='Room Rate - Semi-Private' Type='CP'
+IN1.41 %CP Item='466' Table='0' LongName='Room Rate - Private' Type='CP'
+IN1.42 %CE Item='467' Table='66' LongName='Insured’s Employment Status' Type='CE'
+IN1.43 %IS Item='468' Table='1' LongName='Insured’s Sex' Type='IS'
+IN1.44 %XAD Item='469' Table='0' LongName='Insured’s Employer’s Address' Type='XAD'
+IN1.45 %ST Item='470' Table='0' LongName='Verification Status' Type='ST'
+IN1.46 %IS Item='471' Table='72' LongName='Prior Insurance Plan ID' Type='IS'
+IN1.47 %IS Item='1227' Table='309' LongName='Coverage Type' Type='IS'
+IN1.48 %IS Item='753' Table='295' LongName='Handicap' Type='IS'
+IN1.49 %CX Item='1230' Table='0' LongName='Insured’s ID Number' Type='CX'
+IN2.1 %CX Item='472' Table='0' LongName='Insured’s Employee ID' Type='CX'
+IN2.2 %ST Item='473' Table='0' LongName='Insured’s Social Security Number' Type='ST'
+IN2.3 %XCN Item='474' Table='0' LongName='Insured’s Employer’s Name and ID' Type='XCN'
+IN2.4 %IS Item='475' Table='139' LongName='Employer Information Data' Type='IS'
+IN2.5 %IS Item='476' Table='137' LongName='Mail Claim Party' Type='IS'
+IN2.6 %ST Item='477' Table='0' LongName='Medicare Health Ins Card Number' Type='ST'
+IN2.7 %XPN Item='478' Table='0' LongName='Medicaid Case Name' Type='XPN'
+IN2.8 %ST Item='479' Table='0' LongName='Medicaid Case Number' Type='ST'
+IN2.9 %XPN Item='480' Table='0' LongName='Military Sponsor Name' Type='XPN'
+IN2.10 %ST Item='481' Table='0' LongName='Military ID Number' Type='ST'
+IN2.11 %CE Item='482' Table='342' LongName='Dependent Of Military Recipient' Type='CE'
+IN2.12 %ST Item='483' Table='0' LongName='Military Organization' Type='ST'
+IN2.13 %ST Item='484' Table='0' LongName='Military Station' Type='ST'
+IN2.14 %IS Item='485' Table='140' LongName='Military Service' Type='IS'
+IN2.15 %IS Item='486' Table='141' LongName='Military Rank/Grade' Type='IS'
+IN2.16 %IS Item='487' Table='142' LongName='Military Status' Type='IS'
+IN2.17 %DT Item='488' Table='0' LongName='Military Retire Date' Type='DT'
+IN2.18 %ID Item='489' Table='136' LongName='Military Non-Avail Cert On File' Type='ID'
+IN2.19 %ID Item='490' Table='136' LongName='Baby Coverage' Type='ID'
+IN2.20 %ID Item='491' Table='136' LongName='Combine Baby Bill' Type='ID'
+IN2.21 %ST Item='492' Table='0' LongName='Blood Deductible' Type='ST'
+IN2.22 %XPN Item='493' Table='0' LongName='Special Coverage Approval Name' Type='XPN'
+IN2.23 %ST Item='494' Table='0' LongName='Special Coverage Approval Title' Type='ST'
+IN2.24 %IS Item='495' Table='143' LongName='Non-Covered Insurance Code' Type='IS'
+IN2.25 %CX Item='496' Table='0' LongName='Payor ID' Type='CX'
+IN2.26 %CX Item='497' Table='0' LongName='Payor Subscriber ID' Type='CX'
+IN2.27 %IS Item='498' Table='144' LongName='Eligibility Source' Type='IS'
+IN2.28 %CM_ROOM_TYPE Item='499' Table='145' LongName='Room Coverage Type/Amount' Type='CM_ROOM_TYPE'
+IN2.29 %CM_POL_TYPE Item='500' Table='147' LongName='Policy Type/Amount' Type='CM_POL_TYPE'
+IN2.30 %CM Item='501' Table='0' LongName='Daily Deductible' Type='CM'
+IN2.31 %IS Item='755' Table='223' LongName='Living Dependency' Type='IS'
+IN2.32 %IS Item='145' Table='9' LongName='Ambulatory Status' Type='IS'
+IN2.33 %CE Item='129' Table='171' LongName='Citizenship' Type='CE'
+IN2.34 %CE Item='118' Table='296' LongName='Primary Language' Type='CE'
+IN2.35 %IS Item='742' Table='220' LongName='Living Arrangement' Type='IS'
+IN2.36 %CE Item='743' Table='215' LongName='Publicity Code' Type='CE'
+IN2.37 %ID Item='744' Table='136' LongName='Protection Indicator' Type='ID'
+IN2.38 %IS Item='745' Table='231' LongName='Student Indicator' Type='IS'
+IN2.39 %CE Item='120' Table='6' LongName='Religion' Type='CE'
+IN2.40 %XPN Item='109' Table='0' LongName='Mother’s Maiden Name' Type='XPN'
+IN2.41 %CE Item='739' Table='212' LongName='Nationality' Type='CE'
+IN2.42 %CE Item='125' Table='189' LongName='Ethnic Group' Type='CE'
+IN2.43 %CE Item='119' Table='2' LongName='Marital Status' Type='CE'
+IN2.44 %DT Item='787' Table='0' LongName='Insured’s Employment Start Date' Type='DT'
+IN2.45 %DT Item='783' Table='0' LongName='Employment Stop Date' Type='DT'
+IN2.46 %ST Item='785' Table='0' LongName='Job Title' Type='ST'
+IN2.47 %JCC Item='786' Table='327' LongName='Job Code/Class' Type='JCC'
+IN2.48 %IS Item='752' Table='311' LongName='Job Status' Type='IS'
+IN2.49 %XPN Item='789' Table='0' LongName='Employer Contact Person Name' Type='XPN'
+IN2.50 %XTN Item='790' Table='0' LongName='Employer Contact Person Phone Number' Type='XTN'
+IN2.51 %IS Item='791' Table='222' LongName='Employer Contact Reason' Type='IS'
+IN2.52 %XPN Item='792' Table='0' LongName='Insured’s Contact Person’s Name' Type='XPN'
+IN2.53 %XTN Item='793' Table='0' LongName='Insured’s Contact Person Phone Number' Type='XTN'
+IN2.54 %IS Item='794' Table='222' LongName='Insured’s Contact Person Reason' Type='IS'
+IN2.55 %DT Item='795' Table='0' LongName='Relationship To The Patient Start Date' Type='DT'
+IN2.56 %DT Item='796' Table='0' LongName='Relationship To The Patient Stop Date' Type='DT'
+IN2.57 %IS Item='797' Table='232' LongName='Insurance Co. Contact Reason' Type='IS'
+IN2.58 %XTN Item='798' Table='0' LongName='Insurance Co Contact Phone Number' Type='XTN'
+IN2.59 %IS Item='799' Table='312' LongName='Policy Scope' Type='IS'
+IN2.60 %IS Item='800' Table='313' LongName='Policy Source' Type='IS'
+IN2.61 %CX Item='801' Table='0' LongName='Patient Member Number' Type='CX'
+IN2.62 %CE Item='802' Table='63' LongName='Guarantor’s Relationship To Insured' Type='CE'
+IN2.63 %XTN Item='803' Table='0' LongName='Insured’s Phone Number - Home' Type='XTN'
+IN2.64 %XTN Item='804' Table='0' LongName='Insured’s Employer Phone Number' Type='XTN'
+IN2.65 %CE Item='805' Table='343' LongName='Military Handicapped Program' Type='CE'
+IN2.66 %ID Item='806' Table='136' LongName='Suspend Flag' Type='ID'
+IN2.67 %ID Item='807' Table='136' LongName='Copay Limit Flag' Type='ID'
+IN2.68 %ID Item='808' Table='136' LongName='Stoploss Limit Flag' Type='ID'
+IN2.69 %XON Item='809' Table='0' LongName='Insured Organization Name And ID' Type='XON'
+IN2.70 %XON Item='810' Table='0' LongName='Insured Employer Organization Name And ID' Type='XON'
+IN2.71 %CE Item='113' Table='5' LongName='Race' Type='CE'
+IN2.72 %CE Item='811' Table='344' LongName='HCFA Patient’s Relationship to Insured' Type='CE'
+IN3.1 %SI Item='502' Table='0' LongName='Set ID - IN3' Type='SI'
+IN3.2 %CX Item='503' Table='0' LongName='Certification Number' Type='CX'
+IN3.3 %XCN Item='504' Table='0' LongName='Certified By' Type='XCN'
+IN3.4 %ID Item='505' Table='136' LongName='Certification Required' Type='ID'
+IN3.5 %CM Item='506' Table='148' LongName='Penalty' Type='CM'
+IN3.6 %TS Item='507' Table='0' LongName='Certification Date/Time' Type='TS'
+IN3.7 %TS Item='508' Table='0' LongName='Certification Modify Date/Time' Type='TS'
+IN3.8 %XCN Item='509' Table='0' LongName='Operator' Type='XCN'
+IN3.9 %DT Item='510' Table='0' LongName='Certification Begin Date' Type='DT'
+IN3.10 %DT Item='511' Table='0' LongName='Certification End Date' Type='DT'
+IN3.11 %CM Item='512' Table='149' LongName='Days' Type='CM'
+IN3.12 %CE Item='513' Table='233' LongName='Non-Concur Code/Description' Type='CE'
+IN3.13 %TS Item='514' Table='0' LongName='Non-Concur Effective Date/Time' Type='TS'
+IN3.14 %XCN Item='515' Table='10' LongName='Physician Reviewer' Type='XCN'
+IN3.15 %ST Item='516' Table='0' LongName='Certification Contact' Type='ST'
+IN3.16 %XTN Item='517' Table='0' LongName='Certification Contact Phone Number' Type='XTN'
+IN3.17 %CE Item='518' Table='345' LongName='Appeal Reason' Type='CE'
+IN3.18 %CE Item='519' Table='346' LongName='Certification Agency' Type='CE'
+IN3.19 %XTN Item='520' Table='0' LongName='Certification Agency Phone Number' Type='XTN'
+IN3.20 %CM_PRE_CERTIFICATION Item='521' Table='150' LongName='Pre-Certification Req/Window' Type='CM_PRE_CERTIFICATION'
+IN3.21 %ST Item='522' Table='0' LongName='Case Manager' Type='ST'
+IN3.22 %DT Item='523' Table='0' LongName='Second Opinion Date' Type='DT'
+IN3.23 %IS Item='524' Table='151' LongName='Second Opinion Status' Type='IS'
+IN3.24 %IS Item='525' Table='152' LongName='Second Opinion Documentation Received' Type='IS'
+IN3.25 %XCN Item='526' Table='10' LongName='Second Opinion Physician' Type='XCN'
+LCC.1 %PL Item='979' Table='0' LongName='Primary Key Value - LCC' Type='PL'
+LCC.2 %IS Item='964' Table='264' LongName='Location Department' Type='IS'
+LCC.3 %CE Item='980' Table='129' LongName='Accommodation Type' Type='CE'
+LCC.4 %CE Item='981' Table='132' LongName='Charge Code' Type='CE'
+LCH.1 %PL Item='1305' Table='0' LongName='Primary Key Value - LCH' Type='PL'
+LCH.2 %ID Item='763' Table='206' LongName='Segment Action Code' Type='ID'
+LCH.3 %EI Item='764' Table='0' LongName='Segment Unique Key' Type='EI'
+LCH.4 %CE Item='1295' Table='324' LongName='Location Characteristic ID' Type='CE'
+LCH.5 %CE_TABS_136_262_263 Item='1294' Table='0' LongName='Location Characteristic Value' Type='CE_TABS_136_262_263'
+LDP.1 %PL Item='963' Table='0' LongName='Primary Key Value - LDP' Type='PL'
+LDP.2 %IS Item='964' Table='264' LongName='Location Department' Type='IS'
+LDP.3 %IS Item='965' Table='69' LongName='Location Service' Type='IS'
+LDP.4 %CE Item='966' Table='265' LongName='Specialty Type' Type='CE'
+LDP.5 %IS Item='967' Table='4' LongName='Valid Patient Classes' Type='IS'
+LDP.6 %ID Item='675' Table='183' LongName='Active/Inactive Flag' Type='ID'
+LDP.7 %TS Item='969' Table='0' LongName='Activation Date  LDP' Type='TS'
+LDP.8 %TS Item='970' Table='0' LongName='Inactivation Date - LDP' Type='TS'
+LDP.9 %ST Item='971' Table='0' LongName='Inactivated Reason' Type='ST'
+LDP.10 %VH Item='976' Table='267' LongName='Visiting Hours' Type='VH'
+LDP.11 %XTN Item='978' Table='0' LongName='Contact Phone' Type='XTN'
+LOC.1 %PL Item='1307' Table='0' LongName='Primary Key Value - LOC' Type='PL'
+LOC.2 %ST Item='944' Table='0' LongName='Location Description' Type='ST'
+LOC.3 %IS Item='945' Table='260' LongName='Location Type - LOC' Type='IS'
+LOC.4 %XON Item='947' Table='0' LongName='Organization Name - LOC' Type='XON'
+LOC.5 %XAD Item='948' Table='0' LongName='Location Address' Type='XAD'
+LOC.6 %XTN Item='949' Table='0' LongName='Location Phone' Type='XTN'
+LOC.7 %CE Item='951' Table='0' LongName='License Number' Type='CE'
+LOC.8 %IS Item='953' Table='261' LongName='Location Equipment' Type='IS'
+LRL.1 %PL Item='943' Table='0' LongName='Primary Key Value - LRL' Type='PL'
+LRL.2 %ID Item='763' Table='206' LongName='Segment Action Code' Type='ID'
+LRL.3 %EI Item='764' Table='0' LongName='Segment Unique Key' Type='EI'
+LRL.4 %CE Item='1277' Table='325' LongName='Location Relationship ID' Type='CE'
+LRL.5 %XON Item='1301' Table='0' LongName='Organizational Location Relationship Value' Type='XON'
+LRL.6 %PL Item='1292' Table='0' LongName='Patient Location Relationship Value' Type='PL'
+MFA.1 %ID Item='664' Table='180' LongName='Record-Level Event Code' Type='ID'
+MFA.2 %ST Item='665' Table='0' LongName='MFN Control ID' Type='ST'
+MFA.3 %TS Item='668' Table='0' LongName='Event Completion Date/Time' Type='TS'
+MFA.4 %CE Item='669' Table='181' LongName='MFN Record Level Error Return' Type='CE'
+MFA.5 %CE Item='1308' Table='0' LongName='Primary Key Value ?MFA' Type='CE'
+MFA.6 %ID Item='1320' Table='355' LongName='Primary Key Value Type - MFA' Type='ID'
+MFE.1 %ID Item='664' Table='180' LongName='Record-Level Event Code' Type='ID'
+MFE.2 %ST Item='665' Table='0' LongName='MFN Control ID' Type='ST'
+MFE.3 %TS Item='662' Table='0' LongName='Effective Date/Time' Type='TS'
+MFE.4 %WILDCARD Item='667' Table='0' LongName='Primary Key Value - MFE' Type='WILDCARD'
+MFE.5 %ID Item='1319' Table='355' LongName='Primary Key Value Type' Type='ID'
+MFI.1 %CE Item='658' Table='175' LongName='Master File Identifier' Type='CE'
+MFI.2 %HD Item='659' Table='0' LongName='Master File Application Identifier' Type='HD'
+MFI.3 %ID Item='660' Table='178' LongName='File-Level Event Code' Type='ID'
+MFI.4 %TS Item='661' Table='0' LongName='Entered Date/Time' Type='TS'
+MFI.5 %TS Item='662' Table='0' LongName='Effective Date/Time' Type='TS'
+MFI.6 %ID Item='663' Table='179' LongName='Response Level Code' Type='ID'
+MRG.1 %CX Item='211' Table='0' LongName='Prior Patient Identifier List' Type='CX'
+MRG.2 %CX Item='212' Table='0' LongName='Prior Alternate Patient ID' Type='CX'
+MRG.3 %CX Item='213' Table='0' LongName='Prior Patient Account Number' Type='CX'
+MRG.4 %CX Item='214' Table='0' LongName='Prior Patient ID' Type='CX'
+MRG.5 %CX Item='1279' Table='0' LongName='Prior Visit Number' Type='CX'
+MRG.6 %CX Item='1280' Table='0' LongName='Prior Alternate Visit ID' Type='CX'
+MRG.7 %XPN Item='1281' Table='0' LongName='Prior Patient Name' Type='XPN'
+MSA.1 %ID Item='18' Table='8' LongName='Acknowledgment Code' Type='ID'
+MSA.2 %ST Item='10' Table='0' LongName='Message Control ID' Type='ST'
+MSA.3 %ST Item='20' Table='0' LongName='Text Message' Type='ST'
+MSA.4 %NM Item='21' Table='0' LongName='Expected Sequence Number' Type='NM'
+MSA.5 %ID Item='22' Table='102' LongName='Delayed Acknowledgment Type' Type='ID'
+MSA.6 %CE Item='23' Table='0' LongName='Error Condition' Type='CE'
+MSH.1 %ST Item='1' Table='0' LongName='Field Separator' Type='ST'
+MSH.2 %ST Item='2' Table='0' LongName='Encoding Characters' Type='ST'
+MSH.3 %HD Item='3' Table='361' LongName='Sending Application' Type='HD'
+MSH.4 %HD Item='4' Table='362' LongName='Sending Facility' Type='HD'
+MSH.5 %HD Item='5' Table='361' LongName='Receiving Application' Type='HD'
+MSH.6 %HD Item='6' Table='362' LongName='Receiving Facility' Type='HD'
+MSH.7 %TS Item='7' Table='0' LongName='Date/Time Of Message' Type='TS'
+MSH.8 %ST Item='8' Table='0' LongName='Security' Type='ST'
+MSH.9 %CM_MSG_TYPE Item='9' Table='76' LongName='Message Type' Type='CM_MSG_TYPE'
+MSH.10 %ST Item='10' Table='0' LongName='Message Control ID' Type='ST'
+MSH.11 %PT Item='11' Table='0' LongName='Processing ID' Type='PT'
+MSH.12 %VID Item='12' Table='104' LongName='Version ID' Type='VID'
+MSH.13 %NM Item='13' Table='0' LongName='Sequence Number' Type='NM'
+MSH.14 %ST Item='14' Table='0' LongName='Continuation Pointer' Type='ST'
+MSH.15 %ID Item='15' Table='155' LongName='Accept Acknowledgment Type' Type='ID'
+MSH.16 %ID Item='16' Table='155' LongName='Application Acknowledgment Type' Type='ID'
+MSH.17 %ID Item='17' Table='0' LongName='Country Code' Type='ID'
+MSH.18 %ID Item='692' Table='211' LongName='Character Set' Type='ID'
+MSH.19 %CE Item='693' Table='0' LongName='Principal Language Of Message' Type='CE'
+MSH.20 %ID Item='1317' Table='356' LongName='Alternate Character Set Handling Scheme' Type='ID'
+NCK.1 %TS Item='1172' Table='0' LongName='System Date/Time' Type='TS'
+NK1.1 %SI Item='190' Table='0' LongName='Set ID - NK1' Type='SI'
+NK1.2 %XPN Item='191' Table='0' LongName='Name' Type='XPN'
+NK1.3 %CE Item='192' Table='63' LongName='Relationship' Type='CE'
+NK1.4 %XAD Item='193' Table='0' LongName='Address' Type='XAD'
+NK1.5 %XTN Item='194' Table='0' LongName='Phone Number' Type='XTN'
+NK1.6 %XTN Item='195' Table='0' LongName='Business Phone Number' Type='XTN'
+NK1.7 %CE Item='196' Table='131' LongName='Contact Role' Type='CE'
+NK1.8 %DT Item='197' Table='0' LongName='Start Date' Type='DT'
+NK1.9 %DT Item='198' Table='0' LongName='End Date' Type='DT'
+NK1.10 %ST Item='199' Table='0' LongName='Next of Kin / Associated Parties Job Title' Type='ST'
+NK1.11 %JCC Item='200' Table='327' LongName='Next of Kin / Associated Parties Job Code/Class' Type='JCC'
+NK1.12 %CX Item='201' Table='0' LongName='Next of Kin / Associated Parties Employee Number' Type='CX'
+NK1.13 %XON Item='202' Table='0' LongName='Organization Name - NK1' Type='XON'
+NK1.14 %CE Item='119' Table='2' LongName='Marital Status' Type='CE'
+NK1.15 %IS Item='111' Table='1' LongName='Sex' Type='IS'
+NK1.16 %TS Item='110' Table='0' LongName='Date/Time Of Birth' Type='TS'
+NK1.17 %IS Item='755' Table='223' LongName='Living Dependency' Type='IS'
+NK1.18 %IS Item='145' Table='9' LongName='Ambulatory Status' Type='IS'
+NK1.19 %CE Item='129' Table='171' LongName='Citizenship' Type='CE'
+NK1.20 %CE Item='118' Table='296' LongName='Primary Language' Type='CE'
+NK1.21 %IS Item='742' Table='220' LongName='Living Arrangement' Type='IS'
+NK1.22 %CE Item='743' Table='215' LongName='Publicity Code' Type='CE'
+NK1.23 %ID Item='744' Table='136' LongName='Protection Indicator' Type='ID'
+NK1.24 %IS Item='745' Table='231' LongName='Student Indicator' Type='IS'
+NK1.25 %CE Item='120' Table='6' LongName='Religion' Type='CE'
+NK1.26 %XPN Item='109' Table='0' LongName='Mother’s Maiden Name' Type='XPN'
+NK1.27 %CE Item='739' Table='212' LongName='Nationality' Type='CE'
+NK1.28 %CE Item='125' Table='189' LongName='Ethnic Group' Type='CE'
+NK1.29 %CE Item='747' Table='222' LongName='Contact Reason' Type='CE'
+NK1.30 %XPN Item='748' Table='0' LongName='Contact Person’s Name' Type='XPN'
+NK1.31 %XTN Item='749' Table='0' LongName='Contact Person’s Telephone Number' Type='XTN'
+NK1.32 %XAD Item='750' Table='0' LongName='Contact Person’s Address' Type='XAD'
+NK1.33 %CX Item='751' Table='0' LongName='Next of Kin/Associated Party’s Identifiers' Type='CX'
+NK1.34 %IS Item='752' Table='311' LongName='Job Status' Type='IS'
+NK1.35 %CE Item='113' Table='5' LongName='Race' Type='CE'
+NK1.36 %IS Item='753' Table='295' LongName='Handicap' Type='IS'
+NK1.37 %ST Item='754' Table='0' LongName='Contact Person Social Security Number' Type='ST'
+NPU.1 %PL Item='209' Table='0' LongName='Bed Location' Type='PL'
+NPU.2 %IS Item='170' Table='116' LongName='Bed Status' Type='IS'
+NSC.1 %IS Item='1188' Table='333' LongName='Network Change Type' Type='IS'
+NSC.2 %ST Item='1189' Table='0' LongName='Current CPU' Type='ST'
+NSC.3 %ST Item='1190' Table='0' LongName='Current Fileserver' Type='ST'
+NSC.4 %ST Item='1191' Table='0' LongName='Current Application' Type='ST'
+NSC.5 %ST Item='1192' Table='0' LongName='Current Facility' Type='ST'
+NSC.6 %ST Item='1193' Table='0' LongName='New CPU' Type='ST'
+NSC.7 %ST Item='1194' Table='0' LongName='New Fileserver' Type='ST'
+NSC.8 %ST Item='1195' Table='0' LongName='New Application' Type='ST'
+NSC.9 %ST Item='1196' Table='0' LongName='New Facility' Type='ST'
+NST.1 %ID Item='1173' Table='136' LongName='Statistics Available' Type='ID'
+NST.2 %ST Item='1174' Table='0' LongName='Source Identifier' Type='ST'
+NST.3 %ID Item='1175' Table='0' LongName='Source Type' Type='ID'
+NST.4 %TS Item='1176' Table='0' LongName='Statistics Start' Type='TS'
+NST.5 %TS Item='1177' Table='0' LongName='Statistics End' Type='TS'
+NST.6 %NM Item='1178' Table='0' LongName='Receive Character Count' Type='NM'
+NST.7 %NM Item='1179' Table='0' LongName='Send Character Count' Type='NM'
+NST.8 %NM Item='1180' Table='0' LongName='Messages Received' Type='NM'
+NST.9 %NM Item='1181' Table='0' LongName='Messages Sent' Type='NM'
+NST.10 %NM Item='1182' Table='0' LongName='Checksum Errors Received' Type='NM'
+NST.11 %NM Item='1183' Table='0' LongName='Length Errors Received' Type='NM'
+NST.12 %NM Item='1184' Table='0' LongName='Other Errors Received' Type='NM'
+NST.13 %NM Item='1185' Table='0' LongName='Connect Timeouts' Type='NM'
+NST.14 %NM Item='1186' Table='0' LongName='Receive Timeouts' Type='NM'
+NST.16 %NM Item='1187' Table='0' LongName='Network Errors' Type='NM'
+NTE.1 %SI Item='96' Table='0' LongName='Set ID - NTE' Type='SI'
+NTE.2 %ID Item='97' Table='105' LongName='Source of Comment' Type='ID'
+NTE.3 %FT Item='98' Table='0' LongName='Comment' Type='FT'
+NTE.4 %CE Item='1318' Table='364' LongName='Comment Type' Type='CE'
+OBR.1 %SI Item='237' Table='0' LongName='Set ID - OBR' Type='SI'
+OBR.2 %EI Item='216' Table='0' LongName='Placer Order Number' Type='EI'
+OBR.3 %EI Item='217' Table='0' LongName='Filler Order Number' Type='EI'
+OBR.4 %CE Item='238' Table='0' LongName='Universal Service ID' Type='CE'
+OBR.5 %ID Item='239' Table='0' LongName='Priority-OBR' Type='ID'
+OBR.6 %TS Item='240' Table='0' LongName='Requested Date/time' Type='TS'
+OBR.7 %TS Item='241' Table='0' LongName='Observation Date/Time #' Type='TS'
+OBR.8 %TS Item='242' Table='0' LongName='Observation End Date/Time #' Type='TS'
+OBR.9 %CQ Item='243' Table='0' LongName='Collection Volume *' Type='CQ'
+OBR.10 %XCN Item='244' Table='0' LongName='Collector Identifier *' Type='XCN'
+OBR.11 %ID Item='245' Table='65' LongName='Specimen Action Code *' Type='ID'
+OBR.12 %CE Item='246' Table='0' LongName='Danger Code' Type='CE'
+OBR.13 %ST Item='247' Table='0' LongName='Relevant Clinical Info.' Type='ST'
+OBR.14 %TS Item='248' Table='0' LongName='Specimen Received Date/Time *' Type='TS'
+OBR.15 %CM Item='249' Table='70' LongName='Specimen Source *' Type='CM'
+OBR.16 %XCN Item='226' Table='0' LongName='Ordering Provider' Type='XCN'
+OBR.17 %XTN Item='250' Table='0' LongName='Order Callback Phone Number' Type='XTN'
+OBR.18 %ST Item='251' Table='0' LongName='Placer Field 1' Type='ST'
+OBR.19 %ST Item='252' Table='0' LongName='Placer Field 2' Type='ST'
+OBR.20 %ST Item='253' Table='0' LongName='Filler Field 1 +' Type='ST'
+OBR.21 %ST Item='254' Table='0' LongName='Filler Field 2 +' Type='ST'
+OBR.22 %TS Item='255' Table='0' LongName='Results Rpt/Status Chng - Date/Time +' Type='TS'
+OBR.23 %CM Item='256' Table='0' LongName='Charge to Practice +' Type='CM'
+OBR.24 %ID Item='257' Table='74' LongName='Diagnostic Serv Sect ID' Type='ID'
+OBR.25 %ID Item='258' Table='123' LongName='Result Status +' Type='ID'
+OBR.26 %CM Item='259' Table='0' LongName='Parent Result +' Type='CM'
+OBR.27 %TQ Item='221' Table='0' LongName='Quantity/Timing' Type='TQ'
+OBR.28 %XCN Item='260' Table='0' LongName='Result Copies To' Type='XCN'
+OBR.29 %CM Item='261' Table='0' LongName='Parent' Type='CM'
+OBR.30 %ID Item='262' Table='124' LongName='Transportation Mode' Type='ID'
+OBR.31 %CE Item='263' Table='0' LongName='Reason for Study' Type='CE'
+OBR.32 %CM Item='264' Table='0' LongName='Principal Result Interpreter +' Type='CM'
+OBR.33 %CM Item='265' Table='0' LongName='Assistant Result Interpreter +' Type='CM'
+OBR.34 %CM Item='266' Table='0' LongName='Technician +' Type='CM'
+OBR.35 %CM Item='267' Table='0' LongName='Transcriptionist +' Type='CM'
+OBR.36 %TS Item='268' Table='0' LongName='Scheduled Date/Time +' Type='TS'
+OBR.37 %NM Item='1028' Table='0' LongName='Number of Sample Containers *' Type='NM'
+OBR.38 %CE Item='1029' Table='0' LongName='Transport Logistics of Collected Sample *' Type='CE'
+OBR.39 %CE Item='1030' Table='0' LongName='Collector’s Comment *' Type='CE'
+OBR.40 %CE Item='1031' Table='0' LongName='Transport Arrangement Responsibility' Type='CE'
+OBR.41 %ID Item='1032' Table='224' LongName='Transport Arranged' Type='ID'
+OBR.42 %ID Item='1033' Table='225' LongName='Escort Required' Type='ID'
+OBR.43 %CE Item='1034' Table='0' LongName='Planned Patient Transport Comment' Type='CE'
+OBR.44 %CE Item='393' Table='88' LongName='Procedure Code' Type='CE'
+OBR.45 %CE Item='1316' Table='340' LongName='Procedure Code Modifier' Type='CE'
+OBX.1 %SI Item='569' Table='0' LongName='Set ID - OBX' Type='SI'
+OBX.2 %ID Item='570' Table='125' LongName='Value Type' Type='ID'
+OBX.3 %CE Item='571' Table='0' LongName='Observation Identifier' Type='CE'
+OBX.4 %ST Item='572' Table='0' LongName='Observation Sub-ID' Type='ST'
+OBX.5 %WILDCARD Item='573' Table='0' LongName='Observation Value' Type='WILDCARD'
+OBX.6 %CE Item='574' Table='0' LongName='Units' Type='CE'
+OBX.7 %ST Item='575' Table='0' LongName='References Range' Type='ST'
+OBX.8 %ID Item='576' Table='78' LongName='Abnormal Flags' Type='ID'
+OBX.9 %NM Item='577' Table='0' LongName='Probability' Type='NM'
+OBX.10 %ID Item='578' Table='80' LongName='Nature of Abnormal Test' Type='ID'
+OBX.11 %ID Item='579' Table='85' LongName='Observation Result Status' Type='ID'
+OBX.12 %TS Item='580' Table='0' LongName='Date Last Obs Normal Values' Type='TS'
+OBX.13 %ST Item='581' Table='0' LongName='User Defined Access Checks' Type='ST'
+OBX.14 %TS Item='582' Table='0' LongName='Date/Time of the Observation' Type='TS'
+OBX.15 %CE Item='583' Table='0' LongName='Producer&apos;s ID' Type='CE'
+OBX.16 %XCN Item='584' Table='0' LongName='Responsible Observer' Type='XCN'
+OBX.17 %CE Item='936' Table='0' LongName='Observation Method' Type='CE'
+ODS.1 %ID Item='269' Table='159' LongName='Type' Type='ID'
+ODS.2 %CE Item='270' Table='0' LongName='Service Period' Type='CE'
+ODS.3 %CE Item='271' Table='0' LongName='Diet, Supplement, or Preference Code' Type='CE'
+ODS.4 %ST Item='272' Table='0' LongName='Text Instruction' Type='ST'
+ODT.1 %CE Item='273' Table='160' LongName='Tray Type' Type='CE'
+ODT.2 %CE Item='270' Table='0' LongName='Service Period' Type='CE'
+ODT.3 %ST Item='272' Table='0' LongName='Text Instruction' Type='ST'
+OM1.1 %NM Item='586' Table='0' LongName='Sequence Number ?Test/Observation Master File' Type='NM'
+OM1.2 %CE Item='587' Table='0' LongName='Producer&apos;s Test/Observation ID' Type='CE'
+OM1.3 %ID Item='588' Table='125' LongName='Permitted Data Types' Type='ID'
+OM1.4 %ID Item='589' Table='136' LongName='Specimen Required' Type='ID'
+OM1.5 %CE Item='590' Table='0' LongName='Producer ID' Type='CE'
+OM1.6 %TX Item='591' Table='0' LongName='Observation Description' Type='TX'
+OM1.7 %CE Item='592' Table='0' LongName='Other Test/Observation IDs for the Observation' Type='CE'
+OM1.8 %ST Item='593' Table='0' LongName='Other Names' Type='ST'
+OM1.9 %ST Item='594' Table='0' LongName='Preferred Report Name for the Observation' Type='ST'
+OM1.10 %ST Item='595' Table='0' LongName='Preferred Short Name or Mnemonic for Observation' Type='ST'
+OM1.11 %ST Item='596' Table='0' LongName='Preferred Long Name for the Observation' Type='ST'
+OM1.12 %ID Item='597' Table='136' LongName='Orderability' Type='ID'
+OM1.13 %CE Item='598' Table='0' LongName='Identity of Instrument Used to Perform this Study' Type='CE'
+OM1.14 %CE Item='599' Table='0' LongName='Coded Representation of Method' Type='CE'
+OM1.15 %ID Item='600' Table='136' LongName='Portable' Type='ID'
+OM1.16 %CE Item='601' Table='0' LongName='Observation Producing Department/Section' Type='CE'
+OM1.17 %XTN Item='602' Table='0' LongName='Telephone Number of Section' Type='XTN'
+OM1.18 %IS Item='603' Table='174' LongName='Nature of Test/Observation' Type='IS'
+OM1.19 %CE Item='604' Table='0' LongName='Report Subheader' Type='CE'
+OM1.20 %ST Item='605' Table='0' LongName='Report Display Order' Type='ST'
+OM1.21 %TS Item='606' Table='0' LongName='Date/Time Stamp for any change in Definition for the Observation' Type='TS'
+OM1.22 %TS Item='607' Table='0' LongName='Effective Date/Time of Change' Type='TS'
+OM1.23 %NM Item='608' Table='0' LongName='Typical Turn-Around Time' Type='NM'
+OM1.24 %NM Item='609' Table='0' LongName='Processing Time' Type='NM'
+OM1.25 %ID Item='610' Table='168' LongName='Processing Priority' Type='ID'
+OM1.26 %ID Item='611' Table='169' LongName='Reporting Priority' Type='ID'
+OM1.27 %CE Item='612' Table='0' LongName='Outside Site(s) Where Observation may be Performed' Type='CE'
+OM1.28 %XAD Item='613' Table='0' LongName='Address of Outside Site(s)' Type='XAD'
+OM1.29 %XTN Item='614' Table='0' LongName='Phone Number of Outside Site' Type='XTN'
+OM1.30 %IS Item='615' Table='177' LongName='Confidentiality Code' Type='IS'
+OM1.31 %CE Item='616' Table='0' LongName='Observations Required to Interpret the Obs' Type='CE'
+OM1.32 %TX Item='617' Table='0' LongName='Interpretation of Observations' Type='TX'
+OM1.33 %CE Item='618' Table='0' LongName='Contraindications to Observations' Type='CE'
+OM1.34 %CE Item='619' Table='0' LongName='Reflex Tests/Observations' Type='CE'
+OM1.35 %TX Item='620' Table='0' LongName='Rules that Trigger Reflex Testing' Type='TX'
+OM1.36 %CE Item='621' Table='0' LongName='Fixed Canned Message' Type='CE'
+OM1.37 %TX Item='622' Table='0' LongName='Patient Preparation' Type='TX'
+OM1.38 %CE Item='623' Table='0' LongName='Procedure Medication' Type='CE'
+OM1.39 %TX Item='624' Table='0' LongName='Factors that may Effect the Observation' Type='TX'
+OM1.40 %ST Item='625' Table='0' LongName='Test/Observation Performance Schedule' Type='ST'
+OM1.41 %TX Item='626' Table='0' LongName='Description of Test Methods' Type='TX'
+OM1.42 %CE_TAB_0254 Item='937' Table='254' LongName='Kind of Quantity Observed' Type='CE_TAB_0254'
+OM1.43 %CE_TAB_0255 Item='938' Table='255' LongName='Point Versus Interval' Type='CE_TAB_0255'
+OM1.44 %TX_CHALLENGE Item='939' Table='256' LongName='Challenge Information' Type='TX_CHALLENGE'
+OM1.45 %CE Item='940' Table='258' LongName='Relationship Modifier' Type='CE'
+OM1.46 %CE Item='941' Table='0' LongName='Target Anatomic Site Of Test' Type='CE'
+OM1.47 %CE Item='942' Table='259' LongName='Modality Of Imaging Measurement' Type='CE'
+OM2.1 %NM Item='586' Table='0' LongName='Sequence Number ?Test/Observation Master File' Type='NM'
+OM2.2 %CE Item='627' Table='0' LongName='Units of Measure' Type='CE'
+OM2.3 %NM Item='628' Table='0' LongName='Range of Decimal Precision' Type='NM'
+OM2.4 %CE Item='629' Table='0' LongName='Corresponding SI Units of Measure' Type='CE'
+OM2.5 %TX Item='630' Table='0' LongName='SI Conversion Factor' Type='TX'
+OM2.6 %CM Item='631' Table='0' LongName='Reference (Normal) Range - Ordinal &amp; Continuous Obs' Type='CM'
+OM2.7 %CM Item='632' Table='0' LongName='Critical Range for Ordinal &amp; Continuous Obs' Type='CM'
+OM2.8 %CM Item='633' Table='0' LongName='Absolute Range for Ordinal &amp; Continuous Obs' Type='CM'
+OM2.9 %CM Item='634' Table='0' LongName='Delta Check Criteria' Type='CM'
+OM2.10 %NM Item='635' Table='0' LongName='Minimum Meaningful Increments' Type='NM'
+OM3.1 %NM Item='586' Table='0' LongName='Sequence Number ?Test/Observation Master File' Type='NM'
+OM3.2 %CE Item='636' Table='0' LongName='Preferred Coding System' Type='CE'
+OM3.3 %CE Item='637' Table='0' LongName='Valid Coded “Answers? Type='CE'
+OM3.4 %CE Item='638' Table='0' LongName='Normal Text/Codes for Categorical Observations' Type='CE'
+OM3.5 %CE Item='639' Table='0' LongName='Abnormal Text/Codes for Categorical Observations' Type='CE'
+OM3.6 %CE Item='640' Table='0' LongName='Critical Text Codes for Categorical Observations' Type='CE'
+OM3.7 %ID Item='570' Table='125' LongName='Value Type' Type='ID'
+OM4.1 %NM Item='586' Table='0' LongName='Sequence Number ?Test/Observation Master File' Type='NM'
+OM4.2 %ID Item='642' Table='170' LongName='Derived Specimen' Type='ID'
+OM4.3 %TX Item='643' Table='0' LongName='Container Description' Type='TX'
+OM4.4 %NM Item='644' Table='0' LongName='Container Volume' Type='NM'
+OM4.5 %CE Item='645' Table='0' LongName='Container Units' Type='CE'
+OM4.6 %CE Item='646' Table='0' LongName='Specimen' Type='CE'
+OM4.7 %CE Item='647' Table='0' LongName='Additive' Type='CE'
+OM4.8 %TX Item='648' Table='0' LongName='Preparation' Type='TX'
+OM4.9 %TX Item='649' Table='0' LongName='Special Handling Requirements' Type='TX'
+OM4.10 %CQ Item='650' Table='0' LongName='Normal Collection Volume' Type='CQ'
+OM4.11 %CQ Item='651' Table='0' LongName='Minimum Collection Volume' Type='CQ'
+OM4.12 %TX Item='652' Table='0' LongName='Specimen Requirements' Type='TX'
+OM4.13 %ID Item='653' Table='27' LongName='Specimen Priorities' Type='ID'
+OM4.14 %CQ Item='654' Table='0' LongName='Specimen Retention Time' Type='CQ'
+OM5.1 %NM Item='586' Table='0' LongName='Sequence Number ?Test/Observation Master File' Type='NM'
+OM5.2 %CE Item='655' Table='0' LongName='Test/Observations Included within an Ordered Test Battery' Type='CE'
+OM5.3 %ST Item='656' Table='0' LongName='Observation ID Suffixes' Type='ST'
+OM6.1 %NM Item='586' Table='0' LongName='Sequence Number ?Test/Observation Master File' Type='NM'
+OM6.2 %TX Item='657' Table='0' LongName='Derivation Rule' Type='TX'
+ORC.1 %ID Item='215' Table='119' LongName='Order Control' Type='ID'
+ORC.2 %EI Item='216' Table='0' LongName='Placer Order Number' Type='EI'
+ORC.3 %EI Item='217' Table='0' LongName='Filler Order Number' Type='EI'
+ORC.4 %EI Item='218' Table='0' LongName='Placer Group Number' Type='EI'
+ORC.5 %ID Item='219' Table='38' LongName='Order Status' Type='ID'
+ORC.6 %ID Item='220' Table='121' LongName='Response Flag' Type='ID'
+ORC.7 %TQ Item='221' Table='0' LongName='Quantity/Timing' Type='TQ'
+ORC.8 %CM Item='222' Table='0' LongName='Parent' Type='CM'
+ORC.9 %TS Item='223' Table='0' LongName='Date/Time of Transaction' Type='TS'
+ORC.10 %XCN Item='224' Table='0' LongName='Entered By' Type='XCN'
+ORC.11 %XCN Item='225' Table='0' LongName='Verified By' Type='XCN'
+ORC.12 %XCN Item='226' Table='0' LongName='Ordering Provider' Type='XCN'
+ORC.13 %PL Item='227' Table='0' LongName='Enterer’s Location' Type='PL'
+ORC.14 %XTN Item='228' Table='0' LongName='Call Back Phone Number' Type='XTN'
+ORC.15 %TS Item='229' Table='0' LongName='Order Effective Date/Time' Type='TS'
+ORC.16 %CE Item='230' Table='0' LongName='Order Control Code Reason' Type='CE'
+ORC.17 %CE Item='231' Table='0' LongName='Entering Organization' Type='CE'
+ORC.18 %CE Item='232' Table='0' LongName='Entering Device' Type='CE'
+ORC.19 %XCN Item='233' Table='0' LongName='Action By' Type='XCN'
+ORC.20 %CE Item='1310' Table='339' LongName='Advanced Beneficiary Notice Code' Type='CE'
+ORC.21 %XON Item='1311' Table='0' LongName='Ordering Facility Name' Type='XON'
+ORC.22 %XAD Item='1312' Table='0' LongName='Ordering Facility Address' Type='XAD'
+ORC.23 %XTN Item='1313' Table='0' LongName='Ordering Facility Phone Number' Type='XTN'
+ORC.24 %XAD Item='1314' Table='0' LongName='Ordering Provider Address' Type='XAD'
+PCR.1 %CE Item='1098' Table='0' LongName='Implicated Product' Type='CE'
+PCR.2 %IS Item='1099' Table='249' LongName='Generic Product' Type='IS'
+PCR.3 %CE Item='1100' Table='0' LongName='Product Class' Type='CE'
+PCR.4 %CQ Item='1101' Table='0' LongName='Total Duration Of Therapy' Type='CQ'
+PCR.5 %TS Item='1102' Table='0' LongName='Product Manufacture Date' Type='TS'
+PCR.6 %TS Item='1103' Table='0' LongName='Product Expiration Date' Type='TS'
+PCR.7 %TS Item='1104' Table='0' LongName='Product Implantation Date' Type='TS'
+PCR.8 %TS Item='1105' Table='0' LongName='Product Explantation Date' Type='TS'
+PCR.9 %IS Item='1106' Table='244' LongName='Single Use Device' Type='IS'
+PCR.10 %CE Item='1107' Table='0' LongName='Indication For Product Use' Type='CE'
+PCR.11 %IS Item='1108' Table='245' LongName='Product Problem' Type='IS'
+PCR.12 %ST Item='1109' Table='0' LongName='Product Serial/Lot Number' Type='ST'
+PCR.13 %IS Item='1110' Table='246' LongName='Product Available For Inspection' Type='IS'
+PCR.14 %CE Item='1111' Table='0' LongName='Product Evaluation Performed' Type='CE'
+PCR.15 %CE Item='1112' Table='247' LongName='Product Evaluation Status' Type='CE'
+PCR.16 %CE Item='1113' Table='0' LongName='Product Evaluation Results' Type='CE'
+PCR.17 %ID Item='1114' Table='248' LongName='Evaluated Product Source' Type='ID'
+PCR.18 %TS Item='1115' Table='0' LongName='Date Product Returned To Manufacturer' Type='TS'
+PCR.19 %ID Item='1116' Table='242' LongName='Device Operator Qualifications' Type='ID'
+PCR.20 %ID Item='1117' Table='250' LongName='Relatedness Assessment' Type='ID'
+PCR.21 %ID Item='1118' Table='251' LongName='Action Taken In Response To The Event' Type='ID'
+PCR.22 %ID Item='1119' Table='252' LongName='Event Causality Observations' Type='ID'
+PCR.23 %ID Item='1120' Table='253' LongName='Indirect Exposure Mechanism' Type='ID'
+PD1.1 %IS Item='755' Table='223' LongName='Living Dependency' Type='IS'
+PD1.2 %IS Item='742' Table='220' LongName='Living Arrangement' Type='IS'
+PD1.3 %XON Item='756' Table='0' LongName='Patient Primary Facility' Type='XON'
+PD1.4 %XCN Item='757' Table='0' LongName='Patient Primary Care Provider Name &amp; ID No.' Type='XCN'
+PD1.5 %IS Item='745' Table='231' LongName='Student Indicator' Type='IS'
+PD1.6 %IS Item='753' Table='295' LongName='Handicap' Type='IS'
+PD1.7 %IS Item='759' Table='315' LongName='Living Will' Type='IS'
+PD1.8 %IS Item='760' Table='316' LongName='Organ Donor' Type='IS'
+PD1.9 %ID Item='761' Table='136' LongName='Separate Bill' Type='ID'
+PD1.10 %CX Item='762' Table='0' LongName='Duplicate Patient' Type='CX'
+PD1.11 %CE Item='743' Table='215' LongName='Publicity Code' Type='CE'
+PD1.12 %ID Item='744' Table='136' LongName='Protection Indicator' Type='ID'
+PDC.1 %XON Item='1247' Table='0' LongName='Manufacturer/Distributor' Type='XON'
+PDC.2 %CE Item='1248' Table='0' LongName='Country' Type='CE'
+PDC.3 %ST Item='1249' Table='0' LongName='Brand Name' Type='ST'
+PDC.4 %ST Item='1250' Table='0' LongName='Device Family Name' Type='ST'
+PDC.5 %CE Item='1251' Table='0' LongName='Generic Name' Type='CE'
+PDC.6 %ST Item='1252' Table='0' LongName='Model Identifier' Type='ST'
+PDC.7 %ST Item='1253' Table='0' LongName='Catalogue Identifier' Type='ST'
+PDC.8 %ST Item='1254' Table='0' LongName='Other Identifier' Type='ST'
+PDC.9 %CE Item='1255' Table='0' LongName='Product Code' Type='CE'
+PDC.10 %ID Item='1256' Table='330' LongName='Marketing Basis' Type='ID'
+PDC.11 %ST Item='1257' Table='0' LongName='Marketing Approval ID' Type='ST'
+PDC.12 %CQ Item='1258' Table='0' LongName='Labeled Shelf Life' Type='CQ'
+PDC.13 %CQ Item='1259' Table='0' LongName='Expected Shelf Life' Type='CQ'
+PDC.14 %TS Item='1260' Table='0' LongName='Date First Marketed' Type='TS'
+PDC.15 %TS Item='1261' Table='0' LongName='Date Last Marketed' Type='TS'
+PEO.1 %CE Item='1073' Table='0' LongName='Event Identifiers Used' Type='CE'
+PEO.2 %CE Item='1074' Table='0' LongName='Event Symptom/Diagnosis Code' Type='CE'
+PEO.3 %TS Item='1075' Table='0' LongName='Event Onset Date/Time' Type='TS'
+PEO.4 %TS Item='1076' Table='0' LongName='Event Exacerbation Date/Time' Type='TS'
+PEO.5 %TS Item='1077' Table='0' LongName='Event Improved Date/Time' Type='TS'
+PEO.6 %TS Item='1078' Table='0' LongName='Event Ended Data/Time' Type='TS'
+PEO.7 %XAD Item='1079' Table='0' LongName='Event Location Occurred Address' Type='XAD'
+PEO.8 %ID Item='1080' Table='237' LongName='Event Qualification' Type='ID'
+PEO.9 %ID Item='1081' Table='238' LongName='Event Serious' Type='ID'
+PEO.10 %ID Item='1082' Table='239' LongName='Event Expected' Type='ID'
+PEO.11 %ID Item='1083' Table='240' LongName='Event Outcome' Type='ID'
+PEO.12 %ID Item='1084' Table='241' LongName='Patient Outcome' Type='ID'
+PEO.13 %FT Item='1085' Table='0' LongName='Event Description From Others' Type='FT'
+PEO.14 %FT Item='1086' Table='0' LongName='Event From Original Reporter' Type='FT'
+PEO.15 %FT Item='1087' Table='0' LongName='Event Description From Patient' Type='FT'
+PEO.16 %FT Item='1088' Table='0' LongName='Event Description From Practitioner' Type='FT'
+PEO.17 %FT Item='1089' Table='0' LongName='Event Description From Autopsy' Type='FT'
+PEO.18 %CE Item='1090' Table='0' LongName='Cause Of Death' Type='CE'
+PEO.19 %XPN Item='1091' Table='0' LongName='Primary Observer Name' Type='XPN'
+PEO.20 %XAD Item='1092' Table='0' LongName='Primary Observer Address' Type='XAD'
+PEO.21 %XTN Item='1093' Table='0' LongName='Primary Observer Telephone' Type='XTN'
+PEO.22 %ID Item='1094' Table='242' LongName='Primary Observer’s Qualification' Type='ID'
+PEO.23 %ID Item='1095' Table='242' LongName='Confirmation Provided By' Type='ID'
+PEO.24 %TS Item='1096' Table='0' LongName='Primary Observer Aware Date/Time' Type='TS'
+PEO.25 %ID Item='1097' Table='243' LongName='Primary Observer’s identity May Be Divulged' Type='ID'
+PES.1 %XON Item='1059' Table='0' LongName='Sender Organization Name' Type='XON'
+PES.2 %XCN Item='1060' Table='0' LongName='Sender Individual Name' Type='XCN'
+PES.3 %XAD Item='1062' Table='0' LongName='Sender Address' Type='XAD'
+PES.4 %XTN Item='1063' Table='0' LongName='Sender Telephone' Type='XTN'
+PES.5 %EI Item='1064' Table='0' LongName='Sender Event Identifier' Type='EI'
+PES.6 %NM Item='1065' Table='0' LongName='Sender Sequence Number' Type='NM'
+PES.7 %FT Item='1066' Table='0' LongName='Sender Event Description' Type='FT'
+PES.8 %FT Item='1067' Table='0' LongName='Sender Comment' Type='FT'
+PES.9 %TS Item='1068' Table='0' LongName='Sender Aware Date/Time' Type='TS'
+PES.10 %TS Item='1069' Table='0' LongName='Event Report Date' Type='TS'
+PES.11 %ID Item='1070' Table='234' LongName='Event Report Timing/Type' Type='ID'
+PES.12 %ID Item='1071' Table='235' LongName='Event Report Source' Type='ID'
+PES.13 %ID Item='1072' Table='236' LongName='Event Reported To' Type='ID'
+PID.1 %SI Item='104' Table='0' LongName='Set ID - PID' Type='SI'
+PID.2 %CX Item='105' Table='0' LongName='Patient ID' Type='CX'
+PID.3 %CX Item='106' Table='0' LongName='Patient Identifier List' Type='CX'
+PID.4 %CX Item='107' Table='0' LongName='Alternate Patient ID - PID' Type='CX'
+PID.5 %XPN Item='108' Table='0' LongName='Patient Name' Type='XPN'
+PID.6 %XPN Item='109' Table='0' LongName='Mother’s Maiden Name' Type='XPN'
+PID.7 %TS Item='110' Table='0' LongName='Date/Time Of Birth' Type='TS'
+PID.8 %IS Item='111' Table='1' LongName='Sex' Type='IS'
+PID.9 %XPN Item='112' Table='0' LongName='Patient Alias' Type='XPN'
+PID.10 %CE Item='113' Table='5' LongName='Race' Type='CE'
+PID.11 %XAD Item='114' Table='0' LongName='Patient Address' Type='XAD'
+PID.12 %IS Item='115' Table='289' LongName='County Code' Type='IS'
+PID.13 %XTN Item='116' Table='0' LongName='Phone Number - Home' Type='XTN'
+PID.14 %XTN Item='117' Table='0' LongName='Phone Number - Business' Type='XTN'
+PID.15 %CE Item='118' Table='296' LongName='Primary Language' Type='CE'
+PID.16 %CE Item='119' Table='2' LongName='Marital Status' Type='CE'
+PID.17 %CE Item='120' Table='6' LongName='Religion' Type='CE'
+PID.18 %CX Item='121' Table='0' LongName='Patient Account Number' Type='CX'
+PID.19 %ST Item='122' Table='0' LongName='SSN Number - Patient' Type='ST'
+PID.20 %DLN Item='123' Table='0' LongName='Driver&apos;s License Number - Patient' Type='DLN'
+PID.21 %CX Item='124' Table='0' LongName='Mother&apos;s Identifier' Type='CX'
+PID.22 %CE Item='125' Table='189' LongName='Ethnic Group' Type='CE'
+PID.23 %ST Item='126' Table='0' LongName='Birth Place' Type='ST'
+PID.24 %ID Item='127' Table='136' LongName='Multiple Birth Indicator' Type='ID'
+PID.25 %NM Item='128' Table='0' LongName='Birth Order' Type='NM'
+PID.26 %CE Item='129' Table='171' LongName='Citizenship' Type='CE'
+PID.27 %CE Item='130' Table='172' LongName='Veterans Military Status' Type='CE'
+PID.28 %CE Item='739' Table='212' LongName='Nationality' Type='CE'
+PID.29 %TS Item='740' Table='0' LongName='Patient Death Date and Time' Type='TS'
+PID.30 %ID Item='741' Table='136' LongName='Patient Death Indicator' Type='ID'
+PR1.1 %SI Item='391' Table='0' LongName='Set ID - PR1' Type='SI'
+PR1.2 %IS Item='392' Table='89' LongName='Procedure Coding Method' Type='IS'
+PR1.3 %CE Item='393' Table='88' LongName='Procedure Code' Type='CE'
+PR1.4 %ST Item='394' Table='0' LongName='Procedure Description' Type='ST'
+PR1.5 %TS Item='395' Table='0' LongName='Procedure Date/Time' Type='TS'
+PR1.6 %IS Item='396' Table='230' LongName='Procedure Functional Type' Type='IS'
+PR1.7 %NM Item='397' Table='0' LongName='Procedure Minutes' Type='NM'
+PR1.8 %XCN Item='398' Table='10' LongName='Anesthesiologist' Type='XCN'
+PR1.9 %IS Item='399' Table='19' LongName='Anesthesia Code' Type='IS'
+PR1.10 %NM Item='400' Table='0' LongName='Anesthesia Minutes' Type='NM'
+PR1.11 %XCN Item='401' Table='10' LongName='Surgeon' Type='XCN'
+PR1.12 %XCN Item='402' Table='10' LongName='Procedure Practitioner' Type='XCN'
+PR1.13 %CE Item='403' Table='59' LongName='Consent Code' Type='CE'
+PR1.14 %NM Item='404' Table='0' LongName='Procedure Priority' Type='NM'
+PR1.15 %CE Item='772' Table='51' LongName='Associated Diagnosis Code' Type='CE'
+PR1.16 %CE Item='1316' Table='340' LongName='Procedure Code Modifier' Type='CE'
+PRA.1 %CE Item='685' Table='0' LongName='Primary Key Value - PRA' Type='CE'
+PRA.2 %CE Item='686' Table='358' LongName='Practitioner Group' Type='CE'
+PRA.3 %IS Item='687' Table='186' LongName='Practitioner Category' Type='IS'
+PRA.4 %ID Item='688' Table='187' LongName='Provider Billing' Type='ID'
+PRA.5 %CM Item='689' Table='337' LongName='Specialty' Type='CM'
+PRA.6 %CM Item='690' Table='338' LongName='Practitioner ID Numbers' Type='CM'
+PRA.7 %CM Item='691' Table='0' LongName='Privileges' Type='CM'
+PRA.8 %DT Item='1296' Table='0' LongName='Date Entered Practice' Type='DT'
+PRB.1 %ID Item='816' Table='287' LongName='Action Code' Type='ID'
+PRB.2 %TS Item='817' Table='0' LongName='Action Date/Time' Type='TS'
+PRB.3 %CE Item='838' Table='0' LongName='Problem ID' Type='CE'
+PRB.4 %EI Item='839' Table='0' LongName='Problem Instance ID' Type='EI'
+PRB.5 %EI Item='820' Table='0' LongName='Episode of Care ID' Type='EI'
+PRB.6 %NM Item='841' Table='0' LongName='Problem List Priority' Type='NM'
+PRB.7 %TS Item='842' Table='0' LongName='Problem Established Date/Time' Type='TS'
+PRB.8 %TS Item='843' Table='0' LongName='Anticipated Problem Resolution Date/Time' Type='TS'
+PRB.9 %TS Item='844' Table='0' LongName='Actual Problem Resolution Date/Time' Type='TS'
+PRB.10 %CE Item='845' Table='0' LongName='Problem Classification' Type='CE'
+PRB.11 %CE Item='846' Table='0' LongName='Problem Management Discipline' Type='CE'
+PRB.12 %CE Item='847' Table='0' LongName='Problem Persistence' Type='CE'
+PRB.13 %CE Item='848' Table='0' LongName='Problem Confirmation Status' Type='CE'
+PRB.14 %CE Item='849' Table='0' LongName='Problem Life Cycle Status' Type='CE'
+PRB.15 %TS Item='850' Table='0' LongName='Problem Life Cycle Status Date/Time' Type='TS'
+PRB.16 %TS Item='851' Table='0' LongName='Problem Date of Onset' Type='TS'
+PRB.17 %ST Item='852' Table='0' LongName='Problem Onset Text' Type='ST'
+PRB.18 %CE Item='853' Table='0' LongName='Problem Ranking' Type='CE'
+PRB.19 %CE Item='854' Table='0' LongName='Certainty of Problem' Type='CE'
+PRB.20 %NM Item='855' Table='0' LongName='Probability of Problem (0-1)' Type='NM'
+PRB.21 %CE Item='856' Table='0' LongName='Individual Awareness of Problem' Type='CE'
+PRB.22 %CE Item='857' Table='0' LongName='Problem Prognosis' Type='CE'
+PRB.23 %CE Item='858' Table='0' LongName='Individual Awareness of Prognosis' Type='CE'
+PRB.24 %ST Item='859' Table='0' LongName='Family/Significant Other Awareness of Problem/Prognosis' Type='ST'
+PRB.25 %CE Item='823' Table='0' LongName='Security/Sensitivity' Type='CE'
+PRC.1 %CE Item='982' Table='132' LongName='Primary Key Value - PRC' Type='CE'
+PRC.2 %CE Item='995' Table='0' LongName='Facility ID - PRC' Type='CE'
+PRC.3 %CE Item='676' Table='184' LongName='Department' Type='CE'
+PRC.4 %IS Item='967' Table='4' LongName='Valid Patient Classes' Type='IS'
+PRC.5 %CP Item='998' Table='0' LongName='Price' Type='CP'
+PRC.6 %ST Item='999' Table='0' LongName='Formula' Type='ST'
+PRC.7 %NM Item='1000' Table='0' LongName='Minimum Quantity' Type='NM'
+PRC.8 %NM Item='1001' Table='0' LongName='Maximum Quantity' Type='NM'
+PRC.9 %MO Item='1002' Table='0' LongName='Minimum Price' Type='MO'
+PRC.10 %MO Item='1003' Table='0' LongName='Maximum Price' Type='MO'
+PRC.11 %TS Item='1004' Table='0' LongName='Effective Start Date' Type='TS'
+PRC.12 %TS Item='1005' Table='0' LongName='Effective End Date' Type='TS'
+PRC.13 %IS Item='1006' Table='268' LongName='Price Override Flag' Type='IS'
+PRC.14 %CE Item='1007' Table='293' LongName='Billing Category' Type='CE'
+PRC.15 %ID Item='1008' Table='136' LongName='Chargeable Flag' Type='ID'
+PRC.16 %ID Item='675' Table='183' LongName='Active/Inactive Flag' Type='ID'
+PRC.17 %MO Item='989' Table='0' LongName='Cost' Type='MO'
+PRC.18 %IS Item='1009' Table='269' LongName='Charge On Indicator' Type='IS'
+PRD.1 %CE_TAB_0131 Item='1155' Table='286' LongName='Provider Role' Type='CE_TAB_0131'
+PRD.2 %XPN Item='1156' Table='0' LongName='Provider Name' Type='XPN'
+PRD.3 %XAD Item='1157' Table='0' LongName='Provider Address' Type='XAD'
+PRD.4 %PL Item='1158' Table='0' LongName='Provider Location' Type='PL'
+PRD.5 %XTN Item='1159' Table='0' LongName='Provider Communication Information' Type='XTN'
+PRD.6 %CE_TAB_0185 Item='684' Table='185' LongName='Preferred Method Of Contact' Type='CE_TAB_0185'
+PRD.7 %CM Item='1162' Table='0' LongName='Provider Identifiers' Type='CM'
+PRD.8 %TS Item='1163' Table='0' LongName='Effective Start Date of Provider Role' Type='TS'
+PRD.9 %TS Item='1164' Table='0' LongName='Effective End Date of Provider Role' Type='TS'
+PSH.1 %ST Item='1233' Table='0' LongName='Report Type' Type='ST'
+PSH.2 %ST Item='1297' Table='0' LongName='Report Form Identifier' Type='ST'
+PSH.3 %TS Item='1235' Table='0' LongName='Report Date' Type='TS'
+PSH.4 %TS Item='1236' Table='0' LongName='Report Interval Start Date' Type='TS'
+PSH.5 %TS Item='1237' Table='0' LongName='Report Interval End Date' Type='TS'
+PSH.6 %CQ Item='1238' Table='0' LongName='Quantity Manufactured' Type='CQ'
+PSH.7 %CQ Item='1239' Table='0' LongName='Quantity Distributed' Type='CQ'
+PSH.8 %ID Item='1240' Table='329' LongName='Quantity Distributed Method' Type='ID'
+PSH.9 %FT Item='1241' Table='0' LongName='Quantity Distributed Comment' Type='FT'
+PSH.10 %CQ Item='1242' Table='0' LongName='Quantity in Use' Type='CQ'
+PSH.11 %ID Item='1243' Table='329' LongName='Quantity in Use Method' Type='ID'
+PSH.12 %FT Item='1244' Table='0' LongName='Quantity in Use Comment' Type='FT'
+PSH.13 %NM Item='1245' Table='0' LongName='Number of Product Experience Reports Filed by Facility' Type='NM'
+PSH.14 %NM Item='1246' Table='0' LongName='Number of Product Experience Reports Filed by Distributor' Type='NM'
+PTH.1 %ID Item='816' Table='287' LongName='Action Code' Type='ID'
+PTH.2 %CE Item='1207' Table='0' LongName='Pathway ID' Type='CE'
+PTH.3 %EI Item='1208' Table='0' LongName='Pathway Instance ID' Type='EI'
+PTH.4 %TS Item='1209' Table='0' LongName='Pathway Established Date/Time' Type='TS'
+PTH.5 %CE Item='1210' Table='0' LongName='Pathway Life Cycle Status' Type='CE'
+PTH.6 %TS Item='1211' Table='0' LongName='Change Pathway Life Cycle Status Date/Time' Type='TS'
+PV1.1 %SI Item='131' Table='0' LongName='Set ID - PV1' Type='SI'
+PV1.2 %IS Item='132' Table='4' LongName='Patient Class' Type='IS'
+PV1.3 %CM_PV13PL_TYPE Item='133' Table='0' LongName='Assigned Patient Location (NOVACOM)' Type='CM_PV13PL_TYPE'
+%CM_PV13PL_TYPE (CM_PV13PL_TYPE.1?,CM_PV13PL_TYPE.2?,CM_PV13PL_TYPE.3?,CM_PV13PL_TYPE.4?,CM_PV13PL_TYPE.5?,CM_PV13PL_TYPE.6?,CM_PV13PL_TYPE.7?,CM_PV13PL_TYPE.8?,CM_PV13PL_TYPE.9?)
+CM_PV13PL_TYPE.1 %HD LongName='point of care (NOVACOM)' Type='HD' Table='302'
+CM_PV13PL_TYPE.2 %IS LongName='room' Type='IS' Table='303'
+CM_PV13PL_TYPE.3 %IS LongName='bed' Type='IS' Table='304'
+CM_PV13PL_TYPE.4 %HD LongName='facility' Type='HD' Table='0'
+CM_PV13PL_TYPE.5 %IS LongName='location status' Type='IS' Table='306'
+CM_PV13PL_TYPE.6 %IS LongName='person location type' Type='IS' Table='305'
+CM_PV13PL_TYPE.7 %IS LongName='building' Type='IS' Table='307'
+CM_PV13PL_TYPE.8 %IS LongName='floor' Type='IS' Table='308'
+CM_PV13PL_TYPE.9 %ST LongName='Location description' Type='ST' Table='0'
+PV1.4 %IS Item='134' Table='7' LongName='Admission Type' Type='IS'
+PV1.5 %CX Item='135' Table='0' LongName='Preadmit Number' Type='CX'
+PV1.6 %PL Item='136' Table='0' LongName='Prior Patient Location' Type='PL'
+PV1.7 %XCN Item='137' Table='10' LongName='Attending Doctor' Type='XCN'
+PV1.8 %XCN Item='138' Table='10' LongName='Referring Doctor' Type='XCN'
+PV1.9 %XCN Item='139' Table='10' LongName='Consulting Doctor' Type='XCN'
+PV1.10 %IS Item='140' Table='69' LongName='Hospital Service' Type='IS'
+PV1.11 %PL Item='141' Table='0' LongName='Temporary Location' Type='PL'
+PV1.12 %IS Item='142' Table='87' LongName='Preadmit Test Indicator' Type='IS'
+PV1.13 %IS Item='143' Table='92' LongName='Re-admission Indicator' Type='IS'
+PV1.14 %IS Item='144' Table='23' LongName='Admit Source' Type='IS'
+PV1.15 %IS Item='145' Table='9' LongName='Ambulatory Status' Type='IS'
+PV1.16 %IS Item='146' Table='99' LongName='VIP Indicator' Type='IS'
+PV1.17 %XCN Item='147' Table='10' LongName='Admitting Doctor' Type='XCN'
+PV1.18 %IS Item='148' Table='18' LongName='Patient Type' Type='IS'
+PV1.19 %CX Item='149' Table='0' LongName='Visit Number' Type='CX'
+PV1.20 %FC Item='150' Table='64' LongName='Financial Class' Type='FC'
+PV1.21 %IS Item='151' Table='32' LongName='Charge Price Indicator' Type='IS'
+PV1.22 %IS Item='152' Table='45' LongName='Courtesy Code' Type='IS'
+PV1.23 %IS Item='153' Table='46' LongName='Credit Rating' Type='IS'
+PV1.24 %IS Item='154' Table='44' LongName='Contract Code' Type='IS'
+PV1.25 %DT Item='155' Table='0' LongName='Contract Effective Date' Type='DT'
+PV1.26 %NM Item='156' Table='0' LongName='Contract Amount' Type='NM'
+PV1.27 %NM Item='157' Table='0' LongName='Contract Period' Type='NM'
+PV1.28 %IS Item='158' Table='73' LongName='Interest Code' Type='IS'
+PV1.29 %IS Item='159' Table='110' LongName='Transfer to Bad Debt Code' Type='IS'
+PV1.30 %DT Item='160' Table='0' LongName='Transfer to Bad Debt Date' Type='DT'
+PV1.31 %IS Item='161' Table='21' LongName='Bad Debt Agency Code' Type='IS'
+PV1.32 %NM Item='162' Table='0' LongName='Bad Debt Transfer Amount' Type='NM'
+PV1.33 %NM Item='163' Table='0' LongName='Bad Debt Recovery Amount' Type='NM'
+PV1.34 %IS Item='164' Table='111' LongName='Delete Account Indicator' Type='IS'
+PV1.35 %DT Item='165' Table='0' LongName='Delete Account Date' Type='DT'
+PV1.36 %IS Item='166' Table='112' LongName='Discharge Disposition' Type='IS'
+PV1.37 %CM Item='167' Table='113' LongName='Discharged to Location' Type='CM'
+PV1.38 %CE Item='168' Table='114' LongName='Diet Type' Type='CE'
+PV1.39 %IS Item='169' Table='115' LongName='Servicing Facility' Type='IS'
+PV1.40 %IS Item='170' Table='116' LongName='Bed Status' Type='IS'
+PV1.41 %IS Item='171' Table='117' LongName='Account Status' Type='IS'
+PV1.42 %PL Item='172' Table='0' LongName='Pending Location' Type='PL'
+PV1.43 %PL Item='173' Table='0' LongName='Prior Temporary Location' Type='PL'
+PV1.44 %TS Item='174' Table='0' LongName='Admit Date/Time' Type='TS'
+PV1.45 %TS Item='175' Table='0' LongName='Discharge Date/Time' Type='TS'
+PV1.46 %NM Item='176' Table='0' LongName='Current Patient Balance' Type='NM'
+PV1.47 %NM Item='177' Table='0' LongName='Total Charges' Type='NM'
+PV1.48 %NM Item='178' Table='0' LongName='Total Adjustments' Type='NM'
+PV1.49 %NM Item='179' Table='0' LongName='Total Payments' Type='NM'
+PV1.50 %CX Item='180' Table='203' LongName='Alternate Visit ID' Type='CX'
+PV1.51 %IS Item='1226' Table='326' LongName='Visit Indicator' Type='IS'
+PV1.52 %XCN Item='1274' Table='10' LongName='Other Healthcare Provider' Type='XCN'
+PV2.1 %PL Item='181' Table='0' LongName='Prior Pending Location' Type='PL'
+PV2.2 %CE Item='182' Table='129' LongName='Accommodation Code' Type='CE'
+PV2.3 %CE Item='183' Table='0' LongName='Admit Reason' Type='CE'
+PV2.4 %CE Item='184' Table='0' LongName='Transfer Reason' Type='CE'
+PV2.5 %ST Item='185' Table='0' LongName='Patient Valuables' Type='ST'
+PV2.6 %ST Item='186' Table='0' LongName='Patient Valuables Location' Type='ST'
+PV2.7 %IS Item='187' Table='130' LongName='Visit User Code' Type='IS'
+PV2.8 %TS Item='188' Table='0' LongName='Expected Admit Date/Time' Type='TS'
+PV2.9 %TS Item='189' Table='0' LongName='Expected Discharge Date/Time' Type='TS'
+PV2.10 %NM Item='711' Table='0' LongName='Estimated Length of Inpatient Stay' Type='NM'
+PV2.11 %NM Item='712' Table='0' LongName='Actual Length of Inpatient Stay' Type='NM'
+PV2.12 %ST Item='713' Table='0' LongName='Visit Description' Type='ST'
+PV2.13 %XCN Item='714' Table='0' LongName='Referral Source Code' Type='XCN'
+PV2.14 %DT Item='715' Table='0' LongName='Previous Service Date' Type='DT'
+PV2.15 %ID Item='716' Table='136' LongName='Employment Illness Related Indicator' Type='ID'
+PV2.16 %IS Item='717' Table='213' LongName='Purge Status Code' Type='IS'
+PV2.17 %DT Item='718' Table='0' LongName='Purge Status Date' Type='DT'
+PV2.18 %IS Item='719' Table='214' LongName='Special Program Code' Type='IS'
+PV2.19 %ID Item='720' Table='136' LongName='Retention Indicator' Type='ID'
+PV2.20 %NM Item='721' Table='0' LongName='Expected Number of Insurance Plans' Type='NM'
+PV2.21 %IS Item='722' Table='215' LongName='Visit Publicity Code' Type='IS'
+PV2.22 %ID Item='723' Table='136' LongName='Visit Protection Indicator' Type='ID'
+PV2.23 %XON Item='724' Table='0' LongName='Clinic Organization Name' Type='XON'
+PV2.24 %IS Item='725' Table='216' LongName='Patient Status Code' Type='IS'
+PV2.25 %IS Item='726' Table='217' LongName='Visit Priority Code' Type='IS'
+PV2.26 %DT Item='727' Table='0' LongName='Previous Treatment Date' Type='DT'
+PV2.27 %IS Item='728' Table='112' LongName='Expected Discharge Disposition' Type='IS'
+PV2.28 %DT Item='729' Table='0' LongName='Signature on File Date' Type='DT'
+PV2.29 %DT Item='730' Table='0' LongName='First Similar Illness Date' Type='DT'
+PV2.30 %CE Item='731' Table='218' LongName='Patient Charge Adjustment Code' Type='CE'
+PV2.31 %IS Item='732' Table='219' LongName='Recurring Service Code' Type='IS'
+PV2.32 %ID Item='733' Table='136' LongName='Billing Media Code' Type='ID'
+PV2.33 %TS Item='734' Table='0' LongName='Expected Surgery Date &amp; Time' Type='TS'
+PV2.34 %ID Item='735' Table='136' LongName='Military Partnership Code' Type='ID'
+PV2.35 %ID Item='736' Table='136' LongName='Military Non-Availability Code' Type='ID'
+PV2.36 %ID Item='737' Table='136' LongName='Newborn Baby Indicator' Type='ID'
+PV2.37 %ID Item='738' Table='136' LongName='Baby Detained Indicator' Type='ID'
+QAK.1 %ST Item='696' Table='0' LongName='Query Tag' Type='ST'
+QAK.2 %ID Item='708' Table='208' LongName='Query Response Status' Type='ID'
+QRD.1 %TS Item='25' Table='0' LongName='Query Date/Time' Type='TS'
+QRD.2 %ID Item='26' Table='106' LongName='Query Format Code' Type='ID'
+QRD.3 %ID Item='27' Table='91' LongName='Query Priority' Type='ID'
+QRD.4 %ST Item='28' Table='0' LongName='Query ID' Type='ST'
+QRD.5 %ID Item='29' Table='107' LongName='Deferred Response Type' Type='ID'
+QRD.6 %TS Item='30' Table='0' LongName='Deferred Response Date/Time' Type='TS'
+QRD.7 %CQ Item='31' Table='126' LongName='Quantity Limited Request' Type='CQ'
+QRD.8 %XCN Item='32' Table='0' LongName='Who Subject Filter' Type='XCN'
+QRD.9 %CE Item='33' Table='48' LongName='What Subject Filter' Type='CE'
+QRD.10 %CE Item='34' Table='0' LongName='What Department Data Code' Type='CE'
+QRD.11 %CM Item='35' Table='0' LongName='What Data Code Value Qual.' Type='CM'
+QRD.12 %ID Item='36' Table='108' LongName='Query Results Level' Type='ID'
+QRF.1 %ST Item='37' Table='0' LongName='Where Subject Filter' Type='ST'
+QRF.2 %TS Item='38' Table='0' LongName='When Data Start Date/Time' Type='TS'
+QRF.3 %TS Item='39' Table='0' LongName='When Data End Date/Time' Type='TS'
+QRF.4 %ST Item='40' Table='0' LongName='What User Qualifier' Type='ST'
+QRF.5 %ST Item='41' Table='0' LongName='Other QRY Subject Filter' Type='ST'
+QRF.6 %ID Item='42' Table='156' LongName='Which Date/Time Qualifier' Type='ID'
+QRF.7 %ID Item='43' Table='157' LongName='Which Date/Time Status Qualifier' Type='ID'
+QRF.8 %ID Item='44' Table='158' LongName='Date/Time Selection Qualifier' Type='ID'
+QRF.9 %TQ Item='694' Table='0' LongName='When Quantity/Timing Qualifier' Type='TQ'
+RDF.1 %NM Item='701' Table='0' LongName='Number of Columns per Row' Type='NM'
+RDF.2 %RCD Item='702' Table='0' LongName='Column Description' Type='RCD'
+RDT.1 %WILDCARD Item='703' Table='0' LongName='Column Value' Type='WILDCARD'
+RF1.1 %CE_TAB_0283 Item='1137' Table='283' LongName='Referral Status' Type='CE_TAB_0283'
+RF1.2 %CE_TAB_0280 Item='1138' Table='280' LongName='Referral Priority' Type='CE_TAB_0280'
+RF1.3 %CE_TAB_0281 Item='1139' Table='281' LongName='Referral Type' Type='CE_TAB_0281'
+RF1.4 %CE_TAB_0282 Item='1140' Table='282' LongName='Referral Disposition' Type='CE_TAB_0282'
+RF1.5 %CE_TAB_0284 Item='1141' Table='284' LongName='Referral Category' Type='CE_TAB_0284'
+RF1.6 %EI Item='1142' Table='0' LongName='Originating Referral Identifier' Type='EI'
+RF1.7 %TS Item='1143' Table='0' LongName='Effective Date' Type='TS'
+RF1.8 %TS Item='1144' Table='0' LongName='Expiration Date' Type='TS'
+RF1.9 %TS Item='1145' Table='0' LongName='Process Date' Type='TS'
+RF1.10 %CE Item='1228' Table='336' LongName='Referral Reason' Type='CE'
+RF1.11 %EI Item='1300' Table='0' LongName='External Referral Identifier' Type='EI'
+RGS.1 %SI Item='1203' Table='0' LongName='Set ID - RGS' Type='SI'
+RGS.2 %ID Item='763' Table='206' LongName='Segment Action Code' Type='ID'
+RGS.3 %CE Item='1204' Table='0' LongName='Resource Group ID' Type='CE'
+ROL.1 %EI Item='1206' Table='0' LongName='Role Instance ID' Type='EI'
+ROL.2 %ID Item='816' Table='287' LongName='Action Code' Type='ID'
+ROL.3 %CE Item='1197' Table='0' LongName='Role-ROL' Type='CE'
+ROL.4 %XCN Item='1198' Table='0' LongName='Role Person' Type='XCN'
+ROL.5 %TS Item='1199' Table='0' LongName='Role Begin Date/Time' Type='TS'
+ROL.6 %TS Item='1200' Table='0' LongName='Role End Date/Time' Type='TS'
+ROL.7 %CE Item='1201' Table='0' LongName='Role Duration' Type='CE'
+ROL.8 %CE Item='1205' Table='0' LongName='Role Action Reason' Type='CE'
+RQ1.1 %ST Item='285' Table='0' LongName='Anticipated Price' Type='ST'
+RQ1.2 %CE Item='286' Table='0' LongName='Manufacturer ID' Type='CE'
+RQ1.3 %ST Item='287' Table='0' LongName='Manufacturer’s Catalog' Type='ST'
+RQ1.4 %CE Item='288' Table='0' LongName='Vendor ID' Type='CE'
+RQ1.5 %ST Item='289' Table='0' LongName='Vendor Catalog' Type='ST'
+RQ1.6 %ID Item='290' Table='136' LongName='Taxable' Type='ID'
+RQ1.7 %ID Item='291' Table='136' LongName='Substitute Allowed' Type='ID'
+RQD.1 %SI Item='275' Table='0' LongName='Requisition Line Number' Type='SI'
+RQD.2 %CE Item='276' Table='0' LongName='Item Code - Internal' Type='CE'
+RQD.3 %CE Item='277' Table='0' LongName='Item Code - External' Type='CE'
+RQD.4 %CE Item='278' Table='0' LongName='Hospital Item Code' Type='CE'
+RQD.5 %NM Item='279' Table='0' LongName='Requisition Quantity' Type='NM'
+RQD.6 %CE Item='280' Table='0' LongName='Requisition Unit of Measure' Type='CE'
+RQD.7 %IS Item='281' Table='319' LongName='Dept. Cost Center' Type='IS'
+RQD.8 %IS Item='282' Table='320' LongName='Item Natural Account Code' Type='IS'
+RQD.9 %CE Item='283' Table='0' LongName='Deliver To ID' Type='CE'
+RQD.10 %DT Item='284' Table='0' LongName='Date Needed' Type='DT'
+RXA.1 %NM Item='342' Table='0' LongName='Give Sub-ID Counter' Type='NM'
+RXA.2 %NM Item='344' Table='0' LongName='Administration Sub-ID Counter' Type='NM'
+RXA.3 %TS Item='345' Table='0' LongName='Date/Time Start of Administration' Type='TS'
+RXA.4 %TS Item='346' Table='0' LongName='Date/Time End of Administration' Type='TS'
+RXA.5 %CE Item='347' Table='292' LongName='Administered Code' Type='CE'
+RXA.6 %NM Item='348' Table='0' LongName='Administered Amount' Type='NM'
+RXA.7 %CE Item='349' Table='0' LongName='Administered Units' Type='CE'
+RXA.8 %CE Item='350' Table='0' LongName='Administered Dosage Form' Type='CE'
+RXA.9 %CE Item='351' Table='0' LongName='Administration Notes' Type='CE'
+RXA.10 %XCN Item='352' Table='0' LongName='Administering Provider' Type='XCN'
+RXA.11 %CM Item='353' Table='0' LongName='Administered-at Location' Type='CM'
+RXA.12 %ST Item='354' Table='0' LongName='Administered Per (Time Unit)' Type='ST'
+RXA.13 %NM Item='1134' Table='0' LongName='Administered Strength' Type='NM'
+RXA.14 %CE Item='1135' Table='0' LongName='Administered Strength Units' Type='CE'
+RXA.15 %ST Item='1129' Table='0' LongName='Substance Lot Number' Type='ST'
+RXA.16 %TS Item='1130' Table='0' LongName='Substance Expiration Date' Type='TS'
+RXA.17 %CE Item='1131' Table='227' LongName='Substance Manufacturer Name' Type='CE'
+RXA.18 %CE Item='1136' Table='0' LongName='Substance Refusal Reason' Type='CE'
+RXA.19 %CE Item='1123' Table='0' LongName='Indication' Type='CE'
+RXA.20 %ID Item='1223' Table='322' LongName='Completion Status' Type='ID'
+RXA.21 %ID Item='1224' Table='323' LongName='Action Code-RXA' Type='ID'
+RXA.22 %TS Item='1225' Table='0' LongName='System Entry Date/Time' Type='TS'
+RXC.1 %ID Item='313' Table='166' LongName='RX Component Type' Type='ID'
+RXC.2 %CE Item='314' Table='0' LongName='Component Code' Type='CE'
+RXC.3 %NM Item='315' Table='0' LongName='Component Amount' Type='NM'
+RXC.4 %CE Item='316' Table='0' LongName='Component Units' Type='CE'
+RXC.5 %NM Item='1124' Table='0' LongName='Component Strength' Type='NM'
+RXC.6 %CE Item='1125' Table='0' LongName='Component Strength Units' Type='CE'
+RXD.1 %NM Item='334' Table='0' LongName='Dispense Sub-ID Counter' Type='NM'
+RXD.2 %CE Item='335' Table='292' LongName='Dispense/Give Code' Type='CE'
+RXD.3 %TS Item='336' Table='0' LongName='Date/Time Dispensed' Type='TS'
+RXD.4 %NM Item='337' Table='0' LongName='Actual Dispense Amount' Type='NM'
+RXD.5 %CE Item='338' Table='0' LongName='Actual Dispense Units' Type='CE'
+RXD.6 %CE Item='339' Table='0' LongName='Actual Dosage Form' Type='CE'
+RXD.7 %ST Item='325' Table='0' LongName='Prescription Number' Type='ST'
+RXD.8 %NM Item='326' Table='0' LongName='Number of Refills Remaining' Type='NM'
+RXD.9 %ST Item='340' Table='0' LongName='Dispense Notes' Type='ST'
+RXD.10 %XCN Item='341' Table='0' LongName='Dispensing Provider' Type='XCN'
+RXD.11 %ID Item='322' Table='167' LongName='Substitution Status' Type='ID'
+RXD.12 %CQ Item='329' Table='0' LongName='Total Daily Dose' Type='CQ'
+RXD.13 %CM Item='1303' Table='0' LongName='Dispense-To Location' Type='CM'
+RXD.14 %ID Item='307' Table='136' LongName='Needs Human Review' Type='ID'
+RXD.15 %CE Item='330' Table='0' LongName='Pharmacy/Treatment Supplier’s Special Dispensing Instructions' Type='CE'
+RXD.16 %NM Item='1132' Table='0' LongName='Actual Strength' Type='NM'
+RXD.17 %CE Item='1133' Table='0' LongName='Actual Strength Unit' Type='CE'
+RXD.18 %ST Item='1129' Table='0' LongName='Substance Lot Number' Type='ST'
+RXD.19 %TS Item='1130' Table='0' LongName='Substance Expiration Date' Type='TS'
+RXD.20 %CE Item='1131' Table='227' LongName='Substance Manufacturer Name' Type='CE'
+RXD.21 %CE Item='1123' Table='0' LongName='Indication' Type='CE'
+RXD.22 %NM Item='1220' Table='0' LongName='Dispense Package Size' Type='NM'
+RXD.23 %CE Item='1221' Table='0' LongName='Dispense Package Size Unit' Type='CE'
+RXD.24 %ID Item='1222' Table='321' LongName='Dispense Package Method' Type='ID'
+RXE.1 %TQ Item='221' Table='0' LongName='Quantity/Timing' Type='TQ'
+RXE.2 %CE Item='317' Table='292' LongName='Give Code' Type='CE'
+RXE.3 %NM Item='318' Table='0' LongName='Give Amount - Minimum' Type='NM'
+RXE.4 %NM Item='319' Table='0' LongName='Give Amount - Maximum' Type='NM'
+RXE.5 %CE Item='320' Table='0' LongName='Give Units' Type='CE'
+RXE.6 %CE Item='321' Table='0' LongName='Give Dosage Form' Type='CE'
+RXE.7 %CE Item='298' Table='0' LongName='Provider’s Administration Instructions' Type='CE'
+RXE.8 %CM Item='299' Table='0' LongName='Deliver-to Location' Type='CM'
+RXE.9 %ID Item='322' Table='167' LongName='Substitution Status' Type='ID'
+RXE.10 %NM Item='323' Table='0' LongName='Dispense Amount' Type='NM'
+RXE.11 %CE Item='324' Table='0' LongName='Dispense Units' Type='CE'
+RXE.12 %NM Item='304' Table='0' LongName='Number Of Refills' Type='NM'
+RXE.13 %XCN Item='305' Table='0' LongName='Ordering Provider’s DEA Number' Type='XCN'
+RXE.14 %XCN Item='306' Table='0' LongName='Pharmacist/Treatment Supplier’s Verifier ID' Type='XCN'
+RXE.15 %ST Item='325' Table='0' LongName='Prescription Number' Type='ST'
+RXE.16 %NM Item='326' Table='0' LongName='Number of Refills Remaining' Type='NM'
+RXE.17 %NM Item='327' Table='0' LongName='Number of Refills/Doses Dispensed' Type='NM'
+RXE.18 %TS Item='328' Table='0' LongName='D/T of Most Recent Refill or Dose Dispensed' Type='TS'
+RXE.19 %CQ Item='329' Table='0' LongName='Total Daily Dose' Type='CQ'
+RXE.20 %ID Item='307' Table='136' LongName='Needs Human Review' Type='ID'
+RXE.21 %CE Item='330' Table='0' LongName='Pharmacy/Treatment Supplier’s Special Dispensing Instructions' Type='CE'
+RXE.22 %ST Item='331' Table='0' LongName='Give Per (Time Unit)' Type='ST'
+RXE.23 %ST Item='332' Table='0' LongName='Give Rate Amount' Type='ST'
+RXE.24 %CE Item='333' Table='0' LongName='Give Rate Units' Type='CE'
+RXE.25 %NM Item='1126' Table='0' LongName='Give Strength' Type='NM'
+RXE.26 %CE Item='1127' Table='0' LongName='Give Strength Units' Type='CE'
+RXE.27 %CE Item='1128' Table='0' LongName='Give Indication' Type='CE'
+RXE.28 %NM Item='1220' Table='0' LongName='Dispense Package Size' Type='NM'
+RXE.29 %CE Item='1221' Table='0' LongName='Dispense Package Size Unit' Type='CE'
+RXE.30 %ID Item='1222' Table='321' LongName='Dispense Package Method' Type='ID'
+RXG.1 %NM Item='342' Table='0' LongName='Give Sub-ID Counter' Type='NM'
+RXG.2 %NM Item='334' Table='0' LongName='Dispense Sub-ID Counter' Type='NM'
+RXG.3 %TQ Item='221' Table='0' LongName='Quantity/Timing' Type='TQ'
+RXG.4 %CE Item='317' Table='292' LongName='Give Code' Type='CE'
+RXG.5 %NM Item='318' Table='0' LongName='Give Amount - Minimum' Type='NM'
+RXG.6 %NM Item='319' Table='0' LongName='Give Amount - Maximum' Type='NM'
+RXG.7 %CE Item='320' Table='0' LongName='Give Units' Type='CE'
+RXG.8 %CE Item='321' Table='0' LongName='Give Dosage Form' Type='CE'
+RXG.9 %CE Item='351' Table='0' LongName='Administration Notes' Type='CE'
+RXG.10 %ID Item='322' Table='167' LongName='Substitution Status' Type='ID'
+RXG.11 %CM Item='1303' Table='0' LongName='Dispense-To Location' Type='CM'
+RXG.12 %ID Item='307' Table='136' LongName='Needs Human Review' Type='ID'
+RXG.13 %CE Item='343' Table='0' LongName='Pharmacy/Treatment Supplier’s Special Administration Instructions' Type='CE'
+RXG.14 %ST Item='331' Table='0' LongName='Give Per (Time Unit)' Type='ST'
+RXG.15 %ST Item='332' Table='0' LongName='Give Rate Amount' Type='ST'
+RXG.16 %CE Item='333' Table='0' LongName='Give Rate Units' Type='CE'
+RXG.17 %NM Item='1126' Table='0' LongName='Give Strength' Type='NM'
+RXG.18 %CE Item='1127' Table='0' LongName='Give Strength Units' Type='CE'
+RXG.19 %ST Item='1129' Table='0' LongName='Substance Lot Number' Type='ST'
+RXG.20 %TS Item='1130' Table='0' LongName='Substance Expiration Date' Type='TS'
+RXG.21 %CE Item='1131' Table='227' LongName='Substance Manufacturer Name' Type='CE'
+RXG.22 %CE Item='1123' Table='0' LongName='Indication' Type='CE'
+RXO.1 %CE Item='292' Table='0' LongName='Requested Give Code' Type='CE'
+RXO.2 %NM Item='293' Table='0' LongName='Requested Give Amount - Minimum' Type='NM'
+RXO.3 %NM Item='294' Table='0' LongName='Requested Give Amount - Maximum' Type='NM'
+RXO.4 %CE Item='295' Table='0' LongName='Requested Give Units' Type='CE'
+RXO.5 %CE Item='296' Table='0' LongName='Requested Dosage Form' Type='CE'
+RXO.6 %CE Item='297' Table='0' LongName='Provider’s Pharmacy/Treatment Instructions' Type='CE'
+RXO.7 %CE Item='298' Table='0' LongName='Provider’s Administration Instructions' Type='CE'
+RXO.8 %CM Item='299' Table='0' LongName='Deliver-to Location' Type='CM'
+RXO.9 %ID Item='300' Table='161' LongName='Allow Substitutions' Type='ID'
+RXO.10 %CE Item='301' Table='0' LongName='Requested Dispense Code' Type='CE'
+RXO.11 %NM Item='302' Table='0' LongName='Requested Dispense Amount' Type='NM'
+RXO.12 %CE Item='303' Table='0' LongName='Requested Dispense Units' Type='CE'
+RXO.13 %NM Item='304' Table='0' LongName='Number Of Refills' Type='NM'
+RXO.14 %XCN Item='305' Table='0' LongName='Ordering Provider’s DEA Number' Type='XCN'
+RXO.15 %XCN Item='306' Table='0' LongName='Pharmacist/Treatment Supplier’s Verifier ID' Type='XCN'
+RXO.16 %ID Item='307' Table='136' LongName='Needs Human Review' Type='ID'
+RXO.17 %ST Item='308' Table='0' LongName='Requested Give Per (Time Unit)' Type='ST'
+RXO.18 %NM Item='1121' Table='0' LongName='Requested Give Strength' Type='NM'
+RXO.19 %CE Item='1122' Table='0' LongName='Requested Give Strength Units' Type='CE'
+RXO.20 %CE Item='1123' Table='0' LongName='Indication' Type='CE'
+RXO.21 %ST Item='1218' Table='0' LongName='Requested Give Rate Amount' Type='ST'
+RXO.22 %CE Item='1219' Table='0' LongName='Requested Give Rate Units' Type='CE'
+RXO.23 %CQ Item='329' Table='0' LongName='Total Daily Dose' Type='CQ'
+RXR.1 %CE Item='309' Table='162' LongName='Route' Type='CE'
+RXR.2 %CE Item='310' Table='163' LongName='Site' Type='CE'
+RXR.3 %CE Item='311' Table='164' LongName='Administration Device' Type='CE'
+RXR.4 %CE Item='312' Table='165' LongName='Administration Method' Type='CE'
+RXR.5 %CE Item='1315' Table='0' LongName='Routing Instruction' Type='CE'
+SCH.1 %EI Item='860' Table='0' LongName='Placer Appointment ID' Type='EI'
+SCH.2 %EI Item='861' Table='0' LongName='Filler Appointment ID' Type='EI'
+SCH.3 %NM Item='862' Table='0' LongName='Occurrence Number' Type='NM'
+SCH.4 %EI Item='218' Table='0' LongName='Placer Group Number' Type='EI'
+SCH.5 %CE Item='864' Table='0' LongName='Schedule ID' Type='CE'
+SCH.6 %CE Item='883' Table='0' LongName='Event Reason' Type='CE'
+SCH.7 %CE Item='866' Table='276' LongName='Appointment Reason' Type='CE'
+SCH.8 %CE Item='867' Table='277' LongName='Appointment Type' Type='CE'
+SCH.9 %NM Item='868' Table='0' LongName='Appointment Duration' Type='NM'
+SCH.10 %CE Item='869' Table='0' LongName='Appointment Duration Units' Type='CE'
+SCH.11 %TQ Item='884' Table='0' LongName='Appointment Timing Quantity' Type='TQ'
+SCH.12 %XCN Item='874' Table='0' LongName='Placer Contact Person' Type='XCN'
+SCH.13 %XTN Item='875' Table='0' LongName='Placer Contact Phone Number' Type='XTN'
+SCH.14 %XAD Item='876' Table='0' LongName='Placer Contact Address' Type='XAD'
+SCH.15 %PL Item='877' Table='0' LongName='Placer Contact Location' Type='PL'
+SCH.16 %XCN Item='885' Table='0' LongName='Filler Contact Person' Type='XCN'
+SCH.17 %XTN Item='886' Table='0' LongName='Filler Contact Phone Number' Type='XTN'
+SCH.18 %XAD Item='887' Table='0' LongName='Filler Contact Address' Type='XAD'
+SCH.19 %PL Item='888' Table='0' LongName='Filler Contact Location' Type='PL'
+SCH.20 %XCN Item='878' Table='0' LongName='Entered by Person' Type='XCN'
+SCH.21 %XTN Item='879' Table='0' LongName='Entered by Phone Number' Type='XTN'
+SCH.22 %PL Item='880' Table='0' LongName='Entered by Location' Type='PL'
+SCH.23 %EI Item='881' Table='0' LongName='Parent Placer Appointment ID' Type='EI'
+SCH.24 %EI Item='882' Table='0' LongName='Parent Filler Appointment ID' Type='EI'
+SCH.25 %CE Item='889' Table='278' LongName='Filler Status Code' Type='CE'
+SPR.1 %ST Item='696' Table='0' LongName='Query Tag' Type='ST'
+SPR.2 %ID Item='697' Table='106' LongName='Query/ Response Format Code' Type='ID'
+SPR.3 %CE Item='704' Table='0' LongName='Stored Procedure Name' Type='CE'
+SPR.4 %QIP Item='705' Table='0' LongName='Input Parameter List' Type='QIP'
+STF.1 %CE Item='671' Table='0' LongName='Primary Key Value - STF' Type='CE'
+STF.2 %CX Item='672' Table='0' LongName='Staff ID Code' Type='CX'
+STF.3 %XPN Item='673' Table='0' LongName='Staff Name' Type='XPN'
+STF.4 %IS Item='674' Table='182' LongName='Staff Type' Type='IS'
+STF.5 %IS Item='111' Table='1' LongName='Sex' Type='IS'
+STF.6 %TS Item='110' Table='0' LongName='Date/Time Of Birth' Type='TS'
+STF.7 %ID Item='675' Table='183' LongName='Active/Inactive Flag' Type='ID'
+STF.8 %CE Item='676' Table='184' LongName='Department' Type='CE'
+STF.9 %CE Item='677' Table='69' LongName='Hospital Service' Type='CE'
+STF.10 %XTN Item='678' Table='0' LongName='Phone' Type='XTN'
+STF.11 %XAD Item='679' Table='0' LongName='Office/Home Address' Type='XAD'
+STF.12 %CM Item='680' Table='0' LongName='Institution Activation Date' Type='CM'
+STF.13 %CM Item='681' Table='0' LongName='Institution Inactivation Date' Type='CM'
+STF.14 %CE Item='682' Table='0' LongName='Backup Person ID' Type='CE'
+STF.15 %ST Item='683' Table='0' LongName='E-Mail Address' Type='ST'
+STF.16 %CE_TAB_0185 Item='684' Table='185' LongName='Preferred Method Of Contact' Type='CE_TAB_0185'
+STF.17 %CE Item='119' Table='2' LongName='Marital Status' Type='CE'
+STF.18 %ST Item='785' Table='0' LongName='Job Title' Type='ST'
+STF.19 %JCC Item='786' Table='327' LongName='Job Code/Class' Type='JCC'
+STF.20 %IS Item='1276' Table='66' LongName='Employment Status' Type='IS'
+STF.21 %ID Item='1275' Table='136' LongName='Additional Insured on  Auto' Type='ID'
+STF.22 %DLN Item='1302' Table='0' LongName='Driver’s License Number - Staff' Type='DLN'
+STF.23 %ID Item='1229' Table='136' LongName='Copy  Auto Ins' Type='ID'
+STF.24 %DT Item='1232' Table='0' LongName='Auto Ins. Expires' Type='DT'
+STF.25 %DT Item='1298' Table='0' LongName='Date Last DMV Review' Type='DT'
+STF.26 %DT Item='1234' Table='0' LongName='Date Next DMV Review' Type='DT'
+TXA.1 %SI Item='914' Table='0' LongName='Set ID - TXA' Type='SI'
+TXA.2 %IS Item='915' Table='270' LongName='Document Type' Type='IS'
+TXA.3 %ID Item='916' Table='191' LongName='Document Content Presentation' Type='ID'
+TXA.4 %TS Item='917' Table='0' LongName='Activity Date/Time' Type='TS'
+TXA.5 %XCN Item='918' Table='0' LongName='Primary Activity Provider Code/Name' Type='XCN'
+TXA.6 %TS Item='919' Table='0' LongName='Origination Date/Time' Type='TS'
+TXA.7 %TS Item='920' Table='0' LongName='Transcription Date/Time' Type='TS'
+TXA.8 %TS Item='921' Table='0' LongName='Edit Date/Time' Type='TS'
+TXA.9 %XCN Item='922' Table='0' LongName='Originator Code/Name' Type='XCN'
+TXA.10 %XCN Item='923' Table='0' LongName='Assigned Document Authenticator' Type='XCN'
+TXA.11 %XCN Item='924' Table='0' LongName='Transcriptionist Code/Name' Type='XCN'
+TXA.12 %EI Item='925' Table='0' LongName='Unique Document Number' Type='EI'
+TXA.13 %EI Item='926' Table='0' LongName='Parent Document Number' Type='EI'
+TXA.14 %EI Item='216' Table='0' LongName='Placer Order Number' Type='EI'
+TXA.15 %EI Item='217' Table='0' LongName='Filler Order Number' Type='EI'
+TXA.16 %ST Item='927' Table='0' LongName='Unique Document File Name' Type='ST'
+TXA.17 %ID Item='928' Table='271' LongName='Document Completion Status' Type='ID'
+TXA.18 %ID Item='929' Table='272' LongName='Document Confidentiality Status' Type='ID'
+TXA.19 %ID Item='930' Table='273' LongName='Document Availability Status' Type='ID'
+TXA.20 %ID Item='932' Table='275' LongName='Document Storage Status' Type='ID'
+TXA.21 %ST Item='933' Table='0' LongName='Document Change Reason' Type='ST'
+TXA.22 %PPN Item='934' Table='0' LongName='Authentication Person, Time Stamp' Type='PPN'
+TXA.23 %XCN Item='935' Table='0' LongName='Distributed Copies (Code and Name of Recipients)' Type='XCN'
+UB1.1 %SI Item='530' Table='0' LongName='Set ID - UB1' Type='SI'
+UB1.2 %NM Item='531' Table='0' LongName='Blood Deductible  (43)' Type='NM'
+UB1.3 %NM Item='532' Table='0' LongName='Blood Furnished-Pints Of (40)' Type='NM'
+UB1.4 %NM Item='533' Table='0' LongName='Blood Replaced-Pints (41)' Type='NM'
+UB1.5 %NM Item='534' Table='0' LongName='Blood Not Replaced-Pints(42)' Type='NM'
+UB1.6 %NM Item='535' Table='0' LongName='Co-Insurance Days (25)' Type='NM'
+UB1.7 %IS Item='536' Table='43' LongName='Condition Code (35-39)' Type='IS'
+UB1.8 %NM Item='537' Table='0' LongName='Covered Days - (23)' Type='NM'
+UB1.9 %NM Item='538' Table='0' LongName='Non Covered Days - (24)' Type='NM'
+UB1.10 %CM Item='539' Table='153' LongName='Value Amount &amp; Code (46-49)' Type='CM'
+UB1.11 %NM Item='540' Table='0' LongName='Number Of Grace Days (90)' Type='NM'
+UB1.12 %CE Item='541' Table='348' LongName='Special Program Indicator (44)' Type='CE'
+UB1.13 %CE Item='542' Table='349' LongName='PSRO/UR Approval Indicator (87)' Type='CE'
+UB1.14 %DT Item='543' Table='0' LongName='PSRO/UR Approved Stay-Fm (88)' Type='DT'
+UB1.15 %DT Item='544' Table='0' LongName='PSRO/UR Approved Stay-To (89)' Type='DT'
+UB1.16 %CM Item='545' Table='350' LongName='Occurrence (28-32)' Type='CM'
+UB1.17 %CE Item='546' Table='351' LongName='Occurrence Span (33)' Type='CE'
+UB1.18 %DT Item='547' Table='0' LongName='Occur Span Start Date(33)' Type='DT'
+UB1.19 %DT Item='548' Table='0' LongName='Occur Span End Date (33)' Type='DT'
+UB1.20 %ST Item='549' Table='0' LongName='UB-82 Locator 2' Type='ST'
+UB1.21 %ST Item='550' Table='0' LongName='UB-82 Locator 9' Type='ST'
+UB1.22 %ST Item='551' Table='0' LongName='UB-82 Locator 27' Type='ST'
+UB1.23 %ST Item='552' Table='0' LongName='UB-82 Locator 45' Type='ST'
+UB2.1 %SI Item='553' Table='0' LongName='Set ID - UB2' Type='SI'
+UB2.2 %ST Item='554' Table='0' LongName='Co-Insurance Days (9)' Type='ST'
+UB2.3 %IS Item='555' Table='43' LongName='Condition Code (24-30)' Type='IS'
+UB2.4 %ST Item='556' Table='0' LongName='Covered Days (7)' Type='ST'
+UB2.5 %ST Item='557' Table='0' LongName='Non-Covered Days (8)' Type='ST'
+UB2.6 %CM Item='558' Table='153' LongName='Value Amount &amp; Code' Type='CM'
+UB2.7 %CM Item='559' Table='350' LongName='Occurrence Code &amp; Date (32-35)' Type='CM'
+UB2.8 %CM Item='560' Table='351' LongName='Occurrence Span Code/Dates (36)' Type='CM'
+UB2.9 %ST Item='561' Table='0' LongName='UB92 Locator 2 (State)' Type='ST'
+UB2.10 %ST Item='562' Table='0' LongName='UB92 Locator 11 (State)' Type='ST'
+UB2.11 %ST Item='563' Table='0' LongName='UB92 Locator 31 (National)' Type='ST'
+UB2.12 %ST Item='564' Table='0' LongName='Document Control Number' Type='ST'
+UB2.13 %ST Item='565' Table='0' LongName='UB92 Locator 49 (National)' Type='ST'
+UB2.14 %ST Item='566' Table='0' LongName='UB92 Locator 56 (State)' Type='ST'
+UB2.15 %ST Item='567' Table='0' LongName='UB92 Locator 57 (National)' Type='ST'
+UB2.16 %ST Item='568' Table='0' LongName='UB92 Locator 78 (State)' Type='ST'
+UB2.17 %NM Item='815' Table='0' LongName='Special Visit Count' Type='NM'
+URD.1 %TS Item='45' Table='0' LongName='R/U Date/Time' Type='TS'
+URD.2 %ID Item='46' Table='109' LongName='Report Priority' Type='ID'
+URD.3 %XCN Item='47' Table='0' LongName='R/U Who Subject Definition' Type='XCN'
+URD.4 %CE Item='48' Table='48' LongName='R/U What Subject Definition' Type='CE'
+URD.5 %CE Item='49' Table='0' LongName='R/U What Department Code' Type='CE'
+URD.6 %ST Item='50' Table='0' LongName='R/U Display/Print Locations' Type='ST'
+URD.7 %ID Item='51' Table='108' LongName='R/U Results Level' Type='ID'
+URS.1 %ST Item='52' Table='0' LongName='R/U Where Subject Definition' Type='ST'
+URS.2 %TS Item='53' Table='0' LongName='R/U When Data Start Date/Time' Type='TS'
+URS.3 %TS Item='54' Table='0' LongName='R/U When Data End Date/Time' Type='TS'
+URS.4 %ST Item='55' Table='0' LongName='R/U What User Qualifier' Type='ST'
+URS.5 %ST Item='56' Table='0' LongName='R/U Other Results Subject Definition' Type='ST'
+URS.6 %ID Item='57' Table='156' LongName='R/U Which Date/Time Qualifier' Type='ID'
+URS.7 %ID Item='58' Table='157' LongName='R/U Which Date/Time Status Qualifier' Type='ID'
+URS.8 %ID Item='59' Table='158' LongName='R/U Date/Time Selection Qualifier' Type='ID'
+URS.9 %TQ Item='695' Table='0' LongName='R/U Quantity/Timing Qualifier' Type='TQ'
+VAR.1 %EI Item='1212' Table='0' LongName='Variance Instance ID' Type='EI'
+VAR.2 %TS Item='1213' Table='0' LongName='Documented Date/Time' Type='TS'
+VAR.3 %TS Item='1214' Table='0' LongName='Stated Variance Date/Time' Type='TS'
+VAR.4 %XCN Item='1215' Table='0' LongName='Variance Originator' Type='XCN'
+VAR.5 %CE Item='1216' Table='0' LongName='Variance Classification' Type='CE'
+VAR.6 %ST Item='1217' Table='0' LongName='Variance Description' Type='ST'
+VTQ.1 %ST Item='696' Table='0' LongName='Query Tag' Type='ST'
+VTQ.2 %ID Item='697' Table='106' LongName='Query/ Response Format Code' Type='ID'
+VTQ.3 %CE Item='698' Table='0' LongName='VT Query Name' Type='CE'
+VTQ.4 %CE Item='699' Table='0' LongName='Virtual Table Name' Type='CE'
+VTQ.5 %QSC Item='700' Table='0' LongName='Selection Criteria' Type='QSC'
+. % Item='' Table='' LongName='' Type=''
+ACK (MSH,MSA,ERR?)
+ACK_R01 (MSH,MSA,ERR?)
+ACK_Q03 (MSH,MSA,ERR?)
+ADT_A01.GROUP.PROCEDURE (PR1,ROL*)
+ADT_A01.GROUP.INSURANCE (IN1,IN2?,IN3*)
+ADT_A01 (MSH,EVN,PID,PD1?,NK1*,PV1,PV2?,DB1*,OBX*,AL1*,DG1*,DRG?,ADT_A01.GROUP.PROCEDURE*,GT1*,IN1,ACC?,UB1?,UB2?,ZNO?,ZBE?)
+ADT_A02 (MSH,EVN,PID,PD1?,PV1,PV2?,DB1*,OBX*,ZBE?)
+ADT_A03.GROUP.PROCEDURE (PR1,ROL*)
+ADT_A03 (MSH,EVN,PID,PD1?,NK1*,PV1,PV2?,DB1*,DG1*,DRG?,ADT_A03.GROUP.PROCEDURE*,OBX*,ZBE?)
+ADT_A06.GROUP.INSURANCE (IN1,IN2?,IN3*)
+ADT_A06.GROUP.PROCEDURE (PR1,ROL*)
+ADT_A06 (MSH,EVN,PID,PD1?,MRG?,NK1*,PV1,PV2?,DB1*,OBX*,AL1*,DG1*,DRG?,ADT_A06.GROUP.PROCEDURE*,GT1*,ADT_A06.GROUP.INSURANCE*,ACC?,UB1?,UB2?)
+ADT_A09 (MSH,EVN,PID,PD1?,PV1,PV2?,DB1*,OBX*,DG1*,ZBE?)
+ADT_A11 (MSH,EVN,PID,PD1?,NK1*,PV1,PV2?,ZBE?)
+ADT_A12 (MSH,EVN,PID,PD1?,PV1,PV2?,DB1*,OBX*,DG1?,ZBE?)
+ADT_A16 (MSH,EVN,PID,PD1?,PV1,PV2?,DB1*,OBX*,DG1*,DRG?,ZBE?)
+ADT_A17 (MSH,EVN,PID,PD1?,PV1,PV2?,DB1*,OBX*,PID,PD1?,PV1,PV2?,DB1*,OBX*,ZBE?)
+ADT_A18 (MSH,EVN,PID,PD1?,MRG?,PV1,ZBE?)
+ADT_A20 (MSH,EVN,NPU)
+ADT_A24 (MSH,EVN,PID,PD1?,PV1?,DB1*,PID,PD1?,PV1?,DB1*)
+ADT_A28.GROUP.INSURANCE (IN1,IN2?,IN3*)
+ADT_A28.GROUP.PROCEDURE (PR1,ROL*)
+ADT_A28 (MSH,EVN,PID,PD1?,NK1*,PV1,PV2?,DB1*,OBX*,AL1*,DG1*,DRG?,ADT_A28.GROUP.PROCEDURE*,GT1*,ADT_A28.GROUP.INSURANCE*,ACC?,UB1?,UB2?)
+ADT_A30 (MSH,EVN,PID,PD1?,MRG)
+ADT_A37 (MSH,EVN,PID,PD1?,PV1?,DB1*,PID,PD1?,PV1?,DB1*)
+ADT_A38 (MSH,EVN,PID,PD1?,PV1,PV2?,DB1*,OBX*,DG1*,DRG?)
+ADT_A39.GROUP.1 (PID,PD1?,MRG,PV1?)
+ADT_A39 (MSH,EVN,ADT_A39.GROUP.1+)
+ADT_A43.GROUP.1 (PID,PD1?,MRG)
+ADT_A43 (MSH,EVN,ADT_A43.GROUP.1+)
+ADT_A45.GROUP.1 (MRG,PV1)
+ADT_A45 (MSH,EVN,PID,PD1?,ADT_A45.GROUP.1+)
+ADT_A50 (MSH,EVN,PID,PD1?,MRG,PV1)
+BAR_P01.GROUP.1 (IN1,IN2?,IN3*)
+BAR_P01.GROUP.2 (PR1,ROL*)
+BAR_P01.GROUP.3 (PV1?,PV2?,DB1*,OBX*,AL1*,DG1*,DRG?,BAR_P01.GROUP.2*,GT1*,NK1*,BAR_P01.GROUP.1*,ACC?,UB1?,UB2?)
+BAR_P01 (MSH,EVN,PID,PD1?,BAR_P01.GROUP.3+)
+BAR_P02.GROUP.1 (PID,PD1?,PV1?,DB1*)
+BAR_P02 (MSH,EVN,BAR_P02.GROUP.1+)
+BAR_P06.GROUP.1 (PID,PV1?)
+BAR_P06 (MSH,EVN,BAR_P06.GROUP.1+)
+CRM_C01.GROUP.1 (PID,PV1?,CSR,CSP*)
+CRM_C01 (MSH,CRM_C01.GROUP.1+)
+CSU_C09.GROUP.1 (CSP?,CSU_C09.GROUP.2+)
+CSU_C09.GROUP.2 (CSS?,CSU_C09.GROUP.3+,CSU_C09.GROUP.4+)
+CSU_C09.GROUP.3 (ORC?,OBR,OBX+)
+CSU_C09.GROUP.4 (ORC?,CSU_C09.GROUP.7+)
+CSU_C09.GROUP.5 (PID,PD1?,NTE*,CSU_C09.GROUP.6?,CSR,CSU_C09.GROUP.1+)
+CSU_C09.GROUP.6 (PV1,PV2?)
+CSU_C09.GROUP.7 (RXA,RXR)
+CSU_C09 (MSH,CSU_C09.GROUP.5+)
+DFT_P03.GROUP.1 (FT1,DFT_P03.GROUP.3*)
+DFT_P03.GROUP.2 (IN1,IN2?,IN3*)
+DFT_P03.GROUP.3 (PR1,ROL*)
+DFT_P03 (MSH,EVN,PID,PD1?,PV1?,PV2?,DB1*,OBX*,DFT_P03.GROUP.1+,DG1*,DRG?,GT1*,DFT_P03.GROUP.2*,ACC?)
+DOC_T12.GROUP.1 (EVN?,PID,PV1,TXA,OBX*)
+DOC_T12 (MSH,MSA,ERR?,QAK?,QRD,DOC_T12.GROUP.1+,DSC?)
+DSR_Q01 (MSH,MSA,ERR?,QAK?,QRD,QRF?,DSP+,DSC?)
+DSR_Q03 (MSH,MSA?,ERR?,QAK?,QRD,QRF?,DSP+,DSC?)
+EDR_R07 (MSH,MSA,ERR?,QAK,DSP+,DSC?)
+EQQ_Q04 (MSH,EQL,DSC?)
+ERP_R09 (MSH,MSA,ERR?,QAK,ERQ,DSC?)
+MDM_T01 (MSH,EVN,PID,PV1,TXA)
+MDM_T02 (MSH,EVN,PID,PV1,TXA,OBX+)
+MFK_M01 (MSH,MSA,ERR?,MFI,MFA*)
+MFN_M01.GROUP.1 (MFE,ZZZ?)
+MFN_M01 (MSH,MFI,MFN_M01.GROUP.1+)
+MFN_M03.GROUP.1 (MFE,STF,PRA?)
+MFN_M03 (MSH,MFI,MFN_M03.GROUP.1+)
+MFN_M05.GROUP.1 (LDP,LCH*,LCC*)
+MFN_M05.GROUP.2 (MFE,LOC,LCH*,LRL*,MFN_M05.GROUP.1+)
+MFN_M05 (MSH,MFI,MFN_M05.GROUP.2+)
+MFN_M06.GROUP.1 (CM1,CM2*)
+MFN_M06.GROUP.2 (MFE,CM0,MFN_M06.GROUP.1*)
+MFN_M06 (MSH,MFI,MFN_M06.GROUP.2+)
+OMD_O01.GROUP.1 (IN1,IN2?,IN3?)
+OMD_O01.GROUP.2 (OBX,NTE*)
+OMD_O01.GROUP.3 (ODS+,NTE*,OMD_O01.GROUP.2+)
+OMD_O01.GROUP.4 (ORC,ODT+,NTE*)
+OMD_O01.GROUP.5 (ORC,OMD_O01.GROUP.3?)
+OMD_O01.GROUP.6 (PID,PD1?,NTE*,OMD_O01.GROUP.7?,OMD_O01.GROUP.1*,GT1?,AL1*)
+OMD_O01.GROUP.7 (PV1,PV2?)
+OMD_O01 (MSH,NTE*,OMD_O01.GROUP.6?,OMD_O01.GROUP.5+,OMD_O01.GROUP.4*)
+OMN_O01.GROUP.1 (IN1,IN2?,IN3?)
+OMN_O01.GROUP.2 (OBX,NTE*)
+OMN_O01.GROUP.3 (ORC,OMN_O01.GROUP.6?,BLG?)
+OMN_O01.GROUP.4 (PID,PD1?,NTE*,OMN_O01.GROUP.5?,OMN_O01.GROUP.1*,GT1?,AL1*)
+OMN_O01.GROUP.5 (PV1,PV2?)
+OMN_O01.GROUP.6 (RQD,RQ1?,NTE*,OMN_O01.GROUP.2*)
+OMN_O01 (MSH,NTE*,OMN_O01.GROUP.4?,OMN_O01.GROUP.3+)
+OMS_O01.GROUP.1 (IN1,IN2?,IN3?)
+OMS_O01.GROUP.2 (OBX,NTE*)
+OMS_O01.GROUP.3 (ORC,OMS_O01.GROUP.6?,BLG?)
+OMS_O01.GROUP.4 (PID,PD1?,NTE*,OMS_O01.GROUP.5?,OMS_O01.GROUP.1*,GT1?,AL1*)
+OMS_O01.GROUP.5 (PV1,PV2?)
+OMS_O01.GROUP.6 (RQD,NTE*,OMS_O01.GROUP.2*)
+OMS_O01 (MSH,NTE*,OMS_O01.GROUP.4?,OMS_O01.GROUP.3+)
+ORD_O02.GROUP.1 (ORC,ODS*,NTE*)
+ORD_O02.GROUP.2 (ORC,ODT*,NTE*)
+ORD_O02.GROUP.3 (PID,NTE*)
+ORD_O02.GROUP.4 (ORD_O02.GROUP.3?,ORD_O02.GROUP.1+,ORD_O02.GROUP.2*)
+ORD_O02 (MSH,MSA,ERR?,NTE*,ORD_O02.GROUP.4?)
+ORM_O01.GROUP.1 (AIL,OBR,NTE*,DG1*,ORM_O01.GROUP.3*)
+ORM_O01.GROUP.2 (IN1,IN2?,IN3?)
+ORM_O01.GROUP.3 (OBX,NTE*)
+ORM_O01.GROUP.4 (ORC,ORM_O01.GROUP.1?,CTI*,BLG?)
+ORM_O01.GROUP.5 (PID,PD1?,NTE*,ORM_O01.GROUP.6?,ORM_O01.GROUP.2*,GT1?,AL1*)
+ORM_O01.GROUP.6 (PV1,PV2?)
+ORM_O01 (MSH,NTE*,ORM_O01.GROUP.5?,ORM_O01.GROUP.4+)
+ORN_O02.GROUP.1 (ORC,RQD,RQ1?,NTE*)
+ORN_O02.GROUP.2 (PID,NTE*)
+ORN_O02.GROUP.3 (ORN_O02.GROUP.2?,ORN_O02.GROUP.1+)
+ORN_O02 (MSH,MSA,ERR?,NTE*,ORN_O02.GROUP.3?)
+ORR_O02.GROUP.1 (ORC,OBR?,NTE*,CTI*)
+ORR_O02.GROUP.2 (PID,NTE*)
+ORR_O02.GROUP.3 (ORR_O02.GROUP.2?,ORR_O02.GROUP.1+)
+ORR_O02 (MSH,MSA,ERR?,NTE*,ORR_O02.GROUP.3?)
+ORS_O02.GROUP.1 (ORC,RQD,NTE*)
+ORS_O02.GROUP.2 (PID,NTE*)
+ORS_O02.GROUP.3 (ORS_O02.GROUP.2?,ORS_O02.GROUP.1+)
+ORS_O02 (MSH,MSA,ERR?,NTE*,ORS_O02.GROUP.3?)
+ORU_R01_ORIGIN.GROUP.1 (OBX?,NTE*)
+ORU_R01_ORIGIN.GROUP.2 (ORC?,OBR,NTE*,ORU_R01.GROUP.1+,CTI*)
+ORU_R01_ORIGIN.GROUP.3 (PID,PD1?,NK1*,NTE*,ORU_R01.GROUP.5?)
+ORU_R01_ORIGIN.GROUP.4 (ORU_R01.GROUP.3?,ORU_R01.GROUP.2+)
+ORU_R01_ORIGIN.GROUP.5 (PV1,PV2?)
+ORU_R01_ORIGIN (MSH,ORU_R01.GROUP.4+,DSC?)
+ORU_R01 (MSH,PID,OBR,OBX*)
+ORU.GROUP.5 (PV1,PV2?)
+ORU.GROUP.1 (OBX?,NTE*)
+ORU.GROUP.2 (ORC?,OBR,NTE*,ORU.GROUP.1+,CTI*)
+ORU.GROUP.3 (PID,PD1?,NK1*,NTE*,ORU.GROUP.5?)
+ORU.GROUP.4 (ORU.GROUP.3?,ORU.GROUP.2+)
+ORU (MSH,ORU.GROUP.4+,DSC?)
+OSQ_Q06 (MSH,QRD,QRF?,DSC?)
+OSR_Q06.GROUP.1 (ORC,NTE*,CTI*)
+OSR_Q06.GROUP.2 (PID,NTE*)
+OSR_Q06.GROUP.3 (OSR_Q06.GROUP.2?,OSR_Q06.GROUP.1+)
+OSR_Q06 (MSH,MSA,ERR?,NTE*,QRD,QRF?,OSR_Q06.GROUP.3?,DSC?)
+PEX_P07.GROUP.1 (CSR,CSP*)
+PEX_P07.GROUP.2 (NK1,PEX_P07.GROUP.8?,PEX_P07.GROUP.7*,PRB*,OBX*)
+PEX_P07.GROUP.3 (PCR,PEX_P07.GROUP.8?,PEX_P07.GROUP.7*,PRB*,OBX*,NTE*,PEX_P07.GROUP.2?,PEX_P07.GROUP.1*)
+PEX_P07.GROUP.4 (PEO,PEX_P07.GROUP.3+)
+PEX_P07.GROUP.5 (PES,PEX_P07.GROUP.4+)
+PEX_P07.GROUP.6 (PV1,PV2?)
+PEX_P07.GROUP.7 (RXA,RXR?)
+PEX_P07.GROUP.8 (RXE,RXR*)
+PEX_P07 (MSH,EVN,PID,PD1?,NTE*,PEX_P07.GROUP.6?,PEX_P07.GROUP.5+)
+PGL_PC6.GROUP.1 (GOL,NTE*,VAR*,PGL_PC6.GROUP.9*,PGL_PC6.GROUP.7*,PGL_PC6.GROUP.3*,PGL_PC6.GROUP.6*,PGL_PC6.GROUP.5*)
+PGL_PC6.GROUP.2 (OBR,NTE*,VAR*,PGL_PC6.GROUP.4*)
+PGL_PC6.GROUP.3 (OBX,NTE*)
+PGL_PC6.GROUP.4 (OBX,NTE*,VAR*)
+PGL_PC6.GROUP.5 (ORC,PGL_PC6.GROUP.2?)
+PGL_PC6.GROUP.6 (PRB,NTE*,VAR*,PGL_PC6.GROUP.9*,PGL_PC6.GROUP.3*)
+PGL_PC6.GROUP.7 (PTH,VAR*)
+PGL_PC6.GROUP.8 (PV1,PV2?)
+PGL_PC6.GROUP.9 (ROL,VAR*)
+PGL_PC6 (MSH,PID,PGL_PC6.GROUP.8?,PGL_PC6.GROUP.1+)
+PPG_PCG.GROUP.1 (GOL,NTE*,VAR*,PPG_PCG.GROUP.9*,PPG_PCG.GROUP.3*,PPG_PCG.GROUP.6*,PPG_PCG.GROUP.5*)
+PPG_PCG.GROUP.2 (OBR,NTE*,VAR*,PPG_PCG.GROUP.4*)
+PPG_PCG.GROUP.3 (OBX,NTE*)
+PPG_PCG.GROUP.4 (OBX,NTE*,VAR*)
+PPG_PCG.GROUP.5 (ORC,PPG_PCG.GROUP.2?)
+PPG_PCG.GROUP.6 (PRB,NTE*,VAR*,PPG_PCG.GROUP.9*,PPG_PCG.GROUP.3*)
+PPG_PCG.GROUP.7 (PTH,NTE*,VAR*,PPG_PCG.GROUP.9*,PPG_PCG.GROUP.1*)
+PPG_PCG.GROUP.8 (PV1,PV2?)
+PPG_PCG.GROUP.9 (ROL,VAR*)
+PPG_PCG (MSH,PID,PPG_PCG.GROUP.8?,PPG_PCG.GROUP.7+)
+PPP_PCB.GROUP.1 (GOL,NTE*,VAR*,PPP_PCB.GROUP.9*,PPP_PCB.GROUP.3*)
+PPP_PCB.GROUP.2 (OBR,NTE*,VAR*,PPP_PCB.GROUP.4*)
+PPP_PCB.GROUP.3 (OBX,NTE*)
+PPP_PCB.GROUP.4 (OBX,NTE*,VAR*)
+PPP_PCB.GROUP.5 (ORC,PPP_PCB.GROUP.2?)
+PPP_PCB.GROUP.6 (PRB,NTE*,VAR*,PPP_PCB.GROUP.9*,PPP_PCB.GROUP.3*,PPP_PCB.GROUP.1*,PPP_PCB.GROUP.5*)
+PPP_PCB.GROUP.7 (PTH,NTE*,VAR*,PPP_PCB.GROUP.9*,PPP_PCB.GROUP.6*)
+PPP_PCB.GROUP.8 (PV1,PV2?)
+PPP_PCB.GROUP.9 (ROL,VAR*)
+PPP_PCB (MSH,PID,PPP_PCB.GROUP.8?,PPP_PCB.GROUP.7+)
+PPR_PC1.GROUP.1 (GOL,NTE*,VAR*,PPR_PC1.GROUP.9*,PPR_PC1.GROUP.3*)
+PPR_PC1.GROUP.2 (OBR,NTE*,VAR*,PPR_PC1.GROUP.4*)
+PPR_PC1.GROUP.3 (OBX,NTE*)
+PPR_PC1.GROUP.4 (OBX,NTE*,VAR*)
+PPR_PC1.GROUP.5 (ORC,PPR_PC1.GROUP.2?)
+PPR_PC1.GROUP.6 (PRB,NTE*,VAR*,PPR_PC1.GROUP.9*,PPR_PC1.GROUP.7*,PPR_PC1.GROUP.3*,PPR_PC1.GROUP.1*,PPR_PC1.GROUP.5*)
+PPR_PC1.GROUP.7 (PTH,VAR*)
+PPR_PC1.GROUP.8 (PV1,PV2?)
+PPR_PC1.GROUP.9 (ROL,VAR*)
+PPR_PC1 (MSH,PID,PPR_PC1.GROUP.8?,PPR_PC1.GROUP.6+)
+PPT_PCL.GROUP.1 (GOL,NTE*,VAR*,PPT_PCL.GROUP.10*,PPT_PCL.GROUP.3*,PPT_PCL.GROUP.7*,PPT_PCL.GROUP.5*)
+PPT_PCL.GROUP.2 (OBR,NTE*,VAR*,PPT_PCL.GROUP.4*)
+PPT_PCL.GROUP.3 (OBX,NTE*)
+PPT_PCL.GROUP.4 (OBX,NTE*,VAR*)
+PPT_PCL.GROUP.5 (ORC,PPT_PCL.GROUP.2?)
+PPT_PCL.GROUP.6 (PID,PPT_PCL.GROUP.9?,PPT_PCL.GROUP.8+)
+PPT_PCL.GROUP.7 (PRB,NTE*,VAR*,PPT_PCL.GROUP.10*,PPT_PCL.GROUP.3*)
+PPT_PCL.GROUP.8 (PTH,NTE*,VAR*,PPT_PCL.GROUP.10*,PPT_PCL.GROUP.1*)
+PPT_PCL.GROUP.9 (PV1,PV2?)
+PPT_PCL.GROUP.10 (ROL,VAR*)
+PPT_PCL (MSH,MSA,ERR?,QAK?,QRD,PPT_PCL.GROUP.6+)
+PPV_PCA.GROUP.1 (GOL,NTE*,VAR*,PPV_PCA.GROUP.10*,PPV_PCA.GROUP.8*,PPV_PCA.GROUP.3*,PPV_PCA.GROUP.7*,PPV_PCA.GROUP.5*)
+PPV_PCA.GROUP.2 (OBR,NTE*,VAR*,PPV_PCA.GROUP.4*)
+PPV_PCA.GROUP.3 (OBX,NTE*)
+PPV_PCA.GROUP.4 (OBX,NTE*,VAR*)
+PPV_PCA.GROUP.5 (ORC,PPV_PCA.GROUP.2?)
+PPV_PCA.GROUP.6 (PID,PPV_PCA.GROUP.9?,PPV_PCA.GROUP.1+)
+PPV_PCA.GROUP.7 (PRB,NTE*,VAR*,PPV_PCA.GROUP.10*,PPV_PCA.GROUP.3*)
+PPV_PCA.GROUP.8 (PTH,VAR*)
+PPV_PCA.GROUP.9 (PV1,PV2?)
+PPV_PCA.GROUP.10 (ROL,VAR*)
+PPV_PCA (MSH,MSA,ERR?,QAK?,QRD,PPV_PCA.GROUP.6+)
+PRR_PC5.GROUP.1 (GOL,NTE*,VAR*,PRR_PC5.GROUP.10*,PRR_PC5.GROUP.3*)
+PRR_PC5.GROUP.2 (OBR,NTE*,VAR*,PRR_PC5.GROUP.4*)
+PRR_PC5.GROUP.3 (OBX,NTE*)
+PRR_PC5.GROUP.4 (OBX,NTE*,VAR*)
+PRR_PC5.GROUP.5 (ORC,PRR_PC5.GROUP.2?)
+PRR_PC5.GROUP.6 (PID,PRR_PC5.GROUP.9?,PRR_PC5.GROUP.7+)
+PRR_PC5.GROUP.7 (PRB,NTE*,VAR*,PRR_PC5.GROUP.10*,PRR_PC5.GROUP.8*,PRR_PC5.GROUP.3*,PRR_PC5.GROUP.1*,PRR_PC5.GROUP.5*)
+PRR_PC5.GROUP.8 (PTH,VAR*)
+PRR_PC5.GROUP.9 (PV1,PV2?)
+PRR_PC5.GROUP.10 (ROL,VAR*)
+PRR_PC5 (MSH,MSA,ERR?,QAK?,QRD,PRR_PC5.GROUP.6+)
+PTR_PCF.GROUP.1 (GOL,NTE*,VAR*,PTR_PCF.GROUP.10*,PTR_PCF.GROUP.3*)
+PTR_PCF.GROUP.2 (OBR,NTE*,VAR*,PTR_PCF.GROUP.4*)
+PTR_PCF.GROUP.3 (OBX,NTE*)
+PTR_PCF.GROUP.4 (OBX,NTE*,VAR*)
+PTR_PCF.GROUP.5 (ORC,PTR_PCF.GROUP.2?)
+PTR_PCF.GROUP.6 (PID,PTR_PCF.GROUP.9?,PTR_PCF.GROUP.8+)
+PTR_PCF.GROUP.7 (PRB,NTE*,VAR*,PTR_PCF.GROUP.10*,PTR_PCF.GROUP.3*,PTR_PCF.GROUP.1*,PTR_PCF.GROUP.5*)
+PTR_PCF.GROUP.8 (PTH,NTE*,VAR*,PTR_PCF.GROUP.10*,PTR_PCF.GROUP.7*)
+PTR_PCF.GROUP.9 (PV1,PV2?)
+PTR_PCF.GROUP.10 (ROL,VAR*)
+PTR_PCF (MSH,MSA,ERR?,QAK?,QRD,PTR_PCF.GROUP.6+)
+QCK_Q02 (MSH,MSA,ERR?,QAK?)
+QRY_A19 (MSH,QRD,QRF?)
+QRY_PC4 (MSH,QRD,QRF?)
+QRY_Q01 (MSH,QRD,QRF?,DSC?)
+QRY_Q02 (MSH,QRD,QRF?,DSC?)
+QRY_R02 (MSH,QRD,QRF)
+QRY_T12 (MSH,QRD,QRF?)
+RAR_RAR.GROUP.1 (ORC,RAR_RAR.GROUP.4?,RXA+,RXR)
+RAR_RAR.GROUP.2 (PID,NTE*)
+RAR_RAR.GROUP.3 (QRD,QRF?,RAR_RAR.GROUP.2?,RAR_RAR.GROUP.1+)
+RAR_RAR.GROUP.4 (RXE,RXR+,RXC*)
+RAR_RAR (MSH,MSA,ERR?,RAR_RAR.GROUP.3+,DSC?)
+RAS_O01.GROUP.1 (NTE+,RXR+,RAS_O01.GROUP.6?)
+RAS_O01.GROUP.2 (OBX,NTE*)
+RAS_O01.GROUP.3 (ORC,RAS_O01.GROUP.8?,RAS_O01.GROUP.7?,RXA+,RXR,RAS_O01.GROUP.2*,CTI*)
+RAS_O01.GROUP.4 (PID,PD1?,NTE*,AL1*,RAS_O01.GROUP.5?)
+RAS_O01.GROUP.5 (PV1,PV2?)
+RAS_O01.GROUP.6 (RXC+,NTE*)
+RAS_O01.GROUP.7 (RXE,RXR+,RXC*)
+RAS_O01.GROUP.8 (RXO,RAS_O01.GROUP.1?)
+RAS_O01 (MSH,NTE*,RAS_O01.GROUP.4?,RAS_O01.GROUP.3+)
+RCI_I05.GROUP.1 (OBR,NTE*,RCI_I05.GROUP.2*)
+RCI_I05.GROUP.2 (OBX,NTE*)
+RCI_I05.GROUP.3 (PRD,CTD*)
+RCI_I05 (MSH,MSA,QRD,QRF?,RCI_I05.GROUP.3+,PID,DG1*,DRG*,AL1*,RCI_I05.GROUP.1*,NTE*)
+RCL_I06.GROUP.1 (PRD,CTD*)
+RCL_I06 (MSH,MSA,QRD,QRF?,RCL_I06.GROUP.1+,PID,DG1*,DRG*,AL1*,NTE*,DSP*,DSC?)
+RDE_O01.GROUP.1 (IN1,IN2?,IN3?)
+RDE_O01.GROUP.2 (OBX?,NTE*)
+RDE_O01.GROUP.3 (ORC,RDE_O01.GROUP.7?,RXE,RXR+,RXC*,RDE_O01.GROUP.2+,CTI*)
+RDE_O01.GROUP.4 (PID,PD1?,NTE*,RDE_O01.GROUP.5?,RDE_O01.GROUP.1*,GT1?,AL1*)
+RDE_O01.GROUP.5 (PV1,PV2?)
+RDE_O01.GROUP.6 (RXC+,NTE*)
+RDE_O01.GROUP.7 (RXO,NTE*,RXR+,RDE_O01.GROUP.6?)
+RDE_O01 (MSH,NTE*,RDE_O01.GROUP.4?,RDE_O01.GROUP.3+)
+RDO_O01.GROUP.1 (IN1,IN2?,IN3?)
+RDO_O01.GROUP.2 (OBX,NTE*)
+RDO_O01.GROUP.3 (ORC,RDO_O01.GROUP.7?,BLG?)
+RDO_O01.GROUP.4 (PID,PD1?,NTE*,RDO_O01.GROUP.5?,RDO_O01.GROUP.1*,GT1?,AL1*)
+RDO_O01.GROUP.5 (PV1,PV2?)
+RDO_O01.GROUP.6 (RXC+,NTE*)
+RDO_O01.GROUP.7 (RXO,NTE*,RXR+,RDO_O01.GROUP.6?,RDO_O01.GROUP.2*)
+RDO_O01 (MSH,NTE*,RDO_O01.GROUP.4?,RDO_O01.GROUP.3+)
+RDR_RDR.GROUP.1 (ORC,RDR_RDR.GROUP.5?,RDR_RDR.GROUP.4+)
+RDR_RDR.GROUP.2 (PID,NTE*)
+RDR_RDR.GROUP.3 (QRD,QRF?,RDR_RDR.GROUP.2?,RDR_RDR.GROUP.1+)
+RDR_RDR.GROUP.4 (RXD,RXR+,RXC*)
+RDR_RDR.GROUP.5 (RXE,RXR+,RXC*)
+RDR_RDR (MSH,MSA,ERR?,RDR_RDR.GROUP.3+,DSC?)
+RDS_O01.GROUP.1 (NTE+,RXR+,RDS_O01.GROUP.6?)
+RDS_O01.GROUP.2 (OBX?,NTE*)
+RDS_O01.GROUP.3 (ORC,RDS_O01.GROUP.8?,RDS_O01.GROUP.7?,RXD,RXR+,RXC*,RDS_O01.GROUP.2+)
+RDS_O01.GROUP.4 (PID,PD1?,NTE*,AL1*,RDS_O01.GROUP.5?)
+RDS_O01.GROUP.5 (PV1,PV2?)
+RDS_O01.GROUP.6 (RXC+,NTE*)
+RDS_O01.GROUP.7 (RXE,RXR+,RXC*)
+RDS_O01.GROUP.8 (RXO,RDS_O01.GROUP.1?)
+RDS_O01 (MSH,NTE*,RDS_O01.GROUP.4?,RDS_O01.GROUP.3+)
+REF_I12.GROUP.1 (AUT,CTD?)
+REF_I12.GROUP.2 (IN1,IN2?,IN3?)
+REF_I12.GROUP.3 (OBR,NTE*,REF_I12.GROUP.4*)
+REF_I12.GROUP.4 (OBX,NTE*)
+REF_I12.GROUP.5 (PR1,REF_I12.GROUP.1?)
+REF_I12.GROUP.6 (PRD,CTD*)
+REF_I12.GROUP.7 (PV1,PV2?)
+REF_I12.GROUP.8 (PV1,PV2?,REF_I12.GROUP.7?)
+REF_I12 (MSH,RF1?,REF_I12.GROUP.1?,REF_I12.GROUP.6+,PID,NK1*,GT1*,REF_I12.GROUP.2*,ACC?,DG1*,DRG*,AL1*,REF_I12.GROUP.5*,REF_I12.GROUP.3*,REF_I12.GROUP.8?,NTE*)
+RER_RER.GROUP.1 (ORC,RXE,RXR+,RXC*)
+RER_RER.GROUP.2 (PID,NTE*)
+RER_RER.GROUP.3 (QRD,QRF?,RER_RER.GROUP.2?,RER_RER.GROUP.1+)
+RER_RER (MSH,MSA,ERR?,RER_RER.GROUP.3+,DSC?)
+RGR_RGR.GROUP.1 (ORC,RGR_RGR.GROUP.4?,RXG+,RXR+,RXC*)
+RGR_RGR.GROUP.2 (PID,NTE*)
+RGR_RGR.GROUP.3 (QRD,QRF?,RGR_RGR.GROUP.2?,RGR_RGR.GROUP.1+)
+RGR_RGR.GROUP.4 (RXE,RXR+,RXC*)
+RGR_RGR (MSH,MSA,ERR?,RGR_RGR.GROUP.3+,DSC?)
+RGV_O01.GROUP.1 (NTE+,RXR+,RGV_O01.GROUP.6?)
+RGV_O01.GROUP.2 (OBX?,NTE*)
+RGV_O01.GROUP.3 (ORC,RGV_O01.GROUP.9?,RGV_O01.GROUP.7?,RGV_O01.GROUP.8+)
+RGV_O01.GROUP.4 (PID,NTE*,AL1*,RGV_O01.GROUP.5?)
+RGV_O01.GROUP.5 (PV1,PV2?)
+RGV_O01.GROUP.6 (RXC+,NTE*)
+RGV_O01.GROUP.7 (RXE,RXR+,RXC*)
+RGV_O01.GROUP.8 (RXG,RXR+,RXC*,RGV_O01.GROUP.2+)
+RGV_O01.GROUP.9 (RXO,RGV_O01.GROUP.1?)
+RGV_O01 (MSH,NTE*,RGV_O01.GROUP.4?,RGV_O01.GROUP.3+)
+RPA_I08.GROUP.1 (AUT,CTD?)
+RPA_I08.GROUP.2 (IN1,IN2?,IN3?)
+RPA_I08.GROUP.3 (OBR,NTE*,RPA_I08.GROUP.4*)
+RPA_I08.GROUP.4 (OBX,NTE*)
+RPA_I08.GROUP.5 (PR1,RPA_I08.GROUP.1?)
+RPA_I08.GROUP.6 (PRD,CTD*)
+RPA_I08.GROUP.7 (PV1,PV2?)
+RPA_I08 (MSH,MSA,RF1?,RPA_I08.GROUP.1?,RPA_I08.GROUP.6+,PID,NK1*,GT1*,RPA_I08.GROUP.2*,ACC?,DG1*,DRG*,AL1*,RPA_I08.GROUP.5+,RPA_I08.GROUP.3*,RPA_I08.GROUP.7?,NTE*)
+RPL_I02.GROUP.1 (PRD,CTD*)
+RPL_I02 (MSH,MSA,RPL_I02.GROUP.1+,NTE*,DSP*,DSC?)
+RPR_I03.GROUP.1 (PRD,CTD*)
+RPR_I03 (MSH,MSA,RPR_I03.GROUP.1+,PID*,NTE*)
+RQA_I08.GROUP.1 (AUT,CTD?)
+RQA_I08.GROUP.2 (GT1*,RQA_I08.GROUP.3+)
+RQA_I08.GROUP.3 (IN1,IN2?,IN3?)
+RQA_I08.GROUP.4 (OBR,NTE*,RQA_I08.GROUP.5*)
+RQA_I08.GROUP.5 (OBX,NTE*)
+RQA_I08.GROUP.6 (PR1,RQA_I08.GROUP.1?)
+RQA_I08.GROUP.7 (PRD,CTD*)
+RQA_I08.GROUP.8 (PV1,PV2?)
+RQA_I08 (MSH,RF1?,RQA_I08.GROUP.1?,RQA_I08.GROUP.7+,PID,NK1*,RQA_I08.GROUP.2?,ACC?,DG1*,DRG*,AL1*,RQA_I08.GROUP.6*,RQA_I08.GROUP.4*,RQA_I08.GROUP.8?,NTE*)
+RQC_I05.GROUP.1 (PRD,CTD*)
+RQC_I05 (MSH,QRD,QRF?,RQC_I05.GROUP.1+,PID,NK1*,GT1*,NTE*)
+RQC_I06.GROUP.1 (PRD,CTD*)
+RQC_I06 (MSH,QRD,QRF?,RQC_I06.GROUP.1+,PID,NK1*,GT1?,NTE*)
+RQP_I04.GROUP.1 (PRD,CTD*)
+RQP_I04 (MSH,RQP_I04.GROUP.1+,PID,NK1*,GT1*,NTE*)
+RQQ_Q09 (MSH,ERQ,DSC?)
+RRA_O02.GROUP.1 (ORC,RRA_O02.GROUP.4?)
+RRA_O02.GROUP.2 (PID,NTE*)
+RRA_O02.GROUP.3 (RRA_O02.GROUP.2?,RRA_O02.GROUP.1+)
+RRA_O02.GROUP.4 (RXA+,RXR)
+RRA_O02 (MSH,MSA,ERR?,NTE*,RRA_O02.GROUP.3?)
+RRD_O02.GROUP.1 (ORC,RRD_O02.GROUP.4?)
+RRD_O02.GROUP.2 (PID,NTE*)
+RRD_O02.GROUP.3 (RRD_O02.GROUP.2?,RRD_O02.GROUP.1+)
+RRD_O02.GROUP.4 (RXD,RXR+,RXC*)
+RRD_O02 (MSH,MSA,ERR?,NTE*,RRD_O02.GROUP.3?)
+RRG_O02.GROUP.1 (ORC,RRG_O02.GROUP.4?)
+RRG_O02.GROUP.2 (PID,NTE*)
+RRG_O02.GROUP.3 (RRG_O02.GROUP.2?,RRG_O02.GROUP.1+)
+RRG_O02.GROUP.4 (RXG,RXR+,RXC*)
+RRG_O02 (MSH,MSA,ERR?,NTE*,RRG_O02.GROUP.3?)
+RRI_I12.GROUP.1 (AUT,CTD?)
+RRI_I12.GROUP.2 (OBR,NTE*,RRI_I12.GROUP.3*)
+RRI_I12.GROUP.3 (OBX,NTE*)
+RRI_I12.GROUP.4 (PR1,RRI_I12.GROUP.1?)
+RRI_I12.GROUP.5 (PRD,CTD*)
+RRI_I12.GROUP.6 (PV1,PV2?)
+RRI_I12 (MSH,MSA?,RF1?,RRI_I12.GROUP.1?,RRI_I12.GROUP.5+,PID,ACC?,DG1*,DRG*,AL1*,RRI_I12.GROUP.4*,RRI_I12.GROUP.2*,RRI_I12.GROUP.6?,NTE*)
+RRO_O02.GROUP.1 (ORC,RRO_O02.GROUP.4?)
+RRO_O02.GROUP.2 (PID,NTE*)
+RRO_O02.GROUP.3 (RRO_O02.GROUP.2?,RRO_O02.GROUP.1+)
+RRO_O02.GROUP.4 (RXO,NTE*,RXR+,RXC*,NTE*)
+RRO_O02 (MSH,MSA,ERR?,NTE*,RRO_O02.GROUP.3?)
+SPQ_Q08 (MSH,SPR,RDF?,DSC?)
+SQM_S25.GROUP.1 (AIG,APR?)
+SQM_S25.GROUP.2 (AIL,APR?)
+SQM_S25.GROUP.3 (AIP,APR?)
+SQM_S25.GROUP.4 (AIS,APR?)
+SQM_S25.GROUP.5 (ARQ,APR?,PID?,SQM_S25.GROUP.6+)
+SQM_S25.GROUP.6 (RGS,SQM_S25.GROUP.4*,SQM_S25.GROUP.1*,SQM_S25.GROUP.3*,SQM_S25.GROUP.2*)
+SQM_S25 (MSH,QRD,QRF?,SQM_S25.GROUP.5?,DSC?)
+SQR_S25.GROUP.1 (AIG,NTE*)
+SQR_S25.GROUP.2 (AIL,NTE*)
+SQR_S25.GROUP.3 (AIP,NTE*)
+SQR_S25.GROUP.4 (AIS,NTE*)
+SQR_S25.GROUP.5 (PID,PV1?,PV2?,DG1?)
+SQR_S25.GROUP.6 (RGS,SQR_S25.GROUP.4*,SQR_S25.GROUP.1*,SQR_S25.GROUP.3*,SQR_S25.GROUP.2*)
+SQR_S25.GROUP.7 (SCH,NTE*,SQR_S25.GROUP.5?,SQR_S25.GROUP.6+)
+SQR_S25 (MSH,MSA,ERR?,QAK,SQR_S25.GROUP.7*,DSC?)
+SRM_S01.GROUP.1 (AIG,APR?,NTE*)
+SRM_S01.GROUP.2 (AIL,APR?,NTE*)
+SRM_S01.GROUP.3 (AIP,APR?,NTE*)
+SRM_S01.GROUP.4 (AIS,APR?,NTE*)
+SRM_S01.GROUP.5 (PID,PV1?,PV2?,OBX*,DG1*)
+SRM_S01.GROUP.6 (RGS,SRM_S01.GROUP.4*,SRM_S01.GROUP.1*,SRM_S01.GROUP.2*,SRM_S01.GROUP.3*)
+SRM_S01 (MSH,ARQ,APR?,NTE*,SRM_S01.GROUP.5*,SRM_S01.GROUP.6+)
+SRR_S01.GROUP.1 (AIG,NTE*)
+SRR_S01.GROUP.2 (AIL,NTE*)
+SRR_S01.GROUP.3 (AIP,NTE*)
+SRR_S01.GROUP.4 (AIS,NTE*)
+SRR_S01.GROUP.5 (PID,PV1?,PV2?,DG1*)
+SRR_S01.GROUP.6 (RGS,SRR_S01.GROUP.4*,SRR_S01.GROUP.1*,SRR_S01.GROUP.2*,SRR_S01.GROUP.3*)
+SRR_S01.GROUP.7 (SCH,NTE*,SRR_S01.GROUP.5*,SRR_S01.GROUP.6+)
+SRR_S01 (MSH,MSA,ERR?,SRR_S01.GROUP.7?)
+SUR_P09.GROUP.1 (FAC,PDC,NTE)
+SUR_P09.GROUP.2 (FAC,SUR_P09.GROUP.3+,PSH,SUR_P09.GROUP.1+)
+SUR_P09.GROUP.3 (PSH,PDC)
+SUR_P09 (MSH,SUR_P09.GROUP.2+)
+UDM_Q05 (MSH,URD,URS?,DSP+,DSC?)
+VQQ_Q07 (MSH,VTQ,RDF?,DSC?)
+VXQ_V01 (MSH,QRD,QRF?)
+VXR_V03.GROUP.1 (IN1,IN2?,IN3?)
+VXR_V03.GROUP.2 (OBX,NTE*)
+VXR_V03.GROUP.3 (ORC?,RXA,RXR?,VXR_V03.GROUP.2*)
+VXR_V03.GROUP.4 (PV1,PV2?)
+VXR_V03 (MSH,MSA,QRD,QRF?,PID,PD1?,NK1*,VXR_V03.GROUP.4?,VXR_V03.GROUP.1*,VXR_V03.GROUP.3*)
+VXU_V04.GROUP.1 (IN1,IN2?,IN3?)
+VXU_V04.GROUP.2 (OBX,NTE*)
+VXU_V04.GROUP.3 (ORC?,RXA,RXR?,VXU_V04.GROUP.2*)
+VXU_V04.GROUP.4 (PV1,PV2?)
+VXU_V04 (MSH,PID,PD1?,NK1*,VXU_V04.GROUP.4?,VXU_V04.GROUP.1*,VXU_V04.GROUP.3*)
+VXX_V02.GROUP.1 (PID,NK1*)
+VXX_V02 (MSH,MSA,QRD,QRF?,VXX_V02.GROUP.1+)
+ACC (ACC.1?,ACC.2?,ACC.3?,ACC.4?,ACC.5?,ACC.6?)
+ADD (ADD.1?)
+AIG (AIG.1,AIG.2?,AIG.3?,AIG.4,AIG.5*,AIG.6?,AIG.7?,AIG.8?,AIG.9?,AIG.10?,AIG.11?,AIG.12?,AIG.13?,AIG.14?)
+AIL (AIL.1,AIL.2?,AIL.3?,AIL.4,AIL.5?,AIL.6?,AIL.7?,AIL.8?,AIL.9?,AIL.10?,AIL.11?,AIL.12?)
+AIP (AIP.1,AIP.2?,AIP.3*,AIP.4,AIP.5?,AIP.6?,AIP.7?,AIP.8?,AIP.9?,AIP.10?,AIP.11?,AIP.12?)
+AIS (AIS.1,AIS.2?,AIS.3,AIS.4?,AIS.5?,AIS.6?,AIS.7?,AIS.8?,AIS.9?,AIS.10?)
+AL1 (AL1.1,AL1.2?,AL1.3,AL1.4?,AL1.5*,AL1.6?)
+APR (APR.1*,APR.2*,APR.3*,APR.4?,APR.5*)
+ARQ (ARQ.1,ARQ.2?,ARQ.3?,ARQ.4?,ARQ.5?,ARQ.6?,ARQ.7?,ARQ.8?,ARQ.9?,ARQ.10?,ARQ.11*,ARQ.12?,ARQ.13?,ARQ.14?,ARQ.15+,ARQ.16*,ARQ.17*,ARQ.18?,ARQ.19+,ARQ.20*,ARQ.21?,ARQ.22?,ARQ.23?)
+AUT (AUT.1?,AUT.2,AUT.3?,AUT.4?,AUT.5?,AUT.6?,AUT.7?,AUT.8?,AUT.9?,AUT.10?)
+BHS (BHS.1,BHS.2,BHS.3?,BHS.4?,BHS.5?,BHS.6?,BHS.7?,BHS.8?,BHS.9?,BHS.10?,BHS.11?,BHS.12?)
+BLG (BLG.1?,BLG.2?,BLG.3?)
+BTS (BTS.1?,BTS.2?,BTS.3*)
+CDM (CDM.1,CDM.2*,CDM.3,CDM.4?,CDM.5?,CDM.6*,CDM.7*,CDM.8?,CDM.9*,CDM.10?,CDM.11*,CDM.12*,CDM.13?)
+CM0 (CM0.1?,CM0.2,CM0.3*,CM0.4,CM0.5*,CM0.6?,CM0.7?,CM0.8?,CM0.9*,CM0.10?,CM0.11*)
+CM1 (CM1.1,CM1.2,CM1.3)
+CM2 (CM2.1?,CM2.2,CM2.3?,CM2.4+)
+CSP (CSP.1,CSP.2,CSP.3?,CSP.4?)
+CSR (CSR.1,CSR.2?,CSR.3?,CSR.4,CSR.5?,CSR.6,CSR.7*,CSR.8+,CSR.9?,CSR.10?,CSR.11*,CSR.12*,CSR.13*,CSR.14?,CSR.15?,CSR.16?)
+CSS (CSS.1,CSS.2?,CSS.3*)
+CTD (CTD.1*,CTD.2*,CTD.3*,CTD.4?,CTD.5*,CTD.6?,CTD.7*)
+CTI (CTI.1,CTI.2?,CTI.3?)
+DB1 (DB1.1,DB1.2?,DB1.3*,DB1.4?,DB1.5?,DB1.6?,DB1.7?,DB1.8?)
+DG1 (DG1.1,DG1.2,DG1.3?,DG1.4?,DG1.5?,DG1.6,DG1.7?,DG1.8?,DG1.9?,DG1.10?,DG1.11?,DG1.12?,DG1.13?,DG1.14?,DG1.15?,DG1.16*,DG1.17?,DG1.18?,DG1.19?)
+DRG (DRG.1?,DRG.2?,DRG.3?,DRG.4?,DRG.5?,DRG.6?,DRG.7?,DRG.8?,DRG.9?,DRG.10?)
+DSC (DSC.1?)
+DSP (DSP.1?,DSP.2?,DSP.3,DSP.4?,DSP.5?)
+EQL (EQL.1?,EQL.2,EQL.3,EQL.4)
+ERQ (ERQ.1?,ERQ.2,ERQ.3*)
+ERR (ERR.1+)
+EVN (EVN.1?,EVN.2,EVN.3?,EVN.4?,EVN.5*,EVN.6?)
+FAC (FAC.1,FAC.2?,FAC.3+,FAC.4,FAC.5*,FAC.6*,FAC.7*,FAC.8*,FAC.9+,FAC.10?,FAC.11*,FAC.12?)
+FHS (FHS.1,FHS.2,FHS.3?,FHS.4?,FHS.5?,FHS.6?,FHS.7?,FHS.8?,FHS.9?,FHS.10?,FHS.11?,FHS.12?)
+FT1 (FT1.1?,FT1.2?,FT1.3?,FT1.4,FT1.5?,FT1.6,FT1.7,FT1.8?,FT1.9?,FT1.10?,FT1.11?,FT1.12?,FT1.13?,FT1.14?,FT1.15?,FT1.16?,FT1.17?,FT1.18?,FT1.19*,FT1.20*,FT1.21*,FT1.22?,FT1.23?,FT1.24*,FT1.25?,FT1.26*)
+FTS (FTS.1?,FTS.2?)
+GOL (GOL.1,GOL.2,GOL.3,GOL.4,GOL.5?,GOL.6?,GOL.7?,GOL.8?,GOL.9?,GOL.10?,GOL.11?,GOL.12?,GOL.13?,GOL.14?,GOL.15?,GOL.16?,GOL.17*,GOL.18?,GOL.19?,GOL.20*,GOL.21*)
+GT1 (GT1.1,GT1.2*,GT1.3+,GT1.4*,GT1.5*,GT1.6*,GT1.7*,GT1.8?,GT1.9?,GT1.10?,GT1.11?,GT1.12?,GT1.13?,GT1.14?,GT1.15?,GT1.16*,GT1.17*,GT1.18*,GT1.19*,GT1.20?,GT1.21*,GT1.22?,GT1.23?,GT1.24?,GT1.25?,GT1.26?,GT1.27?,GT1.28?,GT1.29*,GT1.30?,GT1.31?,GT1.32?,GT1.33?,GT1.34*,GT1.35*,GT1.36?,GT1.37?,GT1.38?,GT1.39?,GT1.40?,GT1.41?,GT1.42*,GT1.43?,GT1.44*,GT1.45*,GT1.46*,GT1.47?,GT1.48?,GT1.49?,GT1.50?,GT1.51*,GT1.52?,GT1.53?,GT1.54?,GT1.55*)
+IN1 (IN1.1,IN1.2,IN1.3+,IN1.4*,IN1.5*,IN1.6*,IN1.7*,IN1.8?,IN1.9*,IN1.10*,IN1.11*,IN1.12?,IN1.13?,IN1.14?,IN1.15?,IN1.16*,IN1.17?,IN1.18?,IN1.19*,IN1.20?,IN1.21?,IN1.22?,IN1.23?,IN1.24?,IN1.25?,IN1.26?,IN1.27?,IN1.28?,IN1.29?,IN1.30*,IN1.31?,IN1.32?,IN1.33?,IN1.34?,IN1.35?,IN1.36?,IN1.37?,IN1.38?,IN1.39?,IN1.40?,IN1.41?,IN1.42?,IN1.43?,IN1.44*,IN1.45?,IN1.46?,IN1.47?,IN1.48?,IN1.49*)
+IN2 (IN2.1*,IN2.2?,IN2.3*,IN2.4?,IN2.5*,IN2.6?,IN2.7*,IN2.8?,IN2.9*,IN2.10?,IN2.11?,IN2.12?,IN2.13?,IN2.14?,IN2.15?,IN2.16?,IN2.17?,IN2.18?,IN2.19?,IN2.20?,IN2.21?,IN2.22*,IN2.23?,IN2.24*,IN2.25*,IN2.26*,IN2.27?,IN2.28*,IN2.29*,IN2.30?,IN2.31?,IN2.32*,IN2.33*,IN2.34?,IN2.35?,IN2.36?,IN2.37?,IN2.38?,IN2.39?,IN2.40*,IN2.41?,IN2.42*,IN2.43*,IN2.44?,IN2.45?,IN2.46?,IN2.47?,IN2.48?,IN2.49*,IN2.50*,IN2.51?,IN2.52*,IN2.53*,IN2.54*,IN2.55?,IN2.56*,IN2.57?,IN2.58?,IN2.59?,IN2.60?,IN2.61?,IN2.62?,IN2.63*,IN2.64*,IN2.65?,IN2.66?,IN2.67?,IN2.68?,IN2.69*,IN2.70*,IN2.71*,IN2.72?)
+IN3 (IN3.1,IN3.2?,IN3.3*,IN3.4?,IN3.5?,IN3.6?,IN3.7?,IN3.8*,IN3.9?,IN3.10?,IN3.11?,IN3.12?,IN3.13?,IN3.14*,IN3.15?,IN3.16*,IN3.17?,IN3.18?,IN3.19*,IN3.20*,IN3.21?,IN3.22?,IN3.23?,IN3.24*,IN3.25*)
+LCC (LCC.1,LCC.2,LCC.3*,LCC.4+)
+LCH (LCH.1,LCH.2?,LCH.3?,LCH.4,LCH.5?)
+LDP (LDP.1,LDP.2,LDP.3*,LDP.4*,LDP.5*,LDP.6?,LDP.7?,LDP.8?,LDP.9?,LDP.10*,LDP.11?)
+LOC (LOC.1,LOC.2?,LOC.3+,LOC.4*,LOC.5*,LOC.6*,LOC.7*,LOC.8*)
+LRL (LRL.1,LRL.2?,LRL.3?,LRL.4?,LRL.5*,LRL.6?)
+MFA (MFA.1,MFA.2?,MFA.3?,MFA.4,MFA.5+,MFA.6+)
+MFE (MFE.1,MFE.2?,MFE.3?,MFE.4+,MFE.5+)
+MFI (MFI.1,MFI.2?,MFI.3,MFI.4?,MFI.5?,MFI.6)
+MRG (MRG.1+,MRG.2*,MRG.3?,MRG.4?,MRG.5?,MRG.6?,MRG.7*)
+MSA (MSA.1,MSA.2,MSA.3?,MSA.4?,MSA.5?,MSA.6?)
+MSH (MSH.1,MSH.2,MSH.3?,MSH.4?,MSH.5?,MSH.6?,MSH.7?,MSH.8?,MSH.9,MSH.10,MSH.11,MSH.12,MSH.13?,MSH.14?,MSH.15?,MSH.16?,MSH.17?,MSH.18*,MSH.19?,MSH.20?)
+NCK (NCK.1?)
+NK1 (NK1.1,NK1.2*,NK1.3?,NK1.4*,NK1.5*,NK1.6*,NK1.7?,NK1.8?,NK1.9?,NK1.10?,NK1.11?,NK1.12?,NK1.13*,NK1.14?,NK1.15?,NK1.16?,NK1.17*,NK1.18*,NK1.19*,NK1.20?,NK1.21?,NK1.22?,NK1.23?,NK1.24?,NK1.25?,NK1.26*,NK1.27?,NK1.28*,NK1.29*,NK1.30*,NK1.31*,NK1.32*,NK1.33*,NK1.34?,NK1.35*,NK1.36?,NK1.37?)
+NPU (NPU.1,NPU.2?)
+NSC (NSC.1?,NSC.2?,NSC.3?,NSC.4?,NSC.5?,NSC.6?,NSC.7?,NSC.8?,NSC.9?)
+NST (NST.1?,NST.2?,NST.3?,NST.4?,NST.5?,NST.6?,NST.7?,NST.8?,NST.9?,NST.10?,NST.11?,NST.12?,NST.13?,NST.14?,NST.16?)
+NTE (NTE.1?,NTE.2?,NTE.3*,NTE.4?)
+OBR (OBR.1?,OBR.2?,OBR.3?,OBR.4,OBR.5?,OBR.6?,OBR.7?,OBR.8?,OBR.9?,OBR.10*,OBR.11?,OBR.12?,OBR.13?,OBR.14?,OBR.15?,OBR.16*,OBR.17*,OBR.18?,OBR.19?,OBR.20?,OBR.21?,OBR.22?,OBR.23?,OBR.24?,OBR.25?,OBR.26?,OBR.27*,OBR.28*,OBR.29?,OBR.30?,OBR.31*,OBR.32?,OBR.33*,OBR.34*,OBR.35*,OBR.36?,OBR.37?,OBR.38*,OBR.39*,OBR.40?,OBR.41?,OBR.42?,OBR.43*,OBR.44?,OBR.45*)
+OBX (OBX.1?,OBX.2,OBX.3,OBX.4,OBX.5*,OBX.6?,OBX.7?,OBX.8*,OBX.9*,OBX.10?,OBX.11,OBX.12?,OBX.13?,OBX.14?,OBX.15?,OBX.16*,OBX.17*)
+ODS (ODS.1,ODS.2*,ODS.3+,ODS.4*)
+ODT (ODT.1,ODT.2*,ODT.3?)
+OM1 (OM1.1?,OM1.2?,OM1.3*,OM1.4?,OM1.5?,OM1.6?,OM1.7?,OM1.8*,OM1.9?,OM1.10?,OM1.11?,OM1.12?,OM1.13*,OM1.14*,OM1.15?,OM1.16*,OM1.17?,OM1.18,OM1.19?,OM1.20?,OM1.21?,OM1.22?,OM1.23?,OM1.24?,OM1.25*,OM1.26?,OM1.27*,OM1.28*,OM1.29?,OM1.30?,OM1.31?,OM1.32?,OM1.33?,OM1.34*,OM1.35?,OM1.36?,OM1.37?,OM1.38?,OM1.39?,OM1.40*,OM1.41?,OM1.42?,OM1.43?,OM1.44?,OM1.45?,OM1.46?,OM1.47?)
+OM2 (OM2.1?,OM2.2?,OM2.3*,OM2.4?,OM2.5?,OM2.6?,OM2.7?,OM2.8?,OM2.9*,OM2.10?)
+OM3 (OM3.1?,OM3.2?,OM3.3?,OM3.4*,OM3.5?,OM3.6?,OM3.7?)
+OM4 (OM4.1?,OM4.2?,OM4.3?,OM4.4?,OM4.5?,OM4.6?,OM4.7?,OM4.8?,OM4.9?,OM4.10?,OM4.11?,OM4.12?,OM4.13*,OM4.14?)
+OM5 (OM5.1?,OM5.2*,OM5.3?)
+OM6 (OM6.1?,OM6.2?)
+ORC (ORC.1?,ORC.2?,ORC.3?,ORC.4?,ORC.5?,ORC.6?,ORC.7?,ORC.8?,ORC.9?,ORC.10*,ORC.11*,ORC.12*,ORC.13?,ORC.14*,ORC.15?,ORC.16?,ORC.17?,ORC.18?,ORC.19*,ORC.20?,ORC.21*,ORC.22*,ORC.23*,ORC.24*)
+PCR (PCR.1,PCR.2?,PCR.3?,PCR.4?,PCR.5?,PCR.6?,PCR.7?,PCR.8?,PCR.9?,PCR.10?,PCR.11?,PCR.12*,PCR.13?,PCR.14?,PCR.15?,PCR.16?,PCR.17?,PCR.18?,PCR.19?,PCR.20?,PCR.21*,PCR.22*,PCR.23*)
+PD1 (PD1.1*,PD1.2?,PD1.3*,PD1.4*,PD1.5?,PD1.6?,PD1.7?,PD1.8?,PD1.9?,PD1.10*,PD1.11?,PD1.12?)
+PDC (PDC.1+,PDC.2,PDC.3,PDC.4?,PDC.5?,PDC.6*,PDC.7?,PDC.8*,PDC.9?,PDC.10?,PDC.11?,PDC.12?,PDC.13?,PDC.14?,PDC.15?)
+PEO (PEO.1*,PEO.2*,PEO.3,PEO.4?,PEO.5?,PEO.6?,PEO.7*,PEO.8*,PEO.9?,PEO.10?,PEO.11*,PEO.12?,PEO.13*,PEO.14*,PEO.15*,PEO.16*,PEO.17*,PEO.18*,PEO.19*,PEO.20*,PEO.21*,PEO.22?,PEO.23?,PEO.24?,PEO.25?)
+PES (PES.1*,PES.2*,PES.3*,PES.4*,PES.5?,PES.6?,PES.7*,PES.8?,PES.9?,PES.10,PES.11*,PES.12?,PES.13*)
+PID (PID.1?,PID.2?,PID.3+,PID.4*,PID.5+,PID.6*,PID.7?,PID.8?,PID.9*,PID.10*,PID.11*,PID.12?,PID.13*,PID.14*,PID.15?,PID.16?,PID.17?,PID.18?,PID.19?,PID.20?,PID.21*,PID.22*,PID.23?,PID.24?,PID.25?,PID.26*,PID.27?,PID.28?,PID.29?,PID.30?)
+PR1 (PR1.1,PR1.2,PR1.3,PR1.4?,PR1.5,PR1.6,PR1.7?,PR1.8*,PR1.9?,PR1.10?,PR1.11*,PR1.12*,PR1.13?,PR1.14?,PR1.15?,PR1.16*)
+PRA (PRA.1,PRA.2*,PRA.3*,PRA.4?,PRA.5*,PRA.6*,PRA.7*,PRA.8?)
+PRB (PRB.1,PRB.2,PRB.3,PRB.4,PRB.5?,PRB.6?,PRB.7?,PRB.8?,PRB.9?,PRB.10?,PRB.11*,PRB.12?,PRB.13?,PRB.14?,PRB.15?,PRB.16?,PRB.17?,PRB.18?,PRB.19?,PRB.20?,PRB.21?,PRB.22?,PRB.23?,PRB.24?,PRB.25?)
+PRC (PRC.1,PRC.2*,PRC.3*,PRC.4*,PRC.5*,PRC.6*,PRC.7?,PRC.8?,PRC.9?,PRC.10?,PRC.11?,PRC.12?,PRC.13?,PRC.14*,PRC.15?,PRC.16?,PRC.17?,PRC.18?)
+PRD (PRD.1+,PRD.2*,PRD.3*,PRD.4?,PRD.5*,PRD.6?,PRD.7*,PRD.8?,PRD.9?)
+PSH (PSH.1,PSH.2?,PSH.3,PSH.4?,PSH.5?,PSH.6?,PSH.7?,PSH.8?,PSH.9?,PSH.10?,PSH.11?,PSH.12?,PSH.13*,PSH.14*)
+PTH (PTH.1,PTH.2,PTH.3,PTH.4,PTH.5?,PTH.6?)
+PV1 (PV1.1?,PV1.2,PV1.3?,PV1.4?,PV1.5?,PV1.6?,PV1.7*,PV1.8*,PV1.9*,PV1.10?,PV1.11?,PV1.12?,PV1.13?,PV1.14?,PV1.15*,PV1.16?,PV1.17*,PV1.18?,PV1.19?,PV1.20*,PV1.21?,PV1.22?,PV1.23?,PV1.24*,PV1.25*,PV1.26*,PV1.27*,PV1.28?,PV1.29?,PV1.30?,PV1.31?,PV1.32?,PV1.33?,PV1.34?,PV1.35?,PV1.36?,PV1.37?,PV1.38?,PV1.39?,PV1.40?,PV1.41?,PV1.42?,PV1.43?,PV1.44?,PV1.45?,PV1.46?,PV1.47?,PV1.48?,PV1.49?,PV1.50?,PV1.51?,PV1.52*)
+PV2 (PV2.1?,PV2.2?,PV2.3?,PV2.4?,PV2.5*,PV2.6?,PV2.7?,PV2.8?,PV2.9?,PV2.10?,PV2.11?,PV2.12?,PV2.13*,PV2.14?,PV2.15?,PV2.16?,PV2.17?,PV2.18?,PV2.19?,PV2.20?,PV2.21?,PV2.22?,PV2.23*,PV2.24?,PV2.25?,PV2.26?,PV2.27?,PV2.28?,PV2.29?,PV2.30?,PV2.31?,PV2.32?,PV2.33?,PV2.34?,PV2.35?,PV2.36?,PV2.37?)
+QAK (QAK.1?,QAK.2?)
+QRD (QRD.1,QRD.2,QRD.3,QRD.4,QRD.5?,QRD.6?,QRD.7,QRD.8+,QRD.9+,QRD.10+,QRD.11*,QRD.12?)
+QRF (QRF.1+,QRF.2?,QRF.3?,QRF.4*,QRF.5*,QRF.6*,QRF.7*,QRF.8*,QRF.9?)
+RDF (RDF.1,RDF.2+)
+RDT (RDT.1?)
+RF1 (RF1.1?,RF1.2?,RF1.3?,RF1.4*,RF1.5?,RF1.6,RF1.7?,RF1.8?,RF1.9?,RF1.10*,RF1.11*)
+RGS (RGS.1,RGS.2?,RGS.3?)
+ROL (ROL.1,ROL.2,ROL.3,ROL.4+,ROL.5?,ROL.6?,ROL.7?,ROL.8?)
+RQ1 (RQ1.1?,RQ1.2?,RQ1.3?,RQ1.4?,RQ1.5?,RQ1.6?,RQ1.7?)
+RQD (RQD.1?,RQD.2?,RQD.3?,RQD.4?,RQD.5?,RQD.6?,RQD.7?,RQD.8?,RQD.9?,RQD.10?)
+RXA (RXA.1,RXA.2,RXA.3,RXA.4,RXA.5,RXA.6,RXA.7?,RXA.8?,RXA.9*,RXA.10*,RXA.11?,RXA.12?,RXA.13?,RXA.14?,RXA.15*,RXA.16*,RXA.17*,RXA.18*,RXA.19*,RXA.20?,RXA.21?,RXA.22?)
+RXC (RXC.1,RXC.2,RXC.3,RXC.4,RXC.5?,RXC.6?)
+RXD (RXD.1,RXD.2,RXD.3,RXD.4,RXD.5?,RXD.6?,RXD.7,RXD.8?,RXD.9*,RXD.10*,RXD.11?,RXD.12?,RXD.13?,RXD.14?,RXD.15*,RXD.16?,RXD.17?,RXD.18*,RXD.19*,RXD.20*,RXD.21*,RXD.22?,RXD.23?,RXD.24?)
+RXE (RXE.1,RXE.2,RXE.3,RXE.4?,RXE.5,RXE.6?,RXE.7*,RXE.8?,RXE.9?,RXE.10?,RXE.11?,RXE.12?,RXE.13*,RXE.14*,RXE.15?,RXE.16?,RXE.17?,RXE.18?,RXE.19?,RXE.20?,RXE.21*,RXE.22?,RXE.23?,RXE.24?,RXE.25?,RXE.26?,RXE.27*,RXE.28?,RXE.29?,RXE.30?)
+RXG (RXG.1,RXG.2?,RXG.3,RXG.4,RXG.5,RXG.6?,RXG.7,RXG.8?,RXG.9*,RXG.10?,RXG.11?,RXG.12?,RXG.13*,RXG.14?,RXG.15?,RXG.16?,RXG.17?,RXG.18?,RXG.19*,RXG.20*,RXG.21*,RXG.22*)
+RXO (RXO.1?,RXO.2?,RXO.3?,RXO.4?,RXO.5?,RXO.6*,RXO.7*,RXO.8?,RXO.9?,RXO.10?,RXO.11?,RXO.12?,RXO.13?,RXO.14*,RXO.15*,RXO.16?,RXO.17?,RXO.18?,RXO.19?,RXO.20*,RXO.21?,RXO.22?,RXO.23?)
+RXR (RXR.1,RXR.2?,RXR.3?,RXR.4?,RXR.5?)
+SCH (SCH.1?,SCH.2?,SCH.3?,SCH.4?,SCH.5?,SCH.6,SCH.7?,SCH.8?,SCH.9?,SCH.10?,SCH.11+,SCH.12*,SCH.13?,SCH.14*,SCH.15?,SCH.16+,SCH.17?,SCH.18*,SCH.19?,SCH.20+,SCH.21*,SCH.22?,SCH.23?,SCH.24?,SCH.25?)
+SPR (SPR.1?,SPR.2,SPR.3,SPR.4*)
+STF (STF.1,STF.2*,STF.3*,STF.4*,STF.5?,STF.6?,STF.7?,STF.8*,STF.9*,STF.10*,STF.11*,STF.12*,STF.13*,STF.14*,STF.15*,STF.16?,STF.17?,STF.18?,STF.19?,STF.20?,STF.21?,STF.22?,STF.23?,STF.24?,STF.25?,STF.26?)
+TXA (TXA.1,TXA.2,TXA.3?,TXA.4?,TXA.5*,TXA.6?,TXA.7?,TXA.8*,TXA.9*,TXA.10*,TXA.11*,TXA.12,TXA.13?,TXA.14*,TXA.15?,TXA.16?,TXA.17,TXA.18?,TXA.19?,TXA.20?,TXA.21?,TXA.22*,TXA.23*)
+UB1 (UB1.1?,UB1.2?,UB1.3?,UB1.4?,UB1.5?,UB1.6?,UB1.7*,UB1.8?,UB1.9?,UB1.10*,UB1.11?,UB1.12?,UB1.13?,UB1.14?,UB1.15?,UB1.16*,UB1.17?,UB1.18?,UB1.19?,UB1.20?,UB1.21?,UB1.22?,UB1.23?)
+UB2 (UB2.1?,UB2.2?,UB2.3*,UB2.4?,UB2.5?,UB2.6*,UB2.7*,UB2.8*,UB2.9*,UB2.10*,UB2.11?,UB2.12*,UB2.13*,UB2.14*,UB2.15?,UB2.16*,UB2.17?)
+URD (URD.1?,URD.2?,URD.3+,URD.4*,URD.5*,URD.6*,URD.7?)
+URS (URS.1+,URS.2?,URS.3?,URS.4*,URS.5*,URS.6*,URS.7*,URS.8*,URS.9?)
+VAR (VAR.1,VAR.2,VAR.3?,VAR.4*,VAR.5?,VAR.6*)
+VTQ (VTQ.1?,VTQ.2,VTQ.3,VTQ.4,VTQ.5*)
+ZPD (ZPD.1?,ZPD.2?,ZPD.3?)
+ZPD.1 %SI Item='4001' Table='0' LongName='Set ID - ZPD' Type='SI'
+ZPD.2 %ST Item='4002' Table='0' LongName='Type of Data' Type='ST'
+ZPD.3 %CM_ZPD_TYPE Item='4003' Table='0' LongName='encoded data' Type='CM_ZPD_TYPE'
+%CM_ZPD_TYPE (CM_ZPD_TYPE.1?,CM_ZPD_TYPE.2?,CM_ZPD_TYPE.3?)
+CM_ZPD_TYPE.1 %NM LongName='Number of Encrypted Bytes in data' Type='NM' Table='0'
+CM_ZPD_TYPE.2 %NM LongName='Number of Unencrypted Bytes in data' Type='NM' Table='0'
+CM_ZPD_TYPE.3 %ST LongName='UU encoded data' Type='ST' Table='0'
+ZNO (ZNO.1?,ZNO.2?,ZNO.3?,ZNO.4?,ZNO.5?,ZNO.6?,ZNO.7?,ZNO.8?,ZNO.9?,ZNO.10?,ZNO.11?)
+ZNO.1 %ST Item='4011' Table='0' LongName='Set-ID' Type='ST'
+ZNO.2 %ST Item='4012' Table='0' LongName='Behandlungsart' Type='ST'
+ZNO.3 %ST Item='4013' Table='0' LongName='BKZ' Type='ST'
+ZNO.4 %ST Item='4014' Table='0' LongName='Massnahmeart' Type='ST'
+ZNO.5 %ST Item='4015' Table='0' LongName='AGIR' Type='ST'
+ZNO.6 %ST Item='4016' Table='0' LongName='Rentenantragsteller' Type='ST'
+ZNO.7 %ST Item='4017' Table='0' LongName='Vers.Art Kürzel' Type='ST'
+ZNO.8 %ST Item='4018' Table='0' LongName='Vers.-Art Text' Type='ST'
+ZNO.9 %ST Item='4019' Table='0' LongName='Auskunftsperre' Type='ST'
+ZNO.10 %CM_ZNO_TYPE Item='4020' Table='0' LongName='Regelleistung' Type='CM_ZNO_TYPE'
+ZNO.11 %CM_ZNO_TYPE Item='4021' Table='0' LongName='Wahlleistung' Type='CM_ZNO_TYPE'
+%CM_ZNO_TYPE (CM_ZNO_TYPE.1?,CM_ZNO_TYPE.2?)
+CM_ZNO_TYPE.1 %ST LongName='Leistung Kürzel' Type='ST' Table='0'
+CM_ZNO_TYPE.2 %ST LongName='Leistung Text' Type='ST' Table='0'
+ZBE (ZBE.1+,ZBE.2?,ZBE.3?,ZBE.4?)
+ZBE.1 %EI Item='49071' Table='0' LongName='Bewegungs-ID' Type='EI'
+ZBE.2 %TS Item='49072' Table='0' LongName='Zeitpunkt des Bewegungsbeginns' Type='TS'
+ZBE.3 %TS Item='49073' Table='0' LongName='Zeitpunkt des Bewegungsendes' Type='TS'
+ZBE.4 %ST Item='49074' Table='0' LongName='Grund/Verarbeitungskennzeichen' Type='ST'

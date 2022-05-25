@@ -1,0 +1,145 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Line Code 10</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<b>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><strong><a
+    NAME="LC10">Line Code 10: Result type selection</a></strong></font></td>
+  </tr>
+</table>
+</b>
+
+<p>&nbsp;</p>
+
+<table BORDER="1" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+  <tr>
+    <td bgcolor="#D8E9D9" width="18%"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Description</font></td>
+    <td bgcolor="#D8E9D9" width="15%"><p ALIGN="CENTER"><font face="Arial" size="1"><a
+    href="dataform.htm">Format</a> </font></td>
+    <td bgcolor="#D8E9D9" width="67%"><font face="Arial" size="1">Range</font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" width="18%"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Line
+    Code</font></strong></td>
+    <td BGCOLOR="#F1F8C0" width="15%"><p ALIGN="CENTER"><strong><font face="Arial" size="2">10</font></strong></td>
+    <td BGCOLOR="#F1F8C0" width="67%"><font face="Arial" size="2"><strong>&nbsp;&nbsp;&nbsp; </strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" valign="top" align="left" width="18%"><p ALIGN="JUSTIFY"><font
+    face="Arial" size="2"><strong>Result Type Selector</strong></font></td>
+    <td bgcolor="#F1F8C0" valign="top" align="left" width="15%"><p ALIGN="CENTER"><font
+    face="Arial" size="2"><strong>I2</strong></font></td>
+    <td bgcolor="#F1F8C0" width="67%"><table border="0" cellpadding="4" cellspacing="0"
+    width="100%">
+      <tr>
+        <td valign="top" align="left" width="17"><font face="Arial" size="2"><strong>01</strong></font></td>
+        <td valign="top" align="left" width="10"><strong><font face="Arial" size="2">=</font></strong></td>
+        <td width="486" colspan="2"><font face="Arial" size="2"><strong>Transmit any available
+        result, i.e.<br>
+        - single patient</strong> or<strong><br>
+        - single calibration</strong> or<strong><br>
+        - control result collated by Test ID</strong></font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" width="17"><font face="Arial" size="2"><strong>02</strong></font></td>
+        <td valign="top" align="left" width="10"><strong><font face="Arial" size="2">=</font></strong></td>
+        <td width="486" colspan="2"><font face="Arial" size="2">Reserved</font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" bgcolor="#DAD9A5" width="17"><font face="Arial" size="2"><strong>03</strong></font></td>
+        <td valign="top" align="left" bgcolor="#DAD9A5" width="10"><strong><font face="Arial"
+        size="2">=</font></strong></td>
+        <td width="379" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>Transmit patient
+        results, collated by Order ID.<br>
+        Results are ONLY transmitted if ALL tests belonging to an order are finished and accepted.</strong><br>
+        (This &quot;Result type selector&quot; is available starting with software version&nbsp;
+        9561.B1.)</font></td>
+        <td width="99" bgcolor="#DAD9A5" rowspan="3"><font face="Arial" size="2"><p align="center"><strong><font color="#FF0000">Unless
+        really required, do not use &quot;Result Type Selector&quot; 03, 04,<br>
+          05 or 06</font><br>
+        </strong>(refer to the following note).</font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" bgcolor="#DAD9A5" width="17"><font face="Arial" size="2"><strong>04</strong></font></td>
+        <td valign="top" align="left" bgcolor="#DAD9A5" width="10"><strong><font face="Arial"
+        size="2">=</font></strong></td>
+        <td width="379" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>Transmit patient
+        results, collated by Order ID.<br>
+        Blocked tests are marked with the &#145;Test Blocked&#146; flag (CALC flag 255). Their
+        results are sent later as soon as successfully completed </strong>along with any
+        still-remaining blocked tests (9561.B1).</font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" bgcolor="#DAD9A5" width="17"><strong><font face="Arial"
+        size="2">05</font></strong></td>
+        <td valign="top" align="left" bgcolor="#DAD9A5" width="10"><strong><font face="Arial"
+        size="2">=</font></strong></td>
+        <td width="379" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>Transmit patient
+        results, collated by Order ID.<br>
+        Send all currently available results</strong> (i.e., all accepted but not yet transmitted
+        results) (9662.A1)</font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" width="17" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">06</font></strong></td>
+        <td valign="top" align="left" width="10" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">=</font></strong></td>
+        <td width="486" colspan="2" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>Transmit new control
+        results collated by Control ID </strong>(9662.A1)</font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" width="17"><strong><font face="Arial" size="2">07</font></strong></td>
+        <td valign="top" align="left" width="10"><strong><font face="Arial" size="2">=</font></strong></td>
+        <td width="486" colspan="2"><font face="Arial" size="2"><strong>Transmit single patient
+        result </strong>(9561.B3)</font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" width="17"><strong><font face="Arial" size="2">08</font></strong></td>
+        <td valign="top" align="left" width="10"><strong><font face="Arial" size="2">=</font></strong></td>
+        <td width="486" colspan="2"><font face="Arial" size="2"><strong>Transmit single
+        calibration result </strong>(9561.B3)<strong> </strong></font></td>
+      </tr>
+      <tr>
+        <td valign="top" align="left" width="17"><strong><font face="Arial" size="2">09</font></strong></td>
+        <td valign="top" align="left" width="10"><strong><font face="Arial" size="2">=</font></strong></td>
+        <td width="486" colspan="2"><font face="Arial" size="2"><strong>Transmit control results
+        collated by Test ID </strong>(9561.B3)</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<font SIZE="3"><u><i>
+
+<p ALIGN="JUSTIFY"></i></u></font><strong><font face="Arial" size="2">Example:
+10_07&lt;LF&gt;</font></strong><font SIZE="1"></p>
+</font>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#E5E5E5"><strong><font face="Arial" size="2">Note: </font></strong></td>
+    <td width="92%" bgcolor="#E5E5E5"><strong><font face="Arial" size="2">- Only accepted and
+    not yet transmitted results are sent to the Host.</font></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#E5E5E5"><font face="Arial" size="2">.</font></td>
+    <td width="92%" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>- Due to instrument
+    performance reasons and in order to have results on the Host system available as soon as
+    possible,&nbsp; we strongly recommend <font color="#FF0000"> NOT using &quot;Collated Results&quot; requests</font>
+      ( i.e., not using Result Type Selector 03, 04 and 05 )</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#E5E5E5"><font face="Arial" size="2">.</font></td>
+    <td width="92%" bgcolor="#E5E5E5"><font face="Arial" size="2"><strong>- Calibration and
+    Control results are only transmitted if enabled. <img src="arr_righ.gif" alt="goto"
+    border="0" WIDTH="12" HEIGHT="12"> Integra setup for:&nbsp; <a
+    href="i7_setup.htm#e_hif_tr">700 / 800</a> / <a href="i4_setup.htm#Enable Result Transmission">400</a></strong></font></td>
+  </tr>
+</table>
+</body>
+</html>

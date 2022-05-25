@@ -1,0 +1,534 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra 700 Instrument Set-Up</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<font FACE="Arial"><b>
+
+<p><a name="i7setup"></a><img src="i_integr.gif" alt="Integra" border="0" WIDTH="105" HEIGHT="18"><big> 700
+Instrument Set-Up</big></p>
+</b></font>
+
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+  <tr>
+    <td width="5%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">1.</font></strong></td>
+    <td width="95%" bgcolor="#F1F8C0"><font face="Arial" size="3"><strong>Prepare an <a href="rs232.htm#rs232cab">interface cable</a> and <a href="#conn">connect</a> the cable to
+    the Host and the Instrument</strong></font></td>
+  </tr>
+  <tr>
+    <td width="5%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">2.</font></strong></td>
+    <td width="95%" bgcolor="#F1F8C0"><font face="Arial" size="3"><strong><a href="#e_hif_tr">Enable
+    Host interface transmission</a> (Config. / Processing / Result Output Mode)</strong></font></td>
+  </tr>
+  <tr>
+    <td width="5%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">3.</font></strong></td>
+    <td width="95%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">Set-up <a href="#if_par">interface parameter</a> (Config. / General / Host Interface) </font></strong></td>
+  </tr>
+  <tr>
+    <td width="5%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">4.</font></strong></td>
+    <td width="95%" bgcolor="#F1F8C0"><font face="Arial" size="3"><strong>Prepare the <a href="#db_par">database set-up</a> (Config. / Lab / Database Set-up)</strong></font></td>
+  </tr>
+  <tr>
+    <td width="5%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">5.</font></strong></td>
+    <td width="95%" bgcolor="#F1F8C0"><font face="Arial" size="3"><strong>If you are using <a href="#barcode">barcodes</a>, set-up the instrument accordingly.</strong></font></td>
+  </tr>
+  <tr>
+    <td width="5%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">6.</font></strong></td>
+    <td width="95%" bgcolor="#F1F8C0"><font face="Arial" size="3"><strong>If you modified
+    anything, shutdown and restart the Data Station</strong></font></td>
+  </tr>
+  <tr>
+    <td width="5%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">7.</font></strong></td>
+    <td width="95%" bgcolor="#F1F8C0"><strong><font face="Arial" size="3">Load your
+    application, e.g. LIS or terminal program. As a first check send an <a href="i_bc00.htm">idle
+    block</a></font></strong></td>
+  </tr>
+</table>
+<b><font FACE="Arial">
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    </font></b><td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><strong><a NAME="conn">Connecting the Data Station to the Host computer</a></strong></font></td>
+    <font FACE="Arial"><b>
+  </tr>
+</table>
+<font size="4">
+
+<p ALIGN="JUSTIFY"></font></b>&nbsp;</p>
+
+<p ALIGN="JUSTIFY"><font face="Arial" size="3">The interface port </font><font size="3">used
+</font><font face="Arial" size="3">to connect to the Host is a SUB-D male type with 9
+pins. The following pictures </font><font size="3">show</font><font face="Arial" size="3">
+the rear of the </font><font size="3">D</font><font face="Arial" size="3">ata </font><font size="3">S</font><font face="Arial" size="3">tations</font><font size="3"> and the
+location of the RS232 connector.</font></p>
+
+<table border="0" width="100%" cellspacing="0">
+  <tr>
+    <td valign="top" align="center" colspan="2"></font><font size="3"><img src="i7_conol.jpg" alt="HIF Connector Alt.JPG (14427 bytes)" WIDTH="370" HEIGHT="100"></font></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center" colspan="2"><font face="Arial" size="2">Hewlett Packard
+    Model 712<br>
+    <br>
+    </font></td>
+  </tr>
+  <tr>
+    <td width="25%" valign="middle" align="center"><font size="3"><img src="i7_connw.jpg" alt="HIF Connector Neu.JPG (16034 bytes)" WIDTH="350" HEIGHT="137">&nbsp;</font></td>
+    <td width="25%" valign="top" align="center"><font size="3"><img border="0" src="i8_conn.JPG" width="150" height="200"></font></td>
+  </tr>
+  <tr>
+    <td width="25%" valign="top" align="center"><font face="Arial" size="2">Hewlett Packard
+    Visualize B132L+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+    <td width="25%" valign="top" align="center"><font face="Arial" size="2">Hewlett Packard
+    Visualize C3600</font></td>
+  </tr>
+</table>
+<font size="3"><i>
+
+<p></i></p>
+
+<p><a href="rs232.htm#rs232cab"><font FACE="Arial"><strong>Interface cable</strong></font></a></p>
+
+<p></font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><p ALIGN="JUSTIFY"><font face="Arial" size="3"><a name="e_hif_tr"><strong>Enable Host interface transmission</strong></a></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial" size="3">The COBAS INTEGRA&#146;s Host Interface is enabled/disabled
+in the<b><i> &#145;</i>Configuration / Processing / Result Output Mode&#146;</b> menu.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" align="left"><table CELLSPACING="0" BORDER="0" CELLPADDING="4" WIDTH="100%">
+      <tr>
+        <td BGCOLOR="#D8E9D9"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Parameter</font></td>
+        <td BGCOLOR="#D8E9D9" valign="top" align="left"><font face="Arial" size="1">Value</font></td>
+        <td BGCOLOR="#D8E9D9" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Description</font></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Transmission</font></strong></td>
+        <td BGCOLOR="#DAD9A5" valign="top" align="left"><strong><font face="Arial" size="2">Off</font></strong></td>
+        <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>The Host interface is disabled. The instrument does not allow any request
+        from the Host and no responses are generated.</strong></font></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td BGCOLOR="#F1F8C0" valign="top" align="left"><font face="Arial" size="2"><strong>&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></font></td>
+        <td BGCOLOR="#F1F8C0" valign="top" align="left"><strong><font face="Arial" size="2">On</font></strong></td>
+        <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>The Host interface is enabled and functions in accordance with the
+        definitions.</strong></font></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Data Selection</font></strong></td>
+        <td BGCOLOR="#DAD9A5" valign="top" align="left"><strong><font face="Arial" size="2">Samples
+        Only</font></strong></td>
+        <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Only patient results will be transmitted in response to a result
+        request.</font></strong></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td BGCOLOR="#F1F8C0" valign="top" align="left"><font face="Arial" size="2"><strong>&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></font></td>
+        <td BGCOLOR="#F1F8C0" valign="top" align="left"><strong><font face="Arial" size="2">All
+        Data</font></strong></td>
+        <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Every kind of result (sample, calibration, control) will be
+        transmitted in response to a result request.</font></strong></td>
+      </tr>
+    </table>
+    </td>
+    <td valign="top" align="left"><img src="i7_resou.gif" alt="res_outp.gif (9552 bytes)" WIDTH="247" HEIGHT="292"></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><strong><a name="if_par">Interface
+    parameters</a></strong></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial" size="3">The Host interface is configured in the &#145;<strong>Configuration
+/ General / Host Interface</strong>&#146; menu:</font></p>
+<div align="left">
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%" align="left">
+  <tr>
+    <td valign="top" align="left" width="574"><table CELLSPACING="0" BORDER="0" CELLPADDING="4" WIDTH="100%">
+      <tr>
+        <td BGCOLOR="#D8E9D9"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Parameter</font></td>
+        <td BGCOLOR="#D8E9D9"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Value Range</font></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td WIDTH="123" BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Baudrate</font></strong></td>
+        <td BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">300 / 1200 /
+        2400 / 4800 / 9600 / 19200</font></strong></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td WIDTH="123" BGCOLOR="#F1F8C0"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Number of data bits</font></strong></td>
+        <td BGCOLOR="#F1F8C0"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">7 / 8</font></strong></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td WIDTH="123" BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Stop bits</font></strong></td>
+        <td BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">1 / 2</font></strong></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td WIDTH="123" BGCOLOR="#F1F8C0"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Parity</font></strong></td>
+        <td BGCOLOR="#F1F8C0"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">None / Even /
+        Odd (see note)</font></strong></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td WIDTH="123" BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Flow Control</font></strong></td>
+        <td BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Hard / Soft /
+        Both (see note)</font></strong></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td WIDTH="123" BGCOLOR="#F1F8C0"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Block Check</font></strong></td>
+        <td BGCOLOR="#F1F8C0"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Enable /
+        Disable</font></strong></td>
+        <font size="3">
+      </tr>
+      <tr>
+        </font><td WIDTH="123" BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Line Terminator</font></strong></td>
+        <td BGCOLOR="#DAD9A5"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">&lt;LF&gt; /
+        &lt;CR&gt;&lt;LF&gt;</font></strong></td>
+      </tr>
+    </table>
+    </td>
+    <td width="240"><img src="i7_hifcf.gif" alt="hif_conf.gif (8377 bytes)" WIDTH="238" HEIGHT="256"></td>
+  </tr>
+</table>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial" size="3"><strong>Important Note</strong>: Because of an error in the
+Hewlett-Packard Data Station, the parity check and the hardware handshaking do not
+function properly. If parity even or odd is selected, no data will be transmitted.
+Therefore:<br>
+On COBAS INTEGRA always select a parity of none and always select software handshake.</font></p>
+
+<p><font face="Arial" size="3"><strong>Note</strong>: All interface parameters have to be
+set to the <b>same value</b> on<b> both</b> Host and COBAS INTEGRA 700.</font></p>
+
+<p><font size="3">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    </font><td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><strong><a name="db_par">Database parameters</a> influencing the Host interface</strong></font></td>
+    <font size="3">
+  </tr>
+</table>
+</font>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" align="left"><font face="Arial" size="3">The following items are
+    configured in the&nbsp; &#145;<strong>Configuration / Lab / Database Set-up</strong>&#146;menu.</font></td>
+    <td width="50%"><font face="Arial" size="3"><img src="i7_dbset.gif" alt="db_setup.gif (13887 bytes)" WIDTH="424" HEIGHT="281"></font></td>
+  </tr>
+</table>
+
+<table CELLSPACING="0" BORDER="0" CELLPADDING="4" WIDTH="100%">
+  <tr>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D8E9D9" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Parameter</font></td>
+    <td BGCOLOR="#D8E9D9" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Value</font></td>
+    <td BGCOLOR="#D8E9D9" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Description</font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Usage Mode</font></strong></td>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Patient</font></strong></td>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>All sample orders have to be assigned to an existing patient. The
+    instrument generally works with patient data.</strong></font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Sample</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>The instrument generally works without patient data. Orders have to be
+    entered without patient data.</strong></font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Sample Types Used</font></strong></td>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">No</font></strong></td>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>The instrument generally works without sample types. No sample type has
+    to be specified during the order entry procedure.</strong></font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Yes</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>The instrument generally works with sample types. Orders have to provide
+    sample information either as a default sample type assignment (specified in the test
+    definition) or with specific sample types.</strong></font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Working Style</font></strong></td>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>Self,<br>
+    Host</strong></font></td>
+    <td BGCOLOR="#DAD9A5" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>Only those wavelengths which are relevant for the calculation are
+    transmitted during ABS raw data transmission.</strong></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><a name="bc_st"></a></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" align="left"><font face="Arial">The <strong>Sample Type abbreviation (Lab
+    Type)</strong> can be defined in the &#145;Configuration/Lab/Sample Type List&#146; menu.</font><p><font face="Arial">If Sample Type is enabled in the '<a href="#db_par">Configuration / Lab /
+    Database Set-up</a>&#146; menu, this Sample Type abbreviation (Lab Type) is used on the
+    Host Interface.</font></p>
+    <p>&nbsp;</p>
+    <p><font face="Arial"><strong>Note:</strong><br>
+    If sample-type specific racks are not used, this 'Sample Type abbreviation (Lab Type)' has
+    to be included in the barcode.</font></td>
+    <td valign="top" align="left"><img src="i7_smplt.gif" alt="i7_smplt.gif (23512 bytes)" WIDTH="250" HEIGHT="354"></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><a name="barcode"><font face="Arial" size="3"><strong>Barcode
+    set-up</strong></font></a></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="3"><strong>Enable
+    barcode reading:</strong></font></p>
+    <p ALIGN="JUSTIFY"><font face="Arial" size="3">To enable barcode reading, use the
+    &#145;Configuration / Lab / Function Enable/Disable&#146;menu.</font></p>
+    <table border="0" cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td width="100%" bgcolor="#D8E9D9"><font face="Arial" size="2"><strong>Supported barcode
+        types:</strong></font></td>
+      </tr>
+      <tr>
+        <td width="100%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Code 2 of 5
+        interleaved</font></strong></td>
+      </tr>
+      <tr>
+        <td width="100%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Code 3 of 9
+        interleaved</font></strong></td>
+      </tr>
+      <tr>
+        <td width="100%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Code 2 of 7
+        (Codabar)</font></strong></td>
+      </tr>
+      <tr>
+        <td width="100%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Code 128</font></strong></td>
+      </tr>
+    </table>
+    <p ALIGN="left"><font face="Arial" size="3">The instrument recognizes the barcode type
+    automatically.</font></td>
+    <td valign="top" align="center"><img src="i7_fune.gif" alt="i7_fune.gif (13287 bytes)" WIDTH="200" HEIGHT="281"></td>
+  </tr>
+  <tr>
+    <td width="50%"></td>
+    <td width="50%"></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%" valign="top" align="left"><font SIZE="1"><b><i><p align="left"></i></b></font><font face="Arial" size="3"><strong>Configure the racks for barcode reading:</strong></font></p>
+    <p ALIGN="left"><font face="Arial" size="3">Barcode reading can independently be
+    enabled/disabled for every rack group; configure them in the &#145;Configuration / Lab /
+    Rack Configuration / Rack Definition&#146; menu.</font></p>
+    <p ALIGN="JUSTIFY">&nbsp;</td>
+    <td width="50%" valign="top" align="center"><img src="i7_rackd.gif" alt="i7_rackd.gif (18926 bytes)" WIDTH="250" HEIGHT="275"></td>
+  </tr>
+  <tr>
+    <td width="50%"></td>
+    <td width="50%"></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" align="left"><strong><font face="Arial" size="3">Sample type reading:</font></strong><p><font face="Arial" size="3">The COBAS Integra 700 offers the possibility of working either with
+    or without sample types<br>
+    (&#145;Configuration/Lab/Database Set-up&#146; menu).<br>
+    <strong>If</strong> you selected<br>
+    - to work with sample type <strong>and</strong><br>
+    - the barcode reader is enabled <strong>and</strong> <br>
+    - you don&#146;t use sample type specific racks, <br>
+    <strong>then</strong> you must include the sample type in the barcode. </font></td>
+    <td valign="top" align="left"><img src="i7_dbset.gif" alt="i7_dbset.gif (13887 bytes)" WIDTH="424" HEIGHT="281"></td>
+  </tr>
+</table>
+
+<p><strong><font face="Arial" size="3">Masking the barcode:</font></strong></p>
+
+<p><font face="Arial" size="3">The &#145;Configuration/Lab/Sample Coding&#146; menu defines
+the set-up of the barcode pattern.</font></p>
+
+<p><font face="Arial" size="3">On the Host Interface, sample identification
+consists of two parts: order number and sample type.<br>
+Be aware that they are delivered in<b> two separate fields</b> within the <a href="i_lc53.htm#LC53"><b>order
+id</b></a>. but are combined on the barcode</font>.<font face="Arial" size="3"><br>
+If barcode reading is enabled, the order number has to be part of the barcode.<br>
+</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td rowspan="2"><table border="0" cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td width="100%" colspan="2" valign="top" align="left" bgcolor="#D8E9D9"><strong><font face="Arial" size="2">Barcode on sample cups:</font></strong></td>
+      </tr>
+      <tr>
+        <td width="24%" valign="top" align="left" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Not selected</font></strong></td>
+        <td width="76%" valign="top" align="left" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>The
+        order entry menu suggests a specific position on a specific rack.</strong></font></td>
+      </tr>
+      <tr>
+        <td width="24%" valign="top" align="left" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Selected</font></strong></td>
+        <td width="76%" valign="top" align="left" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>The
+        order entry menu suggests a barcode position.</strong></font></td>
+      </tr>
+    </table>
+    <table border="0" cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td width="144%" bgcolor="#FFFFFF" colspan="2"><font face="Arial" size="2">.</font></td>
+      </tr>
+      <tr>
+        <td width="144%" bgcolor="#D8E9D9" colspan="2"><font face="Arial" size="2"><strong>The
+        barcode pattern is coded using:</strong></font></td>
+      </tr>
+      <tr>
+        <td width="60%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order number</strong></font></td>
+        <td width="84%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">= O</font></strong></td>
+      </tr>
+      <tr>
+        <td width="60%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Sample type </strong></font></td>
+        <td width="84%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">= T</font></strong></td>
+      </tr>
+      <tr>
+        <td width="60%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Character not used</font></strong></td>
+        <td width="84%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">= x</font></strong></td>
+      </tr>
+    </table>
+    <table border="0" cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td width="96%" bgcolor="#FFFFFF" colspan="2"><font face="Arial" size="2">.</font></td>
+      </tr>
+      <tr>
+        <td width="96%" bgcolor="#D8E9D9" colspan="2"><strong><font face="Arial" size="2">Maximum
+        number of characters:</font></strong></td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order number: </strong></font></td>
+        <td width="60%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">15 characters
+        (alphanumeric)</font></strong></td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Sample type</strong></font></td>
+        <td width="60%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">3 characters
+        (alphanumeric)</font></strong></td>
+      </tr>
+    </table>
+    <table border="0" cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td width="96%" bgcolor="#FFFFFF" colspan="2"><font face="Arial" size="2">.</font></td>
+      </tr>
+      <tr>
+        <td width="96%" bgcolor="#D8E9D9" colspan="2"><font face="Arial" size="2"><strong>Alignment
+        (only applies if the specified pattern is shorter than the barcode used - see example
+        below)</strong></font></td>
+      </tr>
+      <tr>
+        <td width="19%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Left</font></strong></td>
+        <td width="77%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>= left part of
+        barcode is used</strong></font></td>
+      </tr>
+      <tr>
+        <td width="19%" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Right </font></strong></td>
+        <td width="77%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>= right part of
+        barcode is used</strong></font></td>
+      </tr>
+    </table>
+    </td>
+    <td valign="top" align="center"><img src="i7_bcset.gif" alt="i7_bcset.gif (14494 bytes)" WIDTH="250" HEIGHT="248"></td>
+  </tr>
+  <tr>
+    <td valign="middle" align="center"><table border="0" cellpadding="4" cellspacing="0" width="54%">
+      <tr>
+        <td width="73%" bgcolor="#C0C0C0"><font color="#000000" face="Arial" size="2"><strong>Note:
+        <br>
+        The barcode must not be shorter<br>
+        than the pattern you specified.</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+<p><font SIZE="1">&nbsp;</p>
+
+<p align="left"></font><font face="Arial" size="3">The following example shows how to
+configure the barcode pattern and the alignment parameter:</font></p>
+
+<p><img src="i_bcpatn.gif" alt="i_bcpat.gif (6565 bytes)" WIDTH="558" HEIGHT="276"></p>
+</body>
+</html>

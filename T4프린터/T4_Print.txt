@@ -1,0 +1,111 @@
+Private Sub BarPrnHangult4(ByVal brKk As String, ByVal brTtk As String, ByVal brCom As MSComm)
+Dim sLdb As ADODB.Connection, sStr As String, sRs As ADODB.Recordset, sFile As String
+Dim sCnt As Integer, sRow As Integer, sCol As Integer, sStx As String, sCr As String, sData As String, sChar As String
+Dim tab1() As String
+Dim tab_i As Integer
+
+    sFile = App.Path & "\BARDATA\T4HAN.MDB"
+    If Len(Dir(sFile)) = 0 Then
+        Exit Sub
+    End If
+    
+    Set sLdb = New ADODB.Connection
+    With sLdb
+        'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Program Files\Microsoft Visual Studio\VB98\Nwind.mdb;Persist Security Info=False
+        .Provider = "Microsoft.Jet.OLEDB.4.0"                 ' Oracle "MSDAORA.1"
+        .Properties("Data Source") = sFile
+        .Properties("Persist Security Info") = False
+        '.ConnectionTimeout = 10
+        .CommandTimeout = 10
+        .CursorLocation = adUseClient
+        .Open
+    End With
+    
+    '-- 2003/04/11¼öÁ¤(OSW) --
+    Erase tab1
+    sChar = ""
+    sData = ""
+    
+    ReDim tab1(1 To 16)
+    For tab_i = 1 To 16
+       tab1(tab_i) = ""
+    Next tab_i
+    '-------------------------
+    
+    sCr = Chr$(13)
+    sStx = Chr$(2)
+        
+    brCom.Output = sStx + "ICF" + brKk + sCr
+    'Debug.Print sStx + "ICF" + brKk + sCr
+    sCnt = 1
+    
+    For sCnt = 1 To Len(brTtk) Step 1
+        sChar = Mid(brTtk, sCnt, 1)
+        If Asc(sChar) > 64 And Asc(sChar) < 123 Then
+            If sChar = " " Then
+                sData = "00000000000000000000000000000000"
+            Else
+                Set sRs = New ADODB.Recordset
+                sStr = "select HEX from T4 where ENG = '" & Trim(sChar) & "'"
+                sRs.Open sStr, sLdb, adOpenStatic, adLockReadOnly
+                If Not sRs.EOF Then
+                    sData = "" & sRs("HEX")
+                Else
+                    sRs.Close
+                    Set sRs = Nothing
+                    sLdb.Close
+                    Set sLdb = Nothing
+                    Exit Sub
+                End If
+            End If
+            sRow = 1
+            sCol = 1
+            
+            For sCol = 1 To Len(sData) Step 2
+                tab1(sRow) = tab1$(sRow) + Mid$(sData, sCol, 2)
+                sRow = sRow + 1
+            Next
+            
+        Else
+            If sChar = " " Then
+                sData = "0000000000000000000000000000000000000000000000000000000000000000"
+            Else
+                Set sRs = New ADODB.Recordset
+                sStr = "select HEX from T4B where KOR = '" & Trim(sChar) & "'"
+                sRs.Open sStr, sLdb, adOpenStatic, adLockReadOnly
+                If Not sRs.EOF Then
+                    sData = "" & sRs("HEX")
+                Else
+                    sRs.Close
+                    Set sRs = Nothing
+                    sLdb.Close
+                    Set sLdb = Nothing
+                    Exit Sub
+                End If
+            End If
+            sRow = 1
+            sCol = 1
+            For sCol = 1 To Len(sData) Step 4
+                tab1(sRow) = tab1$(sRow) + Mid$(sData, sCol, 4)
+                'Debug.Print Mid$(sData, sCol, 4)
+                sRow = sRow + 1
+            Next
+        End If
+    Next
+        
+    For sCnt = 1 To 16
+        brCom.Output = "80" + Right$("00" + Hex$(Len(tab1$(sCnt)) / 2), 2)
+        brCom.Output = tab1(sCnt) + sCr
+        Debug.Print "80" + Right$("00" + Hex$(Len(tab1$(sCnt)) / 2), 2) & tab1(sCnt) + sCr
+        tab1(sCnt) = ""
+    Next
+           
+    brCom.Output = "FFFF" + Chr(13)
+    'Debug.Print "FFFF" + Chr(13)
+
+    Do
+    Loop Until brCom.OutBufferCount = 0
+    sLdb.Close
+    Set sLdb = Nothing
+    
+End Sub

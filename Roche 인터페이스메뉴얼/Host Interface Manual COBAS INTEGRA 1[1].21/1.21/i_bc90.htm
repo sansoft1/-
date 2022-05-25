@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Block 92</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial"><b><a name="bc90">Block
+      90</a>: System status request <font size="2" color="#FF00FF">( INTEGRA 800
+      only )</font></b></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Block 90 is used to interrogate the system status
+of the INTEGRA 800. Block 90 has no lines.</font></p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial"><b><a name="bc91">Block
+      91</a>: System status response <font size="2" color="#FF00FF">( INTEGRA
+      800 only )</font></b></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Block 91 is the response to Block 90. It contains line 97.</font></p>
+
+<p>&nbsp;</p>
+<font SIZE="3">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"></font><font FACE="Arial" SIZE="3"><a NAME="LC97"><b>Line
+    Code 97: System status</b></a><b> </b></font><font face="Arial"><b><font size="2" color="#FF00FF">(
+    INTEGRA 800 only )</font></b></font></td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<table BORDER="1" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+  <tr>
+    <td bgcolor="#D8E9D9" width="25%"><font face="Arial" size="1">Description</font></td>
+    <td bgcolor="#D8E9D9" width="15%">
+      <p ALIGN="CENTER"><font face="Arial" size="1"><a href="dataform.htm">Format</a></font></td>
+    <td bgcolor="#D8E9D9" width="60%"><font face="Arial" size="1">Range</font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" width="25%"><strong><font face="Arial" size="2">Line
+      Code</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" width="15%">
+      <p ALIGN="CENTER"><strong><font face="Arial" size="2">97</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" width="60%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" valign="top" width="25%"><strong><font face="Arial" size="2">System
+      status</font></strong></td>
+    <td bgcolor="#F1F8C0" valign="top" width="15%">
+      <p ALIGN="CENTER"><strong><font face="Arial" size="2">I1</font></strong></td>
+    <td bgcolor="#F1F8C0" valign="top" width="60%"><font face="Arial" size="2"><strong>1
+      = startup / not ready<br>
+      2 = ready<br>
+      3 = operating<br>
+      4 = sleeping<br>
+      5 = executing diagnostics / service<br>
+      6 = shutdown / not ready</strong></font></td>
+  </tr>
+</table>
+<font FACE="Arial" SIZE="3">
+<p></font><strong><font face="Arial" size="2">Example: 97_2&lt;LF&gt;</font></strong></p>
+</body>
+</html>

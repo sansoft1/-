@@ -1,0 +1,800 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Tables</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<p><img src="i_integr.gif" alt="int.gif (792 bytes)" border="0" WIDTH="105" HEIGHT="18"> <strong><font face="Arial" size="4"><a name="flag">Flags</a></font></strong></p>
+
+<p><font face="Arial" size="3">The COBAS INTEGRA uses flags to classify individual
+results.</font></p>
+
+<p><font face="Arial" size="3">The Flags are divided into four groups:</font></p>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="13%"><font face="Arial" size="3"><a href="i_flags.htm#flag_x">Flag X</a></font></td>
+    <td width="99%"><font face="Arial" size="3">Conditions under which result was generated</font></td>
+  </tr>
+  <tr>
+    <td width="13%"><font face="Arial" size="3">Flag S</font></td>
+    <td width="99%"><font face="Arial" size="3">Not yet used, currently set to &#145;0&#146;</font></td>
+  </tr>
+  <tr>
+    <td width="13%"><font face="Arial" size="3"><a href="i_flags.htm#flag_calc">Flag CALC</a></font></td>
+    <td width="99%"><font face="Arial" size="3">Result error</font></td>
+  </tr>
+  <tr>
+    <td width="13%"><font face="Arial" size="3"><a href="i_flags.htm#flag_qc">Flag QC</a></font></td>
+    <td width="99%"><font face="Arial" size="3">Evaluation of results</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><b><font face="Arial" size="3"><a NAME="flag_x">Flag X</a>
+    </font><font face="Arial" size="2">( condition under which result was generated )</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#FFFFFF"></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="3%" valign="top"><font face="Arial" size="3">-</font></td>
+    <td width="97%"><font face="Arial" size="3">Flag X provides information about the
+    conditions under which a result was generated. Flag X contains four subgroups. These are:
+    Flag &quot;C&quot;, &quot;Q&quot;, &quot;R&quot; and &quot;^&quot;</font></td>
+  </tr>
+  <tr>
+    <td width="3%" valign="top"><font face="Arial" size="3">-</font></td>
+    <td width="97%"><font face="Arial" size="3">Flag X is transmitted as 3 ASCII characters
+    which represent a 3-digit integer value (value range 0 to 255).</font></td>
+  </tr>
+  <tr>
+    <td width="3%" valign="top"><font face="Arial" size="3">-</font></td>
+    <td width="97%"><font face="Arial" size="3">This value represents an 8-bit value. The four
+    subgroups are coded within the four two-bit groups of a byte. The single flags are binary
+    coded within each two-bit group.</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="1" cellspacing="0" width="366" cellpadding="4">
+  <tr>
+    <td width="80" bgcolor="#DAD9A5">&nbsp;</td>
+    <td colspan="8" valign="middle" align="center" bgcolor="#DAD9A5"><strong><font color="#000000" face="Arial" size="2"><b>Flag X</b></font></strong></td>
+  </tr>
+  <tr>
+    <td width="80" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">Decimal</font></b></td>
+    <td colspan="8" valign="middle" align="center" width="248" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">0 ... 255</font></b></td>
+  </tr>
+  <tr>
+    <td width="80" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">Binary</font></b></td>
+    <td valign="middle" align="center" width="30" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">1</font></b></td>
+    <td valign="middle" align="center" width="30" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">1</font></b></td>
+    <td valign="middle" align="center" width="30" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">1</font></b></td>
+    <td valign="middle" align="center" width="30" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">1</font></b></td>
+    <td valign="middle" align="center" width="30" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">1</font></b></td>
+    <td valign="middle" align="center" width="30" bgcolor="#F1F8C0"><b><font color="#000000" face="Arial" size="2">1</font></b></td>
+    <td valign="middle" align="center" width="30" bgcolor="#F1F8C0"><font color="#000000" face="Arial" size="2"><b>1</b></font></td>
+    <td valign="middle" align="center" width="22" bgcolor="#F1F8C0"><font color="#000000" face="Arial" size="2"><b>1</b></font></td>
+  </tr>
+  <tr>
+    <td width="80" bgcolor="#F1F8C0"><font color="#000000" face="Arial" size="2"><b>Sub-Flag</b></font></td>
+    <td valign="middle" align="center" width="60" colspan="2" bgcolor="#F1F8C0"><font color="#000000" face="Arial" size="2"><b>C</b></font></td>
+    <td valign="middle" align="center" width="60" colspan="2" bgcolor="#F1F8C0"><font color="#000000" face="Arial" size="2"><b>Q</b></font></td>
+    <td valign="middle" align="center" width="60" colspan="2" bgcolor="#F1F8C0"><font color="#000000" face="Arial" size="2"><b>R</b></font></td>
+    <td valign="middle" align="center" width="52" colspan="2" bgcolor="#F1F8C0"><font color="#000000" face="Arial" size="2"><b>^</b></font></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%"></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%" bgcolor="#B8BAAB">
+  <tr>
+    <td width="100%" bgcolor="#DAD9A5"><font face="Arial" size="2"><b>Sub Flag C = (Flag X and
+    192)/64</b></font></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>0</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>no flag</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>Result was calculated with an
+    error-free calibration</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>1</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>c</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result was calculated with an
+    erroneous and/or corrected calibration. The calibration was already accepted.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>2</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>C</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result was calculated with an
+    erroneous and/or corrected calibration. The calibration was not accepted.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>3</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>p</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result was
+      calculated with a postponed calibration <font color="#FF00FF"> ( I400 V2.0 and I800 only )</font></b></font></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%"></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%" bgcolor="#B8BAAB">
+  <tr>
+    <td width="100%" bgcolor="#DAD9A5"><font face="Arial" size="2"><b>Sub Flag Q = (Flag X and
+    48)/16</b></font></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>0</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>no flag</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result was secured with an
+    error-free control.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>1</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>q</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result was secured with an
+    erroneous and/or corrected control. The control was accepted.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>2</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>Q</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result was secured with an
+    erroneous and/or corrected control. The control was not accepted.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>3</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50">&nbsp;</td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>Not used</b></font></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%"></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#DAD9A5"><font face="Arial" size="2"><b>Sub Flag R = (Flag X and
+    12)/4</b></font></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>0</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>no flag</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>Result is error-free.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>1</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>r</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result is erroneous or corrected,
+    or the result of the replicate is erroneous. The result of the first measurement and the
+    replicate were accepted.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>2</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>R</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result is erroneous or corrected,
+    or the result of the replicate is erroneous. The result of the first measurement and the
+    replicate were not accepted.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>3</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>d</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>The result was deleted or all the
+    results (with calibration measurements or replicates) have been deleted.</b></font></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%"></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%" bgcolor="#B8BAAB">
+  <tr>
+    <td width="100%" bgcolor="#DAD9A5"><font face="Arial" size="2"><b>Sub Flag ^ = Flag X and
+    3</b></font></td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>0</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>no flag</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>Result was generated without a
+    replicate, sample concentration or sample dilution.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>1</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>-&gt;</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>Result was generated with a
+    replicate.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>2</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>v</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>Result was generated after dilution.</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" align="center" width="20"><font face="Arial" size="2"><b>3</b></font></td>
+    <td bgcolor="#F1F8C0" align="center" width="50"><font face="Arial" size="2"><b>^</b></font></td>
+    <td bgcolor="#F1F8C0"><font face="Arial" size="2"><b>Result was generated after
+    concentration.</b></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><b><font face="Arial" size="3"><a NAME="flag_calc">Flag
+    CALC</a> ( result error )<a/></font></b></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Flag CALC provides information about the checks performed
+during the calculation of the result.<br>
+</font><b><font face="Arial" size="2">Note: A flag with a higher priority (lower
+number) supersedes all other flags.</font></b></p>
+
+<table BORDER="0" CELLSPACING="0" WIDTH="100%" cellpadding="3">
+  <tr>
+    <td BGCOLOR="#D7D09F" align="center" valign="top"><b><font face="Arial" size="2">Flag
+    value</font></b></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><b><font face="Arial" size="2">Priority<br>
+      I400 / I700</font></b></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><b><font face="Arial" size="2">Priority<br>
+      I800</font></b></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><b><font face="Arial" size="2">Name</font></b></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><b><font face="Arial" size="2">Meaning</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>0</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center">&nbsp;</td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center">&nbsp;</td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>&nbsp;&nbsp; </b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>No flag</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>1</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>1</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>2</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>HIGH ABS</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>High absorbency</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>2</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>2</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>3</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>DARK ERR</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Dark error</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>3</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>3</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>4</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>OUTLIERS</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Outliers</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>4</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>4</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>5</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>FP UNSTAB</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>FP unstable</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>5</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>5</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>6</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>POL ERR</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Polarization error</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>6</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>6</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>7</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>LOW SIGNAL</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Low signal intensity</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>7</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>7</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>8</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>NO FLUID</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>No sample</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>8</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>8</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>9</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>NO ISECAL</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>No calibrator bottle</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>9</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>9</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>10</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>SEG FLUID</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>No end of sample segment detected</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>10</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>10</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>11</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>SEG ISECAL</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>No end of standard segment detected</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>11</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>11</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>12</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>AIR FLUID</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Not enough sample / too many bubbles</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>12</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>12</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>13</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>AIR ISECAL</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Not enough standard / too many bubbles</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>13</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>13</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>14</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>ISE UNSTAB</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>ISE measurement unstable</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>14</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>14</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>15</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>&lt; REAG RNG</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Low reagent range exceeded</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>15</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>15</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>16</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>&gt; REAG RNG</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>High reagent range exceeded</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>16</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>16</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>17</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>EP UNSTAB</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Endpoint unstable</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>17</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>17</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>18</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>HIGH ACT</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>High activity <sup>(please refer to following note)</sup></b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>18</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>18</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>19</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>LOW ACT</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Low activity <sup>(please refer to following note)</sup></b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>19</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>19</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>20</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>CURVE DIR</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Curve direction</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>20</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>20</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>21</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>NON LINEAR</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Non-linear kinetic</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>21</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>21</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>22</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>&lt; KIN READ</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Insufficient kinetic readings</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>22</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>22</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>23</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>HIGH BKG</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>High background noise <sup>(please refer to following note)</sup></b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>23</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>23</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>24</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>&gt; REPL DEV</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Replicate deviation check failed</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>24</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>24</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>25</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>CALC ERROR</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Calculation error <sup>(please refer to following note)</sup></b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>25</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>25</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>26</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>NON MONO</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Curve not monotone</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>26</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>26</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>27</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>OUT OF RNG</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Curve / slope out of range</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>27</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>27</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>28</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>&gt; STD DEV</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Standard deviation exceeded</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>28</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>28</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>29</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>SOL 1 F DEV</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Solution 1 factor deviation</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>29</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>29</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>30</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>AG EXCESS</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Antigen excess</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>30</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>30</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>31</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>&lt; TEST RNG</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Lower test range exceeded <sup>(please refer to following note)</sup></b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>31</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>31</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>32</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>&gt; TEST RNG</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><b>Upper test range exceeded <sup>(please refer to following note)</sup></b></font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2"><b>32</b></font></td>
+    <td BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2">NA</font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><sup><font face="Arial" size="2"><b>1</b></font></sup></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="center"><font face="Arial" size="2"><b>Air
+      Bubble</b></font></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left"><sup><font face="Arial" size="2" color="#FF00FF"><b>INTEGRA
+      800 only</b></font></sup></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>255</b></font></td>
+    <td BGCOLOR="#D7D09F" align="center"><font face="Arial" size="2"><b>33</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>33</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="center"><font face="Arial" size="2"><b>TEST BLOCKED</b></font></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left"><font face="Arial" size="2"><b>Used with collated results if a test is blocked <sup>(see note)</sup></b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+</table>
+
+<p><b>Note:</b><br>
+Generally, whenever a flag precludes the calculation of a result and the Integra displays : ???, 
+the HIF will always transmit the result as -9.999999E+99 or to 9.999999E+99.<br>
+In case of a HIGH ACT, LOW ACT, &lt;TEST RNG, &gt;TEST RNG, HIGH BKG, CALC ERROR and TEST
+BLOCKED flag, the transmitted result in <a href="i_lc00.htm">Line 00</a> is either set to
+-9.999999E+99 or to 9.999999E+99. The range field is set to the appropriate value if
+applicable. (Applies to Integra 400 and Integra 700 SW-Version ³ 9662 and up.)<br>
+</font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#DAD9A5">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><b><a NAME="flag_qc">Flag
+    QC</a> ( result evaluation )</b></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Flag QC provides information about those checks which
+indicate whether a result has exceeded a test-specific or laboratory-specific limit. For
+those representations where 1) is indicated, the value of the exceeded limit is also shown
+(Range value in Line 00 &#145;Result Data&#146;).</font></p>
+
+<table BORDER="0" CELLSPACING="0" WIDTH="842" cellpadding="3">
+  <tr>
+    <td BGCOLOR="#D8E9D9" align="left" width="106"><p align="center"><font face="Arial" size="2">Flag value</font></td>
+    <td WIDTH="151" BGCOLOR="#D8E9D9" align="center"><p ALIGN="center"><font face="Arial" size="2">Name</font></td>
+    <td WIDTH="561" BGCOLOR="#D8E9D9" align="left" colspan="2"><font face="Arial" size="2">Meaning</font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="center" width="106"><font face="Arial" size="2"><b>0</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><font face="Arial" size="2">.</font></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">No flag</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td COLSPAN="4" BGCOLOR="#D7D09F" align="left" width="834"><p ALIGN="left"><b><font face="Arial" size="2">Precision Control Flags</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" width="106" align="center"><font face="Arial" size="2"><b>1</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R1(2s)</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">1 value
+    outside ± 2s</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" width="106" align="center"><font face="Arial" size="2"><b>2</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R1(3s)</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font face="Arial" size="2">1 value
+    outside ± 3s</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" width="106" align="center"><p ALIGN="center"><font face="Arial" size="2"><b>3</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R2(2s)</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">2 values
+    outside ± 2s</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" width="106" align="center"><p ALIGN="center"><font face="Arial" size="2"><b>4</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R(4s)</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><font face="Arial" size="2"><b>Difference
+    in two values greater than 4s</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" width="106" align="center"><p ALIGN="center"><font face="Arial" size="2"><b>5</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R4(1s)</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">4 values
+    outside ± 1s</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" width="106" align="center"><p ALIGN="center"><font face="Arial" size="2"><b>6</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R7v</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font face="Arial" size="2">7
+    consecutive values decrease</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" width="106" align="center"><p ALIGN="center"><font face="Arial" size="2"><b>7</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R7^</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">7
+    consecutive values increase</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" width="106" align="center"><p ALIGN="center"><font face="Arial" size="2"><b>8</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R7x</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font face="Arial" size="2">7
+    consecutive values on one side of mean</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" width="106" align="center"><p ALIGN="center"><font face="Arial" size="2"><b>9</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">R10x</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">10
+    consecutive values on one side of mean</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td COLSPAN="4" BGCOLOR="#D7D09F" align="left" width="834"><p ALIGN="left"><b><font face="Arial" size="2">Accuracy Control Flags</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>10</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&gt;
+    ACC RNG</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">Accuracy
+    outside the permitted range 1)</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td COLSPAN="4" BGCOLOR="#D7D09F" align="left" width="834"><b><font face="Arial" size="2">Limit Control Flags</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>11</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&gt; UPLIMIT</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">Value
+    exceeds upper limit 1)</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>12</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&lt; LOWLIMIT</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font face="Arial" size="2">Value
+    exceeds lower limit 1)</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td COLSPAN="4" BGCOLOR="#F1F8C0" align="left" width="834"><b><font face="Arial" size="2">Quantitative Result Flags</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>13</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&lt;RR</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font face="Arial" size="2">Value below
+    reference range 1)</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>14</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&gt;RR</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font face="Arial" size="2">Value above
+    reference range 1)</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>15</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&lt;PK</font></b></td>
+    <td WIDTH="113" BGCOLOR="#D7D09F" align="left"><b><font face="Arial" size="2">Lower peak
+    1)&nbsp;</font></b><font face="Arial" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></font></td>
+    <font face="Arial" size="3">
+    <td WIDTH="440" BGCOLOR="#D7D09F" align="left"><font face="Arial" size="2"><b><font color="#FF00FF"> (
+      I700 and I800 only )</font></b></font></td>
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>16</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&gt;PK</font></b></td>
+    <td WIDTH="113" BGCOLOR="#F1F8C0" align="left"><b><font face="Arial" size="2">Higher peak
+    1)</font></b><font face="Arial" size="2"><b>&nbsp;&nbsp;&nbsp;</b></font></td>
+    <font face="Arial" size="3">
+    <td WIDTH="440" BGCOLOR="#F1F8C0" align="left"><font face="Arial" size="2"><b><font color="#FF00FF"> (
+      I700 and I800 only )</font></b></font></td>
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>17</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&lt;TH</font></b></td>
+    <td WIDTH="113" BGCOLOR="#D7D09F" align="left"><b><font face="Arial" size="2">Lower trough
+    1)</font></b><font face="Arial" size="2"><b>&nbsp;</b></font></td>
+    <font face="Arial" size="3">
+    <td WIDTH="440" BGCOLOR="#D7D09F" align="left"><font face="Arial" size="2"><b><font color="#FF00FF"> (
+      I700 and I800 only )</font></b></font></td>
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#F1F8C0" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>18</b></font></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><p ALIGN="center"><b><font face="Arial" size="2">&gt;TH</font></b></td>
+    <td WIDTH="113" BGCOLOR="#F1F8C0" align="left"><b><font face="Arial" size="2">Higher
+    trough 1)&nbsp;</font></b></td>
+    <font face="Arial" size="3">
+    <td WIDTH="440" BGCOLOR="#F1F8C0" align="left"><font face="Arial" size="2"><b><font color="#FF00FF"> (
+      I700 and I800 only )</font></b></font></td>
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="left" width="106"><p ALIGN="center"><font face="Arial" size="2"><b>19</b></font></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font face="Arial" size="2">POS</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font face="Arial" size="2">Cut off
+    value exceeded 1)</font></b></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td COLSPAN="4" BGCOLOR="#F1F8C0" align="left" width="834"><p ALIGN="left"><font face="Arial" size="2"><b>Qualitative Result Flags</b></font></td>
+    <font face="Arial" size="3">
+  </tr>
+  <tr>
+    </font><td BGCOLOR="#D7D09F" align="left" width="106"><p ALIGN="center"><b><font size="2" face="Arial">20</font></b></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><p ALIGN="center"><b><font size="2" face="Arial">POSITIVE</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font size="2" face="Arial">Value
+    greater than calibration result</font></b></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" align="left" width="106">
+      <p align="center"><b><font size="2" face="Arial">21</font></b></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><b><font size="2" face="Arial">&lt;
+      Critical Range</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font size="2" face="Arial">Below
+      critical Range</font></b></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D7D09F" align="left" width="106">
+      <p align="center"><b><font size="2" face="Arial">22</font></b></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><b><font size="2" face="Arial">&gt;
+      Critical Range</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font size="2" face="Arial">Higher
+      then critical Range</font></b></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" align="left" width="106">
+      <p align="center"><b><font size="2" face="Arial">23</font></b></td>
+    <td WIDTH="151" BGCOLOR="#F1F8C0" align="center"><b><font size="2" face="Arial">DC
+      &gt;</font></b></td>
+    <td WIDTH="561" BGCOLOR="#F1F8C0" align="left" colspan="2"><b><font size="2" face="Arial">Delta
+      Check in a value</font></b></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D7D09F" align="left" width="106">
+      <p align="center"><b><font size="2" face="Arial">24</font></b></td>
+    <td WIDTH="151" BGCOLOR="#D7D09F" align="center"><b><font size="2" face="Arial">DC
+      &gt;</font></b></td>
+    <td WIDTH="561" BGCOLOR="#D7D09F" align="left" colspan="2"><b><font size="2" face="Arial">Delta
+      Check in percent</font></b></td>
+  </tr>
+</table>
+</body>
+</html>

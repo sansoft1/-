@@ -1,0 +1,163 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Block 10</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#DAD9A5">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial"><b><a name="bc10">Block 10</a>: Order entry</b></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">There are different possibilities for entering orders into
+the COBAS INTEGRA work list.<br>
+The database set-up ( Integra <a href="i7_setup.htm#db_par">700 / 800</a> / <a
+href="i4_setup.htm#db_par">400</a> ) defines whether the Instrument runs in <a href="i_featur.htm#p_mode"> patient
+mode</a> or
+sample mode.<br>
+No patient information is required if in sample mode.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0">
+  <tr>
+    <td valign="top" align="left"><font face="Arial" size="3">New sample order:</font></td>
+    <td><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc50.htm"><font face="Arial" size="2"><strong>50</strong></font></a></td>
+        <td bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Patient ID</strong></font></td>
+        <td width="40" bgcolor="#DBF9C8"><font face="Arial" size="2"><strong>0 </strong>to<strong>
+        w</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc53.htm"><font face="Arial" size="2"><strong>53</strong></font></a></td>
+        <td colspan="2" width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order ID</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc54.htm"><font face="Arial" size="2"><strong>54</strong></font></a></td>
+        <td colspan="2" width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order
+        Information</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+        <td width="40" bgcolor="#DBF9C8"><font face="Arial" size="2"><strong>1 </strong>to<strong>
+        x</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left"><font face="Arial" size="3">Add tests to an
+      existing<br>
+      sample order:</font></td>
+    <td><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc50.htm"><font face="Arial" size="2"><strong>50</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Patient ID</strong></font></td>
+        <td width="40" bgcolor="#DBF9C8"><font face="Arial" size="2"><strong>0 </strong>to<strong>
+        w</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc53.htm"><font face="Arial" size="2"><strong>53</strong></font></a></td>
+        <td colspan="2" width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order ID</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+        <td width="40" bgcolor="#DBF9C8"><font face="Arial" size="2"><strong>1 </strong>to<strong>
+        x</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="58%" height="134">
+  <tr>
+    <td width="16%" height="21"></td>
+    <td width="50%" height="21"></td>
+  </tr>
+  <tr>
+    <td width="16%" height="18"><font face="Arial" size="2">w = 1</font></td>
+    <td width="50%" height="18"><font face="Arial" size="2">if in <a href="i_featur.htm#p_mode"> patient mode</a></font></td>
+  </tr>
+  <tr>
+    <td width="16%" height="18"><font face="Arial" size="2">w = 0</font></td>
+    <td width="50%" height="18"><font face="Arial" size="2">if in sample mode</font></td>
+  </tr>
+  <tr>
+    <td width="16%" height="1"></td>
+    <td width="50%" height="1"></td>
+  </tr>
+  <tr>
+    <td width="16%" height="18"><font face="Arial" size="2">x = 1 to 50</font></td>
+    <td width="50%" height="18"><font face="Arial" size="2">for Integra 700 /
+      800</font></td>
+  </tr>
+  <tr>
+    <td width="16%" height="18"><font face="Arial" size="2">x = 1 to 200</font></td>
+    <td width="50%" height="18"><font face="Arial" size="2">for Integra 400</font></td>
+  </tr>
+</table>
+
+<table border="1" width="100%" bgcolor="#FFFF00" cellspacing="0" bordercolor="#000000" cellpadding="6">
+  <tr>
+    <td width="100%"><b><font face="Arial" size="3">Warning</font><font face="Arial" size="2">:&nbsp;</font></b><font face="Arial" size="2"><br>
+      </font><font face="Arial" size="1">( applies only if in <a href="i_featur.htm#p_mode">Patient
+      mode</a> )</font><font face="Arial" size="2"><b><br>
+      </b></font>&nbsp;&nbsp;&nbsp;&nbsp; <b><font face="Arial" size="2">Patient
+      ID has to be unique.&nbsp;<br>
+      &gt;&gt; Do not use the same Patient ID for more than one patient,
+      otherwise results could be assigned to the wrong patient !!</font></b></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="446">
+  <tr>
+    <td valign="top" align="left" width="166">.</td>
+    <td width="260">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="166">.</td>
+    <td width="260">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="166"><font face="Arial" size="3">Calibration order,
+      Control
+    order:<br>
+      </font></td>
+    <td width="260"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc52.htm"><font face="Arial" size="2"><strong>52</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Special Order
+        Selection</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="58%">
+  <tr>
+    <td width="6%" valign="top" align="left"></td>
+    <td width="60%"></td>
+  </tr>
+  <tr>
+    <td width="6%" bgcolor="#C0C0C0" valign="top" align="left"><b><font face="Arial" size="2">Note:</font></b></td>
+    <td width="60%" bgcolor="#C0C0C0"><b><font face="Arial" size="2">Calibration
+      and Control orders cannot be ordered again until the current one has
+      completed. </font></b></td>
+  </tr>
+</table>
+</body>
+</html>

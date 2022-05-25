@@ -1,0 +1,430 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>COBAS Integra Error Codes</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<font FACE="Arial" SIZE="4"><b>
+
+<p><a name="error_codes"></a><img src="i_integr.gif" alt="int.gif (792 bytes)" border="0" WIDTH="105" HEIGHT="18">
+</b><strong>Error Codes<br>
+</strong><b></p>
+</b></font><font SIZE="3">
+
+<p><font face="Arial">COBAS Integra uses the following error codes:</font></font> 
+
+<ul>
+  <li><font face="Arial" SIZE="3"><a href="#lc96_error_codes">Line code 96 error codes</a></font></li>
+  <li><font face="Arial" SIZE="3"><a href="#lc99_error_codes">Line code 99 error codes</a></font></li>
+  <li><font face="Arial" SIZE="3"><a href="#sys_err_msg">System error messages</a> (Integra
+    700 only)</font></li>
+</ul>
+
+<p><font face="Arial" SIZE="3"><br>
+</font><a name="lc96_error_codes"></a></p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><p ALIGN="JUSTIFY"><font face="Arial"><b>Linde Code 96
+    Error Codes</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+  </tr>
+</table>
+<font SIZE="3">
+
+<table CELLSPACING="0" BORDER="0" CELLPADDING="3" WIDTH="100%">
+  <tr>
+    </font><td valign="top" bgcolor="#D8E9D9" align="left" width="75"><font face="Arial" size="1">Error Code</font></td>
+    <td valign="top" bgcolor="#D8E9D9" align="left" width="182"><font face="Arial" size="1">Host
+    Request</font></td>
+    <td valign="top" bgcolor="#D8E9D9" align="left" width="580"><font face="Arial" size="1">Error
+    Condition</font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="75"><font face="Arial" size="2"><strong>00</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="182"><font face="Arial" size="2"><strong>Any
+    Manipulation</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>OK
+    (i.e. no error, manipulation accepted)</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="75" rowspan="2"><font face="Arial" size="2"><strong>11</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Patient
+    Modify/Delete</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Patient
+    ID not found</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Order Entry</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Patient
+    ID not found</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="75"><font face="Arial" size="2"><strong>12</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="182"><font face="Arial" size="2"><strong>Patient
+    Entry</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Patient
+    ID already exists</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="75" rowspan="2"><font face="Arial" size="2"><strong>13</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Pat.Entry/Mod./Delete</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Patient
+    already locked (e.g. by work area etc.) or database time-out</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Order Entry</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Database
+    time-out</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="75"><font face="Arial" size="2" color="#000000"><strong>14</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="182"><font face="Arial" size="2" color="#000000"><strong>Patient Deletion</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2" color="#000000"><strong>Patient still has open orders</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="75" rowspan="5"><font face="Arial" size="2"><strong>21</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Order
+    Entry (Add Test)</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Sample
+    ID (Order No./Sample Type/Order Date) not found</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Order Deletion</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Sample
+    ID (Order No./Sample Type/Order Date) not found</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Change Work List Priority</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Attempt
+    to change orders to passive priority</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Change Work List Priority</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>No
+    appropriate orders found to change priority</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Remove Tests from Order</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>No
+    appropriate tests found in order; No tests removed</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="75" rowspan="3"><font face="Arial" size="2"><strong>22</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="182"><font face="Arial" size="2"><strong>Order
+    Entry</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Sample
+    ID already exists; rack/sample position already in use</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="182"><font face="Arial" size="2"><strong>Order Entry (Add Test)</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Sample
+    Order full ( 50 test orders already assigned)</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="182"><font face="Arial" size="2"><strong>Special Order Entry</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Calibration/Control
+    request already set</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="75" rowspan="2"><font face="Arial" size="2"><strong>23</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="182" rowspan="2"><font face="Arial" size="2"><strong>Any Order Manipulation</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Order
+    already locked (e.g. by work area, etc.), or</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>database time-out</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="75"><font face="Arial" size="2"><strong>24</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="182"><font face="Arial" size="2"><strong>Any
+    Order Manipulation</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Test
+    not defined</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="75"><font face="Arial" size="2"><strong>25</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="182"><font face="Arial" size="2"><strong>Order
+    Deletion</strong></font></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Order
+    contains not-yet accepted results</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" rowspan="6" width="75"><font face="Arial" size="2"><strong>33</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" rowspan="6" width="182"><font face="Arial" size="2"><strong>Result Request</strong></font></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Result
+    data already locked, or</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>any database error such as:</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>- Sample type not found in sample type list</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="580"><strong><font face="Arial" size="2">- Result has just been deleted</font></strong></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>- Database time-out </strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"></font><strong><font face="Arial" size="2">- etc.</font></strong></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="75"><strong><font face="Arial" size="2">61</font></strong></td>
+    <td bgcolor="#F1F8C0" valign="top" align="left" width="182"><strong><font face="Arial" size="2">MCS Pend. Sample Tubes</font></strong></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><strong><font face="Arial" size="2">No tubes found</font></strong></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="75" rowspan="3"><strong><font face="Arial" size="2">63</font></strong></td>
+    <td bgcolor="#DAD9A5" valign="top" align="left" width="182"><strong><font face="Arial" size="2">MCS Pend. Sample Tubes</font></strong></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Sample
+    Type not found in sample type list</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td bgcolor="#DAD9A5" valign="top" align="left" width="182"><strong><font face="Arial" size="2">MCS Calibr./Contr. status</font></strong></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><strong><font face="Arial" size="2">No test defined</font></strong></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td bgcolor="#DAD9A5" valign="top" align="left" width="182"><strong><font face="Arial" size="2">Any MCS Request</font></strong></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><strong><font face="Arial" size="2">Database time-out</font></strong></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" rowspan="4" width="75"><strong><font face="Arial" size="2">91</font></strong></td>
+    <td bgcolor="#F1F8C0" valign="top" align="left" rowspan="4" width="182"><strong><font face="Arial" size="2">Any Host Request</font></strong></td>
+    <td valign="top" bgcolor="#F1F8C0" align="left" width="580"><p ALIGN="left"><font face="Arial" size="2"><strong>General parameter range error (e.g. rack not defined,
+    illegal: cup position, sex, dates, etc.)</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="580"><strong><font face="Arial" size="2">Unexpected character in number field</font></strong></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Sample type (undefined, *** or ??? are inappropriate)</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#F1F8C0" align="left" width="580"><font face="Arial" size="2"><strong>Wrong Host Interface Mode selected, either 9414 or 9561 (Applies to
+    Integra 700 with SW9561 only)</strong></font></td>
+    <font SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" bgcolor="#DAD9A5" align="left" width="75"><strong><font face="Arial" size="2">&nbsp; </font></strong></td>
+    <td bgcolor="#DAD9A5" valign="top" align="left" width="182"><strong><font face="Arial" size="2">Any Order Manipulation</font></strong></td>
+    <td valign="top" bgcolor="#DAD9A5" align="left" width="580"><font face="Arial" size="2"><strong>Sample
+    type (lab number) not found</strong></font></td>
+    <font SIZE="3">
+  </tr>
+</table>
+</font>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a name="lc99_error_codes"></a></p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><p ALIGN="JUSTIFY"><font FACE="Arial"><b>Linde Code 99
+    Error Codes</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+  </tr>
+</table>
+
+<table CELLSPACING="0" BORDER="0" CELLPADDING="3" WIDTH="100%">
+  <tr>
+    <td valign="top" align="left" bgcolor="#D8E9D9" width="75"><font face="Arial" size="1">Error
+    Code</font></td>
+    <td valign="top" align="left" bgcolor="#D8E9D9" width="182"><font face="Arial" size="1">Meaning</font></td>
+    <td valign="top" align="left" bgcolor="#D8E9D9" width="580"><font face="Arial" size="1">Error
+    Condition</font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#DAD9A5" width="75"><font face="Arial" size="2"><strong>01</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="182"><font face="Arial" size="2"><strong>Block
+    check sum error</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="580"><font face="Arial" size="2"><strong>Transmission
+    error</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="75"><font face="Arial" size="2"><strong>02</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="182"><font face="Arial" size="2"><strong>Parity
+    error</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="580"><font face="Arial" size="2"><strong>Transmission
+    error</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#DAD9A5" width="75"><font face="Arial" size="2"><strong>03</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="182"><font face="Arial" size="2"><strong>Line
+    too long <br>
+    (&gt;128 characters)</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="580"><font face="Arial" size="2"><strong>Erroneous
+    line configuration,<br>
+    or possibly transmission error if block check off</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="75"><font face="Arial" size="2"><strong>04</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="182"><font face="Arial" size="2"><strong>Block
+    too long</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="580"><font face="Arial" size="2"><strong>Erroneous
+    block configuration, <br>
+    or possibly transmission error if block check off</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#DAD9A5" width="75"><font face="Arial" size="2"><strong>05</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="182"><font face="Arial" size="2"><strong>Invalid
+    message configuration</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="580"><font face="Arial" size="2"><strong>Erroneous
+    message configuration,<br>
+    or possibly transmission error if block check off</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="75"><font face="Arial" size="2"><strong>06</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="182"><font face="Arial" size="2"><strong>Invalid
+    block code</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="580"><font face="Arial" size="2"><strong>Invalid
+    block code,<br>
+    or possibly transmission error if block check off</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#DAD9A5" width="75"><font face="Arial" size="2"><strong>07</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="182"><font face="Arial" size="2"><strong>Invalid
+    line code</strong></font></td>
+    <td valign="top" align="left" bgcolor="#DAD9A5" width="580"><font face="Arial" size="2"><strong>Invalid
+    line code, or <br>
+    wrong mode used (patient/sample), <br>
+    or possibly transmission error if block check off</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="75"><font face="Arial" size="2"><strong>08</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="182"><font face="Arial" size="2"><strong>Line
+    format error</strong></font></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="580"><font face="Arial" size="2"><strong>Erroneous
+    line configuration, <br>
+    or possibly transmission error if block check off</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+</table>
+</font>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a name="sys_err_msg"></a></p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><p ALIGN="JUSTIFY"><strong><font FACE="Arial"><b><img src="i_integr.gif" alt="int.gif (792 bytes)" border="0" WIDTH="105" HEIGHT="18"> </b>700&nbsp; Host Interface
+    System Error Messages</font></strong></td>
+  </tr>
+</table>
+<font FACE="Arial" SIZE="4"><b>
+
+<p></b></font><font FACE="Arial" SIZE="3">System error messages are shown on the Data
+Station's user interface and are added to the event.log file.</font></p>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="4" WIDTH="100%">
+  <tr>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="74"><strong><font face="Arial" size="2">HIF-001</font></strong></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="505"><strong><font face="Arial" size="2">General HIF Error</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="74"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">HIF-002</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="505"><p ALIGN="JUSTIFY"><font face="Arial" size="2"><strong>Line Error: Received line could not be processed, e.g. 9414
+    Host interface enabled but 9561 data received</strong></font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="74"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">HIF-003</font></strong></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="505"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Block Error: Received block could not be processed</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="74"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">HIF-005</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="505"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Port Error: Serial interface port problem detected</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="74"><strong><font face="Arial" size="2">HIF-008</font></strong></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="505"><strong><font face="Arial" size="2">Order Error</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="74"><strong><font face="Arial" size="2">HIF-009</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="505"><strong><font face="Arial" size="2">Patient Error</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="74"><strong><font face="Arial" size="2">HIF-010</font></strong></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="505"><strong><font face="Arial" size="2">Result Error</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="74"><strong><font face="Arial" size="2">HIF-011</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="505"><strong><font face="Arial" size="2">DB Status Error</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="74"><strong><font face="Arial" size="2">HIF-013</font></strong></td>
+    <td BGCOLOR="#D7D09F" valign="top" align="left" width="505"><strong><font face="Arial" size="2">System Error</font></strong></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="74"><strong><font face="Arial" size="2">HIF-014</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="505"><strong><font face="Arial" size="2">Sample Type Error: Undefined sample type on barcode</font></strong></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

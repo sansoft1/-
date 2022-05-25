@@ -1,0 +1,23 @@
+Multiplate 장비설정(공유폴더 설정)
+1. 사용자 변경(ID/PW : labadmin/labadmin)
+2. Instrument LAN Properties - Install - Service 추가 
+   - QoS Packet Scheduler
+   - File and Printer Sharing for Microsoft Networks
+3. 방화벽 해제
+4. Control Panel(제어판) - Administrative Tools - Local Security Pollcy(로컬영역설정) 열기
+   - Security Setting - Local Policy - User Rights Assignment 에서 
+       - Access this computer from the network - Everyone 추가 
+       - Deny access to this computer from then network - 계정 삭제 
+   
+   - Security Setting - Local Policy - Security Options 에서 
+       - Network access : Do not allow anonymous enumeration of SAM accounts - Enabled
+       - Network access : Do not allow anonymous enumeration of SAM accounts and shares - Enabled
+       - Network security : LAN Manager authentication level - Send LM & NTLM  use NTLMv2 session security if negotiated
+
+5. 공유폴더 설정 
+   - C:\Multiplate\Data 속성
+       - Security - Edit 에서 사용자 Everyone 추가 하고 모든 권한 부여
+       - Sharing - Share - Everyone 사용자 추가 하여 공유
+6. 결과  
+   - C:\Multiplate\Data\Xml 에 xml 파일로 저장됨. 
+   - C:\Multiplate\Data\Graphics 에 이미지 결과 파일 저장됨.(사용자가 요구할시 이미지 뷰어 기능 추가해야함. xml 파일과 파일명이 같음)

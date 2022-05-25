@@ -1,0 +1,144 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Line Code 53</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><b><font FACE="Arial"><a NAME="LC53">Line Code 53:
+    Order</a> ID</font></b></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table BORDER="1" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+  <tr>
+    <td bgcolor="#D8E9D9" valign="top" align="left" width="25%" colspan="2"><p ALIGN="JUSTIFY"><font face="Arial" size="1">Description</font></td>
+    <td bgcolor="#D8E9D9" valign="top" align="left" width="15%"><p ALIGN="CENTER"><font face="Arial" size="1"><a href="dataform.htm">Format</a> </font></td>
+    <td bgcolor="#D8E9D9" valign="top" align="left" width="60%"><font face="Arial" size="1">Range</font></td>
+  </tr>
+  <tr>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="25%" colspan="2"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Line Code</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="15%"><p ALIGN="CENTER"><strong><font face="Arial" size="2">53</font></strong></td>
+    <td BGCOLOR="#F1F8C0" valign="top" align="left" width="60%">&nbsp; </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="25%" colspan="2"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Order number </font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="15%"><p ALIGN="CENTER"><strong><font face="Arial" size="2">S15</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="60%"><font face="Arial" size="2"><strong> Integra 400: Barcode characters<br>
+                                                 Integra 700 / 800: ASCII 33 to 126</strong></font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="25%" colspan="2"><p ALIGN="JUSTIFY"><strong><font face="Arial" size="2">Order date </font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="15%"><p ALIGN="CENTER"><strong><font face="Arial" size="2">D1</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="60%"><font face="Arial" size="2"><strong>01/01/1800
+    </strong>to<strong> 31/12/2100 and 00/00/0000 = &#146;today&#146;</strong></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="4%" BGCOLOR="#DBF9C8" rowspan="2"><img src="opt_strn.gif" alt="optional.gif (136 bytes)" WIDTH="16" HEIGHT="51"></td>
+    <td WIDTH="96%" BGCOLOR="#DBF9C8" colspan="3"><font face="Arial" size="2">If Sample Type
+    is used</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="21%" BGCOLOR="#DBF9C8" valign="top" align="left"><strong><font face="Arial" size="2">Sample type </font></strong></td>
+    <td WIDTH="15%" BGCOLOR="#DBF9C8" valign="top" align="center"><strong><font face="Arial" size="2">S3</font></strong></td>
+    <td WIDTH="60%" BGCOLOR="#DBF9C8" valign="top" align="left"><font face="Arial" size="2"><strong> Laboratory defined string<br>
+                                                 Integra 400:  Barcode characters&nbsp;<br>
+                                                 Integra 700 / 800:  A </strong> to<strong> 
+      Z , 0 </strong> to<strong>  9 , _ , ??? , ***<br>
+      For configuration, see Integra&nbsp; <a href="i4_setup.htm#bc_st">400</a>
+      / <a href="i7_setup.htm#bc_st">700 / 800</a> </strong></font></td>
+  </tr>
+</table>
+<font SIZE="3"><u><i>
+
+<p ALIGN="JUSTIFY"></i></u></font><font face="Arial" size="2"><strong>Example:
+53_abcdef987654321_00/00/0000_URI&lt;LF&gt;</strong></font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#E5E5E5"><font face="Arial" size="3"><strong>Note:</strong> The
+    order number and the sample type may not contain &lt;space&gt;s in front of or within the
+    identifier. Nevertheless, if the fields are not used in their full length, digits left
+    over have to be filled with &lt;space&gt;s.</font></td>
+  </tr>
+</table>
+<font SIZE="3">
+
+<p ALIGN="JUSTIFY"><font FACE="Arial"><strong>Remark:</strong> There are three generally
+pre-defined sample types:</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="6%" valign="top"></font><font face="Arial" size="3">???</font></td>
+    <td width="19" valign="top"><font FACE="Arial">:</font></td>
+    <td width="169%" valign="top"><font face="Arial" size="3">Sample type determined by
+    Integra's test definitions. Used with order entries and deletions if the test-specific
+    sample type should be selected automatically.</font></td>
+  </tr>
+  <tr>
+    <td width="6%" valign="top"><font face="Arial" size="3">***</font></td>
+    <td width="19" valign="top"><font FACE="Arial">:</font></td>
+    <td width="169%" valign="top"><font face="Arial" size="3">These wild cards are used with
+    order deletions to select all sample types.</font></td>
+  </tr>
+  <tr>
+    <td width="6%" valign="top"><font face="Arial" size="3">RTO</font></td>
+    <td width="19" valign="top"><font FACE="Arial">:</font></td>
+    <td width="169%" valign="top"><font face="Arial" size="3">Integra sets sample type to RTO
+    for ratio results.</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%" height="160">
+  <tr>
+    <td width="10%" valign="top" align="left" height="21" bgcolor="#E5E5E5"><font face="Arial" size="3"><strong>Note:</strong></font></td>
+    <td width="56%" valign="top" align="left" height="21" bgcolor="#E5E5E5">.</td>
+  </tr>
+  <tr>
+    <td width="10%" valign="top" align="left" height="38" bgcolor="#E5E5E5"><font face="Arial" size="3">Integra
+      700 / 800:</font></td>
+    <td width="56%" valign="top" align="left" height="38" bgcolor="#E5E5E5"><font face="Arial" size="3">If the <a href="i7_setup.htm#db_par">database set-up</a> parameter &#145;Sample
+    Types Used&#146; is disabled, all sample types received by the Integra are ignored . Also
+    no sample type information is transmitted to the Host.</font></td>
+  </tr>
+  <tr>
+    <td width="10%" valign="top" align="left" bgcolor="#E5E5E5"><small><small><small><small><small>.</small></small></small></small></small></td>
+    <td width="56%" valign="top" align="left" bgcolor="#E5E5E5"><small><small><small><small><small>.</small></small></small></small></small></td>
+  </tr>
+  <tr>
+    <td width="10%" valign="top" align="left" height="20" bgcolor="#E5E5E5"><font face="Arial" size="3">Integra 400:</font></td>
+    <td width="56%" valign="top" align="left" height="20" bgcolor="#E5E5E5"><font face="Arial" size="3"><strong>Orders:</strong> If the Sample Type is not transmitted, the default
+    sample type (defined by test or rack definition )&nbsp; is used.</font></td>
+  </tr>
+  <tr>
+    <td width="10%" valign="top" align="left" height="38" bgcolor="#E5E5E5">.</td>
+    <td width="56%" valign="top" align="left" height="38" bgcolor="#E5E5E5"><font face="Arial" size="3"><strong>Results:</strong> If in &#145;<a href="i4_setup.htm#Enable Result Transmission">Configuration Processing / Result Output /
+    Sample Type</a>&#146;,&nbsp; the sample type is disabled, no sample type information is
+    transmitted to the host.</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#E5E5E5"><font face="Arial" size="3"><strong>Note regarding
+    Ratio Orders:</strong> <br>
+    If the component results of a ratio are measured from different sample types, the 'Order
+    Entry's Sample Type must be '???'.</font><font face="Arial" size="3"><br>
+      As described in the know issues: ratio results are <b>not collated</b>
+      when collated results result requests are used. </font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+</body>
+</html>

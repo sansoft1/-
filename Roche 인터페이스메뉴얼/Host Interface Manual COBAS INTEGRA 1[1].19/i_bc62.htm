@@ -1,0 +1,119 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Block 62</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><strong><a name="bc62">Block
+    62</a>: Sample tube information</strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Block 62 is used either as a response to an MCS request
+with service 1 (on board sample tubes without orders) or as a response to an MCS request
+with service 4 (list of all known sample tubes).</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="62%">
+  <tr>
+    <td width="100%" bgcolor="#D8E9D9"><font face="Arial" size="3"><strong>On board sample
+    tubes without orders (Host Query mode):</strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">If the sample tubes are identified by barcodes, the Host
+has the possibility to request a list of all &#145;on board sample tubes without
+associated order&#146;. This is done by means of Block 60 with service 1. Block 62 is the
+associated response. It contains one or more lines:</font></p>
+
+<table border="1" cellpadding="3" cellspacing="0" width="34%">
+  <tr>
+    <td width="12%" bgcolor="#F1F8C0"><a href="i_lc42.htm"><font size="2" face="Arial"><strong>42</strong></font></a></td>
+    <td width="53%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Tube Information</strong></font></td>
+    <td width="12%" bgcolor="#DBF9C8"><font size="2" face="Arial"><strong>1 </strong>to<strong>
+    x</strong></font></td>
+  </tr>
+</table>
+
+<p><font
+face="Arial" size="3"> 
+Integra 400: x = 1 </font><font size="2" face="Arial">to</font><font face="Arial" size="3">
+105<br>
+Integra 700: x = 1 </font><font size="2" face="Arial">to</font><font
+face="Arial" size="3"> 150<br>
+Integra 800: x = 1 </font><font size="2" face="Arial">to</font><font size="2" face="Arial">
+</font><font
+face="Arial" size="3">110<br>
+<br>
+ </font></p>
+
+<p><font face="Arial" size="3">The relevant tube information of every on board sample tube
+that has no associated order is returned to the Host system.</font></p>
+
+<p><font face="Arial" size="3">The Host computer should transmit the request periodically
+to the Instrument (e.g. every 60 seconds). If there are no sample tubes without an
+associated order on the Instrument, a Block 69 with line 96 (service 61) is returned.</font></p>
+
+<p><font face="Arial" size="3">Timing and procedure are described in <a
+href="i_featur.htm#hostquery">Host Query</a>.<br>
+</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="62%">
+  <tr>
+    <td width="100%" bgcolor="#D8E9D9"><font face="Arial" size="3"><strong>List of all known
+    sample tubes:</strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">The Host has the possibility of requesting a list of all
+known sample tubes. This is done using Block 60 with service 4. Block 62 is the associated
+response. It contains one or more lines:</font></p>
+
+<table border="1" cellpadding="3" cellspacing="0" width="34%">
+  <tr>
+    <td width="9%" bgcolor="#F1F8C0"><a href="i_lc42.htm"><font size="2" face="Arial"><strong>42</strong></font></a></td>
+    <td width="38%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Tube Information</strong></font></td>
+    <td width="10%" bgcolor="#DBF9C8"><font size="2" face="Arial"><strong>1 </strong>to<strong>
+    x</strong></font></td>
+  </tr>
+</table>
+
+<p><font
+face="Arial" size="3"> 
+Integra 400: x = 1 </font><font size="2" face="Arial">to</font><font face="Arial" size="3">
+14985<br>
+Integra 700: x = 1 </font><font size="2" face="Arial">to</font><font
+face="Arial" size="3"> 7650<br>
+Integra 800: x = 1 </font><font size="2" face="Arial">to</font><font
+face="Arial" size="3">   5610<br>
+ </font></p>
+
+<p><font face="Arial" size="3">The relevant tube information of all known sample tubes is
+returned to the Host system.</font></p>
+
+<p><font face="Arial" size="3">COBAS INTEGRA keeps all sample tube information (order
+number, rack, tube position, tube type and possibly sample type) until the associated rack
+is re-inserted into the instrument. It then deletes the information and re-reads the
+sample tube barcodes.<br>
+If there is no sample tube information available, a Block 69 with line 96 (service 61) is
+returned.</font></p>
+</table>
+
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+ 
+<tr>
+    <td width="100%" bgcolor="#E5E5E5"><strong><font face="Arial" size="2">Note:<br>
+ The list of all known sample tubes can grow very large and on the INTEGRA 700/800 it can be deleted with the function: Maintenance/database/Purge Racks"
+<br>Take care to purge only sample racks and not ISE or calibration racks, as those are needed by the system. 
+<br><font color="red" face="Arial">Deleting them may have adverse effects. </font>
+</font></strong></td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<html>
+
+<head>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 4.0">
+<title>COBAS Integra 400 Trouble Shooting</title>
+</head>
+
+<body BGCOLOR="#ffffff">
+
+<p><b><font FACE="Arial"><img SRC="i_integr.gif" ALT="Integra"
+BORDER="0" NATURALSIZEFLAG="0" ALIGN="BOTTOM" width="105" height="18"></font><font
+size="+1" face="Arial"> </font><font face="Arial" size="4">400</font><font size="+1"
+face="Arial"> Host Interface Troubleshooting</font></b></p>
+
+<p><font FACE="Arial">The communication on the Host Interface can be traced/viewed
+using the
+Integra 400 &quot;Message Handler&quot;. The&nbsp; &quot;Message Handler&quot; runs in the
+background as soon as the instrument software is active.</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#E5E5E5" valign="top"><strong><font face="Arial" size="2">Note: </font></strong></td>
+    <td width="92%" bgcolor="#E5E5E5" valign="top"><strong><font FACE="Arial"><small>All
+    &quot;Message Handler&quot; information is written to the ...\log\Trace.log file.
+      Please en</small><small>sure to have the&nbsp; file trace.tra&nbsp; ( in
+      directory c:\roche\instrument\log\ )available when you call the Hot Line.
+      Similarly</small><small>, always attach this file if you mail an inquiry.</small></font></strong>
+      <p><font face="Arial" size="2"><strong>The
+    &quot;Message Handler&quot; does not trace the Host Interface communication when used in
+    the default configuration. Thus use the following procedure to enable Host Interface
+    tracing.</strong></font></p>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">
+  <tr>
+    <td WIDTH="100%" BGCOLOR="#B6D3B7"><font FACE="Arial"><strong>Enable the Host Interface
+    Tracing</strong></font></td>
+  </tr>
+</table>
+<div align="center"><center>
+
+<table BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="4" height="449">
+  <tr>
+    <td VALIGN="TOP" colspan="2" height="40"><font FACE="Arial"><strong><br>
+    To enable online Host Interface tracing:</strong></font></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" rowspan="2" height="393"><ul>
+      <li><font FACE="Arial">Switch to the &quot;Message Handler&quot; task</font></li>
+      <li><font face="Arial">From &quot;Monitor&quot; menu,&nbsp; select
+        &quot;Filter&quot;</font></li>
+      <li><font FACE="Arial">Activate the check mark beside the item &quot;1023
+        TRACE_HIF_LINE&quot;</font></li>
+      <li><font FACE="Arial">Press OK</font></li>
+      <li><font FACE="Arial">The system then records all Host Interface communication.
+    </font></li>
+      <li><font face="Arial">These settings only remain until the next shutdown. To make
+        them permanent, press&nbsp; the SAVE button.</font></li>
+    </ul>
+    <p><font FACE="Arial"><br>
+    <br>
+    </font></td>
+    <td valign="top" height="360"><font FACE="Arial"><img src="i4_t_sc1.gif" width="500" height="350"
+    border="0"></font></td>
+  </tr>
+  <tr>
+    <td valign="top" height="25" bgcolor="#E5E5E5"><strong><font face="Arial" size="2">Note:<br>
+      </font></strong><font face="Arial" size="2"><strong>Switching on the HIF-Trace
+      generates an additional workload for the CPU. Thus the trace should not be left on
+      if unused.</strong></font></td>
+  </tr>
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+
+<table BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">
+  <tr>
+    <td WIDTH="100%" BGCOLOR="#B6D3B7"><font FACE="Arial"><strong>View the Trace File</strong></font></td>
+  </tr>
+</table>
+<div align="center"><center>
+
+<table BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+  <tr>
+    <td VALIGN="TOP" colspan="2"><font FACE="Arial"><strong><br>
+    To filter and view the HIF communication:</strong></font></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP"><ul>
+      <li><font FACE="Arial">From the &quot;File&quot; menu select &quot;Open Trace File&quot;</font></li>
+      <li><font FACE="Arial">Select &quot;Trace.tra&quot;</font></li>
+      <li><font FACE="Arial">Press Open</font></li>
+      <li><font FACE="Arial"><strong>Important: </strong>Wait until the trace file is loaded
+        completely before proceeding to the next step.</font></li>
+      <li><font FACE="Arial">From the &quot;Monitor&quot; menu select &quot;Filter&quot;</font></li>
+      <li><font FACE="Arial">Press &quot;Clear All&quot;</font></li>
+      <li><font FACE="Arial">Check item &quot;1023&quot;, possibly also items &quot;1020&quot; and
+        &quot;1021&quot;</font></li>
+      <li><font FACE="Arial">Press OK<br>
+        (Do not save this filter setting)</font></li>
+    </ul>
+      <p><font FACE="Arial">The display now shows the all traced Host Interface communication.
+    Using this view, you may scroll through the complete trace file.<br>
+    <br>
+    <strong>Note:</strong> The trace file contains only the information which is selected
+      by the check boxes.</font></td>
+    <td valign="top"><font FACE="Arial"><img src="i4_t_sc2.gif" width="500" height="349"
+    border="0"> </font></td>
+  </tr>
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+</body>
+</html>

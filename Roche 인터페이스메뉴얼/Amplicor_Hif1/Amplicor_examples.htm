@@ -1,0 +1,1301 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso-8859-1">
+<TITLE>examples_tables</TITLE>
+<META NAME="GENERATOR" CONTENT="HTML Transit 4.0 by InfoAccess Inc. www.infoaccess.com">
+
+<STYLE type="text/css">
+<!--
+	.Heading3-1
+	{
+		text-align: left;
+		line-height: 20pt;
+		background-color: #b6d3b7;
+		width: 100%
+	}
+	.Heading4-1
+	{
+		text-align: left;
+		line-height: 14pt;
+		background-color: #d8e9d9;
+		width: 100%
+	}
+-->
+</STYLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function setLink(value1, value2)
+{
+}
+// -->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript1.1">
+<!-- 
+function setLink(value1, value2)
+{
+   document.cookie = "TransitLink=" + value1 + ";PATH=/"
+   document.cookie = "TransitFrame=" + value2 + ";PATH=/"
+}
+// -->
+</SCRIPT>
+
+<div ID="overDiv" STYLE="position:absolute; visibility:hide; z-index:1;"></div>
+<script LANGUAGE="JavaScript" SRC="overlib.js"></script>
+</HEAD>
+<BODY><A NAME="TopOfPage"> </A>
+
+
+<H2><A NAME="P0_0"></A> <img src="a_ampli.gif" alt="AMPLICOR" border="0" WIDTH="125" HEIGHT="18">  <B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black">Examples</SPAN></B></H2>
+
+  <DIV style="margin-left: 56pt"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">This chapter shows examples of the communication protocol between a HOST computer and COBAS Amplicor:</SPAN></P>
+
+</DIV><H3 class="Heading3-1"><B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black"><A NAME="P4_109"></A>Synchronization of Sequence Counter</SPAN></B></H3>
+<P><DIV style="margin-left: 56pt">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="75"></TD>
+<TD WIDTH="245"></TD>
+<TD WIDTH="245"></TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">00&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Whenever the communication is newly started up the Sequence Counters (SC) have to be synchronized by means of a Synch block.', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:08</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Sync.</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Block</SPAN></I></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A Synch block contains neither a Sequence Counter (SC) nor a Block Check Sum (BCS).', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAS</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Amplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">00&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:11</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD ROWSPAN="2" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('The response Idle Block will contain a SC and a BCS.', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">663&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Idle Block</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">09&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:13</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">00</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Result</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">818&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('The received SC has to be incremented as described in the INTRODUCTION under: Sequence Counter and Block Check Sum and to be added to the next transmitted request e.g. to a result request as shown.', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> <SPAN style="font-family: 'Arial'; font-size: 12pt"> </SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAS</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Amplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">00&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('Idle block --&gt; no result available ', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> <SPAN style="font-family: 'Arial'; font-size: small"> </SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:28</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">662&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Idle Block</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR></TABLE></DIV>
+
+<H3 class="Heading3-1"><B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black"><A NAME="P99_1062"></A>Idle Block</SPAN></B></H3>
+<P><DIV style="margin-left: 56pt">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="75"></TD>
+<TD WIDTH="245"></TD>
+<TD WIDTH="245"></TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">00&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('A simple communication check can be performed by sending an Idle Block.', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:30</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">624&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Idle Block</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Software</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Test</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">00&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('The response will also be an Idle block.', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:32</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">754&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Idle Block</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR></TABLE></DIV>
+
+<H3 class="Heading3-1"><B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black"><A NAME="P156_1396"></A>Order Entry</SPAN></B></H3>
+
+<P style="text-align: center"><I><SPAN style="font-family: 'Arial'; font-size: small"><B>Important Note:</B><BR>
+Every data field has a defined number of characters! If only partially used, digits left over have to be filled with spaces or 0's</SPAN></I></P>
+<P><DIV style="margin-left: 56pt">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="75"></TD>
+<TD WIDTH="245"></TD>
+<TD WIDTH="245"></TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">10&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:34</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">333333&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring ID', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">02</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">07.03.1995</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">10:40&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('This line is optional (order date and time', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">03</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">3&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Use always order run mode 3', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">01&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring tube 1', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-tube specification : Control', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">06</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">CON-0012</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('This line is optional (A-tube specimen ID)', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">CHL&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test name', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">3&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test condition flag: Positive control', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">ABC&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test name', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">3&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test condition flag: Positive control', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">02&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring tube 2', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">2&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-tube specification : Sample', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">06</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">ABC-1001</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">CHL&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test condition flag: Normal test', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">ABC&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test condition flag: Normal test', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">03&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring tube 3', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">2&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">06</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">ABC-1002</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">CHL&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">2&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Auto reflex test  :Test condition flag: Master test', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">CH1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">3&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test condition flag: Add test by positive', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">CH2&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">4&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test condition flag: Add test by negative', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Order</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Entry </SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">267&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Block</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" BGCOLOR="#e0e0b2" VALIGN="TOP" WIDTH="491"><P><I><B><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Red">Important Note:</SPAN></B><SPAN style="font-family: 'Arial'; font-size: 12pt"><BR>
+All tests added to a particular A-ring must belong to the same PCR file (to one ring the same treatment is applied)</SPAN></I></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAS</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Amplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">19&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:39</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">99</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">00&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('Order Entry OK', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Order</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Manipul.</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">924&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR></TABLE></DIV>
+
+<H3 class="Heading3-1"><B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black"><A NAME="P289_2714"></A>Result List Request</SPAN></B></H3>
+<P><DIV style="margin-left: 56pt">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="75"></TD>
+<TD WIDTH="245"></TD>
+<TD WIDTH="245"></TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">04&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:33:42</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('The Result List request block has no line.', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result List</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">628&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Software</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Test</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">07&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:34:03</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">101&lt;LF&gt;</SPAN></P>
+</TD>
+<TD ROWSPAN="5" VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('The response contains a list of available results (A-ring Ids)', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">102&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">103&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">104&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">105&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">676&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result List</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR></TABLE></DIV>
+
+<H3 class="Heading3-1"><B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black"><A NAME="P354_3124"></A>Non-Specific Result Request / Quantitative Result</SPAN></B></H3>
+<P><DIV style="margin-left: 56pt">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="75"></TD>
+<TD WIDTH="245"></TD>
+<TD WIDTH="37"></TD>
+<TD WIDTH="160"></TD>
+<TD WIDTH="47"></TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">09&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:34:26</SPAN></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">00</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('Next not yet transmitted  results of any A-ring (un-specific request)', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result </SPAN></I></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">818&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></I></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Software</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Test</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">08&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Following an un-specific result request it may take up to 30 sec. until COBAS Amplicor transmits a response (depending on the data base loading).', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> <SPAN style="font-family: 'Arial'; font-size: 12pt"> </SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:34:44</SPAN></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">600&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring ID', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">02</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">13.03.1998</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">13:13:13&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Order date and time', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">3&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-tube position: 3', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Order type: Sample', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">06</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">9-887</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Specimen Info.: Optional line (depending on order)', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">HCM</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test ID', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test type: Normal Test', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">10</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">13.03.1998</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">14:50:10&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Result Date and Time', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">13</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">+1.23E+03</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Quantitative Test Result', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="283"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">432</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">012&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="2" ROWSPAN="5" VALIGN="TOP" WIDTH="207"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Quantitative Raw Data', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="283"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">983</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">013&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="283"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">3</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1456</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">014&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="283"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">4</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1678</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">015&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="283"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">588</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">017&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">16</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">3</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">4&lt;LF&gt;</SPAN></P>
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-tube position: 4', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">06</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">9-889</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">HCM</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">10</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">13.03.1998</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">14:55:24&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">13</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">+1.23E+03</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">345</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">018&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">678</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">019&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">3</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1678</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">020&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">14</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">4</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1878</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">021&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">877</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">023&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">16</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">3</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="3" VALIGN="TOP" WIDTH="444"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">20</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">100</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">+2.00E+03</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">+1.00E+04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">+2.00E+04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">+5.00E+04&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="47"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('QS/Control Values', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result</SPAN></I></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">123&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Data</SPAN></I></P>
+</TD>
+<TD COLSPAN="4" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR></TABLE></DIV>
+
+<H3 class="Heading3-1"><B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black"><A NAME="P588_4511"></A>Non-Specific Result Request / Qualitative Result</SPAN></B></H3>
+<P><DIV style="margin-left: 56pt">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="75"></TD>
+<TD WIDTH="245"></TD>
+<TD WIDTH="245"></TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">09&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:35:05</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">00</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><a HREF="javascript:void(0);" onMouseOver="return overlib('Next not yet transmitted  results of any A-ring (un-specific request)', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result </SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">818&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Software</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Test</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">08&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:35:24</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">500&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring ID', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">02</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">13.03.1998</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">11:11:11&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Order date and time', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">3&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-tube position: 3', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Order type: Sample', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">06</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">9-887</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Specimen Info.: Optional line (depending on order)', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">CT</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test ID', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Test type: Normal Test', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">10</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">13.03.1998</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">12:10:08&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Result Date and Time', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">11</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Qualitative Test Result', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">12</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">532</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">030&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Quantitative Raw Data', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">4&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-tube position: 4', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">06</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">9-889</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">07</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">NG</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">08</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">10</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">13.03.1998</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">12:11:10&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">11</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">2</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">00000000&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">12</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">678</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: small">031&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">0&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">680&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Data</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: small">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR></TABLE></DIV>
+
+<H3 class="Heading3-1"><B><SPAN style="font-family: 'Arial'; font-size: 14pt; color: Black"><A NAME="P694_5355"></A>Specific Result Request</SPAN></B></H3>
+<P><DIV style="margin-left: 56pt">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="75"></TD>
+<TD WIDTH="245"></TD>
+<TD WIDTH="245"></TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">COBAmplicor</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Host</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">09&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:35:52</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">00</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Including all (previous) results of A-ring', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">30118&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring ID (optional line -&gt; specific request)', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result </SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">244&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Request</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491">&#160;
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Instrument</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;SOH&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">Response</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">15</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Software</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">Test</SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">08&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">16:36:20</SPAN></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;STX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">01</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">30118&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-ring ID', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">02</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">06.03.1995</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">15:30&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Optional line: Order date and time', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">04</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('A-tube position: 1', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">05</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 8pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD>
+<TD VALIGN="TOP" WIDTH="245"><P><a HREF="javascript:void(0);" onMouseOver="return overlib('Order specification : Control', RIGHT)" onMouseOut="nd()"> <font face="Arial" size="4" color="#FF0000"> Notice</font> </a> </P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P><I><SPAN style="font-family: 'Arial'; font-size: 12pt">... all results of A-ring ...</SPAN></I></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">12</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">678</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Century Gothic'; font-size: 11pt"><a HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 18 pt; color: Black" onMouseOver="return overlib(' A space that is used as a place holder inside a parameter, and is also part of this parameter  ', RIGHT)" onMouseOut="nd()">&#183;</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">1234</SPAN><SPAN style="font-family: 'Wingdings'; font-size: 9pt"><a  HREF="javascript:void(0);" style="font-family: 'Arial'; font-size: 14pt; color: Black" " onMouseOver="return overlib('A space used as a separator', RIGHT)" onMouseOut="nd()">_</a></SPAN><SPAN style="font-family: 'Arial'; font-size: 12pt">031&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;ETX&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75">&#160;
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">1&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Result</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">132&lt;LF&gt;</SPAN></P>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="75"><P style="text-align: justify"><I><SPAN style="font-family: 'Arial'; font-size: 12pt">Data</SPAN></I></P>
+</TD>
+<TD COLSPAN="2" VALIGN="TOP" WIDTH="491"><P style="text-align: justify"><SPAN style="font-family: 'Arial'; font-size: 12pt">&lt;EOT&gt;&lt;LF&gt;</SPAN></P>
+</TD></TR></TABLE></DIV>
+</BODY>
+</HTML>

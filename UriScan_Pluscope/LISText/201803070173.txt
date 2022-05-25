@@ -1,0 +1,62 @@
+----Basic Information Start----
+ItemType=eBaseInfo,	ItemName=Sample ID           ,	Sample ID ,	173       ;
+ItemType=eBaseInfo,	ItemName=Emergence           ,	Emergency ,	False     ;
+ItemType=eBaseInfo,	ItemName=First Name          ,	First Name,	          ;
+ItemType=eBaseInfo,	ItemName=Last Name           ,	Last Name ,	          ;
+ItemType=eBaseInfo,	ItemName=Gender              ,	Gender    ,	Unknown   ;
+ItemType=eBaseInfo,	ItemName=Date of Birth       ,	Date of Birth,	          ;
+ItemType=eBaseInfo,	ItemName=Age                 ,	Age       ,	          ;
+ItemType=eBaseInfo,	ItemName=Bar Code            ,	Bar Code  ,	Invalid6  ;
+ItemType=eBaseInfo,	ItemName=Patient ID          ,	Patient ID,	          ;
+ItemType=eBaseInfo,	ItemName=Medical Insurance   ,	Medical Ins.ID,	          ;
+ItemType=eBaseInfo,	ItemName=Bed No.             ,	Bed ID    ,	          ;
+ItemType=eBaseInfo,	ItemName=Department          ,	Department,	          ;
+ItemType=eBaseInfo,	ItemName=Ward                ,	Ward      ,	          ;
+ItemType=eBaseInfo,	ItemName=Draw Time           ,	Sampling Time,	          ;
+ItemType=eBaseInfo,	ItemName=Order Time          ,	Order Time,	          ;
+ItemType=eBaseInfo,	ItemName=eReportTime         ,	Report Time,	2018-03-07 神板 5:13:57;
+ItemType=eBaseInfo,	ItemName=eCheckTime          ,	Test Time ,	2018-03-07 神板 4:34:04;
+ItemType=eBaseInfo,	ItemName=Delivered by        ,	Delivered by,	          ;
+ItemType=eBaseInfo,	ItemName=Validated by        ,	Validated by,	          ;
+ItemType=eBaseInfo,	ItemName=Operated by         ,	Operated by,	service   ;
+ItemType=eBaseInfo,	ItemName=Diagnosis           ,	Diagnosis ,	          ;
+ItemType=eBaseInfo,	ItemName=Patient Type        ,	Patient Type,	          ;
+ItemType=eBaseInfo,	ItemName=Charge Type         ,	Charge Type,	          ;
+ItemType=eBaseInfo,	ItemName=Sample Type         ,	Sample Type,	##        ;
+ItemType=eBaseInfo,	ItemName=Dye Type            ,	Analysis Type,	##        ;
+ItemType=eBaseInfo,	ItemName=Color               ,	Color     ,	          ;
+ItemType=eBaseInfo,	ItemName=Muddy               ,	Turbidity ,	          ;
+----Dry Chemical Data Start----
+ItemType=eDryInfo,	ItemName=Chemistry No.       ,	Chemistry ID,	0173      ;
+ItemType=eDryInfo,	ItemName=BLD                 ,	BLD       ,	- neg     ,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=BIL                 ,	BIL       ,	- neg     ,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=URO                 ,	URO       ,	+- 0.1 mg/dL,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=KET                 ,	KET       ,	- neg     ,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=PRO                 ,	PRO       ,	- neg     ,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=NIT                 ,	NIT       ,	- neg     ,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=GLU                 ,	GLU       ,	- neg     ,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=p.H                 ,	p.H       ,	6.5       ,	          ,	          ;
+ItemType=eDryInfo,	ItemName=S.G                 ,	S.G       ,	1.016     ,	          ,	          ;
+ItemType=eDryInfo,	ItemName=LEU                 ,	WBC       ,	- neg     ,	          ,	Negative  ;
+ItemType=eDryInfo,	ItemName=VTC                 ,	VTC       ,	++ 25 mg/dL,	          ,	          ;
+ItemType=eDryInfo,	ItemName=COL                 ,	COL       ,	LT.YELLOW ,	          ,	          ;
+ItemType=eDryInfo,	ItemName=CLA                 ,	CLA       ,	Clear     ,	          ,	          ;
+----Sediment Data Start----
+ItemType=eNCZInfo,	ItemName=tH_RedCell          ,	RBC       ,	          ,	          ,	(0-7)/レL  ;
+ItemType=eNCZInfo,	ItemName=tH_AlienRedCell     ,	POI       ,	          ,	          ,	%         ;
+ItemType=eNCZInfo,	ItemName=tH_WhiteCell        ,	WBC       ,	          ,	          ,	(0-12)/レL ;
+ItemType=eNCZInfo,	ItemName=tH_Grain            ,	WBCC      ,	          ,	          ,	(0-1)/レL  ;
+ItemType=eNCZInfo,	ItemName=tH_Epiphyte         ,	SRC       ,	          ,	          ,	(0-2)/レL  ;
+ItemType=eNCZInfo,	ItemName=tH_Jiejing          ,	CRYS      ,	          ,	          ,	(0-3)/レL  ;
+ItemType=eNCZInfo,	ItemName=tH_Mildew           ,	YST       ,	          ,	          ,	(0-3)/レL  ;
+ItemType=eNCZInfo,	ItemName=tL_Small            ,	HYA Cast  ,	          ,	          ,	(0-1)/レL  ;
+ItemType=eNCZInfo,	ItemName=tL_ReserveB         ,	UNCC      ,	          ,	          ,	0/レL      ;
+ItemType=eNCZInfo,	ItemName=tH_Trich            ,	TRI       ,	          ,	          ,	Not found ;
+ItemType=eNCZInfo,	ItemName=tL_Zhanlian         ,	MUC       ,	          ,	          ,	Not found ;
+ItemType=eNCZInfo,	ItemName=tH_ReserveA         ,	BACT      ,	          ,	          ,	Not found ;
+ItemType=eNCZInfo,	ItemName=Comments            ,	Comments  ,	          ;
+----Image filename Start----
+ItemType=eImage,	ItemName=Image3,;
+ItemType=eImage,	ItemName=Image2,;
+ItemType=eImage,	ItemName=Image1,;
+----End----

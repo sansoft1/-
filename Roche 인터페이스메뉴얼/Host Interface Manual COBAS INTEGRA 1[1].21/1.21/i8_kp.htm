@@ -1,0 +1,64 @@
+<html>
+
+<head>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 4.0">
+<title>COBAS Integra 800 Known issues</title>
+</head>
+
+<body BGCOLOR="#ffffff">
+
+<p><b><font FACE="Arial"><img SRC="i_integr.gif" ALT="Integra"
+BORDER="0" NATURALSIZEFLAG="0" ALIGN="BOTTOM" width="105" height="18"></font><font
+size="+1" face="Arial"> </font><font face="Arial" size="4">800</font><font size="+1"
+face="Arial"> Host Interface Known issues</font></b></p>
+
+<p><font FACE="Arial"><b>Collated results</b></font></p>
+<ul>
+  <li><font FACE="Arial"><b>Due to instrument performance reasons and in order
+    to have results on the Host system available as soon as possible,&nbsp; we
+    strongly recommend <font color="#ff0000">NOT using &quot;Collated
+    Results&quot; requests</font> ( i.e., not using Result Type Selector 03, 04,
+    05 and 06 ).<br>
+    </b></font></li>
+  <li><font face="Arial">Ratios will <b>not</b> be collated with other results,
+    as they have automatically a different sample type.<br>
+    </font></li>
+  <li><font face="Arial">Collated results selector 04 transmits also blocked and
+    invalid test results together with valid ones. Although they are clearly
+    flagged as such, this may become an issue if the host does not properly
+    handle result flags.</font></li>
+</ul>
+<p><font FACE="Arial"><b>Empty orders</b></font></p>
+
+<ul>
+  <li><font face="Arial">Block type 10 having no tests (no line code 55 present)
+    have been reported to hang the host interface on the INTEGRA 800.&nbsp;<br>
+    This behavior could not be reproduced and probably happens at random. This
+    situation is triggered by an unsupported configuration of the order entry
+    block an should be avoided from the host side. </font></li>
+</ul>
+
+<p><font face="Arial"><b><a name="Timing">Timing</a> and priority of order entry.</b></font></p>
+
+<ul>
+  <li><font face="Arial">The automatic handling of RD 5 racks in the INTEGRA 800
+    creates a special situation regarding Host interface information flow:&nbsp;<br>
+    New inserted RD 5 racks remain only for a limited time on the
+    instrument.&nbsp;see <a href="i8_setup.htm#Wflow"><b>Workflow
+    adaptation&nbsp;</b></a></font>
+    <p><font face="Arial">The first priority should always be the acquisition of
+    new results </font></p>
+    <p><font face="Arial">When lists of &quot;tubes without orders&quot; are
+    returned from the instrument, uploading of the <b>order entries has to be
+    given priority over patient entries</b>. <br>
+    If patient entries are given a higher priority, over orders,&nbsp; this may
+    lead to the situation where some racks time out, before receiving orders and
+    are therefore ejected on the output tray without tests performed.<br>
+    You can also look at the proposed of <a href="i_i7vsi8.htm#Flowchart I800">flowchart</a>
+    for an </font><font face="Arial"> INTEGRA </font>
+    <font face="Arial">800 program. </font></li>
+</ul>
+<p>&nbsp;</p>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Block 02</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#DAD9A5">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial"><b><a name="bc02">Block 02</a>:
+    Calibration Result</b></font></td>
+  </tr>
+</table>
+
+<p><font size="3" face="Arial">Block 02 is transmitted to the Host after receiving a
+result request with <a href="i_lc10.htm"> result type selector</a> &#145;01&#146; or &#145;08&#146;<br>
+- <b>and</b> if an accepted and not yet transmitted calibration result is available <br>
+- <strong>and</strong> if the instrument is configured accordingly. <img src="arr_righ.gif" alt="goto" border="0" WIDTH="12" HEIGHT="12"> Integra <a href="i7_setup.htm#e_hif_tr">700
+/ 800</a>
+/ <a href="i4_setup.htm#Enable Result Transmission">400</a></font></p>
+
+<table border="1" cellpadding="4" cellspacing="0" width="40%" bgcolor="#ECE2AE">
+  <tr>
+    <td width="9%" bgcolor="#F1F8C0"><font size="2" face="Arial"><a href="i_lc55.htm"><strong>55</strong></a></font></td>
+    <td colspan="2" width="91%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Test ID</strong></font></td>
+  </tr>
+  <tr>
+    <td width="9%" bgcolor="#F1F8C0"><font size="2" face="Arial"><a href="i_lc01.htm"><strong>01</strong></a></font></td>
+    <td colspan="2" width="91%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Result
+    Time</strong></font></td>
+  </tr>
+  <tr>
+    <td width="9%" bgcolor="#F1F8C0"><font size="2" face="Arial"><a href="i_lc03.htm"><strong>03</strong></a></font></td>
+    <td width="91%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Standard Rates</strong></font></td>
+    <td width="1%" bgcolor="#DBF9C8"><font size="2" face="Arial"><strong>1 </strong>to<strong>
+    y+1</strong></font></td>
+  </tr>
+  <tr>
+    <td width="9%" bgcolor="#F1F8C0"><font size="2" face="Arial"><a href="i_lc04.htm"><strong>04</strong></a></font></td>
+    <td colspan="2" width="91%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Calibrate
+    Curve</strong></font></td>
+  </tr>
+  <tr>
+    <td width="9%" bgcolor="#F1F8C0"><font size="2" face="Arial"><a href="i_lc00.htm"><strong>00</strong></a></font></td>
+    <td width="69%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Result Data</strong></font></td>
+    <td width="22%" bgcolor="#DBF9C8"><font size="2" face="Arial"><strong>1 </strong>to<strong>
+    m</strong></font></td>
+  </tr>
+  <tr>
+    <td width="9%" bgcolor="#F1F8C0"><font size="2" face="Arial"><a href="i_lc07.htm"><strong>07</strong></a></font></td>
+    <td width="91%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>ABS Sample Check</strong></font></td>
+    <td width="1%" bgcolor="#DBF9C8"><font size="2" face="Arial"><strong>0 </strong>to<strong>
+    y</strong></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" align="left" width="80"><font face="Arial"><font size="3">m = 1 </font><font size="2">to</font><font size="3"> 6</font></font></td>
+    <td valign="top" align="left" width="768"><font size="3" face="Arial">m is the number of
+    standard rates in line 03. The sequence of m iterations must correspond to the sequence
+    of values in line 03. In addition, the number of iterations m has to be equal to the
+    number of parameters (standard rates) in line 03.<br>
+    </font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="80"><font face="Arial"><font size="3">y = 0 </font><font size="2">or</font><font size="3"> 1</font></font></td>
+    <td valign="top" align="left" width="768"><font size="3" face="Arial">The value of y
+    depends on whether the antigen excess (AGE) check is switched ON or OFF. The COBAS INTEGRA
+    always transmits an AGE rate line regardless of this parameter. If the AGE check was not
+    required by the test, this line contains the values initialized by the instrument.</font></td>
+  </tr>
+</table>
+</body>
+</html>

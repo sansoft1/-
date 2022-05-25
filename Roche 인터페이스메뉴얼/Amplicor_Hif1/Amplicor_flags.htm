@@ -1,0 +1,234 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso-8859-1">
+<TITLE>Amplicor_flags</TITLE>
+<META NAME="GENERATOR" CONTENT="HTML Transit 4.0 by InfoAccess Inc. www.infoaccess.com">
+
+<STYLE type="text/css">
+<!--
+	.Normal-1
+	{
+		text-align: left
+	}
+	.Heading2-1
+	{
+		text-align: left
+	}
+	.Heading3-1
+	{
+		text-align: left;
+		line-height: 20pt;
+		background-color: #b6d3b7;
+		width: 100%
+	}
+	.Heading4-1
+	{
+		text-align: left;
+		line-height: 14pt;
+		background-color: #d8e9d9;
+		width: 100%
+	}
+-->
+</STYLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function setLink(value1, value2)
+{
+}
+// -->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript1.1">
+<!-- 
+function setLink(value1, value2)
+{
+   document.cookie = "TransitLink=" + value1 + ";PATH=/"
+   document.cookie = "TransitFrame=" + value2 + ";PATH=/"
+}
+// -->
+</SCRIPT>
+
+<div ID="overDiv" STYLE="position:absolute; visibility:hide; z-index:1;"></div>
+
+<script LANGUAGE="JavaScript" SRC="overlib.js"></script>
+</HEAD>
+<BODY><A NAME="TopOfPage"> </A>
+
+
+<H2 class="Heading2-1"><A NAME="P0_0"></A><img src="a_ampli.gif" alt="AMPLICOR" border="0" WIDTH="125" HEIGHT="18">  <B><SPAN style="font-family: 'Arial'; font-size: 16pt; color: Black">Flags</SPAN></B></H2>
+
+<DIV style="margin-left: 12pt; margin-right: 12pt"><P class="Normal-1"><SPAN style="font-family: 'Arial'; font-size: 12pt">The COBAS Amplicor uses flags to classify the test results. The 32 flags are represented by an 8-character hexadecimal value<I>,</I> <I>Result Condition Flags</I>.</SPAN></P>
+
+<P class="Normal-1"><SPAN style="font-family: 'Arial'; font-size: 12pt">The flags are extracted by converting the hexadecimal value to binary data whereby Flag 1 is located at the first position and Flag 32 at the last position.</SPAN></P>
+
+<P class="Normal-1"><SPAN style="font-family: 'Arial'; font-size: 12pt">
+
+<P class="Normal-1"><SPAN style="font-family: 'Arial'; font-size: 12pt"><I>`Flag activated'</I> is represented by a `1'.</SPAN></P>
+<p><font size="3" face="Arial"><a href="#flag_detail">Flag binary structure</a> Read this if you need more details about how flags are built.</font></p></DIV>
+<P><DIV style="margin-left: 12pt; margin-right: 12pt">
+<TABLE BORDER="1" CELLSPACING="0">
+<TR>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 2pt; margin-bottom: 2pt"><B><I><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Bit</SPAN></I></B></P></DIV>
+</TD>
+<TD BGCOLOR="#e5f4f4" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><B><I><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Meaning</SPAN></I></B></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 2pt; margin-bottom: 2pt"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">0</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Thermocycler values out of specification</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">1</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Substrate blank out of range</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">2</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Negative control out of range</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">3</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Positive control out of range</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">4</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">reserved</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">5</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Photometer out of range</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">6</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Calculation error</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">7</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Fluid throughput out of range</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">8</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Low positive control out of range (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">9</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">High positive control out of range (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">10</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Quantitation standard absorbence values out of range (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">11</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Target absorbency values out of range (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">12</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Calculated result below detection limit (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">13</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Calculated result above detection limit (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">14</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Upper target absorbency range exceeded (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">15</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Lower target absorbency range exceeded (quantitative test)</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">16</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Test reagent date expired</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">17</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Generic reagent date expired</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">18</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Incubation temperature out of range</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">19</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Reagent temperature out of range</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">20</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Test reagent empty</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">21</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Conjugate empty</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">22</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Substrate empty</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">23</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">Test aborted</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">24</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">DCup missing</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">25</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">ODSequenceError</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">26</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">QSSequenceError</SPAN></P></DIV>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="66"><DIV style="margin-left: 7pt"><P style="text-align: center; text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">27 .. 31</SPAN></P></DIV>
+</TD>
+<TD BGCOLOR="#ffffcc" VALIGN="TOP" WIDTH="500"><DIV style="margin-left: 7pt"><P style="text-indent: 0pt; margin-top: 0in; margin-bottom: 0in"><SPAN style="font-family: 'Arial'; font-size: 12pt; color: Black">reserved</SPAN></P></DIV>
+</TD></TR></TABLE></DIV>
+
+<br><br>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font size="3" face="Arial"><strong>Detailed Flag binary structure:</strong></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="ampliflags.gif" WIDTH="1232" HEIGHT="628"></p>
+<a name="flag_detail"> </a>
+
+
+</BODY>
+</HTML>

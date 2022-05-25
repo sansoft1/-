@@ -1,0 +1,15 @@
+----Basic QC Information Start----
+ItemType=eQCBaseInfo,	ItemName=Status              ,	Status    ,	Pass      ;
+ItemType=eQCBaseInfo,	ItemName=Batch No            ,	Batch No. ,	247490    ;
+ItemType=eQCBaseInfo,	ItemName=Validity Date       ,	Exp. Date ,	2018-04-30 오전 12:00:00;
+ItemType=eQCBaseInfo,	ItemName=QC Name             ,	QC Name   ,	dip&spin  ;
+ItemType=eQCBaseInfo,	ItemName=Factory             ,	Factory   ,	Quantimetrix;
+ItemType=eQCBaseInfo,	ItemName=QC Level            ,	QC Level  ,	1         ;
+ItemType=eQCBaseInfo,	ItemName=QC Time             ,	QC Time   ,	2017-06-02 오전 9:53:53;
+----QC Value Start----
+ItemType=eQCNCZInfo,	ItemName=tH_WhiteCell        ,	WBC       ,	1         ,	0-15      ;
+ItemType=eQCNCZInfo,	ItemName=tH_RedCell          ,	RBC       ,	7         ,	0-15      ;
+ItemType=eQCNCZInfo,	ItemName=tL_Shangpi          ,	EC        ,	0         ,	0-100     ;
+ItemType=eQCNCZInfo,	ItemName=tL_Small            ,	CAST      ,	0         ,	0-100     ;
+ItemType=eQCNCZInfo,	ItemName=tH_Jiejing          ,	CRYS      ,	0         ,	0-100     ;
+----End----

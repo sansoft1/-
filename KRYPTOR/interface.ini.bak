@@ -1,0 +1,80 @@
+[CODE]
+PASS=dd0551
+
+[ORDER]
+ORDTABLE=s2lab302
+RSLTTABLE=s2lab302
+MSTTABLE=MSTTABLE
+ORDDATE=orddt
+RSLTDATE=vfydt1
+BARCODE=ptid
+PID=ptid
+PNAME=
+PSEX=
+PAGE=
+TESTCD=TESTCD
+RESULT=rstcd
+INTRESULT=rstval
+STATUS=
+JUDGE=
+MACHCODE=eqpcd
+USER=vfyid1
+
+[CONFIG]
+Equip=MA069
+EquipSeq=1
+EquipCode=03
+QCEquip=EM017
+gPort=4
+gSpeed=9600
+gParity=E
+gDataBit=8
+gStopBit=1
+gStartBit=1
+gRTSEnable=TRUE
+gDTREnable=TRUE
+WaitTime = 30
+Handshaking=NONE
+InBUFFERSize=1024
+OutBUFFERSize=512
+RThreshold=1
+SThreshold=0
+InputLen=1
+ParityReplace=?
+CDTimeOut=0
+CTSTimeOut=0
+DSRTimeOut=0
+NullDiscard=Y
+ACKUse=0
+ComFormat=2
+;1:ASTM,2:AU,3:XE,4:URIN,5:ABGA
+ASTMFormat=1
+;1:Standard,2:Long
+OPTVersion=1.3
+
+[DATABASE]
+DBTYPE=1
+;1=oracle
+;driver =
+server =gcrl
+uid =labmch
+pwd =labmch
+database =gcrl
+;hostname = 
+;2=mssql
+;SERVER =192.168.10.250
+;DATABASE=onit_out
+;UID =sa
+;PWD =korea
+
+LocalDB = C:\chartplus\data\Interface.mdb
+
+[Server]
+ServerPath=http://if.ncc.re.kr/WEBSERVICE/INTERFACE/LisInterface.asmx?wsdl
+IFUser=518222
+;20130604
+
+[SERVICE]
+URL=https://121.78.172.70
+SVC=SCC0191A
+HCD=31206271

@@ -1,0 +1,505 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>RS-232 Serial Interface</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><a name="rs232"><strong><b>RS-232
+    (CCITT V.24) serial interface</b></strong></a></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">COBAS Instrument serial interfaces are based on
+international standards. The relevant standards are EIA RS-232D and CCITT V.24.</font></p>
+
+<p><font face="Arial" size="3">The RS-232 serial interface is an asynchronous interface
+with <a href="appendix.htm#ASCII">ASCII</a> character transfer.<br>
+The characters are transmitted bit-wise.<br>
+The transfer starts with a start bit and ends with one or two stop bits.<br>
+There is also a possibility of detecting a bit failure with the parity bit.<br>
+The parity bit is selectable as even, odd or none.</font></p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><b><font face="Arial">S</font><strong><font
+    face="Arial" size="3">ignal leve</font></strong><font face="Arial">ls</font></b></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">The signal levels for data, control and status lines are as
+follows:</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0">
+  <tr>
+    <td width="25%" align="center"><font face="Arial" size="3"><strong>&quot;0&quot; / space /
+    on&nbsp; </strong></font></td>
+    <td width="25%" align="center"><strong><font face="Arial" size="3">+3V to +15V</font></strong></td>
+    <td width="25%" align="center"><font face="Arial" size="3"><strong><p align="right">&quot;1&quot;
+    / mark / off </strong></font></td>
+    <td width="25%" align="center"><strong><font face="Arial" size="3">-3V to -15V</font></strong></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial"><b>Signal description</b></font></td>
+  </tr>
+</table>
+
+<p><font size="3" face="Century Gothic">The following table shows the most commonly used
+signals.<br>
+There are about 25 different signals defined in the standard of CCITT V.24.<br>
+Normally only some of these are used.</font></p>
+
+<table border="1" cellpadding="4" width="100%" cellspacing="0">
+  <tr>
+    <td bgcolor="#D8E9D9" valign="top"><strong><font face="Arial" size="2">CCITT</font></strong></td>
+    <td bgcolor="#D8E9D9" valign="top"><strong><font face="Arial" size="2">EIA</font></strong></td>
+    <td bgcolor="#D8E9D9" valign="top"><strong><font face="Arial" size="2">Signal name</font></strong></td>
+    <td bgcolor="#D8E9D9" valign="top"><strong><font face="Arial" size="2">Description</font></strong></td>
+    <td bgcolor="#D8E9D9" width="30" valign="top"><font face="Arial" size="2"><strong>9 pin <br>
+    connector</strong></font></td>
+    <td bgcolor="#D8E9D9" width="30" valign="top"><font face="Arial" size="2"><strong>25 pin<br>
+    connector</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">101</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">AA</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">PG</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Protective Ground</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30">&nbsp;</td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>1</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">102</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">AB</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">SG</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Signal ground or common return</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>5</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>7</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">103</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">BA</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">TxD</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Transmitted data</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>3</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>2</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">104</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">BB</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">RxD</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Received data</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>2</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>3</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">105</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">CA</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">RTS</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Request to send</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>7</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>4</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">106</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">CB</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">CTS</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Ready for sending (clear to
+    send)</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>8</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>5</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">107</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">CC</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">DSR</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Data set ready</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>6</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>6</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">108/2</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">CD</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">DTR</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Data terminal ready</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>4</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>20</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">109</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">CF</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">DCD</font></strong></td>
+    <td bgcolor="#F1F8C0"><strong><font face="Arial" size="2">Receive line signal detector</font></strong></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>1</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>8</strong></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><a name="Handsh"><strong><font face="Arial" size="3">Handshake:</font></strong></a></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">We recommend using SW-Handshake (XON, XOFF). Only a three
+wire cable is then necessary.</font></p>
+
+<p><font face="Arial" size="3">Nevertheless the HW handshake conditions must be fulfilled.
+The operating system usually treats HW-handshake conditions with the highest priority.</font></p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><a name="handsh_h"><font face="Arial"><b>Hardware
+    handshake</b></font></a></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top"><strong><font face="Arial" size="3">1.</font></strong></td>
+    <td><font face="Arial" size="3">The sender sets its RTS line to active.<br>
+    This signals the receiver to prepare to receive data from the sender station.</font></td>
+  </tr>
+  <tr>
+    <td valign="top"><strong><font face="Arial" size="3">2.</font></strong></td>
+    <td><font face="Arial" size="3">If the receiver is ready to receive data it sets its DTR
+    line to active. <br>
+    This signals the sender the receiver is ready, wherupon the sender starts data
+    transmission.</font></td>
+  </tr>
+  <tr>
+    <td valign="top"><strong><font face="Arial" size="3">3.</font></strong></td>
+    <td><font face="Arial" size="3">As long as the sender's CTS signal is active, it can
+    transmit data.</font></td>
+  </tr>
+  <tr>
+    <td valign="top"><font face="Arial" size="3"><strong>4.</strong> </font></td>
+    <td><font face="Arial" size="3">If the receive buffer in the receive station is full (or
+    better still, before it is full), the receiver stops the transmission by setting the DTR
+    line to inactive.<br>
+    When the receiver is again ready to receive data, it sets DTR to active again.</font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">&nbsp;<br>
+<br>
+</font></p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><a name="handsh_s"><font face="Arial"><b>Software
+    handshake</b></font></a></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3"><strong>Sender</strong>:<br>
+After receiving an &lt;XOFF&gt; sign, the send procedure is interrupted until receipt of
+an &lt;XON&gt; sign.</font></p>
+
+<p><font face="Arial" size="3"><strong>Receiver:</strong><br>
+To interrupt a reception, an &lt;XOFF&gt; sign is sent. Further reception can be obtained
+by sending a &lt;XON&gt;.<br>
+&lt;XON&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : CHAR(17/11H), DC1<br>
+&lt;XOFF&gt;&nbsp;&nbsp;&nbsp;&nbsp; : CHAR(19/13H), DC3</font></p>
+
+<p><font face="Arial" size="3"><strong>Note:</strong> As soon as the COBAS Instrument
+software is started, the Host Interface is ready to receive data. No initial SW handshake
+is required.</font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="4"><a name="rs232cab"><b>RS-232
+    cable</b></a></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">We recommend buying an off-the-shelf &quot;null modem&quot;
+RS-232 cable. It will work with any COBAS Instrument.</font></p>
+
+<p><font face="Arial" size="3">The correct pin assignment is defined in the ISO 2110
+standard for 25-pole connectors and in the ISO 4902 standard for 9-pole connectors.</font></p>
+
+<p><font face="Arial" size="3"><strong>Pin assignments for RS-232 SW-handshaking :</strong></font></p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <td colspan="5" bgcolor="#D8E9D9"><strong><font face="Arial" size="2">Host (DTE)</font></strong></td>
+    <td colspan="4" bgcolor="#D8E9D9"><font face="Arial" size="2"><strong>COBAS Analyser (DTE)</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">9
+    Pin<br>
+    Conn</font></td>
+    <td width="50" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">25
+    Pin<br>
+    Conn.</font></td>
+    <td width="60" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">Signal</font></td>
+    <td width="30" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">I/O</font></td>
+    <td width="30" valign="top" align="left" bgcolor="#D8E9D9">&nbsp;</td>
+    <td width="30" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">I/O</font></td>
+    <td width="60" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">Signal</font></td>
+    <td width="50" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">25
+    Pin<br>
+    Conn.</font></td>
+    <td width="50" valign="top" align="left" bgcolor="#D8E9D9"><font face="Arial" size="2">9
+    Pin<br>
+    Conn.</font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">3</font></strong></td>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">2</font></strong></td>
+    <td width="60" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">TxD</font></strong></td>
+    <td width="30" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">=&gt;</font></strong></td>
+    <td width="30" bgcolor="#DAD9A5">&nbsp;</td>
+    <td width="30" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">=&gt;</font></strong></td>
+    <td width="60" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">RxD</font></strong></td>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">3</font></strong></td>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">2</font></strong></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">2</font></strong></td>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">3</font></strong></td>
+    <td width="60" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">RxD</font></strong></td>
+    <td width="30" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">&lt;=</font></strong></td>
+    <td width="30" bgcolor="#F1F8C0">&nbsp;</td>
+    <td width="30" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">&lt;=</font></strong></td>
+    <td width="60" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">TxD</font></strong></td>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">2</font></strong></td>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">3</font></strong></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">5</font></strong></td>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">7</font></strong></td>
+    <td width="60" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">SigGnd</font></strong></td>
+    <td width="30" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>&lt;&gt;</strong></font></td>
+    <td width="30" bgcolor="#DAD9A5">&nbsp;</td>
+    <td width="30" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>&lt;&gt;</strong></font></td>
+    <td width="60" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">Sig.Gnd.</font></strong></td>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">7</font></strong></td>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">5</font></strong></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">4</font></strong></td>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">20</font></strong></td>
+    <td width="60" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">DTR</font></strong></td>
+    <td width="30" bgcolor="#FFFFFF"><font face="Arial" size="2"><strong>=&gt;</strong></font></td>
+    <td width="220" bgcolor="#FFFFFF" colspan="5" rowspan="5"><font face="Arial" size="2"><strong>Connections<br>
+    according to<br>
+    Host system<br>
+    requirements.</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">6</font></strong></td>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">6</font></strong></td>
+    <td width="60" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">DSR</font></strong></td>
+    <td width="30" bgcolor="#FFFFFF"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">7</font></strong></td>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">4</font></strong></td>
+    <td width="60" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">RTS</font></strong></td>
+    <td width="30" bgcolor="#FFFFFF"><font face="Arial" size="2"><strong>=&gt;</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">8</font></strong></td>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">5</font></strong></td>
+    <td width="60" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">CTS</font></strong></td>
+    <td width="30" bgcolor="#FFFFFF"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">1</font></strong></td>
+    <td width="50" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">8</font></strong></td>
+    <td width="60" bgcolor="#FFFFFF"><strong><font face="Arial" size="2">DCD</font></strong></td>
+    <td width="30" bgcolor="#FFFFFF"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3"><b>Pin assignments for RS-232 HW-handshaking</b></font></p>
+
+<table border="1" cellpadding="3" cellspacing="0">
+  <tr>
+    <td bgcolor="#D8E9D9" colspan="5" valign="middle" align="left"><font face="Arial" size="2"><strong>Host
+    (DTE)</strong></font></td>
+    <td bgcolor="#D8E9D9" valign="middle" align="left" colspan="4"><font face="Arial" size="2"><strong>COBAS
+    Analyser (DTE)</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">9 Pin<br>
+    Conn.</font></td>
+    <td width="50" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">25 Pin<br>
+    Conn.</font></td>
+    <td width="60" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">Signal</font></td>
+    <td width="30" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">I/O</font></td>
+    <td width="30" bgcolor="#D8E9D9" valign="top">&nbsp;</td>
+    <td width="30" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">I/O</font></td>
+    <td width="60" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">Signal</font></td>
+    <td width="50" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">25 Pin<br>
+    Conn.</font></td>
+    <td width="50" bgcolor="#D8E9D9" valign="top"><font face="Arial" size="2">9 Pin<br>
+    Conn.</font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#DAD9A5"><strong><font face="Arial" size="2">3</font></strong></td>
+    <td width="50" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>2</strong></font></td>
+    <td width="60" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>TxD</strong></font></td>
+    <td width="30" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>=&gt;</strong></font></td>
+    <td width="30" bgcolor="#DAD9A5">&nbsp;</td>
+    <td width="30" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>=&gt;</strong></font></td>
+    <td width="60" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>RxD</strong></font></td>
+    <td width="50" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>3</strong></font></td>
+    <td width="50" bgcolor="#DAD9A5"><font face="Arial" size="2"><strong>2</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>2</strong></font></td>
+    <td width="50" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>3</strong></font></td>
+    <td width="60" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>RxD</strong></font></td>
+    <td width="30" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+    <td width="30" bgcolor="#F1F8C0">&nbsp;</td>
+    <td width="30" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+    <td width="60" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>TxD</strong></font></td>
+    <td width="50" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>2</strong></font></td>
+    <td width="50" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>3</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>5</strong></font></td>
+    <td width="50" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>7</strong></font></td>
+    <td width="60" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>SigGnd.</strong></font></td>
+    <td width="30" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>&lt;&gt;</strong></font></td>
+    <td width="30" bgcolor="#DFD69F">&nbsp;</td>
+    <td width="30" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>&lt;&gt;</strong></font></td>
+    <td width="60" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>SigGnd.</strong></font></td>
+    <td width="50" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>7</strong></font></td>
+    <td width="50" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>5</strong></font></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">4</font></strong></td>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">20</font></strong></td>
+    <td width="60" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>DTR</strong></font></td>
+    <td width="30" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>=&gt;</strong></font></td>
+    <td width="30" bgcolor="#F1F8C0">&nbsp;</td>
+    <td width="30" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>=&gt;</strong></font></td>
+    <td width="60" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">DSR</font></strong></td>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">6</font></strong></td>
+    <td width="50" bgcolor="#F1F8C0"><strong><font face="Arial" size="2">6</font></strong></td>
+  </tr>
+  <tr>
+    <td width="50" bgcolor="#DFD69F"><strong><font face="Arial" size="2">6</font></strong></td>
+    <td width="50" bgcolor="#DFD69F"><strong><font face="Arial" size="2">6</font></strong></td>
+    <td width="60" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>DSR</strong></font></td>
+    <td width="30" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+    <td width="30" bgcolor="#DFD69F">&nbsp;</td>
+    <td width="30" bgcolor="#DFD69F"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+    <td width="60" bgcolor="#DFD69F"><strong><font face="Arial" size="2">DTR</font></strong></td>
+    <td width="50" bgcolor="#DFD69F"><strong><font face="Arial" size="2">20</font></strong></td>
+    <td width="50" bgcolor="#DFD69F"><strong><font face="Arial" size="2">4</font></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F1F8C0" width="50"><font face="Arial" size="2"><strong>7<br>
+    8</strong></font></td>
+    <td bgcolor="#F1F8C0" width="50"><font face="Arial" size="2"><strong>4<br>
+    5</strong></font></td>
+    <td bgcolor="#F1F8C0" width="60"><font face="Arial" size="2"><strong>RTS<br>
+    CTS</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>=&gt;<br>
+    &lt;=</strong></font></td>
+    <td bgcolor="#F1F8C0" width="30">&nbsp;</td>
+    <td bgcolor="#F1F8C0" width="30"><font face="Arial" size="2"><strong>=&gt;</strong></font></td>
+    <td bgcolor="#F1F8C0" width="60"><strong><font face="Arial" size="2">DCD</font></strong></td>
+    <td bgcolor="#F1F8C0" width="50"><strong><font face="Arial" size="2">8</font></strong></td>
+    <td bgcolor="#F1F8C0" width="50"><strong><font face="Arial" size="2">1</font></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#DFD69F" width="50"><strong><font face="Arial" size="2">1</font></strong></td>
+    <td bgcolor="#DFD69F" width="50"><strong><font face="Arial" size="2">8</font></strong></td>
+    <td bgcolor="#DFD69F" width="60"><font face="Arial" size="2"><strong>DCD</strong></font></td>
+    <td bgcolor="#DFD69F" width="30"><font face="Arial" size="2"><strong>&lt;=</strong></font></td>
+    <td bgcolor="#DFD69F" width="30">&nbsp;</td>
+    <td bgcolor="#DFD69F" width="30"><font face="Arial" size="2"><strong>&lt;=<br>
+    =&gt;</strong></font></td>
+    <td bgcolor="#DFD69F" width="60"><strong><font face="Arial" size="2">RTS<br>
+    CTS</font></strong></td>
+    <td bgcolor="#DFD69F" width="50"><strong><font face="Arial" size="2">4<br>
+    5</font></strong></td>
+    <td bgcolor="#DFD69F" width="50"><strong><font face="Arial" size="2">7<br>
+    8</font></strong></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td><font face="Arial" size="3"><strong>Notes:</strong></font></td>
+    <td><font face="Arial" size="3">Please ensure that the suggested wiring matches the host
+    system requirements as well.</font></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><font face="Arial" size="3">Some Host systems are configured as DCE devices. TxD and
+    RxD are then exchanged.</font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3"><strong>&nbsp;</strong><br>
+</font></p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><b>Connector type:</b></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">COBAS INTEGRA and COBAS APLICOR : SUB-D male type, 9 pin<br>
+COBAS MIRA : SUB-D male type, 25 pin</font></p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><b>Cable type, shield and
+    length:</b></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3"><strong>Type:</strong> To reduce electromagnetic
+interference, we recommend using shielded twisted pair cables having low inductance. </font></p>
+
+<p><font face="Arial" size="3"><strong>Shield:</strong> We recommend connecting the cable
+shield to the SUB-D chassis of the interface connector on one side only.</font>&nbsp;</p>
+
+<p><font face="Arial" size="3"><strong>IMPORTANT:</strong>&nbsp; </font><strong><font
+color="#FF0000" face="Arial" size="3">NEVER connect the cable shield to </font><font
+color="#FF0000"><font size="3"><font face="Arial">the </font></font><font face="Arial"
+size="3">signal ground.</font></font></strong></p>
+
+<p><font face="Arial" size="3"><b>Connector housing:</b> To prevent electromagnetic
+interference, we strongly recommend using a true metal connector housing, not connector
+housings of plastic.</font></p>
+
+<p><font face="Arial" size="3"><strong>Length:</strong> The cable length should not exceed
+15m.</font></p>
+</body>
+</html>

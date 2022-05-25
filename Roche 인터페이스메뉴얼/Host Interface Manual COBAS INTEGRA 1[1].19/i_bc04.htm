@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Block 04</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#DAD9A5">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial"><b><a name="bc04">Block 04</a>:
+    Patient results</b></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial"><font size="3">Block 04 is transmitted to the Host after receiving a
+result request block 09&nbsp;<br>
+- <b>and</b></font><strong>  </strong> if an accepted and not yet transmitted patient result is
+available.</font></p>
+
+<table border="1" cellpadding="3" cellspacing="0" width="40%">
+  <tr>
+    <td width="13%" bgcolor="#F1F8C0" align="center"><font size="2" face="Arial"><a
+    href="i_lc53.htm"><strong>53</strong></a></font></td>
+    <td colspan="2" width="87%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Order ID</strong></font></td>
+  </tr>
+  <tr>
+    <td width="13%" bgcolor="#F1F8C0" align="center"><a href="i_lc55.htm"><font size="2"
+    face="Arial"><strong>55</strong></font></a></td>
+    <td width="71%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Test ID</strong></font></td>
+    <td rowspan="2" width="16%" bgcolor="#DBF9C8"><font size="2" face="Arial"><strong>1 </strong>to<strong>
+    n</strong></font></td>
+  </tr>
+  <tr>
+    <td width="13%" bgcolor="#F1F8C0" align="center"><a href="i_lc00.htm"><font size="2"
+    face="Arial"><strong>00</strong></font></a></td>
+    <td width="71%" bgcolor="#F1F8C0"><font size="2" face="Arial"><strong>Result data</strong></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="12%"><font face="Arial" size="3">n = 1</font></td>
+    <td width="88%"><font face="Arial" size="3">If result type selector 01 or 07 is used
+      ( single result )</font></td>
+  </tr>
+  <tr>
+    <td width="12%"><font face="Arial" size="3">n = 1 </font><font size="2" face="Arial">to</font><font
+    face="Arial" size="3"> 50 </font></td>
+    <td width="88%"><font face="Arial" size="3">If result type selector 03 or 04 is used
+      ( results collated by order number )</font></td>
+  </tr>
+</table>
+</body>
+</html>

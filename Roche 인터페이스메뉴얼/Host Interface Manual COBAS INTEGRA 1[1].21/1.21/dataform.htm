@@ -1,0 +1,118 @@
+<html>
+
+<head>
+<title>Data Formats</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+</head>
+
+<body bgcolor="#FFFFFF">
+<font FACE="Arial" SIZE="3">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    </font><td width="100%" bgcolor="#B6D3B7"><b><strong><font FACE="Arial" SIZE="3"><a
+    name="Data Formats">Data Formats</a> </font></strong></b></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+</table>
+
+<p>This table describes the format of the data fields used within the data lines.</p>
+
+<table BORDER="1" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+  <tr>
+    </font><td valign="top" bgcolor="#D8E9D9" width="65"><p align="left"><font face="Arial"
+    size="1">Format&nbsp; Code</font></td>
+    <td valign="top" bgcolor="#D8E9D9" width="703"><p align="left"><font face="Arial" size="1">Format
+    Description</font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="65"><strong><font
+    face="Arial" size="2">Sx</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><font face="Arial" size="2"><strong>x-character
+    ASCII-String, left adjusted.<br>
+    Length x is fixed. <br>
+    Shorter strings have to be filled up with trailing &lt;spaces&gt;.<br>
+    </strong>Example:<strong> S15
+    &quot;Mr.&#149;Evans&#149;&#149;&#149;&#149;&#149;&#149;&quot;</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="65"><strong><font
+    face="Arial" size="2">Ix</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><font face="Arial" size="2"><strong>ASCII-formatted
+    x-digit integer value, right adjusted.<br>
+    Length x is fixed.<br>
+    Shorter integer-values have to be filled up with leading &lt;spaces&gt; or zeros (0).<br>
+    </strong>Example:<strong> I5 &quot;00069&quot; </strong>or<strong>
+    &quot;&#149;&#149;&#149;69&quot;</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="65"><strong><font
+    face="Arial" size="2">SRx.y</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><font face="Arial" size="2"><strong>ASCII-formatted
+    real value with sign, right adjusted<br>
+    x = Length of the whole data record<br>
+    y = Number of digits after the decimal point (optional)<br>
+    Length x is fixed.<br>
+    Shorter real-values have to be filled up with leading &lt;spaces&gt; or zeros (0).<br>
+    The decimal point is mandatory.<br>
+    </strong>Example:<strong> SR9.3: &quot;-0077.123&quot;</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="65"><strong><font
+    face="Arial" size="2">Fx</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><font face="Arial" size="2"><strong>ASCII
+    formatted floating point number, right adjusted<br>
+    x = Length of the whole data record<br>
+    Length x is fixed.<br>
+    Shorter real-values have to be filled up with leading &lt;spaces&gt; or zeros (0).<br>
+    The sign &quot;+&quot; or &quot;-&quot; for the exponent is mandatory<br>
+    Decimal point and exponent &quot;E&quot; are mandatory<br>
+    Mantissa has exactly one digit before the decimal point in the range 1 to 9<br>
+    No &lt;spaces&gt; are allowed between the mantissa and the exponent.<br>
+    </strong>Example:<strong>&nbsp; F12: &quot;&#149;&#149;&#149;&#149;6.11E+33&quot; </strong>or<strong>
+    &nbsp; F15: &quot;-00007.4321E-02&quot;</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    </font><td valign="top" align="left" bgcolor="#F1F8C0" width="65"><strong><font
+    face="Arial" size="2">D1</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><strong><font face="Arial"
+    size="2">Date format 1: DD/MM/YYYY</font></strong><font face="Arial" size="1"> </font><font
+    face="Arial" size="2">(used by COBAS Integra 400/700)<strong><br>
+    10 character ASCII-string<br>
+    </strong>Example:<strong> &quot;04/01/1994&quot;</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="65"></font><strong><font
+    face="Arial" size="2">D2</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><font face="Arial" size="2"><strong>Date
+    format 2: DD-MMM-YY</strong> (used by COBAS Core/Core II)<strong><br>
+    9 character ASCII-string<br>
+    </strong>Example:<strong> &quot;04-JAN-94&quot;</strong></font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="65"><strong><font face="Arial"
+    size="2">T1</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><strong><font face="Arial"
+    size="2">Time format 1: hh:mm:ss (hh in 24 h format)</font></strong><font face="Arial"
+    size="1"> </font><font face="Arial" size="2">(used by COBAS Integra 400/700)<strong><br>
+    8 character ASCII-string<br>
+    </strong>Example:<strong> &quot;22:07:34&quot;</strong></font></td>
+    <font FACE="Arial" SIZE="3">
+  </tr>
+  <tr>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="65"></font><strong><font
+    face="Arial" size="2">T2</font></strong></td>
+    <td valign="top" align="left" bgcolor="#F1F8C0" width="703"><font face="Arial" size="2"><strong>Time
+    format 2: hh:mm (hh in 24 h format) </strong>(used by COBAS Core/Core II)<strong><br>
+    5 character ASCII-string<br>
+    </strong>Example:<strong> &quot;22:07&quot;</strong></font></td>
+  </tr>
+</table>
+</body>
+</html>

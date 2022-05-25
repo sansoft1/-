@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>COBAS Integra Block 49</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><strong><a name="bc49">Block
+    49</a>: Patient manipulation response</strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Each request with Blocks 40, 41 or 42 is answered by Block
+49,&nbsp; wherein the contents of Block 49 depend on the request.</font></p>
+
+<p><font face="Arial" size="3">The response message structure depends on the success of
+the request, and also on the request type:</font></p>
+
+<p><font face="Arial" size="3">Response to a correct patient entry (<a href="i_bc40.htm">BC40</a>)
+/deletion (<a href="i_bc41.htm">BC41</a>) / modification</font><font face="Arial" size="2">
+</font><font face="Arial" size="3">(<a href="i_bc42.htm">BC42</a>):</font></p>
+
+<table border="1" cellpadding="3" cellspacing="0" width="41%">
+  <tr>
+    <td width="12%" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+    <td width="65%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Message</strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Response to a patient entry / deletion / modification
+having a general error:</font></p>
+
+<table border="1" cellpadding="3" cellspacing="0" width="41%">
+  <tr>
+    <td width="12%" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+    <td width="65%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Message</strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Response to an incorrect patient entry /deletion /
+modification:</font></p>
+
+<table border="1" cellpadding="3" cellspacing="0" width="41%">
+  <tr>
+    <td width="15%" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+    <td width="62%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Message</strong></font></td>
+  </tr>
+  <tr>
+    <td width="15%" bgcolor="#F1F8C0"><a href="i_lc50.htm"><font face="Arial" size="2"><strong>50</strong></font></a></td>
+    <td width="85%" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Patient ID</strong></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+½Ã°£ 20120508100000 ~ 20120508150000
+
+<SB>MSH|^~\&|||||QRY^Q02|7|P|2.3.1|||||| ASCII|||<CR>
+QRD|20120508150259|R|D|4|||RD||OTH|||T|<CR>
+QRF||20120508100000|20120508150000|||RCT|COR|ALL||<CR>
+<EB><CR>
+
+
+<SB>MSH|^~
+MSH|^~\\&|||||DSR^Q03|5|P|2.3.1||||||ASCII|||<
+MSA|AA|5|Message accepted|||0|<CR>
+ERR|0|<CR>
+QAK|SR|OK|<CR>
+QRD|20120508110131|R|D|2|||RD||OTH|||T|<CR>
+QRF||||||RCT|COR|ALL||<CR>
+DSP|1|||||<CR>
+DSP|2|||||<CR>
+DSP|3||Jacky|||<CR>
+DSP|4||19720216000000|||<CR>
+DSP|5||M|||<CR>
+DSP|6||O|||<CR>
+DSP|7|||||<CR>
+DSP|8|||||<CR>
+DSP|9|||||<CR>
+DSP|10|||||<CR
+DSP|11|||||<CR>
+DSP|12|||||<CR>
+DSP|13|||||<CR>
+DSP|14|||||<CR>
+DSP|15|||||<CR>
+DSP|16|||||<CR>
+DSP|17|||||<CR>
+DSP|18|||||<CR>
+DSP|19|||||<CR>
+DSP|20|||||<CR>
+DSP|21||1587120|||<CR>
+DSP|22||2|||<CR>
+DSP|23|||||<CR>
+DSP|24||N|||<CR>
+DSP|25|||||<CR>
+DSP|26||serum|||<CR>
+DSP|27|||||<CR>
+DSP|28|||||<CR>
+DSP|29||1^^^|||<CR>
+DSP|30||4^^^|||<CR>
+DSC|1|<CR>
+<EB><CR>
+
+
+<SB>MSH|^~\&|||||ACK^Q03|5|P|2.3.1||||||ASCII|||<CR>
+MSA|AA|5|Message accepted|||0|<CR>
+ERR|0|<CR>
+<EB><CR>

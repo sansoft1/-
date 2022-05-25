@@ -1,0 +1,275 @@
+장비에서 오더 요청 -> 랙포지션 지정해서 검사 스타트 하면 오더 요청 옵니다.
+랙이 아니고 디스크기 때문에 인터페이스 화면에 디스크 선택하게 해주면 편합니다.(아마도 1이나 2정도밖에 없을꺼라.. 콤보박스로)
+인터페이스 워크리스 에서 디스크 + 포지션으로 사용하면 됩니다.
+1Q 010107101-27        01-28        01-29        01-30        01-31        01-32        01-33         D1
+
+//인터페이스에서 처리
+//여러 라인 오는경우 있어서 라인별로 처리.
+for i:=0 to mmTemp.Lines.Count -1 do begin
+      Temp:= mmTemp.Lines.Strings[i];
+
+      if Trim(Temp) = '' then exit;
+
+      Frame := copy(Temp, 2, 1);
+      Func  := UpperCase(copy(Temp, 3, 1));
+
+      if Frame = '' then Exit;
+
+      //결과
+      if Func = 'R' then
+          BM601_ResProcess(Temp)
+      else
+      if Func = 'Q' then begin
+          //Q가 여러번 올수있다.. 오더만 만들고 맨마직막에 오더를 던져야함..
+          gBcdLineCnt:= mmTemp.Lines.Count;
+
+          BM601_OrdProcess(Temp);
+
+          OrdYN:= True;
+
+          //SendStr(ENQ);
+      end;
+  end;
+
+  if OrdYN = True then
+      SendStr(ENQ);
+      
+      
+//오더처리
+procedure TF_Main.BM601_OrdProcess(sData: string);
+var
+  sOrder, Bcd:string;
+  i, BcdCnt, GrdIdx:integer;
+  TMaster: TIfMaster;
+  posi, BcdLst, sHeader, sSender:string;
+begin
+  gACK:=0;
+
+  //1Q 010107101-27        01-28        01-29        01-30        01-31        01-32        01-33         D1
+  BcdLst:= Copy(sData,12,Length(sData)-12);
+  if Length(BcdLst) < 1 then exit;
+
+  //오더요청 갯수..
+  BcdCnt:= Length(BcdLst) div 13;
+  if BcdCnt = 0 then exit;
+
+  //Bcd -> RackPos임.
+  for i:=0 to BcdCnt-1 do begin
+      Bcd:= Trim(Copy(BcdLst,i*13+1,13));
+
+      TMaster:= TIfMaster.Create;
+      try
+          TMaster.FBCD:= Bcd;
+          TMaster.FRack:= Copy(Bcd,1,2);
+          TMaster.FIPOS:= Copy(Bcd,4,2);
+          TMaster.FISeq:= IntToStr(StrToIntDef(TMaster.FIPOS,0));
+          Inc(gOrdCnt);
+
+          //그리드에서 해당 랙포지션의 오더 가져옴.
+          GrdIdx:= GetOrder_Grid(TMaster);
+          
+          //오더 문자열이나 나머지는 바코드 쓸때랑 똑같음..
+          //오더 문자열(헤더)에 바코드 부분 줄때 날짜+랙포지션 줌. - 아래 로그 보심 되요.
+          sOrder := BM601_OrderStr(TMaster);
+          sHeader:= BM601_MakeHeader(TMaster, BcdCnt, gOrdCnt);
+
+          sSender:= sHeader + sOrder + ' ' + ETX;
+
+          slSender.Add(STX + sSender  + BM601CheckSum(sSender));
+
+      finally
+          TMaster.Free;
+      end;
+  end;
+end;
+
+//헤더정보
+function TF_Main.BM601_MakeHeader(TMaster: TIfMaster; TBcdCnt,
+  Idx: integer): string;
+var
+  nIdx:integer;
+  Block,PosNo, Comment1, Comment2,
+  Sex, Age, sNow, BCD,
+  OrdCnt,dilution, Spc,
+  OGBN, OIdx, Sample, Request:string;
+begin
+  nIdx  := Idx mod 8;
+  OIdx  := IntToStr(nIdx)+'O ';
+  Block := '0101'; 
+  OrdCnt:= PadLeftStr(IntToStr(TMaster.FOrdCnt),'0',3);    //총 보낼 오더갯수
+  Sample:= 'N';
+  OGBN  := '0';
+  //날짜 + 디스크번호 + 포지션
+  BCD:= FormatDateTime('yymmdd',now)+'-'+PadLeftStr(seDisk.Text,'0',2)+'-'+PadLeftStr(TMaster.FISEQ,'0',2);
+  BCD:= PadRightStr(BCD,' ',13);
+
+  PosNo := PadRightStr(TMaster.FRack+'-'+TMaster.FIPOS,' ',11); //'           ';                             //11byte
+
+  Comment1:= PadRightStr(TMaster.FPID,' ',16);
+  Comment2:= PadRightStr(TMaster.FPNM,' ',16);
+
+  if (TMaster.FSex = 'M') or (TMaster.FSex = 'F') then
+      Sex:= TMaster.FSex
+  else
+      Sex:= 'U';
+
+  if TMaster.FAge > '0' then
+      Age:= PadLeftStr(TMaster.FAge, ' ', 3)
+  else
+      Age:= '   ';
+
+  sNow:= FormatDateTime('yyyymmdd',now);
+  dilution:= ' 1.0';          //Format: ^1.0 (^0.1 - 99.9). ^: blank space
+  SPC:='1';                   //1:blood serum, 2:urine: When not used, be sure to input “1”.
+  Request:= '1';              //Container classification 1 “1” to “9”: When not used, “1”.
+
+  Result:= OIdx+Block+OrdCnt+Sample+OGBN+BCD+       //'1O 0101002N0510076131    '
+           PosNo+Comment1+Comment2+                           //'                                       '
+           Sex+Age+sNow+Dilution+SPC+Request;       //M000YYYYMMDD 1.011';
+end;
+
+//오더 문자열
+function TF_Main.BM601_OrderStr(TMaster: TIfMaster): string;
+var
+  VC, i:integer;
+  sO, sOList:string;
+  slO:TStringList;
+begin
+  Result:= '';
+  sOList:= '';
+  TMaster.FOrdCnt:=0;
+
+  slO:= TStringList.Create;
+
+  try
+      VC:= VarArrayDimCount(TMaster.vOrder);
+      if VC > 0 then begin
+          for i:=0 to VarArrayHighBound(TMaster.vOrder,1) do begin
+              sO:= Trim(TMaster.vOrder[i]);
+              if (sO <> '') and (slO.IndexOf(sO) < 0) then begin
+                 slO.Add(sO);
+                 Inc(TMaster.FOrdCnt);
+                 sOList:= sOList + PadRightStr(sO,' ',3)+'M';
+             end;
+          end;
+      end;
+
+  finally
+      slO.Free;
+  end;
+
+  Result:= sOList;
+
+
+end;
+
+
+*********위에 오더 대로 해서 주고받는 로그**************
+BM->1Q 010107101-27        01-28        01-29        01-30        01-31        01-32        01-33         D1
+
+
+2015-02-10 15:43:44
+BM->EOT
+
+2015-02-10 15:43:44
+BM->ACK
+2015-02-10 15:43:44
+                  
+HOST->1O 0101008N0150210-01-27 01-27      00078093        황석연          U   20150210 1.0111  M3  M7  M4  M5  M16 M17 M6  M 6B
+
+2015-02-10 15:43:45
+BM->ACK
+2015-02-10 15:43:45
+HOST->2O 0101018N0150210-01-28 01-28      00077694        김덕안          U   20150210 1.01122 M11 M1  M2  M3  M7  M4  M5  M16 M17 M12 M30 M31 M32 M6  M13 M14 M15 M 07
+
+2015-02-10 15:43:46
+BM->ACK
+2015-02-10 15:43:46
+HOST->3O 0101018N0150210-01-29 01-29      00041014        최말선          U   20150210 1.01122 M11 M1  M2  M3  M7  M4  M5  M16 M17 M12 M30 M31 M32 M6  M13 M14 M15 M A3
+
+2015-02-10 15:43:46
+BM->ACK
+2015-02-10 15:43:46
+HOST->4O 0101016N0150210-01-30 01-30      00002539        김무문          U   20150210 1.01111 M1  M2  M3  M7  M4  M5  M16 M17 M12 M30 M31 M32 M6  M13 M14 M E2
+
+2015-02-10 15:43:47
+BM->ACK
+2015-02-10 15:43:47
+HOST->5O 0101004N0150210-01-31 01-31      00078666        박경숙          U   20150210 1.01111 M4  M5  M12 M E5
+
+2015-02-10 15:43:48
+BM->ACK
+2015-02-10 15:43:48
+HOST->6O 0101018N0150210-01-32 01-32      00021908        김용복          U   20150210 1.01122 M11 M1  M2  M3  M7  M4  M5  M16 M17 M12 M30 M31 M32 M6  M13 M14 M15 M E1
+
+2015-02-10 15:43:48
+BM->ACK
+2015-02-10 15:43:48
+HOST->7O 0101011N0150210-01-33 01-33      00070512        강봉식          U   20150210 1.01111 M1  M2  M3  M7  M4  M5  M16 M17 M12 M6  M C0
+
+//결과
+2015-02-10 15:57:03
+BM->ENQ
+2015-02-10 15:57:04
+BM->1R 010100820150210153434N1150210-01-27 01-27                      00078093        황석연          U  020150210 1.011  1M     7.4          3M     119          4M      33          5M      21          6M     145          7M     0.7         16M    12.0         17M     0.5        BE
+
+
+2015-02-10 15:57:04
+BM->EOT
+2015-02-10 15:57:04
+1R 010100820150210153434N1150210-01-27 01-27                      00078093        황석연          U  020150210 1.011  1M     7.4          3M     119          4M      33          5M      21          6M     145          7M     0.7         16M    12.0         17M     0.5        BE
+
+2015-02-10 15:58:24
+BM->ENQ
+2015-02-10 15:58:25
+BM->1R 010101820150210153519N1150210-01-28 01-28                      00077694        김덕안          U  020150210 1.011  1M     7.1          2M     4.3          3M      63          4M      19          5M      20          6M      15          7M     0.6         11M      96         12M     151         13M     170         14M      39         15M      81         16M    12.7         17M     0.8         22M     9.9         30M     137         31M     4.1         32M     101        48
+
+
+2015-02-10 15:58:25
+BM->EOT
+2015-02-10 15:58:25
+1R 010101820150210153519N1150210-01-28 01-28                      00077694        김덕안          U  020150210 1.011  1M     7.1          2M     4.3          3M      63          4M      19          5M      20          6M      15          7M     0.6         11M      96         12M     151         13M     170         14M      39         15M      81         16M    12.7         17M     0.8         22M     9.9         30M     137         31M     4.1         32M     101        48
+
+2015-02-10 15:59:45
+BM->ENQ
+2015-02-10 15:59:46
+BM->1R 010101820150210153640N1150210-01-29 01-29                      00041014        최말선          U  020150210 1.011  1M     6.3          2M     3.7          3M      62          4M      33          5M      21          6M      17          7M     0.6         11M     130         12M     207         13M     156         14M      46         15M     142         16M    19.4         17M     0.8         22M    10.2         30M     136         31M     4.0         32M      95        F6
+
+
+2015-02-10 15:59:46
+BM->EOT
+2015-02-10 15:59:46
+1R 010101820150210153640N1150210-01-29 01-29                      00041014        최말선          U  020150210 1.011  1M     6.3          2M     3.7          3M      62          4M      33          5M      21          6M      17          7M     0.6         11M     130         12M     207         13M     156         14M      46         15M     142         16M    19.4         17M     0.8         22M    10.2         30M     136         31M     4.0         32M      95        F6
+
+2015-02-10 16:00:57
+BM->ENQ
+2015-02-10 16:00:58
+BM->1R 010101620150210153801N1150210-01-30 01-30                      00002539        김무문          U  020150210 1.011  1M     6.7          2M     4.0          3M      43          4M      64          5M     130          6M      34          7M     1.1         11M     107         12M     152         13M     129         14M      47         16M    14.3         17M     0.7         30M     137         31M     4.0         32M      99        CA
+
+
+2015-02-10 16:00:58
+BM->EOT
+2015-02-10 16:00:58
+1R 010101620150210153801N1150210-01-30 01-30                      00002539        김무문          U  020150210 1.011  1M     6.7          2M     4.0          3M      43          4M      64          5M     130          6M      34          7M     1.1         11M     107         12M     152         13M     129         14M      47         16M    14.3         17M     0.7         30M     137         31M     4.0         32M      99        CA
+
+2015-02-10 16:01:15
+BM->ENQ
+2015-02-10 16:01:16
+BM->1R 010100420150210153904N1150210-01-31 01-31                      00078666        박경숙          U  020150210 1.011  4M      16          5M      10         11M      78         12M     194        4B
+
+
+2015-02-10 16:01:16
+BM->EOT
+2015-02-10 16:01:16
+1R 010100420150210153904N1150210-01-31 01-31                      00078666        박경숙          U  020150210 1.011  4M      16          5M      10         11M      78         12M     194        4B
+
+2015-02-10 16:02:36
+BM->ENQ
+2015-02-10 16:02:37
+BM->1R 010101820150210153931N1150210-01-32 01-32                      00021908        김용복          U  020150210 1.011  1M     6.4          2M     3.9          3M      58          4M      25          5M      34          6M      28          7M     1.0         11M      92         12M     222         13M     185         14M      52         15M     150         16M    11.7         17M     0.8         22M    10.0         30M     138         31M     4.2         32M     103        33
+
+
+2015-02-10 16:02:37
+BM->EOT
+2015-02-10 16:02:37
+1R 010101820150210153931N1150210-01-32 01-32                      00021908        김용복          U  020150210 1.011  1M     6.4          2M     3.9          3M      58          4M      25          5M      34          6M      28          7M     1.0         11M      92         12M     222         13M     185         14M      52         15M     150         16M    11.7         17M     0.8         22M    10.0         30M     138         31M     4.2         32M     103        33

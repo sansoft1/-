@@ -1,0 +1,113 @@
+지정된 ID 범위 1~9
+
+<SB>MSH|^~\\&|||||QRY^Q02|6|P|2.3.1||||||ASCII|||<CR>
+QRD|20120508115221|R|D|3|||RD||OTH|||T|<CR>
+QRF||||1|9|RCT|COR|ALL||<CR>
+<EB><CR>
+
+When receiving the message, the LIS returns the QCK^Q02 message and replies as follows if th e sample of the bar code exists:
+<SB>MSH|^~\\&|||||QCK^Q02|6|P|2.3.1||||||ASCII|||<CR>
+MSA|AA|4|Message accepted|||0|<CR>
+ERR|0|<CR>
+QAK|SR|OK|<CR>
+<EB><CR>
+
+If the sample of the bar code does not exist, the LIS replies as follows:
+<SB>MSH|^~~\\&|||||QCK^Q02|6|P|2.3.1||||||ASCII|||<CR>
+MSA|AA|4|Message accepted|||0|<CR>
+ERR|0|<CR>
+QAK|SR|NF|<CR>
+<EB><CR>
+
+The DSR messages of sample 1 are as follows:
+<SB>MSH|^~\\&|||||20120508110131||DSR^Q03|4|P|2.3.1||||||ASCII|||<CR>
+MSA|AA|4|Message accepted|||0|<CR>
+ERR|0|<CR>
+QAK|SR|OK|<CR>
+QRD|20120508110131|R|D|2|||RD||OTH|||T|<CR>
+QRF||||||RCT|COR|ALL||<CR>
+DSP|1||1212|||<CR>		'Patient ID
+DSP|2||27|||<CR>		'Bed ID
+DSP|3||Tommy|||<CR>		'Nmae
+DSP|4||19620824000000|||<CR>	'Birth date
+DSP|5||M|||<CR>			'SEX
+DSP|6||O|||<CR>			'blood type
+DSP|7|||||<CR>			
+DSP|8|||||<CR>
+DSP|9|||||<CR>
+DSP|10|||||<CR>
+DSP|11|||||<CR>
+DSP|12|||||<CR>
+DSP|13|||||<CR>
+DSP|14|||||<CR>
+DSP|14|||||<CR>
+DSP|15||outpatient|||<CR>	'patient type
+DSP|16|||||<CR>
+DSP|16|||||<CR>
+DSP|17||own|||<CR>
+DSP|18|||||<CR>
+DSP|18|||||<CR>
+DSP|19|||||<CR>
+DSP|20|||||<CR>
+DSP|20|||||<CR>
+DSP|21||0019|||<CR>		'barcode
+DSP|22||3|||<CR>		'sample id
+DSP|23||20070301183500|||<CR>	'Sample receiving date/time
+DSP|24||N|||<CR>		'stat
+DSP|25||1|||<CR>
+DSP|26||serum|||<CR>
+DSP|27|||||<CR>
+DSP|28|||||<CR>
+DSP|29||1^^^|||<CR>
+DSP|30||2^^^|||<CR>
+DSP|31||5^^^|||<CR>
+DSC|1|<CR>
+
+When receiving the DSR message, the analyzer replies as follows:
+<SB>MSH|^~~\\&||||| ACK^Q03 4 |P|2.3.1||||||ASCII|||<CR>
+MSA|AA|4|Message accepted|||0|<CR>
+ERR|0|<CR>
+<EB><CR>
+
+
+The DSR messages of sample 2 are as follows:
+<SB>
+MSH|^~MSH|^~\\&|||||DSR^Q03|5|P|2.3.1||||||ASCII|||<CR>
+MSA|AA|5|Message accepted|||0|<CR>
+ERR|0|<CR>
+QAK|SR|OK|<CR>
+QRD|20120508110131|R|D|2|||RD||OTH|||T|<CR>
+QRF||||||RCT|COR|ALL||<CR>
+DSP|1||1213|||<CR
+DSP|2||28|||<CR>
+DSP|3||Jack|||<CR>
+DSP|4||19620824000000|||<CR>
+DSP|5||M|||<CR>
+DSP|6||O|||<CR>
+DSP|7|||||<CR>
+DSP|8|||||<CR>
+DSP|9|||||<CR>
+DSP|10|||||<CR>
+DSP|11|||||<CR>
+DSP|12|||||<CR>
+DSP|13|||||<CR>
+DSP|14|||||<CR>
+DSP|15||outpatient|||<CR>
+DSP|16|||||<CR>
+DSP|17||own|||<CR>
+DSP|18|||||<CR>
+DSP|19|||||<CR>
+DSP|20|||||<CR>
+DSP|21||0020|||<CR>
+DSP|22||4|||<CR>
+DSP|23||20070301183500|||<CR>
+DSP|24||N|||<CR>
+DSP|25||1|||<CR>
+DSP|26||serum|||<CR>
+DSP|27|||||<CR>
+DSP|28|||||<CR>
+DSP|29||1^^^|||<CR>
+DSP|30||2^^^|||<CR>
+DSP|31||5^^^|||<CR
+DSC||<CR>
+<EB><CR>

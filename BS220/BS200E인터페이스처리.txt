@@ -1,0 +1,264 @@
+장비 오더 요청
+MSH|^~\&|Mindray|BS-200E|||20140121110230||QRY^Q02|1|P|2.3.1||||0||ASCII|||
+QRD|20140121110202|R|D|1|||RD||OTH|||T|
+QRF|BS-200E|20140121000000|20140121110230|||RCT|COR|ALL||
+
+--인터페이스 응답--
+MSH|^~\&|||Mindray|BS-200E|20140121110225||QCK^Q02|1|P|2.3.1||||||ASCII|||
+MSA|AA|1|Message accepted|||0|
+ERR|0|
+QAK|SR|OK|
+
+---인터페이스 오더전송----
+
+MSH|^~\&|||Mindray|BS-200E|20140121120149||DSR^Q03|1|P|2.3.1||||0||ASCII|||
+MSA|AA|1|Message accepted|||0|
+ERR|0|
+QAK|SR|OK|
+QRD|20140121120149|R|D||||RD|30006336|OTH|||T|
+QRF|BS-200E|20140121110230|20140121120154|||RCT|COR|ALL||
+DSP|1||30006336|||
+DSP|2|||||
+DSP|3||30006336|||
+DSP|4|||||
+DSP|5|||||
+DSP|6|||||
+DSP|7|||||
+DSP|8|||||
+DSP|9|||||
+DSP|10|||||
+DSP|11|||||
+DSP|12|||||
+DSP|13|||||
+DSP|14|||||
+DSP|15|||||
+DSP|16|||||
+DSP|17|||||
+DSP|18|||||
+DSP|19|||||
+DSP|20|||||
+DSP|21||30006336|||
+DSP|22||8|||
+DSP|23|||||
+DSP|24|||||
+DSP|25|||||
+DSP|26||serum|||
+DSP|27|||||
+DSP|28|||||
+DSP|29||TP^^^|||
+DSP|30||ALB^^^|||
+DSP|31||BUN^^^|||
+DSP|32||CREA^^^|||
+DSP|33||TBIL^^^|||
+DSP|34||GLU^^^|||
+DSP|35||TCHOL^^^|||
+DSP|36||GOT^^^|||
+DSP|37||GPT^^^|||
+DSP|38||GGT^^^|||
+DSP|39||ALP^^^|||
+DSP|40||LDH^^^|||
+DSC||
+
+-----장비 응답-----
+MSH|^~\&|Mindray|BS-200E|||20140121120155||ACK^Q03|1|P|2.3.1||||0||ASCII|||
+MSA|AA|1|Message accepted|||0|
+ERR|0|
+
+-----장비 결과---
+MSH|^~\&|Mindray|BS-200E|||20140121120714||ORU^R01|3|P|2.3.1||||0||ASCII|||
+PID|1||||이미영||||||||||||||||||||||||||
+OBR|1||6|Mindray^BS-200E|N||20140121112822||||||||Serum|||||||||||||||||||||||||||||||||
+OBX|1|NM|TP|T.P|7.800000|g/dL|-|Normal|||F||7.833411|20140121112822||||
+
+---인터페이스 응답---
+MSH|^~\&|||Mindray|BS-200E|20140121120710||ACK^R01|4|P|2.3.1||||0||ASCII|||
+MSA|AA|4|Message accepted|||0|
+
+
+OB  = #11;
+FS  = #28;
+
+//델파이 소켓처리(장비-Client, 인터페이스-Server로 세팅)
+procedure TF_Main.IdTCPServer1Execute(AThread: TIdPeerThread);
+var
+  Str:string;
+  msgType, SendMsg, MsgSeq, ErrMsg,
+  IBus, INm:string;
+  TIf: TIfThread;
+begin
+  if AThread.Terminated or not AThread.Connection.Connected then
+      Exit;
+
+  //OB가 나오면 데이터 시작 전역변수에 저장
+  if Pos(OB, Str) > 0 then begin
+      vcTxData:='';
+      vcTxData:= Copy(Str,1,Length(Str)-1);
+  end
+  else begin
+      vcTxData:= vcTxData + Str;
+
+      //데이터에 FS가 있으면 데이터 처리(EOT)
+      if Pos(FS, Str) > 0 then begin
+          msgType:= TokenStr(vcTxData, '|', 9);
+          MsgSeq := TokenStr(vcTxData, '|', 10);
+          ErrMsg := TokenStr(vcTxData, '|', 29);
+
+          IBus:= TokenStr(vcTxData, '|', 3);
+          INm := TokenStr(vcTxData, '|', 4);
+
+          //오더요청이던, 결과 처리던 일단 응답!
+          Broadcast(IBus, INm, msgType, MsgSeq, ErrMsg);
+
+          ///오더나 결과에 대한 처리
+          TIf:= TIfThread.Create(true);
+          TIf.FreeOnTerminate:= True;
+          TIf.Msg:= vcTxData;
+          ///
+          
+          sleep(100);
+          TGlobal.DataLog:= 'INST->'+ TIf.Msg;       //로그
+
+          TIf.Resume;                                //인터페이스처리 시작
+          vcTxData:= '';
+      end;
+  end;
+end;
+
+//장비 메세지에 따른 인터페이스 처리--
+procedure TF_Main.Broadcast(IBus, INm, msgType, MsgSeq, ErrMsg: String);
+var
+	i: Integer;
+	ClientList: TList;
+  sNow, sSender:string;
+  ACKOK:boolean;
+begin
+  AckOK:= False;
+
+  //Win7에서 너무데이터가 빨리들어와서 Sleep주니까 된다...
+  sleep(400);
+
+  sNow:= FormatDateTime('yyyymmddhhnnss', now);
+
+  if msgType = 'ORU^R01' then begin
+      sSender:= OB +'MSH|^~\&|||'+IBus+'|'+INm+'|'+sNow+'||ACK^R01|'+MsgSeq+'|P|2.3.1||||0||ASCII|||'+CR+
+                    'MSA|AA|'+MsgSeq+'|Message accepted|||0|'+ CR + FS + CR;
+      AckOK:= True;
+  end
+  else
+  if msgType = 'QRY^Q02' then begin
+      sSender:= OB +'MSH|^~\&|||'+IBus+'|'+INm+'|'+sNow+'||QCK^Q02|'+MsgSeq+'|P|2.3.1||||||ASCII|||'+CR+
+                    'MSA|AA|'+MsgSeq+'|Message accepted|||0|'+ CR +
+                    'ERR|0|'+CR+
+                    'QAK|SR|OK|'+CR+FS + CR;
+      AckOK:= True;
+  end
+  else
+  if msgType = 'ACK^Q03' then begin
+      //if ErrMsg = '0' then
+  end;
+
+  if AckOK = True then begin
+      ClientList := IdTCPServer1.Threads.LockList;
+      try
+        for i := 0 to ClientList.Count - 1 do begin
+            TGlobal.DataLog:= sSender;
+            TIdPeerThread(ClientList.Items[i]).Connection.Write(sSender);
+        end;
+      finally
+        IdTCPServer1.Threads.UnlockList;
+      end;
+  end;
+
+end;
+
+아래는 오더 만드는 내용입니다.  
+function TF_Main.BS200E_MakeOrderStr(TObj: TObject; slOrder: TStringList; IsLast:boolean): string;
+var
+  TMaster:TIfMaster absolute TObj;
+  sSender, sNow, sNow1, IfCd: string;
+  i, LineSeq:integer;
+begin
+  Inc(SendSeqNo);
+
+  sNow:= FormatDateTime('yyyymmddhhnnss', now);
+  sSender:= OB + 'MSH|^~\&|||'+TMaster.FIBus+'|'+TMaster.FINm+'|'+sNow+'||DSR^Q03|1|P|2.3.1||||0||ASCII|||'+ CR +
+                 'MSA|AA|'+IntToStr(SendSeqNo)+'|Message accepted|||0|'+ CR +
+                 'ERR|0|'+ CR +
+                 'QAK|SR|OK|'+ CR +
+                 'QRD|'+sNow+'|R|D|'+TMaster.FQryId+'|||RD|'+TMaster.FBCD+'|OTH|||T|'+ CR +
+                 'QRF|'+TMaster.FIModel+'|'+TMaster.FIStm+'|'+TMaster.FIEtm+'|||RCT|COR|ALL||'+ CR +
+                 'DSP|1||'+TMaster.FBCD+'|||'+ CR +          //Admission Number
+                 'DSP|2|||||'+ CR +                            //Bed Number
+                 'DSP|3||'+TMaster.FPNM+' '+TMaster.FPID+'|||'+ CR +          //Patient Name
+                 'DSP|4|||||'+ CR +                            //Date of Birth
+                 'DSP|5|||||'+ CR +                            //Sex
+                 'DSP|6|||||'+ CR +                            //Patient Alias
+                 'DSP|7|||||'+ CR +                            //Race
+                 'DSP|8|||||'+ CR +                            //Patient Address
+                 'DSP|9|||||'+ CR +                            //County Code
+                 'DSP|10|||||'+ CR +                           //Home Phone Number
+                 'DSP|11|||||'+ CR +                           //Business Phone Number
+                 'DSP|12|||||'+ CR +                           //Primary Language
+                 'DSP|13|||||'+ CR +                           //Marital Status
+                 'DSP|14|||||'+ CR +                           //Religion
+                 'DSP|15|||||'+ CR +                           //Patient Account Number
+                 'DSP|16|||||'+ CR +                           //Social Security Number
+                 'DSP|17|||||'+ CR +                           //Driver License Number
+                 'DSP|18|||||'+ CR +                           //Ethnic Group
+                 'DSP|19|||||'+ CR +                           //Birth Place
+                 'DSP|20|||||'+ CR +                           //Nationality
+                 'DSP|21||'+TMaster.FBCD+'|||'+ CR +     //Bar Code
+                 'DSP|22||'+TMaster.FISEQ+'|||'+ CR +       //Sample ID
+                 'DSP|23|||||'+ CR +                           //Sample Time
+                 'DSP|24|||||'+ CR +                           //STAT
+                 'DSP|25|||||'+ CR +                           //Collection Volume
+                 'DSP|26||serum|||'+ CR +                      //Sample Type
+                 'DSP|27|||||'+ CR +                           //Fetch Doctor
+                 'DSP|28|||||'+ CR ;                           //Fetch Department
+
+  //29번부터 오더
+  LineSeq:= 28;
+  for i:=0 to TMaster.FOrdCnt -1 do begin
+      IfCd:= TMaster.vOrder[i];
+      Inc(LineSeq);
+      sSender:= sSender + 'DSP|'+IntToStr(LineSeq)+'||'+ IfCd +'^^^|||'+ CR ;       //Test
+  end;
+
+  //인터페이스 오더 보낼 검체가 마지막인지 체크.. 마지막이면 SEQ를 붙이지 않음.. 
+  //이거 처리 안하면 장비 먹통되는 현상생김..
+  if IsLast = False then
+      sSender:= sSender + 'DSC|'+IntToStr(SendSeqNo)+'|'+ CR + FS + CR
+  else
+      sSender:= sSender + 'DSC||'+ CR + FS + CR;
+
+  Result:= sSender;
+
+  slOrder.Text:= sSender;
+
+end;
+
+//장비로 전송
+procedure TF_Main.SendBS390_Order;
+var
+  sSender:string;
+  ClientList: TList;
+  i:integer;
+begin
+  Inc(gACK);
+  
+  //오더 보낼 데이터가 남아있으면 보내고 없으면 끝!
+  if gACK <= HL7OrderList.Count then begin
+      sSender:= TStringList(HL7OrderList.Items[gACK-1]).Text;
+
+      ClientList := IdTCPServer1.Threads.LockList;
+      try
+        for i:= 0 to ClientList.Count - 1 do begin
+            TGlobal.DataLog:= sSender;
+            TIdPeerThread(ClientList.Items[i]).Connection.Write(sSender);
+        end;
+      finally
+        IdTCPServer1.Threads.UnlockList;
+      end;
+  end;
+
+end;

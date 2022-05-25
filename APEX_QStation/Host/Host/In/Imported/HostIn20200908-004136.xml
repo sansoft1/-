@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><GROUP NAME="WORKLIST" TYPE="HOST" VERSION="00.00.00.00">
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="002477417220"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="002480500520"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+</GROUP>

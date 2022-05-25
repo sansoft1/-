@@ -1,0 +1,2872 @@
+<?xml version="1.0" encoding="utf-8"?><GROUP NAME="WORKLIST" TYPE="HOST" VERSION="00.00.00.00">
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396755424"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q Atopy" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395758228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q Atopy" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390238121"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390470422"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391164122"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391430524"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391501828"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391502122"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391502429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391502726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391503020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391503228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391690225"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391690522"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393899220"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394481226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394559727"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394900321"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395354123"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395400127"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395403227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397401924"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402327"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402525"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397403225"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397403522"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003398703423"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400214725"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400214824"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400214923"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400280126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400382929"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400634929"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400710029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400710227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401095125"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401129226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401505020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401505327"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401589129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401690320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401690429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403759322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404111228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404111327"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404111624"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404233029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404298721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404484728"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404500626"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404528521"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405234124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405352125"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400121"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400220"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400428"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400527"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400626"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400725"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400824"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400923"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407584623"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003409454429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394873427"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394870228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390660922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394801925"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003399357120"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003399358721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391401623"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390258426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394326022"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390924826"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390258129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390258822"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390813427"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394325926"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391588225"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394833223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390694125"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394809228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391052320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390925120"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391172127"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390923928"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390813229"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390856127"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391001427"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391000222"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391002028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395452027"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394518625"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394013625"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014622"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015520"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015728"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014820"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394013823"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394013724"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017722"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394277720"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390666221"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390706620"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393102627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393102726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391230124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391000925"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391014021"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394520123"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395438229"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394553329"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394353820"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390404724"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390470026"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394808924"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391052429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391055529"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390976726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391195027"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391000123"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390975729"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390856226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391211420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391211321"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394511022"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394552025"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394551028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394553220"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014424"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015421"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017524"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016527"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017425"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016329"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017128"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014523"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016428"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015629"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016220"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016121"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014325"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015827"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016824"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014127"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016923"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016022"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014929"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015926"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394013922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394015025"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017326"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016626"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394016725"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394017623"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394014028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390666320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394969120"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394961421"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394577424"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394470220"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394578322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395430926"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394559628"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390216020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395400325"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390270527"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390270329"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391502528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391501620"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391550420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391602327"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394143322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394002322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390069329"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395418528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390122529"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394529324"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394530825"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003399215529"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003399214829"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003399215727"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003399215628"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003399215420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390307728"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390307520"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390307322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395412328"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390270428"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394251522"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394316528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395418825"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085820"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391501927"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085523"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395629023"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391604420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390058323"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395400226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390307629"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394318225"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391588027"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394143421"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391588126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391621823"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391621526"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395873020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397250225"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396038725"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394624920"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394084922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394084823"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003391580625"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395851127"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085325"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397757922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397775124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396345229"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396353125"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397403126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396826322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395164821"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396754526"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396007622"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395164722"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394002124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394002025"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394002223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003390258020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085424"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085622"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394627525"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395137924"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394627624"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394108628"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397403027"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396316922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402723"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402822"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396874828"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395174028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396762620"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003394085127"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395850625"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395851028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395850724"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395850823"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395851325"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395850922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395851523"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395851424"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395852728"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395851226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397772321"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397772727"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397771720"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397772420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397772123"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397720728"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397771928"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395804420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396315123"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402921"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396809523"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396809820"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395159124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396809622"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402624"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397401726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396763023"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395720324"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393935720"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395726227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393919126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003392538724"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393909028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395726029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393926223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003392520224"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003392537420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393905723"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395354420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393630427"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393779423"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393780023"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393961422"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393961323"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397772826"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395175421"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397773021"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395175629"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397414627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397401825"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397402020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003397403423"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396850921"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396773329"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003396826124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393133027"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393133423"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393781426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393781624"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393781525"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393660721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393815923"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393772226"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393633923"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393121420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393965529"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393630526"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393965222"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003395354222"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393829722"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393630120"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003392520026"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393642529"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393815824"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003393816029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003398155420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404299629"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400258927"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400258422"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400257920"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407250122"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405153227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404840326"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404371721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404902529"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404931222"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850423"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850522"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850225"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850621"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850324"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403100926"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403101022"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404523724"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404527029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404525926"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003409355924"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401060727"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401064527"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406806528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407251129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407250825"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407586627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407584821"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407584326"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407585224"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407584425"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407587020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407588126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400061121"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400061923"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401560524"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401589020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401520221"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401520320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401505426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401626329"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405603425"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405603326"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404802829"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401446620"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404498725"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404610721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407700221"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406881723"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003409455228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400900420"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407708029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406872721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406807129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405804822"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407587327"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407587624"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403808228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405352620"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407586726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407585828"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403812126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403626228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402504923"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402506125"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405722027"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405352224"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402506422"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403955328"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403937423"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403912321"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402507320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402555222"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402506323"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402505722"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402555123"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407674829"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403644628"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403759223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403680121"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405710628"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403644321"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403856823"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406705128"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405421029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401630128"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401520122"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406037922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405465627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406031227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850720"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405854421"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003409360720"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404496325"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404484629"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401030126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400960820"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400959428"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400980828"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400912423"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400912829"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400912126"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406860827"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406801028"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407673426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405352927"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403759025"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403576127"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403575922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003403640521"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003402507528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405234421"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405234322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400215029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401005728"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401005025"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401004929"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401016922"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401005124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401567721"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400856529"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404811920"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405629227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405854223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405850829"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404525322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404523823"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405180223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404298929"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404298820"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404510427"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404447228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400921623"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406853720"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405164124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405164223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400706121"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406330726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406330528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406330627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406330429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007521"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010521"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008023"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010828"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011023"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012624"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007927"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007729"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007026"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007125"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007224"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405874528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003405874320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400470824"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407407526"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407407120"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400469828"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400710425"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400710524"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400710326"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400411124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404019227"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012723"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012921"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010422"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011825"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404006920"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008122"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007422"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007620"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404006623"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007323"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010125"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404006821"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009525"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404006722"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010224"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009723"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009822"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009327"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008825"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011221"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010026"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009624"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012525"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404013027"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404007828"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012822"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010620"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011924"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010927"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010323"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008221"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404010729"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404011122"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009921"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404012327"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400383124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404008924"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404009129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404663628"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404111129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404110627"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404111020"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404110429"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404110528"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401201120"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401211129"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401211228"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400702321"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003400776926"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407401029"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003407400329"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404111525"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404110726"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404111426"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404110825"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404110320"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404110924"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404624223"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404624322"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003404624124"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003406312524"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+<GROUP TYPE="Sample">
+<GROUP TYPE="Patient" ID="003401332725"></GROUP><GROUP TYPE="Assays" ID=" ">
+<GROUP TYPE="Assay" ID="PROTIA Allergy-Q 96M" STATE="Host"/>
+</GROUP>
+</GROUP>
+</GROUP>

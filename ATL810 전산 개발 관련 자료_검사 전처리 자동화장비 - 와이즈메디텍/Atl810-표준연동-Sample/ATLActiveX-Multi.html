@@ -1,0 +1,83 @@
+<HTML>
+<TITLE>▒▒▒▒▒ ATL Test PAGE</TITLE>
+<HEAD>
+
+<style type="text/css">
+<!--  
+  body {font-family:굴림;font-size:9pt;line-height:120%;}
+  TD	{font-family: "gulim"; font-size: 9pt; color: #363636; background-color: #ffffff;}
+  .style01{font-family: "dotum";font-size:12pt;color:#000000;text-decoration:none;font-weight:bold;text-align:center}
+  .num_font {font-family:Verdana;font-size:6pt;}
+  .f{font-family: "gulim"; margin-left:10px; font-size: 9pt; color: #363636;text-decoration: none; border: 1px #9696a0 solid; background-color: #eeeeee;padding-top:4px;height:22px;vertical-align:middle;}
+  .f_file { font-family: "gulim"; font-size: 9pt; color: #363636; text-decoration: none; border: 1px #9696a0 solid; background-color: #ffffff;margin-left:4px;padding-top:4px;height:22px;vertical-align:middle}
+  .f_left { font-family: "gulim"; font-size: 9pt; color: #363636; text-decoration: none; border: 1px #ffffff solid; background-color: #ffffff;margin-left:4px;padding-top:4px;height:22px;vertical-align:middle}
+  .text01{ font-family: "gulim"; font-size: 9pt; ;font-weight: bold; color: #FFFFFF; text-decoration: none;text-indent:5px;height:30;background-color:#49a0bb}
+  .text02{  font-family: "gulim"; font-size: 9pt; color: #FFFFFF; text-decoration: none;text-indent:5px;height:30;background-color: #8cb4c7}
+  .bg01_b_c{background-color: #d5d5d5; font-weight: bold; text-decoration: none; height:30; text-align:center}
+ -->
+</style>
+<script language="JavaScript">
+var isPatData;
+var isBloData;
+var isTransData;
+
+function fnItemClear()
+{	  
+	ATL810.ITEMCLEAR();
+	frm.data.value = '';
+}
+function fnTransDataNoHostIp()
+{	
+	var S;  
+	S = ATL810.TRANSData('', '',frm.data.value);
+
+}
+
+</script>
+
+</HEAD>
+
+<BODY LEFTMARGINE = "0" onload='javascript:fnItemClear();'>
+<H2>ATL 테스트</H2>
+<HR>
+<BR>
+
+<OBJECT id="ATL810"
+	  classid="clsid:0FE748B5-8374-4C2D-990E-ED3D543C3507"	  
+	  width=0
+	  height=0
+	  align=center
+	  hspace=0
+	  vspace=0>
+</OBJECT>
+
+<TABLE BORDER ="1" WIDTH ="600" cellpadding="2">
+	<form name="frm">
+	<tr>
+		<td class='text01'>
+			1. 데이터 초기화
+		</td>
+	</tr>			
+	<tr>
+		<td>
+			<input type='button' value='Clear' onclick='javascript:fnItemClear();'>
+		</td>
+	</tr>
+	
+	<TR>
+		<TD><textarea id="data" rows="10" cols="100">^^^P^PW123^PI1000094850^PN정재영^PSM^PA42^PB^PL^P1^P2^P3^P4^P5^P6^P7^^^_P^^^S^SS^SA1311278554^SB^SCLB^SD^SES87^SFStool Bottle^SGM001^SHMM^SI^SJ^SKCRE^SLStool^SM^SN53^SO^SP^SQ^SR^ST^SU1^SV^SX^SY^SZY^S111112222^S2^S3^S4^S5^_SS^SS^SA1311278555^SB^SCLB^SD^SES87^SFStool Bottle^SGM003^SHMM^SI^SJ^SKVC^SLStool^SM^SN53^SO^SP^SQ^SR^ST^SU1^SV^SX^SY^SZY^S111112222^S2^S3^S4^S5^_SS^SS^SA1311278556^SB^SCLB^SD^SES87^SFStool Bottle^SG^SHMM^SI^SJ^SKVP^SLStool^SM^SN53^SO^SP^SQ^SR^ST^SU1^SV^SX^SY^SZ^S1^S2^S3^S4^S5^_SS^SS^SA1311278566^SB^SCLB^SD^SES87^SFStool Bottle^SGM000^SHMM^SI^SJ^SKVP^SLStool^SM^SN53^SO^SP^SQ^SR^ST^SU1^SV^SX^SY^SZ^S1^S2^S3^S4^S5^_SS^^^_S</textarea></TD>
+	</TR>
+	<tr>
+		<td class='text01'>
+			2. Ip, Port 없이 데이터 전송
+		</td>
+	</tr>	
+	<TR>
+		<TD>
+			<input type="button" value ="전송" onclick="javascript:fnTransDataNoHostIp();">
+		</TD>
+	</TR>
+</form>
+</TABLE>
+</BODY>
+</HTML>

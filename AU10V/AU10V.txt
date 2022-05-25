@@ -1,0 +1,63 @@
+NORMAL 2015-10-0814:211                         01v-T4   =1.68     ug/dL 01           
+NORMAL 2015-10-0814:211                         01v-T4   =1.68     ug/dL 01           
+NORMAL 2015-10-0617:532                         01v-COR  =1.7      ug/dL 01           
+NORMAL 2015-10-0617:261                         01v-COR  =1.4      ug/dL 01           
+NORMAL 2015-10-0215:472                         01v-T4   =1.70     ug/dL 01           
+NORMAL 2015-10-0215:371                         01vc-TSH <0.25     ng/mL 01  #        
+NORMAL 2015-10-0213:352                         01v-COR  =2.7      ug/dL 01           
+NORMAL 2015-10-0212:421                         01v-COR  =2.9      ug/dL 01           
+NORMAL 2015-09-2217:062                         01v-COR  =6.3      ug/dL 01H          
+NORMAL 2015-09-2216:271                         01v-COR  =1.9      ug/dL 01           
+NORMAL 2015-06-2213:432                         01v-T4   =2.47     ug/dL 01           
+NORMAL 2015-06-1210:511                         01vc-TSH =0.40     ng/mL 01           
+
+
+
+NORMAL 
+ CONTROL
+        2015-06-12
+	          10:51
+		       1                         01vc-TSH =0.40     ng/mL 01           
+
+
+
+Header STX 1 STX: 02h
+Test condition Alphabetical 7 Selecting control measurements or normal
+measurements (CONTROL or NORMAL□)
+Test date Numerical 10 Ye a r , m o n t h , a n d d a y w h e n t h e
+measurements performed.
+(Ex. 2006-09-25)
+Test time Numerical 5 Time when the measurements performed.
+(Ex. 10:50)
+Sequence No. Numerical 13 Unique No. for each sample
+Sample ID Alphabetical
+& numerical
+13 Unique ID for each sample
+Sample position Numerical 2 Sample position on the sample disk
+(‘01’ fixed)
+Test name/
+Sample type
+Alphabetical
+& numerical
+7 Test name (Max. 6 characters) + Space
+(20h)
+Equal sign Alphabetical 1 Equal sign or unequal signs
+Test result Numerical 9 Test result (9 characters)
+Unit Alphabetical 6 Unit (6 characters)
+Dilution factor Numerical 2 Used dilution factor (from 01) (‘01’ fixed)
+Warning Alphabetical 11
+Delimiter ETX 1 ETX: 03h
+BCC 1
+NOTE: The test result field has “Number
+
+
+
+
+Warming up 상태에서 '00' 입력
+Service mode 선택
+Password : '753674' 입력
+Mode? 46 com setting : type3 (9600/n/8/1)
+
+수동전송
+Mode? 25
+샘플선택 엔터입력

@@ -1,0 +1,13 @@
+3.1.  "Customizer/System Setup/Tool Modify"
+
+3.1.1. Select "Tool Modify"
+
+Set RS 232C PORT to be communicated with Yeungnam Interfacer.
+
+Parameters recommanded :  Baud Rate: 9600, Data Bits: 8, Parity:None, Stop bits:1, Hand Shake: OFF.
+
+3.1.2. Select "Customer Parameters" 
+
+Go Item No 2
+
+Select "Q" for Query Mode or "D" for Download Mode

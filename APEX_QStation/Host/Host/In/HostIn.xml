@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="WORKLIST" TYPE="HOST" VERSION="00.00.00.00">
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043401">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원1</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원1</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043402">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원2</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원2</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043403">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원3</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원3</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043404">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원4</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원4</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043405">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원5</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원5</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043406">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원6</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원6</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043407">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원7</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원7</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043408">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원8</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원8</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="08061043409">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원9</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원9</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+	<GROUP TYPE="Sample">
+		<GROUP TYPE="Patient" ID="080610434010">
+			<PARAM TYPE="String[32]" ID="Group" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[32]" ID="Name" FILTER="-ooor">오세원10</PARAM>
+			<PARAM TYPE="String[32]" ID="Surname" FILTER="-ooor">오세원10</PARAM>
+			<PARAM TYPE="Date" ID="BirthDate" FILTER="-ooor">2021-08-06</PARAM>
+			<PARAM TYPE="SexType" ID="Sex" FILTER="-wwwr">F</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr">Note Test</PARAM>
+			<PARAM TYPE="String[50]" ID="Note" FILTER="-wwwr"></PARAM>
+			<PARAM TYPE="String[25]" ID="Code" FILTER="-ooor">Code Test</PARAM>
+		</GROUP>
+		<GROUP TYPE="Assays" ID="">
+			<GROUP TYPE="Assay" ID="" STATE="Host" />
+		</GROUP>
+	</GROUP>
+</GROUP>

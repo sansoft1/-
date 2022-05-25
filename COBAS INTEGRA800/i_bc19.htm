@@ -1,0 +1,313 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>COBAS Integra Block 19</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#B6D3B7"><font face="Arial" size="3"><strong><b><a name="bc19">Block
+    19</a>: Order manipulation response</b></strong></font></td>
+  </tr>
+</table>
+
+<p><font face="Arial" size="3">Each request with block code 10, 11 or 12 is answered by
+block 19, the order manipulation response. The block's content depends on the request.</font></p>
+
+<p><font face="Arial" size="3">The response message structure depends on the success of
+the request and also on the request type. One of the following block structures could
+appear:</font></p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="45%">
+  <tr>
+    <td width="100%" bgcolor="#D8E9D9"><font face="Arial" size="3"><strong>Response to an
+    order entry / test addition:</strong></font></td>
+  </tr>
+  <tr>
+    <td width="100%"></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" align="left" width="50%"><font face="Arial" size="3">Response to a
+    correct order entry / addition:</font></td>
+    <td valign="top" align="left" width="50%"><table border="1" cellpadding="3"
+    cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="50%"><font face="Arial" size="3">Response to an order
+    with a line format error:</font></td>
+    <td valign="top" align="left" width="50%"><table border="1" cellpadding="3"
+    cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="50%"><font face="Arial" size="3">Response to an
+    incorrect order <br>
+    entry / addition with error in patient:</font></td>
+    <td valign="top" align="left" width="50%"><table border="1" cellpadding="3"
+    cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc50.htm"><font face="Arial" size="2"><strong>50</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Patient ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="50%"><font face="Arial" size="3">Response to an order
+    entry/addition with error in sample order:</font></td>
+    <td valign="top" align="left" width="50%"><table border="1" cellpadding="3"
+    cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td colspan="2" width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error
+        Code</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc53.htm"><font face="Arial" size="2"><strong>53</strong></font></a></td>
+        <td colspan="2" width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order ID</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc54.htm"><font face="Arial" size="2"><strong>54</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order Information</strong></font></td>
+        <td width="40" bgcolor="#DBF9C8"><font face="Arial" size="2"><strong>0 </strong>to<strong>
+        1</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="50%"><font face="Arial" size="3">Response to an
+    incorrect order entry with error in test order:</font></td>
+    <td valign="top" align="left" width="50%"><table border="1" cellpadding="3"
+    cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+        <td rowspan="2" width="40" bgcolor="#DBF9C8"><font face="Arial" size="2"><strong>1 </strong>to<strong>
+        x</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="50%"><font face="Arial" size="3">Response to a test
+    addition with default sample type, if the previously used sample type was not a default
+    sample type:</font></td>
+    <td valign="top" align="left" width="50%"><table border="1" cellpadding="3"
+    cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+        <td bgcolor="#DBF9C8" rowspan="3" valign="middle" align="left" width="40"><font
+        face="Arial" size="2"><strong>1 </strong>to<strong> x</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc53.htm"><font face="Arial" size="2"><strong>53</strong></font></a></td>
+        <td bgcolor="#F1F8C0" width="170"><font face="Arial" size="2"><strong>Order ID</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" width="50%"><font face="Arial" size="3">Response to an
+    incorrect special order:</font></td>
+    <td valign="top" align="left" width="50%"><table border="1" cellpadding="3"
+    cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc52.htm"><font face="Arial" size="2"><strong>52</strong></font></a></td>
+        <td bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Specific Order Selection</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="12%"><font face="Arial" size="2">x = 1 to 50</font></td>
+    <td width="54%"><font face="Arial" size="2">for Integra 700</font></td>
+  </tr>
+  <tr>
+    <td width="12%"><font face="Arial" size="2">x = 1 to 200</font></td>
+    <td width="54%"><font face="Arial" size="2">for Integra 400</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="45%">
+  <tr>
+    <td width="100%" bgcolor="#D8E9D9"><font face="Arial" size="3"><strong>Response to an
+    order deletion / test deletion:</strong></font></td>
+  </tr>
+  <tr>
+    <td width="100%"></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%"><font face="Arial" size="3">Response to a correct order/test deletion:</font></td>
+    <td width="50%"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%"><font face="Arial" size="3">Response to an order / test deletion with
+    error in line format:</font></td>
+    <td width="50%"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%"><font face="Arial" size="3">Response to an incorrect order / test deletion
+    with fault in sample order</font></td>
+    <td width="50%"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc53.htm"><font face="Arial" size="2"><strong>53</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%"><font face="Arial" size="3">Response to an incorrect test deletion:</font></td>
+    <td width="50%"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+        <td rowspan="2" width="40" bgcolor="#DBF9C8"><font face="Arial" size="2"><strong>1 </strong>to<strong>
+        x</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%"><font face="Arial" size="3">Response to an order/test deletion with
+    default sample type if the order&#146;s sample type was not default sample type:</font></td>
+    <td width="50%"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+        <td width="40" bgcolor="#DBF9C8" rowspan="3" valign="middle" align="left"><font
+        face="Arial" size="2"><strong>1 </strong>to<strong> x</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc53.htm"><font face="Arial" size="2"><strong>53</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Order ID</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc55.htm"><font face="Arial" size="2"><strong>55</strong></font></a></td>
+        <td width="170" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Test ID</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="12%"><font face="Arial" size="2">x = 1 to 50</font></td>
+    <td width="54%"><font face="Arial" size="2">for Integra 700</font></td>
+  </tr>
+  <tr>
+    <td width="12%"><font face="Arial" size="2">x = 1 to 200</font></td>
+    <td width="54%"><font face="Arial" size="2">for Integra 400</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="4" cellspacing="0" width="82%">
+  <tr>
+    <td width="100%" bgcolor="#D8E9D9"><font face="Arial" size="3"><strong>Response to an
+    order priority modification: <font color="#FF00FF">(Integra 700 only)</font></strong></font></td>
+  </tr>
+  <tr>
+    <td width="100%"></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%"><font face="Arial" size="3">Response to a correct priority modification:</font></td>
+    <td width="50%"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td bgcolor="#F1F8C0" width="218"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%"><font face="Arial" size="3">Response to incorrect priority modification
+    with fault in action</font></td>
+    <td width="50%"><table border="1" cellpadding="3" cellspacing="0">
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc96.htm"><font face="Arial" size="2"><strong>96</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Error Code</strong></font></td>
+      </tr>
+      <tr>
+        <td width="25" bgcolor="#F1F8C0"><a href="i_lc57.htm"><font face="Arial" size="2"><strong>57</strong></font></a></td>
+        <td width="218" bgcolor="#F1F8C0"><font face="Arial" size="2"><strong>Priority
+        Modification</strong></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

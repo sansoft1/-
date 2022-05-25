@@ -1,0 +1,17 @@
+샘플 No,환자 Id,이름,Well,타겟,Ct.,,자동 해석,Test Kit
+B20000081,,김성수,A01,HP,+,29.60,HP,Allplex™ H.pylori & ClaR Assay (8 strip)
+,,,,A2143G,-,N/A,,
+,,,,A2142G,-,N/A,,
+,,,,IC,+,22.88,,
+HS20002602,,이현숙,B01,HP,+,28.89,HP,Allplex™ H.pylori & ClaR Assay (8 strip)
+,,,,A2143G,-,N/A,,
+,,,,A2142G,-,N/A,,
+,,,,IC,+,23.59,,
+HS20002603,,우경순,C01,HP,+,30.23,"HP, A2143G",Allplex™ H.pylori & ClaR Assay (8 strip)
+,,,,A2143G,+,29.32,,
+,,,,A2142G,-,N/A,,
+,,,,IC,+,23.26,,
+HS20002604,,이한철,D01,HP,+,31.52,"HP, A2143G",Allplex™ H.pylori & ClaR Assay (8 strip)
+,,,,A2143G,+,30.64,,
+,,,,A2142G,-,N/A,,
+,,,,IC,+,24.41,,

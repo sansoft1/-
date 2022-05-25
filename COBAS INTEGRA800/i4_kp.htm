@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+  <title>COBAS Integra 400 Known issues</title>
+</head>
+<body bgcolor="#ffffff">
+<p><b><font face="Arial"><img src="i_integr.gif" alt="Integra"
+ naturalsizeflag="0" align="bottom" border="0" height="18" width="105"></font><font
+ face="Arial" size="+1"> </font><font face="Arial" size="4">400</font><font
+ face="Arial" size="+1"> Host Interface Known issues</font></b></p>
+<font face="Arial"><b>Order date with&nbsp; Error ORA-01840</b></font>
+<font face="Arial"><b>in Integra 400 V 2.3</b></font><br>
+<font face="Arial"><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;This &nbsp;problem appeared after
+updating from version 2.2 to version 2.3.</font><br>
+<span style="font-family: Arial;"><br>
+</span><font face="Arial">&nbsp; &nbsp; &nbsp; &nbsp;<span
+ style="text-decoration: underline;">Reason for the problem:</span></font><br>
+<font face="Arial"> </font>
+<ul>
+</ul>
+<ul>
+  <li><font face="Arial">When an order entry (block 10) is sent by the
+host, the date can be defined in line 53 (Order ID). However, if the
+transmitted date is different from the actual date, no time stamp is
+added. When the system attempts to write this "shortened" date/time
+into the Oracle database (V 7.3), this leads to a failure with
+ORA-01840 Error (input value not long enough for date format).</font></li>
+</ul>
+<ul>
+</ul>
+<font face="Arial">&nbsp; &nbsp; &nbsp; <span
+ style="text-decoration: underline;">&nbsp;Possible workarounds:&nbsp;</span></font>
+<ul>
+  <font face="Arial"> </font>
+</ul>
+<ul>
+  <li><font face="Arial">The host transmission should be modified so
+that
+it never uses a date different from the actual date. Because this is
+difficult to guarantee, especially around the date changes, the
+recommended solution is to use the date format 00/00/0000 as described
+in the HIF manual. This ensures that a consistent time stamp is always
+generated.</font></li>
+</ul>
+<ul>
+</ul>
+<ul>
+  <font face="Arial">This problem does not exist in V 3.3 (XP version,
+because the Oracle version (9.3) can handle the date stamp without
+errors</font>
+</ul>
+<p><font face="Arial"><b>Checksum<br>
+</b></font></p>
+<ul>
+  <li><font face="Arial">Contrary to the I700, the checksum, on
+outgoing blocks, is filled with 0's instead of spaces when &lt; 100.
+The Integra 400 accepts both forms. Because the host has normally to
+convert the incoming checksum string to an integer, this not an issue
+in most cases.<br>
+This problem is corrected in V 2.2<br>
+    </font></li>
+  <li><font face="Arial">ASCII characters with a code over 128 (example
+    <font size="5"><b>&micro;</b></font>)&nbsp; cannot be used, as they
+generate a wrong checksum.&nbsp;<br>
+This may appear, for example, if the operator forces such a character
+to be used, when programming a custom unit&nbsp; for a test. This unit
+will be transmitted to the host together with the result and will upset
+the checksum calculation.<br>
+This problem is corrected in V 2.2</font></li>
+</ul>
+<p><font face="Arial"><b>Sample types</b></font></p>
+<ul>
+  <li><font face="Arial">A fundamental difference between INTEGRA
+400/400 Plus and INTEGRA 700/800 is that a sample type field <b>always</b>
+exists in the instrument database and cannot be disabled.&nbsp;</font></li>
+  <li><font face="Arial">
+    <p align="justify">As soon as the sample racks are inserted into
+the instrument, the Order Number <u>AND</u> the Sample Type have to be
+available to the instrument's database. Otherwise the samples are
+handled as unknown and can not be queried by the host. There are two
+practical ways to provide the Sample Type:</p>
+    <p align="justify">1.) Using of Sample Type defined racks</p>
+    <p align="justify">2.) Using bar codes providing the Sample Type</p>
+    <p align="justify">The transmission of the Sample Type Information
+to the LIS computer, however, is independent and can be switched off.
+If bar codes are used for Order Number and Sample Type, please note
+that
+those are sent in different data fields and <u>NOT</u> sent in one
+string.</p>
+    </font>
+    <p>&nbsp; </p>
+  </li>
+</ul>
+<p><font face="Arial"><b>C</b><b>ollated results</b></font></p>
+<ul>
+  <li><font face="Arial"><b>Due to instrument performance reasons and
+in order to have results on the Host system available as soon as
+possible,&nbsp; we strongly recommend <font color="#ff0000">NOT using
+"Collated Results" requests</font> ( i.e., not using Result Type
+Selector 03, 04, 05 and 06 ).<br>
+    </b></font></li>
+  <li><font face="Arial">In some cases the preparation of collated
+results may&nbsp; take several minutes and by far exceed the normal
+recommended timeout of 180 seconds.<br>
+    </font></li>
+  <li><font face="Arial">Ratios will <b>not</b> be collated with other
+results, as they have automatically a different sample type.<br>
+    </font></li>
+  <li><font face="Arial">Collated results selector 04 transmits also
+blocked and invalid test results together with valid ones. Although
+they are clearly flagged as such, this may become an issue if the host
+does not properly handle result flags.<br>
+    <br>
+    </font></li>
+</ul>
+</body>
+</html>

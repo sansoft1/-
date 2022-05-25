@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient_List>
+<Main Test_Complete="" Number_Of_Patient="2"/><Patient Test_Num="01" Client="" Tester="" Confirmer="" SampleDate="2019-03-15" TestDate="" SampleName="ANA-17S" PatientName="" PatientNum="2019031504145" PatientSex="" PatientBirthday="" PatientDepartment="" Comment="" />
+<Patient Test_Num="02" Client="" Tester="" Confirmer="" SampleDate="2019-03-19" TestDate="" SampleName="ANA-17S" PatientName="" PatientNum="2019031900987" PatientSex="" PatientBirthday="" PatientDepartment="" Comment="" />
+</Patient_List>

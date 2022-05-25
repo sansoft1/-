@@ -1,0 +1,25 @@
+INDIKO
+
+1. 장비컴퓨터 ON
+2. 장비컴퓨터 Admin 로그인
+   - Dealer/Biscuit4Win
+3. 로그인과 동시에 장비 ON
+4. 장비를 껏다키면 무조건 start-Up
+4. 장비전면에 버튼(3개 있음) 누르고 뚜껑이 열리면 렉에 바코드를 장착해서 넣으면 
+   장비에서 바코드를 스캔한 후 오더요청이 온다
+   
+   
+설정 
+F5 > 7 Configuration
+Analyzer
+	LIS connection in use : Yes
+
+1. Analyzer
+	LIS connection in use : Yes
+	
+	
+F3 > 4 Test definition
+	Online name : 인터페이스 채널
+	
+	     
+  

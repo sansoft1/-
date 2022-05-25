@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 4.0">
+<title>COBAS Integra 700 Known issues</title>
+</head>
+
+<body BGCOLOR="#ffffff">
+
+<p><b><font FACE="Arial"><img SRC="i_integr.gif" ALT="Integra"
+BORDER="0" NATURALSIZEFLAG="0" ALIGN="BOTTOM" width="105" height="18"></font><font
+size="+1" face="Arial"> </font><font face="Arial" size="4">700</font><font size="+1"
+face="Arial"> Host Interface Known issues</font></b></p>
+
+<p><font FACE="Arial"><b>Collated results</b></font></p>
+
+<ul>
+  <li><font FACE="Arial"><b>Due to instrument performance reasons and in order
+    to have results on the Host system available as soon as possible,&nbsp; we
+    strongly recommend <font color="#ff0000">NOT using &quot;Collated
+    Results&quot; requests</font> ( i.e., not using Result Type Selector 03, 04,
+    05 and 06 ).<br>
+    </b></font></li>
+  <li><font face="Arial">Ratios will <b>not</b> be collated with other results,
+    as they have automatically a different sample type.<br>
+    </font></li>
+  <li><font face="Arial">Collated results selector 04 transmits also blocked and
+    invalid test results together with valid ones. Although they are clearly
+    flagged as such, this may become an issue if the host does not properly
+    handle result flags.</font></li>
+</ul>
+
+<p><font FACE="Arial"><b>Empty orders</b></font></p>
+<ul>
+  <li><font face="Arial">Block type 10 having no tests (no line code 55 present)
+    have been reported to hang the host interface on the INTEGRA 700.&nbsp;<br>
+    This behavior could not be reproduced and probably happens at random. <br>
+    This situation is triggered by an unsupported configuration of the order
+    entry block an should be avoided from the host side.</font></li>
+</ul>
+<p><font face="Arial">.</font></p>
+
+</body>
+</html>
